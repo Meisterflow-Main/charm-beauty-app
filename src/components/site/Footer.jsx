@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { Phone, MapPin, Mail, Star } from "lucide-react";
 import { IMAGES, CONTACT, NAV } from "@/lib/site";
+import { LANDING_PAGES } from "@/lib/landingPages";
 import OpeningHours from "@/components/site/OpeningHours";
 
 export default function Footer() {
@@ -9,7 +10,7 @@ export default function Footer() {
     <footer className="bg-ink text-cream">
       <div className="mx-auto max-w-7xl px-6 pb-28 pt-20 lg:pb-12">
         <div className="grid gap-14 md:grid-cols-2 lg:grid-cols-12">
-          <div className="lg:col-span-4">
+          <div className="lg:col-span-3">
             <Link to="/" className="inline-block rounded-2xl bg-cream p-4">
               <img src={IMAGES.logo} alt="Charm Beauty Logo" className="h-12 w-auto" loading="lazy" />
             </Link>
@@ -33,7 +34,15 @@ export default function Footer() {
               <li><Link to="/impressum" className="text-cream/80 hover:text-champagne">Impressum</Link></li>
             </ul>
           </div>
-          <div className="lg:col-span-3">
+          <div className="lg:col-span-2">
+            <h3 className="mb-5 text-xs uppercase tracking-[0.2em] text-champagne">Regionen</h3>
+            <ul className="space-y-2.5 text-sm">
+              {LANDING_PAGES.map((p) => (
+                <li key={p.slug}><Link to={`/regionen/${p.slug}`} className="text-cream/70 transition hover:text-champagne">{p.region}</Link></li>
+              ))}
+            </ul>
+          </div>
+          <div className="lg:col-span-2">
             <h3 className="mb-5 text-xs uppercase tracking-[0.2em] text-champagne">Kontakt</h3>
             <address className="space-y-4 text-sm not-italic">
               <a href={CONTACT.phoneHref} className="flex items-center gap-3 text-cream/85 hover:text-champagne"><Phone className="h-4 w-4 text-gold" />{CONTACT.phone}</a>

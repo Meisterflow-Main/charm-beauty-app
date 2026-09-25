@@ -15,6 +15,8 @@ import Kontakt from '@/pages/Kontakt';
 import Impressum from '@/pages/Impressum';
 import Datenschutz from '@/pages/Datenschutz';
 import AuftragBewerten from '@/pages/AuftragBewerten';
+import RegionenIndex from '@/pages/RegionenIndex';
+import LandingPage from '@/pages/LandingPage';
 
 const AuthenticatedApp = () => {
   const { isLoadingAuth, isLoadingPublicSettings, authError, navigateToLogin } = useAuth();
@@ -51,6 +53,8 @@ const AuthenticatedApp = () => {
         <Route path="/datenschutz" element={<Datenschutz />} />
         <Route path="/auftrag-bewerten" element={<AuftragBewerten />} />
         <Route path="/auftrag-bewerten.html" element={<AuftragBewerten />} />
+        <Route path="/regionen" element={<RegionenIndex />} />
+        <Route path="/regionen/:slug" element={<LandingPage />} />
       </Route>
       <Route path="*" element={<PageNotFound />} />
     </Routes>

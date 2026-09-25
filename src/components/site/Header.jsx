@@ -1,13 +1,15 @@
 import React, { useEffect, useState } from "react";
 import { Link, NavLink, useLocation } from "react-router-dom";
-import { Menu, X, Phone } from "lucide-react";
+import { Menu, X, Phone, ChevronDown, MapPin } from "lucide-react";
 import { AnimatePresence, motion } from "framer-motion";
 import { IMAGES, NAV, CONTACT } from "@/lib/site";
+import { LANDING_PAGES } from "@/lib/landingPages";
 import BtnLink from "@/components/site/BtnLink";
 
 export default function Header() {
   const [scrolled, setScrolled] = useState(false);
   const [open, setOpen] = useState(false);
+  const [regionsOpen, setRegionsOpen] = useState(false);
   const { pathname } = useLocation();
 
   useEffect(() => {
@@ -18,6 +20,8 @@ export default function Header() {
   }, []);
 
   useEffect(() => setOpen(false), [pathname]);
+
+  useEffect(() => setRegionsOpen(false), [pathname]);
 
   return (
     <header className="fixed inset-x-0 top-0 z-50 px-3 pt-3 sm:px-6 sm:pt-4">
@@ -31,6 +35,30 @@ export default function Header() {
               {n.label}
             </NavLink>
           ))}
+          <div className="relative" onMouseEnter={() => setRegionsOpen(true)} onMouseLeave={() => setRegionsOpen(false)}>
+            <button onClick={() => setRegionsOpen(!regionsOpen)} className="flex items-center gap-1 rounded-full px-4 py-2 text-[13px] font-medium uppercase tracking-[0.14em] text-ink/75 transition hover:text-ink" aria-expanded={regionsOpen}>
+              Regionen <ChevronDown className={`h-3.5 w-3.5 transition-transform ${regionsOpen ? "rotate-180" : ""}`} />
+            </button>
+            <AnimatePresence>
+              {regionsOpen && (
+                <motion.div initial={{ opacity: 0, y: 8 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0, y: 8 }} className="absolute left-1/2 top-full z-50 w-72 -translate-x-1/2 pt-2">
+                  <div className="rounded-2xl border border-white/60 bg-cream/95 p-2 shadow-xl backdrop-blur-xl">
+                    <Link to="/regionen" className="flex items-center gap-2 rounded-xl px-4 py-3 text-sm font-medium text-ink transition hover:bg-champagne/20">
+                      <MapPin className="h-4 w-4 text-gold" /> Alle Regionen
+                    </Link>
+                    <div className="my-1 h-px bg-ink/5" />
+                    <div className="max-h-80 overflow-y-auto">
+                      {LANDING_PAGES.map((p) => (
+                        <Link key={p.slug} to={`/regionen/${p.slug}`} className="block rounded-xl px-4 py-2.5 text-sm text-ink/75 transition hover:bg-champagne/20 hover:text-gold">
+                          {p.region}
+                        </Link>
+                      ))}
+                    </div>
+                  </div>
+                </motion.div>
+              )}
+            </AnimatePresence>
+          </div>
         </nav>
         <div className="flex items-center gap-2">
           <a href={CONTACT.phoneHref} className="hidden h-11 w-11 items-center justify-center rounded-full border border-ink/10 text-ink transition hover:border-gold hover:text-gold sm:flex" aria-label="Anrufen">
@@ -44,12 +72,25 @@ export default function Header() {
       </div>
       <AnimatePresence>
         {open && (
-          <motion.nav initial={{ opacity: 0, y: -12 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0, y: -12 }} className="mx-auto mt-2 max-w-7xl rounded-3xl border border-white/60 bg-cream/95 p-4 shadow-xl backdrop-blur-xl lg:hidden" aria-label="Mobile Navigation">
+          <motion.nav initial={{ opacity: 0, y: -12 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0, y: -12 }} className="mx-auto mt-2 max-h-[80vh] max-w-7xl overflow-y-auto rounded-3xl border border-white/60 bg-cream/95 p-4 shadow-xl backdrop-blur-xl lg:hidden" aria-label="Mobile Navigation">
             {NAV.map((n) => (
               <NavLink key={n.to} to={n.to} end className={({ isActive }) => `block rounded-2xl px-4 py-4 font-heading text-2xl ${isActive ? "text-gold" : "text-ink"}`}>
                 {n.label}
               </NavLink>
             ))}
+            <button onClick={() => setRegionsOpen(!regionsOpen)} className="flex w-full items-center justify-between rounded-2xl px-4 py-4 font-heading text-2xl text-ink">
+              Regionen <ChevronDown className={`h-5 w-5 transition-transform ${regionsOpen ? "rotate-180" : ""}`} />
+            </button>
+            {regionsOpen && (
+              <div className="space-y-1 pl-4">
+                <Link to="/regionen" className="block rounded-xl px-4 py-3 text-base font-medium text-gold">Alle Regionen</Link>
+                {LANDING_PAGES.map((p) => (
+                  <Link key={p.slug} to={`/regionen/${p.slug}`} className="block rounded-xl px-4 py-3 text-base text-ink/75">
+                    {p.region}
+                  </Link>
+                ))}
+              </div>
+            )}
           </motion.nav>
         )}
       </AnimatePresence>
