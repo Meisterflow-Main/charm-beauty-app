@@ -32,6 +32,16 @@ export const CONTACT = {
   maps: "https://www.google.com/maps/search/?api=1&query=Ernst-Jung-Gasse+16a+8400+Winterthur",
 };
 
+export const VIDEOS = {
+  hero: "https://media.base44.com/videos/public/6ab62a2b7c4d0724c8fa8507/41e30fc67_Hero_Beauty_Studio.mp4",
+  reels: [
+    "https://media.base44.com/videos/public/6ab62a2b7c4d0724c8fa8507/173f93f6e_Reel_Facial_Treatment.mp4",
+    "https://media.base44.com/videos/public/6ab62a2b7c4d0724c8fa8507/219956df1_Reel_Body_Treatment.mp4",
+    "https://media.base44.com/videos/public/6ab62a2b7c4d0724c8fa8507/0a78b6016_Reel_Beauty_Products.mp4",
+    "https://media.base44.com/videos/public/6ab62a2b7c4d0724c8fa8507/086ee5379_Reel_Studio_Atmosphere.mp4",
+  ],
+};
+
 export const HOURS = [
   { day: "Montag", time: "9–12 Uhr & 14–19 Uhr" },
   { day: "Dienstag", time: "9–12 Uhr & 14–19 Uhr" },

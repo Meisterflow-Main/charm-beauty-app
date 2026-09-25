@@ -2,6 +2,7 @@ import React from "react";
 import useSeo, { breadcrumbSchema } from "@/hooks/useSeo";
 import { FAQS } from "@/lib/site";
 import Hero from "@/components/home/Hero";
+import Reels from "@/components/home/Reels";
 import Welcome from "@/components/home/Welcome";
 import Gallery from "@/components/home/Gallery";
 import Treatments from "@/components/home/Treatments";
@@ -27,6 +28,7 @@ export default function Home() {
   return (
     <>
       <Hero />
+      <Reels />
       <Welcome />
       <Gallery />
       <Treatments />
