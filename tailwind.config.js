@@ -41,6 +41,10 @@ module.exports = {
   				DEFAULT: 'hsl(var(--destructive))',
   				foreground: 'hsl(var(--destructive-foreground))'
   			},
+  			gold: { DEFAULT: '#B8860B', dark: '#9E7209', muted: '#9E8433' },
+  			champagne: '#D5B781',
+  			cream: '#F9F5EE',
+  			ink: '#04151F',
   			border: 'hsl(var(--border))',
   			input: 'hsl(var(--input))',
   			ring: 'hsl(var(--ring))',

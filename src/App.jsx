@@ -7,6 +7,14 @@ import { AuthProvider, useAuth } from '@/lib/AuthContext';
 import UserNotRegisteredError from '@/components/UserNotRegisteredError';
 import ScrollToTop from './components/ScrollToTop';
 // Add page imports here
+import SiteLayout from '@/components/site/SiteLayout';
+import Home from '@/pages/Home';
+import Behandlungen from '@/pages/Behandlungen';
+import UeberUns from '@/pages/UeberUns';
+import Kontakt from '@/pages/Kontakt';
+import Impressum from '@/pages/Impressum';
+import Datenschutz from '@/pages/Datenschutz';
+import AuftragBewerten from '@/pages/AuftragBewerten';
 
 const AuthenticatedApp = () => {
   const { isLoadingAuth, isLoadingPublicSettings, authError, navigateToLogin } = useAuth();
@@ -34,7 +42,16 @@ const AuthenticatedApp = () => {
   // Render the main app
   return (
     <Routes>
-      {/* Add your page Route elements here */}
+      <Route element={<SiteLayout />}>
+        <Route path="/" element={<Home />} />
+        <Route path="/behandlungen" element={<Behandlungen />} />
+        <Route path="/uber-uns" element={<UeberUns />} />
+        <Route path="/kontakt" element={<Kontakt />} />
+        <Route path="/impressum" element={<Impressum />} />
+        <Route path="/datenschutz" element={<Datenschutz />} />
+        <Route path="/auftrag-bewerten" element={<AuftragBewerten />} />
+        <Route path="/auftrag-bewerten.html" element={<AuftragBewerten />} />
+      </Route>
       <Route path="*" element={<PageNotFound />} />
     </Routes>
   );
