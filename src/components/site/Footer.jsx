@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { Phone, MapPin, Mail, Star } from "lucide-react";
+import { Phone, MapPin, Mail, Star, Instagram } from "lucide-react";
 import { IMAGES, CONTACT, NAV } from "@/lib/site";
 import { LANDING_PAGES } from "@/lib/landingPages";
 import { SERVICES } from "@/lib/services";
@@ -60,6 +60,7 @@ export default function Footer() {
               <a href={CONTACT.phoneHref} className="flex items-center gap-3 text-cream/85 hover:text-champagne"><Phone className="h-4 w-4 text-gold" />{CONTACT.phone}</a>
               <a href={CONTACT.maps} target="_blank" rel="noopener noreferrer" className="flex items-start gap-3 text-cream/85 hover:text-champagne"><MapPin className="mt-0.5 h-4 w-4 text-gold" />{CONTACT.street}, {CONTACT.city} {CONTACT.zip}</a>
               <a href={`mailto:${CONTACT.email}`} className="flex items-center gap-3 text-cream/85 hover:text-champagne"><Mail className="h-4 w-4 text-gold" />{CONTACT.email}</a>
+              <a href="https://www.instagram.com/charmbeauty.ch/reels/" target="_blank" rel="noopener noreferrer" aria-label="Instagram" className="flex items-center gap-3 text-cream/85 hover:text-champagne"><Instagram className="h-4 w-4 text-gold" />Instagram</a>
             </address>
           </div>
         </div>
