@@ -18,6 +18,13 @@ export const IMAGES = {
     cdn("90c4471e-3a6e-4134-b7eb-6267102d6d74"),
     cdn("7d3a413e-4c24-4eac-9cdd-fdd56b55d33b"),
   ],
+  studio: [
+    "https://media.base44.com/images/public/6ab62a2b7c4d0724c8fa8507/cb694947a_ChatGPTImageOct1202601_07_33AM.png",
+    "https://media.base44.com/images/public/6ab62a2b7c4d0724c8fa8507/dc5ab16e6_ChatGPTImageOct1202601_13_51AM.png",
+    "https://media.base44.com/images/public/6ab62a2b7c4d0724c8fa8507/8eebdc256_ChatGPTImageOct1202601_12_17AM.png",
+    "https://media.base44.com/images/public/6ab62a2b7c4d0724c8fa8507/b039c7534_ChatGPTImageOct1202601_11_08AM.png",
+    "https://media.base44.com/images/public/6ab62a2b7c4d0724c8fa8507/f1ef4e6f2_ChatGPTImageOct1202601_09_36AM.png",
+  ],
 };
 
 export const CONTACT = {
