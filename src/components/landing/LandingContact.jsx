@@ -31,7 +31,7 @@ export default function LandingContact() {
           <div className="flex flex-col gap-3 rounded-[1.5rem] border border-ink/5 bg-white/70 p-6">
             <Clock className="h-6 w-6 text-gold" />
             <span className="text-xs uppercase tracking-[0.14em] text-ink/50">Öffnungszeiten</span>
-            <span className="text-sm text-ink/70">Mo–Fr 9–12 & 14–19 Uhr, Mi & Sa 9–12 Uhr</span>
+            <span className="text-sm text-ink/70">Mo, Di, Do, Fr 9–12 & 14–19 Uhr, Mi & Sa 9–12 Uhr</span>
           </div>
         </Reveal>
         <Reveal delay={0.2} className="mt-6 flex flex-col gap-6 rounded-[2rem] bg-ink p-8 text-cream sm:p-10 lg:flex-row">

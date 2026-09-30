@@ -6,9 +6,10 @@ import LowRatingForm from "@/components/review/LowRatingForm";
 import HighRatingThanks from "@/components/review/HighRatingThanks";
 
 const QUESTIONS = [
-  { q: "Wie zufrieden waren Sie mit dem Ergebnis Ihrer Behandlung?", options: ["Sehr zufrieden", "Zufrieden", "Weniger zufrieden"] },
-  { q: "Wurde individuell auf Ihre Wünsche und Hautbedürfnisse eingegangen?", options: ["Ja, vollkommen", "Teilweise", "Nein"] },
-  { q: "Wie haben Sie die Atmosphäre im Studio empfunden?", options: ["Sehr entspannend", "Angenehm", "Verbesserungswürdig"] },
+  { q: "Wie zufrieden warst du mit dem Ergebnis deiner Behandlung?",
+    options: ["Sehr zufrieden", "Zufrieden", "Weniger zufrieden"] },
+  { q: "Wurde individuell auf deine Wünsche und Hautbedürfnisse eingegangen?", options: ["Ja, vollkommen", "Teilweise", "Nein"] },
+  { q: "Wie hast du die Atmosphäre im Studio empfunden?", options: ["Sehr entspannend", "Angenehm", "Verbesserungswürdig"] },
 ];
 
 export default function ReviewFlow() {
@@ -47,7 +48,7 @@ export default function ReviewFlow() {
           )}
           {step === QUESTIONS.length && !rating && (
             <div className="text-center">
-              <h2 className="text-2xl font-semibold text-ink sm:text-3xl">Wie bewerten Sie Ihren Besuch insgesamt?</h2>
+              <h2 className="text-2xl font-semibold text-ink sm:text-3xl">Wie bewertest du deinen Besuch insgesamt?</h2>
               <div className="mt-10"><StarRating value={rating} onChange={setRating} /></div>
             </div>
           )}

@@ -23,11 +23,11 @@ export default function ContactForm({ defaultTopic = "Termin anfragen" }) {
 
   const validate = () => {
     const e = {};
-    if (f.name.trim().length < 2) e.name = "Bitte geben Sie Ihren Namen ein.";
-    if (!isValidEmail(f.email)) e.email = "Bitte geben Sie eine gültige E-Mail-Adresse ein.";
-    if (!isValidPhone(f.phone)) e.phone = "Bitte prüfen Sie die Telefonnummer.";
-    if (f.message.trim().length < 5) e.message = "Bitte schreiben Sie uns eine kurze Nachricht.";
-    if (!consent) e.consent = "Bitte bestätigen Sie die Datenschutzerklärung.";
+    if (f.name.trim().length < 2) e.name = "Bitte gib deinen Namen ein.";
+    if (!isValidEmail(f.email)) e.email = "Bitte gib eine gültige E-Mail-Adresse ein.";
+    if (!isValidPhone(f.phone)) e.phone = "Bitte prüfe die Telefonnummer.";
+    if (f.message.trim().length < 5) e.message = "Bitte schreib mir eine kurze Nachricht.";
+    if (!consent) e.consent = "Bitte bestätige die Datenschutzerklärung.";
     setErrors(e);
     return !Object.keys(e).length;
   };
@@ -42,19 +42,19 @@ export default function ContactForm({ defaultTopic = "Termin anfragen" }) {
       await sendEnquiry({ name: f.name, email: f.email, phone: f.phone, description: `[${topic} – ${area}] ${f.message}` });
       setStatus("success");
     } catch (err) {
-      setErrMsg(err.message === "duplicate" ? "Diese Nachricht wurde bereits gesendet." : "Senden fehlgeschlagen. Bitte versuchen Sie es erneut oder kontaktieren Sie uns per WhatsApp.");
+      setErrMsg(err.message === "duplicate" ? "Diese Nachricht wurde bereits gesendet." : "Senden fehlgeschlagen. Bitte versuche es erneut oder schreib mir per WhatsApp.");
       setStatus("error");
     }
   };
 
   if (status === "success") {
-    return <FormStatus title="Vielen Dank!" text="Ihre Anfrage ist bei uns eingegangen. Snezana meldet sich so schnell wie möglich bei Ihnen." onReset={() => { setF(EMPTY); setConsent(false); setStatus("idle"); }} />;
+    return <FormStatus title="Vielen Dank!" text="Deine Anfrage ist bei mir eingegangen. Ich melde mich so schnell wie möglich bei dir." onReset={() => { setF(EMPTY); setConsent(false); setStatus("idle"); }} />;
   }
 
   return (
     <form onSubmit={submit} noValidate className="space-y-6">
       <input type="text" name="website" value={f.website} onChange={set("website")} tabIndex={-1} autoComplete="off" className="hidden" aria-hidden="true" />
-      <ChipGroup label="Ihr Anliegen" options={TOPICS} value={topic} onChange={setTopic} />
+      <ChipGroup label="Dein Anliegen" options={TOPICS} value={topic} onChange={setTopic} />
       <ChipGroup label="Bereich" options={AREAS} value={area} onChange={setArea} />
       <div className="grid gap-5 sm:grid-cols-2">
         <Field label="Name *" value={f.name} onChange={set("name")} error={errors.name} autoComplete="name" placeholder="Vor- und Nachname" />

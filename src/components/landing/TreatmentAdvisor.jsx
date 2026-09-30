@@ -22,7 +22,7 @@ export default function TreatmentAdvisor() {
         <Reveal className="mb-10 text-center">
           <Eyebrow>Behandlungsberater</Eyebrow>
           <h2 className="mt-5 text-4xl font-semibold text-ink sm:text-5xl">Finde deine Behandlung</h2>
-          <p className="mx-auto mt-5 max-w-xl text-lg text-ink/70">Wähle deinen Bereich und die gewünschte Behandlung – ich erstelle dir gerne eine individuelle Offerte.</p>
+          <p className="mx-auto mt-5 max-w-xl text-lg text-ink/70">Wähle deinen Bereich und die gewünschte Behandlung. Ich erstelle dir gerne eine individuelle Offerte.</p>
         </Reveal>
         <Reveal delay={0.1} className="rounded-[2.5rem] border border-ink/5 bg-white/70 p-8 backdrop-blur sm:p-12">
           <p className="mb-4 text-xs font-medium uppercase tracking-[0.14em] text-ink/60">1. Bereich wählen</p>

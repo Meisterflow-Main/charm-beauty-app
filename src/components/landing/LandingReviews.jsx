@@ -18,7 +18,7 @@ export default function LandingReviews() {
             {[0, 1, 2, 3, 4].map((i) => <Star key={i} className="h-7 w-7 fill-gold text-gold" />)}
           </div>
           <p className="mt-4 text-2xl font-semibold text-ink">5.0</p>
-          <p className="text-sm text-ink/60">Basierend auf Google-Bewertungen</p>
+          <p className="text-sm text-ink/60">Auf Basis von Google-Bewertungen</p>
           <div className="mt-6 flex flex-col gap-3 sm:flex-row sm:justify-center">
             <a href={GOOGLE_REVIEW_LINK} target="_blank" rel="noopener noreferrer" className="inline-flex h-12 items-center justify-center gap-2 rounded-full bg-gold px-6 text-sm font-semibold text-white transition hover:bg-gold-dark">
               Alle Bewertungen ansehen <ExternalLink className="h-3.5 w-3.5" />

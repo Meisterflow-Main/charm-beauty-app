@@ -37,7 +37,7 @@ export default function RegionenIndex() {
               <Link to={`/regionen/${p.slug}`} className="group flex h-full flex-col rounded-[2rem] border border-ink/5 bg-white/70 p-8 backdrop-blur transition-all duration-500 hover:-translate-y-1 hover:border-gold/40 hover:shadow-[0_24px_60px_-30px_rgba(4,21,31,0.35)]">
                 <span className="flex h-12 w-12 items-center justify-center rounded-full bg-champagne/30 text-gold"><MapPin className="h-5 w-5" /></span>
                 <h2 className="mt-5 text-2xl font-semibold text-ink">{p.region}</h2>
-                <p className="mt-3 flex-1 text-base leading-relaxed text-ink/70">{p.eyebrow} – individuelle Schönheitsbehandlungen, persönlich betreut von Snezana.</p>
+                <p className="mt-3 flex-1 text-base leading-relaxed text-ink/70">{p.eyebrow}. Individuelle Schönheitsbehandlungen, persönlich betreut von Snezana.</p>
                 <span className="mt-6 inline-flex items-center gap-2 text-sm font-semibold text-gold transition group-hover:gap-3">Zur Regionseite →</span>
               </Link>
             </Reveal>

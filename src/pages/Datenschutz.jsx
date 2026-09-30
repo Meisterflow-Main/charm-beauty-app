@@ -12,7 +12,7 @@ export default function Datenschutz() {
   });
   return (
     <>
-      <PageHero crumb="Datenschutz" eyebrow="Rechtliches" title="Datenschutz&shy;erklärung" intro="Informationen zur Bearbeitung Ihrer Personendaten gemäss revDSG und DSGVO." />
+      <PageHero crumb="Datenschutz" eyebrow="Rechtliches" title="Datenschutz&shy;erklärung" intro="Informationen zur Bearbeitung deiner Personendaten gemäss revDSG und DSGVO." />
       <section className="px-6 pb-24">
         <div className="mx-auto max-w-3xl space-y-12">
           {PRIVACY.map((s) => (

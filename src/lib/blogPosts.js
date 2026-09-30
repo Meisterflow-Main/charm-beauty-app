@@ -30,7 +30,7 @@ export const BLOG_POSTS = [
       "Was kostet eine Kosmetikbehandlung in Winterthur? Ehrlicher Ratgeber mit Richtpreisen, Preisfaktoren und Vergleich. Jetzt individuelle Offerte bei Charm Beauty anfordern.",
     category: "Ratgeber",
     excerpt:
-      "Die Frage nach dem Preis ist die ehrlichste Frage überhaupt. Dieser Ratgeber erklärt, welche Faktoren die Kosmetikpreise in Winterthur bestimmen, welche Richtpreise üblich sind und woran du einen seriösen Betrieb erkennst – ohne Floskeln, mit konkreten Zahlen.",
+      "Die Frage nach dem Preis ist die ehrlichste Frage überhaupt. Dieser Ratgeber erklärt, welche Faktoren die Kosmetikpreise in Winterthur bestimmen, welche Richtpreise üblich sind und woran du einen seriösen Betrieb erkennst, ohne Floskeln, mit konkreten Zahlen.",
     image: IMAGES.face,
     date: "2026-09-30",
     author: "Snezana Djuric",
@@ -41,7 +41,7 @@ export const BLOG_POSTS = [
       {
         heading: "Was kostet eine Kosmetikbehandlung in Winterthur?",
         paragraphs: [
-          "Die Frage nach dem Preis ist die ehrlichste Frage überhaupt. Wer eine Kosmetikbehandlung in Winterthur buchen möchte, will wissen, was auf ihn zukommt – nicht erst am Ende des Termins. Dieser Ratgeber erklärt, welche Faktoren den Preis bestimmen, welche Richtpreise in Winterthur üblich sind und woran du einen seriösen Betrieb erkennst.",
+          "Die Frage nach dem Preis ist die ehrlichste Frage überhaupt. Wer eine Kosmetikbehandlung in Winterthur buchen möchte, will wissen, was auf ihn zukommt, nicht erst am Ende des Termins. Dieser Ratgeber erklärt, welche Faktoren den Preis bestimmen, welche Richtpreise in Winterthur üblich sind und woran du einen seriösen Betrieb erkennst.",
           "Kosmetikpreise in der Schweiz schwanken beträchtlich. Eine Gesichtsbehandlung kann zwischen 90 und 220 Franken kosten, eine Körperbehandlung zwischen 80 und 280 Franken. Die Spanne ist gross, weil der Preis nicht nur von der Behandlung selbst abhängt, sondern von vielen Faktoren, die ich dir in diesem Artikel Schritt für Schritt aufschlüssele.",
         ],
         callout: {
@@ -56,17 +56,17 @@ export const BLOG_POSTS = [
           "Ein Kosmetikpreis ist kein Zufallsprodukt. Er ergibt sich aus mehreren Faktoren, die ich täglich in meinem Studio beobachte. Wer sie versteht, kann Preise besser einordnen und vergleichen.",
         ],
         list: [
-          "Art und Umfang der Behandlung – eine kurze Reinigung kostet weniger als eine mehrstufige Anti-Aging-Behandlung",
-          "Dauer des Termins – 30 Minuten haben einen anderen Preis als 90 Minuten",
-          "Verwendete Produkte – hochwertige Wirkstoffe und Markenprodukte schlagen im Preis zu Buche",
-          "Erfahrung und Ausbildung der Kosmetikerin – Fachwissen hat seinen Preis",
-          "Lage und Ausstattung des Studios – zentrale Lage und ruhige Atmosphäre kosten",
-          "Individueller Aufwand – empfindliche Haut oder spezielle Problemzonen brauchen mehr Zeit",
+          "Art und Umfang der Behandlung, eine kurze Reinigung kostet weniger als eine mehrstufige Anti-Aging-Behandlung",
+          "Dauer des Termins, 30 Minuten haben einen anderen Preis als 90 Minuten",
+          "Verwendete Produkte, hochwertige Wirkstoffe und Markenprodukte schlagen im Preis zu Buche",
+          "Erfahrung und Ausbildung der Kosmetikerin, Fachwissen hat seinen Preis",
+          "Lage und Ausstattung des Studios, zentrale Lage und ruhige Atmosphäre kosten",
+          "Individueller Aufwand, empfindliche Haut oder spezielle Problemzonen brauchen mehr Zeit",
         ],
         subheading: "Warum zwei Behandlungen mit dem gleichen Namen unterschiedlich kosten können",
         paragraphs: [
-          "Zwei Studios bieten eine „Gesichtsbehandlung“ an – und trotzdem unterscheiden sich Preis und Leistung. Das eine führt eine Standardroutine aus dem Karton aus, das andere passt jeden Schritt an deinen Hauttyp an. Der Preis spiegelt diesen Unterschied wider. Deshalb vergleiche nicht nur den Betrag, sondern auch das, was du dafür erhältst.",
-          "In der Schweiz liegt das Preisniveau für Kosmetik generell über dem benachbarter Länder. Das hat Gründe: höhere Mieten, strengere Hygienevorschriften, teurere Produkte und eine fundiertere Ausbildung der Kosmetikerinnen. In Winterthur kommt die zentrale Lage im Kanton Zürich hinzu – die Mieten im Stadtzentrum sind höher als in der Peripherie, was sich in den Preisen niederschlägt. Wer diese Faktoren kennt, versteht, warum eine seriöse Behandlung in Winterthur ihren Preis hat.",
+          "Zwei Studios bieten eine „Gesichtsbehandlung“ an, und trotzdem unterscheiden sich Preis und Leistung. Das eine führt eine Standardroutine aus dem Karton aus, das andere passt jeden Schritt an deinen Hauttyp an. Der Preis spiegelt diesen Unterschied wider. Deshalb vergleiche nicht nur den Betrag, sondern auch das, was du dafür erhältst.",
+          "In der Schweiz liegt das Preisniveau für Kosmetik generell über dem benachbarter Länder. Das hat Gründe: höhere Mieten, strengere Hygienevorschriften, teurere Produkte und eine fundiertere Ausbildung der Kosmetikerinnen. In Winterthur kommt die zentrale Lage im Kanton Zürich hinzu, die Mieten im Stadtzentrum sind höher als in der Peripherie, was sich in den Preisen niederschlägt. Wer diese Faktoren kennt, versteht, warum eine seriöse Behandlung in Winterthur ihren Preis hat.",
         ],
       },
       {
@@ -86,7 +86,7 @@ export const BLOG_POSTS = [
           ],
         },
         paragraphs: [
-          "Diese Preise entsprechen dem üblichen Rahmen in der Region Winterthur. Wer deutlich darunter liegt, spart oft an Produkten, Zeit oder Ausbildung – und das merkst du am Ergebnis.",
+          "Diese Preise entsprechen dem üblichen Rahmen in der Region Winterthur. Wer deutlich darunter liegt, spart oft an Produkten, Zeit oder Ausbildung, und das merkst du am Ergebnis.",
         ],
       },
       {
@@ -94,24 +94,24 @@ export const BLOG_POSTS = [
         paragraphs: [
           "Die Gesichtsbehandlung ist die häufigste Kosmetikbehandlung in Winterthur. Eine klassische Gesichtsbehandlung umfasst Hautanalyse, Reinigung, Peeling, Pflege und Abschlussberatung. Der Preis zwischen 90 und 150 Franken deckt dabei die Grundversorgung.",
           "Eine erweiterte Gesichtsbehandlung geht tiefer: Sie kann eine intensivere Tiefenreinigung, spezielle Wirkstoffampullen oder eine längere Massage umfassen. Hier liegt der Richtpreis zwischen 130 und 200 Franken. Der Aufpreis spiegelt den höheren Produkt- und Zeitaufwand wider.",
-          "Was den Preis einer Gesichtsbehandlung konkret nach oben treibt, sind Zusätze wie Seren mit hochkonzentrierten Wirkstoffen, eine Augenpflege, eine Hals- und Dekolleté-Behandlung oder spezielle Geräteanwendungen. Jeder dieser Schritte kostet Zeit und Material. Ein transparenter Betrieb benennt diese Faktoren vorab – du entscheidest, was du buchen möchtest, ohne Druck.",
+          "Was den Preis einer Gesichtsbehandlung konkret nach oben treibt, sind Zusätze wie Seren mit hochkonzentrierten Wirkstoffen, eine Augenpflege, eine Hals- und Dekolleté-Behandlung oder spezielle Geräteanwendungen. Jeder dieser Schritte kostet Zeit und Material. Ein transparenter Betrieb benennt diese Faktoren vorab, du entscheidest, was du buchen möchtest, ohne Druck.",
         ],
         callout: {
           title: "Gesichtsbehandlung bei Charm Beauty",
-          text: "Ich passe jede Gesichtsbehandlung an deinen Hauttyp an – ohne Standardprogramm. Auf der Seite zur Gesichtsbehandlung findest du den genauen Ablauf und kannst direkt einen Termin vereinbaren.",
+          text: "Ich passe jede Gesichtsbehandlung an deinen Hauttyp an, ohne Standardprogramm. Auf der Seite zur Gesichtsbehandlung findest du den genauen Ablauf und kannst direkt einen Termin vereinbaren.",
           link: { label: "Zur Gesichtsbehandlung", to: "/behandlungen/gesicht" },
         },
       },
       {
         heading: "Körperbehandlung: Preis und enthaltene Leistung",
         paragraphs: [
-          "Eine Körperbehandlung umfasst Peeling, pflegende Anwendungen und oft eine Massage. Der Preis hängt stark vom behandelten Bereich und der Dauer ab. Eine Teilbehandlung – etwa Rücken oder Beine – beginnt bei rund 80 Franken, eine grossflächige Behandlung des ganzen Körpers kann bis 280 Franken kosten.",
+          "Eine Körperbehandlung umfasst Peeling, pflegende Anwendungen und oft eine Massage. Der Preis hängt stark vom behandelten Bereich und der Dauer ab. Eine Teilbehandlung, etwa Rücken oder Beine, beginnt bei rund 80 Franken, eine grossflächige Behandlung des ganzen Körpers kann bis 280 Franken kosten.",
           "Der Unterschied erklärt sich aus dem Aufwand: Mehr Fläche bedeutet mehr Produkt, mehr Zeit und mehr Handarbeit. Wer regelmässig zur Körperbehandlung geht, profitiert oft von einem etwas günstigeren Folgetermin, weil die Haut bereits gepflegt ist.",
-          "Eine Körperbehandlung lässt sich sinnvoll mit einer Gesichtsbehandlung kombinieren. Viele Studios, so auch Charm Beauty, bieten kombinierte Termine an, die pro Minute günstiger sind als zwei separate Besuche. Wer beide Bereiche pflegen möchte, fragt am besten nach einem Kombi-Angebot – das spart Zeit und oft auch Geld.",
+          "Eine Körperbehandlung lässt sich sinnvoll mit einer Gesichtsbehandlung kombinieren. Viele Studios, so auch Charm Beauty, bieten kombinierte Termine an, die pro Minute günstiger sind als zwei separate Besuche. Wer beide Bereiche pflegen möchte, fragt am besten nach einem Kombi-Angebot, das spart Zeit und oft auch Geld.",
         ],
         callout: {
           title: "Körperbehandlung bei Charm Beauty",
-          text: "Ob als Wohltat nach einer stressigen Woche oder als regelmässiges Pflege-Ritual – auf der Seite zur Körperbehandlung erkläre ich dir den Ablauf und die Möglichkeiten.",
+          text: "Ob als Wohltat nach einer stressigen Woche oder als regelmässiges Pflege-Ritual, auf der Seite zur Körperbehandlung erkläre ich dir den Ablauf und die Möglichkeiten.",
           link: { label: "Zur Körperbehandlung", to: "/behandlungen/koerper" },
         },
       },
@@ -129,13 +129,13 @@ export const BLOG_POSTS = [
           "Ehrliche Auskunft über den Abstand bis zum nächsten Termin",
         ],
         paragraphs: [
-          "Was im Preis nicht enthalten sein sollte, sind versteckte Aufschläge. Ein seriöser Betrieb nennt vor der Behandlung, was dazukommt, falls du eine Erweiterung wünschst – etwa eine Augenpflege oder ein stärkeres Peeling. So entscheidest du bewusst, ob der Mehraufwand für dich stimmt. Transparenz ist Teil des Preises.",
+          "Was im Preis nicht enthalten sein sollte, sind versteckte Aufschläge. Ein seriöser Betrieb nennt vor der Behandlung, was dazukommt, falls du eine Erweiterung wünschst, etwa eine Augenpflege oder ein stärkeres Peeling. So entscheidest du bewusst, ob der Mehraufwand für dich stimmt. Transparenz ist Teil des Preises.",
         ],
       },
       {
         heading: "Günstig versus professionell: Warum der Preis allein nichts aussagt",
         paragraphs: [
-          "Ein sehr niedriger Preis kann verlockend sein. Doch in der Kosmetik gilt: Wer am Preis spart, spart oft an Qualität. Das bedeutet nicht, dass jeder teure Betrieb gut ist – aber ein Preis, der deutlich unter dem Markt liegt, hat meist einen Haken.",
+          "Ein sehr niedriger Preis kann verlockend sein. Doch in der Kosmetik gilt: Wer am Preis spart, spart oft an Qualität. Das bedeutet nicht, dass jeder teure Betrieb gut ist, aber ein Preis, der deutlich unter dem Markt liegt, hat meist einen Haken.",
         ],
         table: {
           headers: ["Kriterium", "Günstiger Anbieter", "Professioneller Anbieter"],
@@ -154,25 +154,25 @@ export const BLOG_POSTS = [
       },
       {
         heading: "Warnsignale: Wann du bei einem Kosmetikpreis stutzig werden solltest",        paragraphs: [
-          "Nicht jeder niedrige Preis ist ein Problem – aber manche sind es. Wer weiss, welche Warnsignale ernst zu nehmen sind, schützt sich vor Enttäuschungen. Diese Punkte solltest du hinterfragen, bevor du einen Termin buchst.",
+          "Nicht jeder niedrige Preis ist ein Problem, aber manche sind es. Wer weiss, welche Warnsignale ernst zu nehmen sind, schützt sich vor Enttäuschungen. Diese Punkte solltest du hinterfragen, bevor du einen Termin buchst.",
         ],
         list: [
-          "Preise ohne Beratung – ein seriöser Betrieb will deine Haut kennen, bevor er einen Preis nennt",
-          "Versprechen, die zu gut klingen – „dauerhafte Faltenfreiheit in einer Sitzung“ ist unrealistisch",
-          "Fehlende Produktnennung – wer nicht sagt, was er verwendet, macht Überprüfung unmöglich",
-          "Druck beim Verkauf – ein guter Betrieb berät, er drängt nicht",
-          "Keine Nachsorge – wer nach der Behandlung keine Tipps gibt, interessiert sich nicht für dein Ergebnis",
+          "Preise ohne Beratung, ein seriöser Betrieb will deine Haut kennen, bevor er einen Preis nennt",
+          "Versprechen, die zu gut klingen, „dauerhafte Faltenfreiheit in einer Sitzung“ ist unrealistisch",
+          "Fehlende Produktnennung, wer nicht sagt, was er verwendet, macht Überprüfung unmöglich",
+          "Druck beim Verkauf, ein guter Betrieb berät, er drängt nicht",
+          "Keine Nachsorge, wer nach der Behandlung keine Tipps gibt, interessiert sich nicht für dein Ergebnis",
         ],
         paragraphs: [
-          "Trittst du bei einem dieser Punkte auf, lohnt sich ein zweites Gespräch – oder ein anderer Betrieb. Deine Haut ist es wert, dass du sorgfältig wählst.",
+          "Trittst du bei einem dieser Punkte auf, lohnt sich ein zweites Gespräch, oder ein anderer Betrieb. Deine Haut ist es wert, dass du sorgfältig wählst.",
         ],
       },
       {
         heading: "Kosmetikpreise in Winterthur: Was die Region auszeichnet",
         paragraphs: [
-          "Winterthur ist keine teure Metropole wie Zürich, hat aber ihr eigenes Preisgefüge. Die Stadt im Kanton Zürich vereint zentrale Lage mit hoher Lebensqualität – und das spiegelt sich in den Kosmetikpreisen wider. Sie liegen meist leicht unter dem Zürcher Stadtniveau, bleiben aber über dem Schweizer Durchschnitt ausserhalb der Ballungsräume.",
-          "Wer in den Quartieren um das Zentrum wohnt – etwa Oberwinterthur, Töss oder Seen – erreicht ein Studio wie Charm Beauty an der Ernst-Jung-Gasse in wenigen Minuten. Auch aus den Nachbargemeinden Frauenfeld, Weinfelden oder Schaffhausen ist die Anreise mit dem Zug bequem. Das macht Winterthur zu einem praktischen Standort für Kosmetikbehandlungen in der ganzen Region.",
-          "Eine lokale Besonderheit: In Winterthur legen viele Gäste Wert auf ehrliche Beratung statt auf grosses Marketing. Wer hier ein Studio führt, lebt vom Mund-zu-Mund und von echten Bewertungen. Das hält die Preise fair und die Qualität hoch – ein Vorteil, von dem du als Gast profitierst.",
+          "Winterthur ist keine teure Metropole wie Zürich, hat aber ihr eigenes Preisgefüge. Die Stadt im Kanton Zürich vereint zentrale Lage mit hoher Lebensqualität, und das spiegelt sich in den Kosmetikpreisen wider. Sie liegen meist leicht unter dem Zürcher Stadtniveau, bleiben aber über dem Schweizer Durchschnitt ausserhalb der Ballungsräume.",
+          "Wer in den Quartieren um das Zentrum wohnt, etwa Oberwinterthur, Töss oder Seen, erreicht ein Studio wie Charm Beauty an der Ernst-Jung-Gasse in wenigen Minuten. Auch aus den Nachbargemeinden Frauenfeld, Weinfelden oder Schaffhausen ist die Anreise mit dem Zug bequem. Das macht Winterthur zu einem praktischen Standort für Kosmetikbehandlungen in der ganzen Region.",
+          "Eine lokale Besonderheit: In Winterthur legen viele Gäste Wert auf ehrliche Beratung statt auf grosses Marketing. Wer hier ein Studio führt, lebt von Mundpropaganda und echten Bewertungen. Das hält die Preise fair und die Qualität hoch. Ein Vorteil, von dem du als Gast profitierst.",
         ],
       },
       {
@@ -181,40 +181,40 @@ export const BLOG_POSTS = [
           "Winterthur hat mehrere Kosmetikstudios. Wie erkennst du den richtigen? Diese Checkliste hilft dir, in wenigen Minuten eine fundierte Entscheidung zu treffen.",
         ],
         list: [
-          "Google-Bewertungen lesen – achte auf konkrete Details, nicht nur auf die Sterne",
-          "Preise vorab erfragen – ein seriöser Betrieb nennt Richtpreise ohne Druck",
-          "Beratung verlangen – wer ohne Analyse direkt behandelt, kennt deine Haut nicht",
-          "Sauberkeit prüfen – ein sauberes Studio ist das Mindeste",
-          "Atmosphäre fühlen – du solltest dich vom ersten Moment an wohl fühlen",
-          "Nachsorge erwarten – gute Betriebe geben Tipps für zu Hause",
+          "Google-Bewertungen lesen, achte auf konkrete Details, nicht nur auf die Sterne",
+          "Preise vorab erfragen, ein seriöser Betrieb nennt Richtpreise ohne Druck",
+          "Beratung verlangen, wer ohne Analyse direkt behandelt, kennt deine Haut nicht",
+          "Sauberkeit prüfen, ein sauberes Studio ist das Mindeste",
+          "Atmosphäre fühlen, du solltest dich vom ersten Moment an wohl fühlen",
+          "Nachsorge erwarten, gute Betriebe geben Tipps für zu Hause",
         ],
         paragraphs: [
-          "Wer diese Punkte abhakt, findet in Winterthur einen Betrieb, der nicht nur behandelt, sondern begleitet. Echte Bewertungen anderer Gäste helfen dabei – auf der Bewertungsseite teilen Gäste ihre Erfahrungen mit Charm Beauty.",
-          "Der erste Eindruck zählt: Wie wirst du empfangen? Wird dir zugehört? Nimmt sich die Kosmetikerin Zeit für deine Fragen? Wer sich hier schon unwohl fühlt, sollte das ernst nehmen. Eine Behandlung, bei der du angespannt bist, wirkt weniger – Entspannung ist ein wesentlicher Teil des Erfolgs.",
+          "Wer diese Punkte abhakt, findet in Winterthur einen Betrieb, der nicht nur behandelt, sondern begleitet. Echte Bewertungen anderer Gäste helfen dabei, auf der Bewertungsseite teilen Gäste ihre Erfahrungen mit Charm Beauty.",
+          "Der erste Eindruck zählt: Wie wirst du empfangen? Wird dir zugehört? Nimmt sich die Kosmetikerin Zeit für deine Fragen? Wer sich hier schon unwohl fühlt, sollte das ernst nehmen. Eine Behandlung, bei der du angespannt bist, wirkt weniger, Entspannung ist ein wesentlicher Teil des Erfolgs.",
         ],
       },
       {
-        heading: "Tipps, um Geld zu sparen – ohne Qualität zu verlieren",
+        heading: "Tipps, um Geld zu sparen, ohne Qualität zu verlieren",
         paragraphs: [
           "Qualität muss nicht immer teuer sein. Mit ein paar Überlegungen sparst du, ohne deine Haut zu vernachlässigen.",
         ],
         list: [
-          "Buche regelmässig statt sporadisch – viele Studios bieten Folgetermine zu besseren Konditionen an",
-          "Kombiniere Behandlungen – eine Gesichts- und Körperbehandlung am selben Tag ist oft günstiger als zwei Einzeltermine",
-          "Frage nach Paketen – manche Studios haben Mehrfachkarten oder Saisonangebote",
-          "Pflege zu Hause ernst nehmen – wer täglich pflegt, braucht weniger oft eine Intensivbehandlung",
-          "Vergleiche ehrlich – nicht den billigsten, sondern das beste Preis-Leistungs-Verhältnis wählen",
+          "Buche regelmässig statt sporadisch, viele Studios bieten Folgetermine zu besseren Konditionen an",
+          "Kombiniere Behandlungen, eine Gesichts- und Körperbehandlung am selben Tag ist oft günstiger als zwei Einzeltermine",
+          "Frage nach Paketen, manche Studios haben Mehrfachkarten oder Saisonangebote",
+          "Pflege zu Hause ernst nehmen, wer täglich pflegt, braucht weniger oft eine Intensivbehandlung",
+          "Vergleiche ehrlich, nicht den billigsten, sondern das beste Preis-Leistungs-Verhältnis wählen",
         ],
         paragraphs: [
-          "Wer seine Pflege zu Hause ernst nimmt, reduziert zudem den Aufwand im Studio. Eine gepflegte Haut braucht seltener eine Intensivbehandlung. Die tägliche Routine ist der grösste Hebel – das Studio ergänzt sie, ersetzt sie aber nicht. Wer beides kombiniert, bekommt langfristig das beste Ergebnis für sein Geld.",
+          "Wer seine Pflege zu Hause ernst nimmt, reduziert zudem den Aufwand im Studio. Eine gepflegte Haut braucht seltener eine Intensivbehandlung. Die tägliche Routine ist der grösste Hebel, das Studio ergänzt sie, ersetzt sie aber nicht. Wer beides kombiniert, bekommt langfristig das beste Ergebnis für sein Geld.",
         ],
       },
       {
         heading: "Fazit: Ehrliche Preise, ehrliche Beratung",
         paragraphs: [
-          "Die Frage nach den Kosmetikpreisen in Winterthur lässt sich nicht mit einer Zahl beantworten – sondern mit einer ehrlichen Aufschlüsselung. Richtpreise zwischen 90 und 280 Franken decken die übliche Spanne, die Faktoren bestimmen, wo du darin landest. Wer vergleicht, was im Preis enthalten ist, trifft die bessere Entscheidung.",
-          "Bei Charm Beauty in Winterthur erhältst du vor jeder Behandlung eine individuelle Beratung und eine transparente Offerte. Keine versteckten Kosten, keine Überraschungen. Wenn du wissen willst, was deine individuelle Behandlung kostet, vereinbare einen Beratungstermin – ich nehme mir die Zeit, deine Haut und deine Wünsche kennenzulernen.",
-          "Lass uns herausfinden, welche Behandlung zu dir und deinem Budget passt. Auf der Übersicht aller Behandlungen siehst du, was Charm Beauty anbietet – von der Gesichtsbehandlung bis zur Körperbehandlung. Du entscheidest, was zu dir passt, ich berate dich ehrlich dazu.",
+          "Die Frage nach den Kosmetikpreisen in Winterthur lässt sich nicht mit einer Zahl beantworten, sondern mit einer ehrlichen Aufschlüsselung. Richtpreise zwischen 90 und 280 Franken decken die übliche Spanne, die Faktoren bestimmen, wo du darin landest. Wer vergleicht, was im Preis enthalten ist, trifft die bessere Entscheidung.",
+          "Bei Charm Beauty in Winterthur erhältst du vor jeder Behandlung eine individuelle Beratung und eine transparente Offerte. Keine versteckten Kosten, keine Überraschungen. Wenn du wissen willst, was deine individuelle Behandlung kostet, vereinbare einen Beratungstermin, ich nehme mir die Zeit, deine Haut und deine Wünsche kennenzulernen.",
+          "Lass uns herausfinden, welche Behandlung zu dir und deinem Budget passt. Auf der Übersicht aller Behandlungen siehst du, was Charm Beauty anbietet, von der Gesichtsbehandlung bis zur Körperbehandlung. Du entscheidest, was zu dir passt, ich berate dich ehrlich dazu.",
         ],
         callout: {
           title: "Individuelle Offerte anfordern",
@@ -226,7 +226,7 @@ export const BLOG_POSTS = [
     faqs: [
       {
         q: "Was kostet eine Kosmetikbehandlung in Winterthur?",
-        a: "Die Richtpreise in Winterthur liegen zwischen 90 und 280 Franken, je nach Behandlung. Eine klassische Gesichtsbehandlung kostet etwa 90 bis 150 Franken, eine erweiterte oder Anti-Aging-Behandlung 130 bis 220 Franken. Körperbehandlungen beginnen bei 80 Franken für einen Teilbereich und erreichen bis 280 Franken für eine grossflächige Behandlung. Der tatsächliche Preis hängt von deinen individuellen Bedürfnissen ab – deshalb erhältst du bei Charm Beauty nach einer kurzen Beratung eine persönliche Offerte.",
+        a: "Die Richtpreise in Winterthur liegen zwischen 90 und 280 Franken, je nach Behandlung. Eine klassische Gesichtsbehandlung kostet etwa 90 bis 150 Franken, eine erweiterte oder Anti-Aging-Behandlung 130 bis 220 Franken. Körperbehandlungen beginnen bei 80 Franken für einen Teilbereich und erreichen bis 280 Franken für eine grossflächige Behandlung. Der tatsächliche Preis hängt von deinen individuellen Bedürfnissen ab, deshalb erhältst du bei Charm Beauty nach einer kurzen Beratung eine persönliche Offerte.",
       },
       {
         q: "Warum unterscheiden sich die Preise so stark?",
@@ -234,11 +234,11 @@ export const BLOG_POSTS = [
       },
       {
         q: "Was ist im Preis einer Gesichtsbehandlung enthalten?",
-        a: "Eine professionelle Gesichtsbehandlung umfasst Hautanalyse, Reinigung, Peeling, auf den Hauttyp abgestimmte Wirkstoffe, pflegende Anwendung und Abschlussberatung. Hinzu kommen hochwertige Produkte, hygienische Arbeitsweise und eine ruhige Atmosphäre. Ein fairer Preis deckt all das ab – nicht nur die Behandlung selbst, sondern auch die Beratung und die Nachsorgeempfehlungen für die Pflege zu Hause.",
+        a: "Eine professionelle Gesichtsbehandlung umfasst Hautanalyse, Reinigung, Peeling, auf den Hauttyp abgestimmte Wirkstoffe, pflegende Anwendung und Abschlussberatung. Hinzu kommen hochwertige Produkte, hygienische Arbeitsweise und eine ruhige Atmosphäre. Ein fairer Preis deckt all das ab, nicht nur die Behandlung selbst, sondern auch die Beratung und die Nachsorgeempfehlungen für die Pflege zu Hause.",
       },
       {
         q: "Sind teure Kosmetikbehandlungen immer besser?",
-        a: "Nicht unbedingt. Ein hoher Preis allein ist kein Qualitätsmerkmal. Entscheidend ist, was du für dein Geld erhältst: individuelle Beratung, hochwertige Produkte, saubere Arbeitsweise und nachhaltige Ergebnisse. Ein sehr niedriger Preis ist oft ein Warnsignal – hier wird meist an Produkten, Zeit oder Ausbildung gespart. Vergleiche deshalb nicht nur den Betrag, sondern das gesamte Leistungspaket.",
+        a: "Nicht unbedingt. Ein hoher Preis allein ist kein Qualitätsmerkmal. Entscheidend ist, was du für dein Geld erhältst: individuelle Beratung, hochwertige Produkte, saubere Arbeitsweise und nachhaltige Ergebnisse. Ein sehr niedriger Preis ist oft ein Warnsignal, hier wird meist an Produkten, Zeit oder Ausbildung gespart. Vergleiche deshalb nicht nur den Betrag, sondern das gesamte Leistungspaket.",
       },
       {
         q: "Wie oft sollte ich zur Kosmetikbehandlung gehen?",
@@ -246,11 +246,11 @@ export const BLOG_POSTS = [
       },
       {
         q: "Gibt es versteckte Kosten bei seriösen Kosmetikstudios?",
-        a: "Ein seriöser Betrieb nennt vor der Behandlung alle Kosten transparent. Bei Charm Beauty erfährst du vorab, was die Behandlung umfasst und welche Faktoren den Preis beeinflussen. Versteckte Kosten oder Überraschungen am Ende gibt es nicht. Wenn im Verlauf der Behandlung eine Erweiterung sinnvoll wäre, besprechen wir das gemeinsam – ohne Druck und ohne Aufpreis ohne dein Einverständnis.",
+        a: "Ein seriöser Betrieb nennt vor der Behandlung alle Kosten transparent. Bei Charm Beauty erfährst du vorab, was die Behandlung umfasst und welche Faktoren den Preis beeinflussen. Versteckte Kosten oder Überraschungen am Ende gibt es nicht. Wenn im Verlauf der Behandlung eine Erweiterung sinnvoll wäre, besprechen wir das gemeinsam, ohne Druck und ohne Aufpreis ohne dein Einverständnis.",
       },
       {
         q: "Wie kann ich eine Offerte bei Charm Beauty anfordern?",
-        a: "Am einfachsten per WhatsApp oder telefonisch unter +41 78 896 46 55. Alternativ sendest du eine Anfrage über das Kontaktformular auf der Kontaktseite. Nach einem kurzen Gespräch über deine Wünsche und deinen Hauttyp erhältst du eine individuelle Offerte – unverbindlich und transparent.",
+        a: "Am einfachsten per WhatsApp oder telefonisch unter +41 78 896 46 55. Alternativ sendest du eine Anfrage über das Kontaktformular auf der Kontaktseite. Nach einem kurzen Gespräch über deine Wünsche und deinen Hauttyp erhältst du eine individuelle Offerte, unverbindlich und transparent.",
       },
       {
         q: "Welche Zahlungsmöglichkeiten gibt es bei Charm Beauty?",
@@ -273,10 +273,10 @@ export const BLOG_POSTS = [
     title: "Richtige Gesichtspflege im Alltag: 7 Tipps für gesunde Haut",
     metaTitle: "Gesichtspflege Tipps für den Alltag | Charm Beauty Blog Winterthur",
     metaDescription:
-      "Sieben erprobte Tipps für eine wirksame Gesichtspflege im Alltag – von Reinigung über Feuchtigkeit bis Sonnenschutz. Praxiswissen vom Kosmetikstudio Charm Beauty in Winterthur.",
+      "Sieben erprobte Tipps für eine wirksame Gesichtspflege im Alltag, von Reinigung über Feuchtigkeit bis Sonnenschutz. Praxiswissen vom Kosmetikstudio Charm Beauty in Winterthur.",
     category: "Tipps",
     excerpt:
-      "Pflegeprodukte allein reichen nicht – erst die richtige Routine macht den Unterschied. Diese sieben erprobten Tipps helfen dir, deine Gesichtspflege im Alltag strukturiert aufzubauen und langfristig zu einer gesünder aussehenden Haut zu gelangen – ohne unnötigen Aufwand.",
+      "Pflegeprodukte allein reichen nicht, erst die richtige Routine macht den Unterschied. Diese sieben erprobten Tipps helfen dir, deine Gesichtspflege im Alltag strukturiert aufzubauen und langfristig zu einer gesünder aussehenden Haut zu gelangen, ohne unnötigen Aufwand.",
     image: IMAGES.face,
     date: "2026-09-15",
     author: "Snezana Djuric",
@@ -292,13 +292,13 @@ export const BLOG_POSTS = [
         ],
       },
       {
-        heading: "Tipp 1: Reinigung – aber richtig",
+        heading: "Tipp 1: Reinigung, aber richtig",
         paragraphs: [
           "Die Reinigung am Abend ist nicht verhandelbar. Tagsüber sammeln sich Schmutz, Talg und Rückstände von Pflegeprodukten auf der Haut, die über Nacht eingearbeitet werden, wenn sie nicht entfernt werden.",
         ],
         list: [
           "Reinigungsmilch oder sanftes Gel statt aggressiver Schaumstoffe",
-          "Lauwarmes Wasser – heisses Wasser trocknet die Haut aus",
+          "Lauwarmes Wasser, heisses Wasser trocknet die Haut aus",
           "Morgens reicht oft klares Wasser oder eine sehr milde Reinigung",
         ],
       },
@@ -309,7 +309,7 @@ export const BLOG_POSTS = [
         ],
       },
       {
-        heading: "Tipp 3: Sonnenschutz – jeden Tag",
+        heading: "Tipp 3: Sonnenschutz, jeden Tag",
         paragraphs: [
           "UV-Strahlung ist die häufigste Ursache für vorzeitige Hautalterung. Ein Lichtschutzfaktor 30 bis 50 gehört daher auch an bewölkten Tagen und im Winter in jede Morgenroutine. Das ist der wirksamste Anti-Aging-Schritt überhaupt.",
         ],
@@ -317,7 +317,7 @@ export const BLOG_POSTS = [
       {
         heading: "Tipp 4 bis 7: Kontinuität, Geduld, Anpassung, Beratung",
         paragraphs: [
-          "Weniger ist oft mehr: Überpflegte Haut reagiert gereizt. Führe neue Produkte einzeln ein und gib der Haut vier bis sechs Wochen Zeit, sich anzupassen. Passe deine Routine den Jahreszeiten an – im Winter braucht die Haut mehr Schutz, im Sommer leichtere Texturen.",
+          "Weniger ist oft mehr: Überpflegte Haut reagiert gereizt. Führe neue Produkte einzeln ein und gib der Haut vier bis sechs Wochen Zeit, sich anzupassen. Passe deine Routine den Jahreszeiten an, im Winter braucht die Haut mehr Schutz, im Sommer leichtere Texturen.",
           "Wenn du unsicher bist, welche Produkte zu deinem Hauttyp passen, lohnt sich eine professionelle Hautanalyse. Sie nimmt dir das Raten ab und spart langfristig Geld für ungeeignete Produkte.",
         ],
       },
@@ -325,11 +325,11 @@ export const BLOG_POSTS = [
     faqs: [
       {
         q: "Wie oft sollte ich meine Gesichtspflege anpassen?",
-        a: "Eine bewährte Routine behältst du bei, solange sie wirkt. Eine Anpassung empfiehlt sich bei Jahreszeitenwechsel, Hormonveränderungen oder wenn die Haut verändert reagiert – etwa alle drei bis sechs Monate.",
+        a: "Eine bewährte Routine behältst du bei, solange sie wirkt. Eine Anpassung empfiehlt sich bei Jahreszeitenwechsel, Hormonveränderungen oder wenn die Haut verändert reagiert, etwa alle drei bis sechs Monate.",
       },
       {
         q: "Reichen Hausmittel statt teurer Produkte?",
-        a: "Einige Hausmittel sind sinnvoll, andere reizen die Haut. Eine professionelle Beratung zeigt dir, welche Wirkstoffe für deinen Hauttyp wirklich etwas bringen – oft sind günstige, gezielte Produkte wirksamer als teure Marken.",
+        a: "Einige Hausmittel sind sinnvoll, andere reizen die Haut. Eine professionelle Beratung zeigt dir, welche Wirkstoffe für deinen Hauttyp wirklich etwas bringen, oft sind günstige, gezielte Produkte wirksamer als teure Marken.",
       },
     ],
     links: [
@@ -346,7 +346,7 @@ export const BLOG_POSTS = [
       "Was Charm Beauty in Winterthur besonders macht: individuelle Hautanalyse, hochwertige Produkte, ruhige Atmosphäre und ehrliche Beratung. Lerne Snezana und ihr Studio kennen.",
     category: "Unternehmen",
     excerpt:
-      "Hinter Charm Beauty steht Snezana Djuric – mit Herz, Erfahrung und einem klaren Anspruch an individuelle Pflege. Hier erfährst du, was das Kosmetikstudio in Winterthur auszeichnet und warum sich eine persönliche Beratung von der Masse abhebt.",
+      "Hinter Charm Beauty steht Snezana Djuric, mit Herz, Erfahrung und einem klaren Anspruch an individuelle Pflege. Hier erfährst du, was das Kosmetikstudio in Winterthur auszeichnet und warum sich eine persönliche Beratung von der Masse abhebt.",
     image: IMAGES.welcome,
     date: "2026-09-01",
     author: "Snezana Djuric",
@@ -357,7 +357,7 @@ export const BLOG_POSTS = [
       {
         heading: "Persönliche Beratung statt Standardprogramm",
         paragraphs: [
-          "Jede Haut ist anders. Deshalb beginnt jede Behandlung bei Charm Beauty mit einer ausführlichen Hautanalyse und einem ehrlichen Gespräch über deine Wünsche. Es gibt kein vorgefertigtes Programm und keinen Druckverkauf – nur Empfehlungen, die zu deiner Haut passen.",
+          "Jede Haut ist anders. Deshalb beginnt jede Behandlung bei Charm Beauty mit einer ausführlichen Hautanalyse und einem ehrlichen Gespräch über deine Wünsche. Es gibt kein vorgefertigtes Programm und keinen Druckverkauf, nur Empfehlungen, die zu deiner Haut passen.",
         ],
       },
       {
@@ -369,7 +369,7 @@ export const BLOG_POSTS = [
       {
         heading: "Hochwertige Produkte und ehrliche Qualität",
         paragraphs: [
-          "Ich arbeite nur mit Pflegeprodukten, deren Wirkung ich regelmässig überprüfe. Neue Produkte teste ich ausführlich, bevor sie in die Behandlung einfliessen. So weiss ich genau, was ich meinen Gästen empfehle – und was nicht.",
+          "Ich arbeite nur mit Pflegeprodukten, deren Wirkung ich regelmässig überprüfe. Neue Produkte teste ich ausführlich, bevor sie in die Behandlung einfliessen. So weiss ich genau, was ich meinen Gästen empfehle, und was nicht.",
         ],
       },
       {
@@ -403,7 +403,7 @@ export const BLOG_POSTS = [
       "Schritt für Schritt durch die Gesichtsbehandlung: Hautanalyse, Reinigung, Pflege und Nachsorge. Erfahre, was bei Charm Beauty in Winterthur auf dich zukommt.",
     category: "Anleitungen",
     excerpt:
-      "Wer zum ersten Mal eine Gesichtsbehandlung bucht, weiss oft nicht, was passiert. Diese Anleitung nimmt dir die Unsicherheit und erklärt jeden Schritt – von der Hautanalyse bis zur Nachsorgeempfehlung für zu Hause.",
+      "Wer zum ersten Mal eine Gesichtsbehandlung bucht, weiss oft nicht, was passiert. Diese Anleitung nimmt dir die Unsicherheit und erklärt jeden Schritt, von der Hautanalyse bis zur Nachsorgeempfehlung für zu Hause.",
     image: IMAGES.gallery[0],
     date: "2026-08-18",
     author: "Snezana Djuric",
@@ -426,7 +426,7 @@ export const BLOG_POSTS = [
       {
         heading: "Schritt 3: Peeling und Vorbereitung",
         paragraphs: [
-          "Ein mildes Peeling entfernt abgestorbene Hautschüppchen und fördert die Zellerneuerung. Die Intensität passe ich an deine Hautempfindlichkeit an – niemals aggressiv, immer kontrolliert.",
+          "Ein mildes Peeling entfernt abgestorbene Hautschüppchen und fördert die Zellerneuerung. Die Intensität passe ich an deine Hautempfindlichkeit an, niemals aggressiv, immer kontrolliert.",
         ],
       },
       {
@@ -438,7 +438,7 @@ export const BLOG_POSTS = [
       {
         heading: "Schritt 5: Abschluss und Nachsorge",
         paragraphs: [
-          "Zum Abschluss besprechen wir, wie du das Ergebnis zu Hause unterstützt. Ich empfehle passende Produkte und den idealen Abstand bis zum nächsten Termin – meist vier bis sechs Wochen.",
+          "Zum Abschluss besprechen wir, wie du das Ergebnis zu Hause unterstützt. Ich empfehle passende Produkte und den idealen Abstand bis zum nächsten Termin, meist vier bis sechs Wochen.",
         ],
       },
     ],
@@ -463,7 +463,7 @@ export const BLOG_POSTS = [
     title: "Warum regelmässige Hautpflege langfristig lohnt",
     metaTitle: "Warum regelmässige Hautpflege sich lohnt | Charm Beauty Blog",
     metaDescription:
-      "Einmal-Pflege bringt wenig – erst die Kontinuität sorgt für gesunde Haut. Ein Ratgeber über den langfristigen Wert regelmässiger Hautpflege vom Kosmetikstudio Charm Beauty.",
+      "Einmal-Pflege bringt wenig, erst die Kontinuität sorgt für gesunde Haut. Ein Ratgeber über den langfristigen Wert regelmässiger Hautpflege vom Kosmetikstudio Charm Beauty.",
     category: "Ratgeber",
     excerpt:
       "Viele unterschätzen, wie sehr Kontinuität das Ergebnis bestimmt. Dieser Ratgeber erklärt, warum einmalige Pflege kaum wirkt, wie sich die Haut über Monate verändert und welche Rolle professionelle Begleitung dabei spielt.",
@@ -495,7 +495,7 @@ export const BLOG_POSTS = [
       {
         heading: "Fazit: Kontinuität ist der grösste Hebel",
         paragraphs: [
-          "Es ist nicht das teuerste Produkt, das die Haut verändert, sondern die Konstanz. Wer seine Pflege ernst nimmt und regelmässig überprüfen lässt, sieht den Unterschied – nicht in Tagen, aber in Monaten und Jahren.",
+          "Es ist nicht das teuerste Produkt, das die Haut verändert, sondern die Konstanz. Wer seine Pflege ernst nimmt und regelmässig überprüfen lässt, sieht den Unterschied, nicht in Tagen, aber in Monaten und Jahren.",
         ],
       },
     ],
@@ -516,7 +516,7 @@ export const BLOG_POSTS = [
     title: "Google Bewertungen für lokale Unternehmen: Warum sie zählen",
     metaTitle: "Google Bewertungen für lokale Unternehmen | Charm Beauty Blog",
     metaDescription:
-      "Warum Google-Bewertungen für Kosmetikstudios und lokale Unternehmen so wichtig sind – für Kunden wie für Betriebe. Ein ehrlicher Einblick rund um Transparenz und Vertrauen.",
+      "Warum Google-Bewertungen für Kosmetikstudios und lokale Unternehmen so wichtig sind, für Kunden wie für Betriebe. Ein ehrlicher Einblick rund um Transparenz und Vertrauen.",
     category: "Google Bewertungen",
     excerpt:
       "Bewertungen entscheiden heute über die Wahl eines Studios. Dieser Beitrag erklärt, warum echte Google-Bewertungen für lokale Unternehmen zählen, wie sie Vertrauen schaffen und was eine seriöse Bewertung von einer gekauften unterscheidet.",
@@ -536,7 +536,7 @@ export const BLOG_POSTS = [
       {
         heading: "Echte Bewertungen erkennen",
         paragraphs: [
-          "Gekaufte oder generische Fünf-Sterne-Rezensionen ohne Inhalt erkennt man schnell: Sie klingen austauschbar und erwähnen keine konkreten Details. Eine seriöse Bewertung beschreibt, was genau gut war – vom Ablauf über die Beratung bis zum Ergebnis.",
+          "Gekaufte oder generische Fünf-Sterne-Rezensionen ohne Inhalt erkennt man schnell: Sie klingen austauschbar und erwähnen keine konkreten Details. Eine seriöse Bewertung beschreibt, was genau gut war, vom Ablauf über die Beratung bis zum Ergebnis.",
         ],
         list: [
           "Konkrete Details statt leerer Superlative",
@@ -547,7 +547,7 @@ export const BLOG_POSTS = [
       {
         heading: "Warum ich um ehrliches Feedback bitte",
         paragraphs: [
-          "Bei Charm Beauty gebe ich Gästen nach der Behandlung die Möglichkeit zur Rückmeldung. Wer zufrieden ist, lade ich ein, seine Erfahrung auf Google zu teilen. Wer Kritik hat, kann sie direkt bei mir äussern – so kann ich reagieren, bevor eine Bewertung entsteht.",
+          "Bei Charm Beauty gebe ich Gästen nach der Behandlung die Möglichkeit zur Rückmeldung. Wer zufrieden ist, lade ich ein, seine Erfahrung auf Google zu teilen. Wer Kritik hat, kann sie direkt bei mir äussern, so kann ich reagieren, bevor eine Bewertung entsteht.",
         ],
       },
     ],
@@ -571,7 +571,7 @@ export const BLOG_POSTS = [
       "Was eine professionelle Körperbehandlung in Winterthur bringt: Peeling, Massage und hautstraffende Pflege. Erfahre, wann sie sich lohnt und was du erwarten kannst.",
     category: "Dienstleistungen",
     excerpt:
-      "Der Körper trägt dich durch den Alltag – jetzt darfst du etwas zurückgeben. Dieser Beitrag stellt die Körperbehandlung bei Charm Beauty vor und erklärt, welche Pflege deine Haut strafft und wie du tiefe Entspannung erlebst.",
+      "Der Körper trägt dich durch den Alltag, jetzt darfst du etwas zurückgeben. Dieser Beitrag stellt die Körperbehandlung bei Charm Beauty vor und erklärt, welche Pflege deine Haut strafft und wie du tiefe Entspannung erlebst.",
     image: IMAGES.body,
     date: "2026-07-05",
     author: "Snezana Djuric",
@@ -588,7 +588,7 @@ export const BLOG_POSTS = [
       {
         heading: "Wann sich eine Körperbehandlung lohnt",
         paragraphs: [
-          "Besonders vor Jahreszeitenwechsel, nach stressigen Phasen oder wenn die Haut spannt und trocken wirkt, tut eine Körperbehandlung besonders gut. Auch als regelmässiges Ritual – etwa alle drei bis vier Wochen – hält sie die Haut nachhaltig geschmeidig.",
+          "Besonders vor Jahreszeitenwechsel, nach stressigen Phasen oder wenn die Haut spannt und trocken wirkt, tut eine Körperbehandlung besonders gut. Auch als regelmässiges Ritual, etwa alle drei bis vier Wochen, hält sie die Haut nachhaltig geschmeidig.",
         ],
       },
       {
@@ -622,7 +622,7 @@ export const BLOG_POSTS = [
       "Die wichtigsten Fragen neuer Gäste beantwortet: Terminbuchung, Öffnungszeiten, Zahlung, Ablauf und Vorbereitung. Alles, was Neukunden vor dem ersten Besuch bei Charm Beauty wissen sollten.",
     category: "FAQ",
     excerpt:
-      "Vor dem ersten Besuch im Kosmetikstudio stellen sich viele Fragen. Dieses FAQ beantwortet die häufigsten Anliegen neuer Gäste – von der Terminbuchung über die Vorbereitung bis zu den Zahlungsmöglichkeiten bei Charm Beauty in Winterthur.",
+      "Vor dem ersten Besuch im Kosmetikstudio stellen sich viele Fragen. Dieses FAQ beantwortet die häufigsten Anliegen neuer Gäste, von der Terminbuchung über die Vorbereitung bis zu den Zahlungsmöglichkeiten bei Charm Beauty in Winterthur.",
     image: IMAGES.snezana,
     date: "2026-06-22",
     author: "Snezana Djuric",
@@ -639,7 +639,7 @@ export const BLOG_POSTS = [
       {
         heading: "Vorbereitung auf den ersten Besuch",
         paragraphs: [
-          "Komme am besten ohne Make-up und mit sauberer Haut zum Termin. Falls du spezielle Produkte verwendest oder Hautprobleme hast, bringe diese Informationen mit – so kann ich die Behandlung optimal abstimmen.",
+          "Komme am besten ohne Make-up und mit sauberer Haut zum Termin. Falls du spezielle Produkte verwendest oder Hautprobleme hast, bringe diese Informationen mit, so kann ich die Behandlung optimal abstimmen.",
         ],
       },
       {
@@ -652,7 +652,7 @@ export const BLOG_POSTS = [
     faqs: [
       {
         q: "Wie kann ich einen Termin buchen?",
-        a: "Am einfachsten per WhatsApp oder telefonisch unter +41 78 896 46 55. Alternativ über das Kontaktformular – ich melde mich zeitnah bei dir.",
+        a: "Am einfachsten per WhatsApp oder telefonisch unter +41 78 896 46 55. Alternativ über das Kontaktformular, ich melde mich zeitnah bei dir.",
       },
       {
         q: "Welche Zahlungsmöglichkeiten gibt es?",
@@ -674,10 +674,10 @@ export const BLOG_POSTS = [
     title: "Hautpflege in Winterthur: Tipps für das Schweizer Klima",
     metaTitle: "Hautpflege im Schweizer Klima | Charm Beauty Blog Winterthur",
     metaDescription:
-      "Kalt, trocken, wechselhaft: Das Schweizer Klima fordert der Haut viel ab. Lokale Pflegetipps für Winterthur – angepasst an Jahreszeiten und Wetterwechsel.",
+      "Kalt, trocken, wechselhaft: Das Schweizer Klima fordert der Haut viel ab. Lokale Pflegetipps für Winterthur, angepasst an Jahreszeiten und Wetterwechsel.",
     category: "Lokale Themen",
     excerpt:
-      "Das Klima in Winterthur wechselt zwischen trockener Kälte und feuchter Wärme – eine Herausforderung für die Haut. Diese lokalen Pflegetipps helfen dir, deine Routine an die Jahreszeiten in Winterthur und Umgebung anzupassen.",
+      "Das Klima in Winterthur wechselt zwischen trockener Kälte und feuchter Wärme, eine Herausforderung für die Haut. Diese lokalen Pflegetipps helfen dir, deine Routine an die Jahreszeiten in Winterthur und Umgebung anzupassen.",
     image: IMAGES.gallery[3],
     date: "2026-06-08",
     author: "Snezana Djuric",
@@ -706,7 +706,7 @@ export const BLOG_POSTS = [
       {
         heading: "Lokal verwurzelt, individuell beraten",
         paragraphs: [
-          "Wer in Winterthur und Umgebung lebt, kennt diese Wechsel. Im Studio berate ich dich gerne, wie du deine Pflege an die lokale Jahreszeit anpasst – konkret und ohne überflüssige Produkte.",
+          "Wer in Winterthur und Umgebung lebt, kennt diese Wechsel. Im Studio berate ich dich gerne, wie du deine Pflege an die lokale Jahreszeit anpasst, konkret und ohne überflüssige Produkte.",
         ],
       },
     ],

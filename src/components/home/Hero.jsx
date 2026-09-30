@@ -29,7 +29,7 @@ export default function Hero() {
             Charm <span className="italic font-normal text-champagne">Beauty</span>
           </motion.h1>
           <motion.p initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.9, delay: 0.6, ease }} className="mt-8 max-w-md text-lg leading-relaxed text-white/85">
-            Dein Kosmetikstudio in Winterthur für individuelle Schönheitsbehandlungen und erstklassige Hautpflege. Entdecke Wohlbefinden und Entspannung in exklusiver Atmosphäre.
+            Dein Kosmetikstudio in Winterthur für individuelle Schönheitsbehandlungen und erstklassige Hautpflege. Gönn dir eine Auszeit und erlebe professionelle Pflege in entspannter Atmosphäre.
           </motion.p>
           <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.9, delay: 0.75, ease }} className="mt-10 flex flex-col gap-3 sm:flex-row">
             <BtnLink href={CONTACT.whatsapp}>Termin buchen</BtnLink>

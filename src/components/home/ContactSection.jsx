@@ -14,7 +14,7 @@ export default function ContactSection() {
           <Eyebrow light>Kontakt</Eyebrow>
           <h2 className="mt-5 text-4xl font-semibold sm:text-5xl">Jetzt Termin vereinbaren</h2>
           <p className="mt-6 text-lg leading-relaxed text-cream/70">
-            Buchen Sie jetzt Ihre individuelle Schönheitsbehandlung und erleben Sie sofort sichtbare Ergebnisse. Vereinbaren Sie noch heute Ihren Termin und lassen Sie sich in meinem Studio verwöhnen!
+            Buche jetzt deine individuelle Schönheitsbehandlung. Vereinbare noch heute deinen Termin und lass dich in meinem Studio verwöhnen.
           </p>
           <div className="mt-10 flex flex-col gap-3 sm:flex-row">
             <BtnLink href={CONTACT.phoneHref} variant="light"><Phone className="h-4 w-4" /> Anrufen</BtnLink>

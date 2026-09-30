@@ -15,8 +15,8 @@ export default function ReviewCta() {
             <div className="mt-6 flex gap-1" aria-hidden="true">
               {[0, 1, 2, 3, 4].map((i) => <Star key={i} className="h-6 w-6 fill-gold text-gold" />)}
             </div>
-            <h2 className="mt-5 text-4xl font-semibold text-ink sm:text-5xl">Ihre Meinung zählt</h2>
-            <p className="mt-5 max-w-lg text-lg text-ink/70">Waren Sie bereits bei Charm Beauty? Teilen Sie Ihre Erfahrung und helfen Sie anderen Kundinnen und Kunden, uns zu finden.</p>
+            <h2 className="mt-5 text-4xl font-semibold text-ink sm:text-5xl">Deine Meinung zählt</h2>
+            <p className="mt-5 max-w-lg text-lg text-ink/70">Warst du bereits bei Charm Beauty? Teile deine Erfahrung und hilf anderen, mich zu finden.</p>
           </div>
           <div className="flex flex-col gap-3 lg:col-span-4 lg:col-start-9">
             <BtnLink href={GOOGLE_REVIEW_LINK}>Auf Google bewerten</BtnLink>

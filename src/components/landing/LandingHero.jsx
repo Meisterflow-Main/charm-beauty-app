@@ -21,7 +21,7 @@ export default function LandingHero({ page }) {
         </Reveal>
         <Reveal delay={0.3} className="mt-10 flex flex-col items-center justify-center gap-3 sm:flex-row">
           <BtnLink href="https://wa.me/41788964655">Jetzt Termin buchen</BtnLink>
-          <BtnLink to="/kontakt" variant="outline">Preis berechnen</BtnLink>
+          <BtnLink to="/kontakt" variant="outline">Offerte anfragen</BtnLink>
         </Reveal>
       </div>
       <Reveal delay={0.4} className="mx-auto mt-16 grid max-w-5xl grid-cols-2 gap-4 lg:grid-cols-4">

@@ -27,9 +27,9 @@ export default function CookieBanner() {
           <div className="flex items-start gap-4">
             <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-champagne/30 text-gold"><Cookie className="h-5 w-5" /></div>
             <div>
-              <p className="font-heading text-base font-semibold text-ink">Ihre Privatsphäre</p>
+              <p className="font-heading text-base font-semibold text-ink">Deine Privatsphäre</p>
               <p className="mt-1 text-sm leading-relaxed text-ink/70">
-                Wir verwenden nur technisch notwendige Cookies sowie – mit Ihrer Einwilligung – optionale Cookies zur Verbesserung der Website. Mehr in unserer <Link to="/datenschutz" className="text-gold underline underline-offset-2">Datenschutzerklärung</Link>.
+                Ich verwende nur technisch notwendige Cookies sowie, mit deiner Einwilligung, optionale Cookies zur Verbesserung der Website. Mehr in meiner <Link to="/datenschutz" className="text-gold underline underline-offset-2">Datenschutzerklärung</Link>.
               </p>
             </div>
           </div>

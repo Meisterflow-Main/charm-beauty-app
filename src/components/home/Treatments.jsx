@@ -15,7 +15,7 @@ export default function Treatments() {
           </div>
           <Reveal delay={0.2} className="lg:col-span-6 lg:col-start-7 lg:pt-10">
             <p className="text-lg leading-relaxed text-ink/70">
-              Tauche ein in die Welt der Schönheit und Entspannung mit meinen professionellen Behandlungen. Ob Gesicht, Körper oder Augen – jede Behandlung wird individuell auf deine Hautbedürfnisse abgestimmt. Gemeinsam arbeiten wir daran, dein Wohlbefinden zu steigern und deine natürliche Ausstrahlung zu betonen.
+              Ob Gesicht oder Körper, jede Behandlung wird individuell auf deine Hautbedürfnisse abgestimmt. Ich arbeite daran, dein Wohlbefinden zu steigern und deine natürliche Ausstrahlung zu unterstreichen.
             </p>
           </Reveal>
         </div>

@@ -27,7 +27,7 @@ export default function Kontakt() {
   });
   return (
     <>
-      <PageHero crumb="Kontakt" eyebrow="Kontakt" title="Lass uns sprechen" intro="Buchen Sie jetzt Ihre individuelle Schönheitsbehandlung und erleben Sie sofort sichtbare Ergebnisse. Vereinbaren Sie noch heute Ihren Termin und lassen Sie sich in meinem Studio verwöhnen!" />
+      <PageHero crumb="Kontakt" eyebrow="Kontakt" title="Lass uns sprechen" intro="Buche jetzt deine individuelle Schönheitsbehandlung. Vereinbare noch heute deinen Termin und lass dich in meinem Studio verwöhnen." />
       <section className="px-3 pb-24 sm:px-6">
         <div className="mx-auto grid max-w-7xl gap-6 lg:grid-cols-12">
           <div className="space-y-4 lg:col-span-5">

@@ -12,7 +12,7 @@ export default function WhyUs({ whyUs }) {
         <Reveal className="mb-14 max-w-2xl">
           <Eyebrow light>Warum Charm Beauty</Eyebrow>
           <h2 className="mt-5 text-4xl font-semibold sm:text-5xl">Warum Kundinnen mich wählen</h2>
-          <p className="mt-5 text-lg leading-relaxed text-cream/70">Persönliche Betreuung, individuelle Behandlungen und eine Atmosphäre zum Wohlfühlen – das unterscheidet Charm Beauty von anonymen Kosmetikketten.</p>
+          <p className="mt-5 text-lg leading-relaxed text-cream/70">Persönliche Betreuung, individuelle Behandlungen und eine Atmosphäre zum Wohlfühlen. Das unterscheidet Charm Beauty von anonymen Kosmetikketten.</p>
         </Reveal>
         <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
           {whyUs.map((w, i) => (
@@ -24,7 +24,7 @@ export default function WhyUs({ whyUs }) {
           ))}
         </div>
         <Reveal delay={0.3} className="mt-12 text-center">
-          <BtnLink to="/kontakt" variant="light">Jetzt Offerte berechnen</BtnLink>
+          <BtnLink to="/kontakt" variant="light">Jetzt Offerte anfragen</BtnLink>
         </Reveal>
       </div>
     </section>

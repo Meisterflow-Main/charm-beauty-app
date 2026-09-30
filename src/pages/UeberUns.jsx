@@ -28,7 +28,7 @@ export default function UeberUns() {
             <img src={IMAGES.welcome} alt="Kosmetikstudio Charm Beauty in Winterthur" className="aspect-[4/5] w-full rounded-[2.5rem] object-cover" loading="lazy" />
           </Reveal>
           <div className="space-y-6 text-lg leading-relaxed text-ink/75 lg:col-span-6 lg:col-start-7 lg:pt-8">
-            <Reveal><p className="font-heading text-2xl leading-snug text-ink">Hallo, ich bin Snezana, eine leidenschaftliche Kosmetikerin. Für mich ist mein Beruf weit mehr als nur eine Tätigkeit – er ist meine tägliche Leidenschaft.</p></Reveal>
+            <Reveal><p className="font-heading text-2xl leading-snug text-ink">Hallo, ich bin Snezana, eine leidenschaftliche Kosmetikerin. Für mich ist mein Beruf weit mehr als nur eine Tätigkeit. Er ist meine tägliche Leidenschaft.</p></Reveal>
             <Reveal delay={0.1}><p>Seit meiner Ausbildung bilde ich mich kontinuierlich weiter, um stets auf dem neuesten Stand der Kosmetikbranche zu bleiben.</p></Reveal>
             <Reveal delay={0.2}><p>Der Traum, mein eigenes Kosmetikstudio zu eröffnen, hat mich lange begleitet, und nun freue ich mich, ihn in Winterthur zu verwirklichen. Neben meiner Arbeit als Kosmetikerin bin ich auch stolze Mutter und Ehefrau – zwei Rollen, die mich zusätzlich inspirieren und motivieren, meine Leidenschaft mit voller Hingabe auszuleben.</p></Reveal>
             <Reveal delay={0.3}><p>Ich lade dich herzlich ein, mein Studio zu besuchen, wo wir gemeinsam deine natürliche Schönheit zum Strahlen bringen!</p></Reveal>
