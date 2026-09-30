@@ -42,10 +42,10 @@ export const CONTACT = {
 export const VIDEOS = {
   hero: "https://media.base44.com/videos/public/6ab62a2b7c4d0724c8fa8507/8b68ab12d_Beauty_Hero_Video.mp4",
   reels: [
-    "https://media.base44.com/videos/public/6ab62a2b7c4d0724c8fa8507/173f93f6e_Reel_Facial_Treatment.mp4",
-    "https://media.base44.com/videos/public/6ab62a2b7c4d0724c8fa8507/219956df1_Reel_Body_Treatment.mp4",
-    "https://media.base44.com/videos/public/6ab62a2b7c4d0724c8fa8507/0a78b6016_Reel_Beauty_Products.mp4",
-    "https://media.base44.com/videos/public/6ab62a2b7c4d0724c8fa8507/086ee5379_Reel_Studio_Atmosphere.mp4",
+    "https://media.base44.com/videos/public/6ab62a2b7c4d0724c8fa8507/37c22c1fe_HD_video_1080_2.mp4",
+    "https://media.base44.com/videos/public/6ab62a2b7c4d0724c8fa8507/ca148234f_HD_video_1080.mp4",
+    "https://media.base44.com/videos/public/6ab62a2b7c4d0724c8fa8507/ee4729ec7_Instagram_Reel_HD_1080x19203.mp4",
+    "https://media.base44.com/videos/public/6ab62a2b7c4d0724c8fa8507/7e6380ac3_HD_video_1080x1080.mp4",
   ],
 };
 

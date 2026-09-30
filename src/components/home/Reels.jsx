@@ -23,7 +23,7 @@ function Reel({ src, caption, index }) {
   };
 
   return (
-    <div className="group relative aspect-[9/16] overflow-hidden rounded-[1.5rem] bg-ink">
+    <div className="group relative aspect-[4/5] overflow-hidden rounded-[1.5rem] bg-ink">
       <video
         ref={ref}
         src={src}
