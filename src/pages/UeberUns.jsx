@@ -32,7 +32,11 @@ export default function UeberUns() {
             <Reveal delay={0.1}><p>Seit meiner Ausbildung bilde ich mich kontinuierlich weiter, um stets auf dem neuesten Stand der Kosmetikbranche zu bleiben.</p></Reveal>
             <Reveal delay={0.2}><p>Der Traum, mein eigenes Kosmetikstudio zu eröffnen, hat mich lange begleitet, und nun freue ich mich, ihn in Winterthur zu verwirklichen. Neben meiner Arbeit als Kosmetikerin bin ich auch stolze Mutter und Ehefrau, zwei Rollen, die mich zusätzlich inspirieren und motivieren, meine Leidenschaft mit voller Hingabe auszuleben.</p></Reveal>
             <Reveal delay={0.3}><p>Ich lade dich herzlich ein, mein Studio zu besuchen, wo wir gemeinsam deine natürliche Schönheit zum Strahlen bringen!</p></Reveal>
-            <Reveal delay={0.4} className="pt-4"><BtnLink href={CONTACT.whatsapp}>Termin buchen</BtnLink></Reveal>
+            <Reveal delay={0.4} className="pt-4 flex flex-wrap gap-4">
+              <BtnLink href={CONTACT.whatsapp}>Termin buchen</BtnLink>
+              <BtnLink to="/behandlungen" variant="outline">Behandlungen ansehen</BtnLink>
+              <BtnLink to="/kontakt" variant="outline">Kontakt aufnehmen</BtnLink>
+            </Reveal>
           </div>
         </div>
       </section>

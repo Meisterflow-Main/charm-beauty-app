@@ -10,7 +10,7 @@ import BlogSidebar from "@/components/blog/BlogSidebar";
 
 export default function Blog() {
   useSeo({
-    title: "Blog | Charm Beauty Winterthur – Hautpflege, Tipps & Ratgeber",
+    title: "Blog | Charm Beauty Winterthur | Hautpflege, Tipps & Ratgeber",
     description:
       "Der Charm Beauty Blog: Ratgeber, Tipps und Anleitungen rund um Gesichtspflege, Körperbehandlungen und das Kosmetikstudio in Winterthur. Jetzt lesen und informiert pflegen.",
     path: "/blog",

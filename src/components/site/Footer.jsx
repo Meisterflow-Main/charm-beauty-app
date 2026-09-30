@@ -47,6 +47,7 @@ export default function Footer() {
           <div className="lg:col-span-2">
             <h3 className="mb-5 text-xs uppercase tracking-[0.2em] text-champagne">Regionen</h3>
             <ul className="space-y-2.5 text-sm">
+              <li><Link to="/regionen" className="font-medium text-cream/90 transition hover:text-champagne">Alle Regionen</Link></li>
               {LANDING_PAGES.map((p) => (
                 <li key={p.slug}><Link to={`/regionen/${p.slug}`} className="text-cream/70 transition hover:text-champagne">{p.region}</Link></li>
               ))}

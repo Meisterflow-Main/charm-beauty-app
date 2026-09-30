@@ -1,4 +1,6 @@
 import React from "react";
+import { Link } from "react-router-dom";
+import { ArrowRight } from "lucide-react";
 import { TREATMENTS } from "@/lib/site";
 import Reveal from "@/components/site/Reveal";
 import Eyebrow from "@/components/site/Eyebrow";
@@ -24,6 +26,11 @@ export default function Treatments() {
             <Reveal key={t.key} delay={i * 0.15}><TreatmentCard t={t} index={i} /></Reveal>
           ))}
         </div>
+        <Reveal delay={0.3} className="mt-12 text-center">
+          <Link to="/behandlungen" className="inline-flex items-center gap-2 text-sm font-semibold text-gold transition hover:gap-3 hover:text-gold-dark">
+            Alle Behandlungen ansehen <ArrowRight className="h-4 w-4" />
+          </Link>
+        </Reveal>
       </div>
     </section>
   );

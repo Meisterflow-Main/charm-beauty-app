@@ -1,4 +1,6 @@
 import React from "react";
+import { Link } from "react-router-dom";
+import { ArrowRight } from "lucide-react";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 import { FAQS } from "@/lib/site";
 import Reveal from "@/components/site/Reveal";
@@ -21,6 +23,9 @@ export default function Faq() {
               </AccordionItem>
             ))}
           </Accordion>
+          <Link to="/faq" className="mt-8 inline-flex items-center gap-2 text-sm font-semibold text-gold transition hover:gap-3 hover:text-gold-dark">
+            Alle Fragen ansehen <ArrowRight className="h-4 w-4" />
+          </Link>
         </Reveal>
       </div>
     </section>

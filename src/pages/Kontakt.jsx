@@ -7,6 +7,7 @@ import PageHero from "@/components/site/PageHero";
 import Reveal from "@/components/site/Reveal";
 import ContactForm from "@/components/site/ContactForm";
 import OpeningHours from "@/components/site/OpeningHours";
+import BtnLink from "@/components/site/BtnLink";
 
 const CARDS = [
   { icon: Phone, label: "Telefon", value: CONTACT.phone, href: CONTACT.phoneHref },
@@ -47,6 +48,15 @@ export default function Kontakt() {
           <Reveal delay={0.15} className="rounded-[2.5rem] border border-ink/5 bg-white/70 p-8 sm:p-12 lg:col-span-7">
             <h2 className="mb-8 text-3xl font-semibold text-ink">Anfrage & Offerte</h2>
             <ContactForm />
+          </Reveal>
+        </div>
+      </section>
+      <section className="px-3 pb-24 sm:px-6">
+        <div className="mx-auto max-w-7xl rounded-[2rem] border border-ink/5 bg-white/70 p-8 text-center sm:p-10">
+          <Reveal>
+            <h2 className="text-3xl font-semibold text-ink sm:text-4xl">Noch unentschlossen?</h2>
+            <p className="mx-auto mt-4 max-w-xl text-lg text-ink/70">Entdecke meine Behandlungen für Gesicht und Körper und finde die richtige Pflege für dich.</p>
+            <BtnLink to="/behandlungen" variant="outline" className="mt-6">Behandlungen ansehen</BtnLink>
           </Reveal>
         </div>
       </section>

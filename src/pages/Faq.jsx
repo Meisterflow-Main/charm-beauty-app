@@ -28,7 +28,7 @@ export default function Faq() {
   };
 
   useSeo({
-    title: "FAQ – Häufige Fragen | Charm Beauty Kosmetikstudio Winterthur",
+    title: "FAQ | Charm Beauty Kosmetikstudio Winterthur",
     description: "Antworten zu Terminen, Behandlungen, Öffnungszeiten, Anreise und Regionen bei Charm Beauty in Winterthur. Deine Frage nicht dabei? Schreib mir direkt.",
     path: "/faq",
     schemas: [faqSchema, breadcrumbSchema([{ name: "Home", path: "/" }, { name: "FAQ", path: "/faq" }])],
