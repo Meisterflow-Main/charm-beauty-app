@@ -91,7 +91,7 @@ export default function BlogPost() {
       <article className="bg-cream py-12 sm:py-16">
         <div className="mx-auto max-w-7xl px-6">
           <div className="grid gap-10 lg:grid-cols-12">
-            <div className="lg:col-span-8">
+            <div className="min-w-0 lg:col-span-8">
               <div className="flex flex-wrap items-center gap-5 text-sm text-ink/55">
                 <span className="inline-flex items-center gap-1.5"><Calendar className="h-4 w-4" /> {formatDate(post.date)}</span>
                 <span className="inline-flex items-center gap-1.5"><User className="h-4 w-4" /> {post.author}</span>
@@ -124,6 +124,46 @@ export default function BlogPost() {
                           </li>
                         ))}
                       </ul>
+                    )}
+                    {s.subheading && (
+                      <h3 className="mt-6 font-heading text-xl font-semibold text-ink">{s.subheading}</h3>
+                    )}
+                    {s.table && (
+                      <div className="mt-5 overflow-x-auto rounded-2xl border border-ink/8">
+                        <table className="w-full text-left text-sm">
+                          <thead className="bg-ink/5">
+                            <tr>
+                              {s.table.headers.map((h, k) => (
+                                <th key={k} className="px-4 py-3 font-semibold text-ink">{h}</th>
+                              ))}
+                            </tr>
+                          </thead>
+                          <tbody>
+                            {s.table.rows.map((row, r) => (
+                              <tr key={r} className="border-t border-ink/8">
+                                {row.map((cell, c) => (
+                                  <td key={c} className="px-4 py-3 align-top text-ink/75">{cell}</td>
+                                ))}
+                              </tr>
+                            ))}
+                          </tbody>
+                        </table>
+                      </div>
+                    )}
+                    {s.callout && (
+                      <div className="mt-6 rounded-2xl border border-gold/30 bg-champagne/15 p-5">
+                        {s.callout.title && (
+                          <p className="font-heading text-base font-semibold text-ink">{s.callout.title}</p>
+                        )}
+                        {s.callout.text && (
+                          <p className="mt-1.5 text-[1.02rem] leading-relaxed text-ink/75">{s.callout.text}</p>
+                        )}
+                        {s.callout.link && (
+                          <Link to={s.callout.link.to} className="mt-3 inline-flex items-center gap-1.5 text-sm font-semibold text-gold hover:text-gold-dark">
+                            {s.callout.link.label} <ArrowRight className="h-3.5 w-3.5" />
+                          </Link>
+                        )}
+                      </div>
                     )}
                   </section>
                 ))}
