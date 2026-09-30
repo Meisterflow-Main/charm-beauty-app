@@ -1,4 +1,5 @@
 import { IMAGES } from "@/lib/site";
+import { ADDITIONAL_POSTS } from "@/lib/blogPostsAdditional";
 
 export const BLOG_CATEGORIES = [
   "Ratgeber",
@@ -21,7 +22,7 @@ export const formatDate = (iso) => {
   return `${d.getDate()}. ${MONTHS_DE[d.getMonth()]} ${d.getFullYear()}`;
 };
 
-export const BLOG_POSTS = [
+const BASE_POSTS = [
   {
     slug: "kosmetik-preise-winterthur",
     title: "Was kostet eine Kosmetikbehandlung in Winterthur? Preise und Faktoren",
@@ -266,6 +267,8 @@ export const BLOG_POSTS = [
       { label: "Google-Bewertungen", to: "/auftrag-bewerten" },
       { label: "Häufige Fragen (FAQ)", to: "/faq" },
       { label: "Regionen rund um Winterthur", to: "/regionen" },
+      { label: "Anti-Aging und Hautalterung", to: "/blog/anti-aging-hautalterung-vorbeugen" },
+      { label: "Hauttyp erkennen", to: "/blog/hauttypen-erkennen-kosmetik" },
     ],
   },
   {
@@ -336,6 +339,9 @@ export const BLOG_POSTS = [
       { label: "Gesichtsbehandlung in Winterthur", to: "/behandlungen/gesicht" },
       { label: "Häufige Fragen (FAQ)", to: "/faq" },
       { label: "Kontakt aufnehmen", to: "/kontakt" },
+      { label: "Pflegewirkstoffe erklärt", to: "/blog/pflegewirkstoffe-erklaert" },
+      { label: "Unreine Haut pflegen", to: "/blog/unreine-haut-ursachen-pflege" },
+      { label: "Empfindliche Haut pflegen", to: "/blog/empfindliche-haut-pflegen-roetungen" },
     ],
   },
   {
@@ -456,6 +462,9 @@ export const BLOG_POSTS = [
       { label: "Gesichtsbehandlung buchen", to: "/behandlungen/gesicht" },
       { label: "Körperbehandlung entdecken", to: "/behandlungen/koerper" },
       { label: "FAQ Seite", to: "/faq" },
+      { label: "Hauttyp erkennen", to: "/blog/hauttypen-erkennen-kosmetik" },
+      { label: "Vorbereitung und Nachsorge", to: "/blog/vorbereitung-nachsorge-kosmetikbehandlung" },
+      { label: "Kosmetik oder Dermatologie", to: "/blog/kosmetikstudio-oder-dermatologe" },
     ],
   },
   {
@@ -612,6 +621,8 @@ export const BLOG_POSTS = [
       { label: "Körperbehandlung buchen", to: "/behandlungen/koerper" },
       { label: "Gesichtsbehandlung ansehen", to: "/behandlungen/gesicht" },
       { label: "Termin vereinbaren", to: "/kontakt" },
+      { label: "Körperpflege im Alltag", to: "/blog/koerperpflege-tipps-alltag" },
+      { label: "Vorbereitung und Nachsorge", to: "/blog/vorbereitung-nachsorge-kosmetikbehandlung" },
     ],
   },
   {
@@ -720,9 +731,13 @@ export const BLOG_POSTS = [
       { label: "Regionen rund um Winterthur", to: "/regionen" },
       { label: "Gesichtsbehandlung", to: "/behandlungen/gesicht" },
       { label: "Kontakt", to: "/kontakt" },
+      { label: "Empfindliche Haut pflegen", to: "/blog/empfindliche-haut-pflegen-roetungen" },
+      { label: "Körperpflege im Alltag", to: "/blog/koerperpflege-tipps-alltag" },
     ],
   },
 ];
+
+export const BLOG_POSTS = [...BASE_POSTS, ...ADDITIONAL_POSTS];
 
 export const getPost = (slug) => BLOG_POSTS.find((p) => p.slug === slug);
 

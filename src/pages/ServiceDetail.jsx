@@ -10,6 +10,7 @@ import PageHero from "@/components/site/PageHero";
 import Reveal from "@/components/site/Reveal";
 import BtnLink from "@/components/site/BtnLink";
 import Eyebrow from "@/components/site/Eyebrow";
+import ServiceGuides from "@/components/site/ServiceGuides";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 
 export default function ServiceDetail() {
@@ -165,6 +166,8 @@ export default function ServiceDetail() {
           </div>
         </section>
       )}
+
+      <ServiceGuides slugs={service.guides} title={service.title} />
 
       {/* Verwandte Dienstleistung */}
       <section className="px-6 py-20 sm:py-28">
