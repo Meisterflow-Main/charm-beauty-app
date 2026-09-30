@@ -17,6 +17,9 @@ import Datenschutz from '@/pages/Datenschutz';
 import AuftragBewerten from '@/pages/AuftragBewerten';
 import RegionenIndex from '@/pages/RegionenIndex';
 import LandingPage from '@/pages/LandingPage';
+import ServiceDetail from '@/pages/ServiceDetail';
+import Faq from '@/pages/Faq';
+import SitemapPage from '@/pages/Sitemap';
 
 const AuthenticatedApp = () => {
   const { isLoadingAuth, isLoadingPublicSettings, authError, navigateToLogin } = useAuth();
@@ -53,8 +56,11 @@ const AuthenticatedApp = () => {
         <Route path="/datenschutz" element={<Datenschutz />} />
         <Route path="/auftrag-bewerten" element={<AuftragBewerten />} />
         <Route path="/auftrag-bewerten.html" element={<AuftragBewerten />} />
+        <Route path="/behandlungen/:slug" element={<ServiceDetail />} />
         <Route path="/regionen" element={<RegionenIndex />} />
         <Route path="/regionen/:slug" element={<LandingPage />} />
+        <Route path="/faq" element={<Faq />} />
+        <Route path="/sitemap" element={<SitemapPage />} />
       </Route>
       <Route path="*" element={<PageNotFound />} />
     </Routes>

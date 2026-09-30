@@ -1,4 +1,6 @@
 import React from "react";
+import { Link } from "react-router-dom";
+import { ArrowRight } from "lucide-react";
 import useSeo, { breadcrumbSchema } from "@/hooks/useSeo";
 import { TREATMENTS, CONTACT } from "@/lib/site";
 import PageHero from "@/components/site/PageHero";
@@ -27,7 +29,10 @@ export default function Behandlungen() {
               <Reveal><span className="font-heading text-7xl font-semibold text-champagne/60">0{i + 1}</span></Reveal>
               <Reveal delay={0.1}><h2 className="mt-2 text-5xl font-semibold text-ink">{t.title}</h2></Reveal>
               <Reveal delay={0.2}><p className="mt-6 text-lg leading-relaxed text-ink/70">{t.text}</p></Reveal>
-              <Reveal delay={0.3} className="mt-8"><BtnLink href={CONTACT.whatsapp}>Termin buchen</BtnLink></Reveal>
+              <Reveal delay={0.3} className="mt-8 flex flex-wrap items-center gap-4">
+                <BtnLink href={CONTACT.whatsapp}>Termin buchen</BtnLink>
+                <Link to={`/behandlungen/${t.key}`} className="inline-flex items-center gap-2 text-sm font-semibold text-gold transition hover:gap-3">Mehr erfahren <ArrowRight className="h-4 w-4" /></Link>
+              </Reveal>
             </div>
           </article>
         ))}

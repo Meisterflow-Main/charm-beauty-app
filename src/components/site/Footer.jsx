@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import { Phone, MapPin, Mail, Star } from "lucide-react";
 import { IMAGES, CONTACT, NAV } from "@/lib/site";
 import { LANDING_PAGES } from "@/lib/landingPages";
+import { SERVICES } from "@/lib/services";
 import OpeningHours from "@/components/site/OpeningHours";
 
 export default function Footer() {
@@ -27,6 +28,14 @@ export default function Footer() {
             <ul className="space-y-3 text-sm">
               {NAV.map((n) => <li key={n.to}><Link to={n.to} className="text-cream/80 transition hover:text-champagne">{n.label}</Link></li>)}
               <li><Link to="/auftrag-bewerten" className="inline-flex items-center gap-1.5 text-champagne hover:text-cream"><Star className="h-3.5 w-3.5" />Bewertung abgeben</Link></li>
+              <li><Link to="/faq" className="text-cream/80 transition hover:text-champagne">FAQ</Link></li>
+              <li><Link to="/sitemap" className="text-cream/80 transition hover:text-champagne">Sitemap</Link></li>
+            </ul>
+            <h3 className="mb-5 mt-8 text-xs uppercase tracking-[0.2em] text-champagne">Behandlungen</h3>
+            <ul className="space-y-3 text-sm">
+              {SERVICES.map((s) => (
+                <li key={s.slug}><Link to={`/behandlungen/${s.slug}`} className="text-cream/80 transition hover:text-champagne">{s.title}</Link></li>
+              ))}
             </ul>
             <h3 className="mb-5 mt-8 text-xs uppercase tracking-[0.2em] text-champagne">Rechtliches</h3>
             <ul className="space-y-3 text-sm">
