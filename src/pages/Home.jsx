@@ -7,7 +7,6 @@ import TrustBar from "@/components/site/TrustBar";
 import Reels from "@/components/home/Reels";
 import Welcome from "@/components/home/Welcome";
 import Gallery from "@/components/home/Gallery";
-import Studio from "@/components/home/Studio";
 import Treatments from "@/components/home/Treatments";
 import Stats from "@/components/home/Stats";
 import AboutTeaser from "@/components/home/AboutTeaser";
@@ -35,7 +34,6 @@ export default function Home() {
       <Reels />
       <Welcome />
       <Gallery />
-      <Studio />
       <Treatments />
       <Stats />
       <AboutTeaser />

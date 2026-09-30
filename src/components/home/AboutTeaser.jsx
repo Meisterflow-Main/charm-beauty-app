@@ -11,6 +11,14 @@ const POINTS = [
   "Entspannte Atmosphäre für dein Wohlbefinden",
 ];
 
+const STUDIO_CAPTIONS = [
+  "Studio-Eingang Ernst-Jung-Gasse 16a",
+  "Behandlungsraum mit LED-Hohlspiegel",
+  "Behandlungsliege und Liposana-Gerät",
+  "Empfang und Behandlungsbereich",
+  "Professionelle Behandlungsgeräte",
+];
+
 export default function AboutTeaser() {
   return (
     <section className="bg-ink px-6 py-24 text-cream sm:py-32">
@@ -38,6 +46,33 @@ export default function AboutTeaser() {
             <img src={IMAGES.snezana} alt="Snezana Djuric – Inhaberin von Charm Beauty Winterthur" className="relative aspect-[4/5] w-full rounded-[2.5rem] object-cover" loading="lazy" />
           </div>
         </Reveal>
+      </div>
+
+      <div id="studio" className="scroll-mt-24 mt-20 border-t border-cream/10 pt-16">
+        <div className="mb-10 text-center">
+          <Reveal><Eyebrow light>Einblicke</Eyebrow></Reveal>
+          <Reveal delay={0.1}><h3 className="mt-4 text-3xl font-semibold sm:text-4xl">Mein Studio in Winterthur</h3></Reveal>
+        </div>
+        <div className="grid grid-cols-2 gap-4 sm:gap-5 lg:grid-cols-5">
+          {STUDIO_CAPTIONS.map((cap, i) => (
+            <Reveal
+              key={i}
+              delay={(i % 5) * 0.08}
+              className={`group relative overflow-hidden rounded-2xl ${i === 4 ? "col-span-2 lg:col-span-1" : ""}`}
+            >
+              <div className="aspect-[4/3]">
+                <img
+                  src={IMAGES.studio[i]}
+                  alt={`Charm Beauty Studio Winterthur – ${cap}`}
+                  className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-105"
+                  loading="lazy"
+                />
+              </div>
+              <div className="absolute inset-0 bg-gradient-to-t from-ink/70 via-transparent to-transparent" />
+              <p className="absolute bottom-3 left-3 right-3 text-xs font-medium text-white/90">{cap}</p>
+            </Reveal>
+          ))}
+        </div>
       </div>
     </section>
   );
