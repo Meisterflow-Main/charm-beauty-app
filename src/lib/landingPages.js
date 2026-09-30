@@ -1,17 +1,17 @@
-// 10 unique SEO landing pages for Charm Beauty, adapted for beauty/cosmetics context
-// Each page has unique content following the 12-section structure
+// 10 SEO-Landingpages für Charm Beauty – jede Seite mit eigenständigem Wortlaut,
+// regionalen Besonderheiten und individuellen FAQs. Slugs und Struktur bleiben unverändert.
 
 export const LANDING_PAGES = [
-  // 1 ──────────────────────────────────────────────
+  // 1 — Kosmetik Winterthur (Heimatstandort) ──────────────────────────────
   {
     slug: "kosmetik-winterthur",
     metaTitle: "Kosmetik Winterthur | Charm Beauty Kosmetikstudio",
     metaDescription: "Kosmetikstudio in Winterthur für individuelle Schönheitsbehandlungen. Gesicht- und Körperpflege von Snezana. Jetzt Termin buchen unter +41 78 896 46 55.",
     h1: "Kosmetik in Winterthur für strahlende Haut",
     eyebrow: "Kosmetikstudio Winterthur",
-    hero: "Willkommen bei Charm Beauty, deinem Kosmetikstudio in Winterthur. Ich biete individuelle Schönheitsbehandlungen für Gesicht und Körper, abgestimmt auf deine Hautbedürfnisse. Entdecke professionelle Pflege in entspannter Atmosphäre, zentral in Winterthur an der Ernst-Jung-Gasse.",
+    hero: "Willkommen bei Charm Beauty, deinem Kosmetikstudio an der Ernst-Jung-Gasse. Ich, Snezana, begleite Kundinnen aus Winterthur und Umgebung seit 2020 mit Gesichtspflege und Körperbehandlungen, die auf die jeweilige Haut abgestimmt sind. Mein Studio liegt zentral zwischen Altstadt und Hauptbahnhof, ruhig gelegen und doch in wenigen Minuten zu Fuss erreichbar.",
     region: "Winterthur",
-    regionMentions: ["Winterthur", "Winterthur", "Winterthur", "Winterthur", "Winterthur", "Winterthur", "Winterthur", "Winterthur"],
+    regionMentions: ["Winterthur", "Altstadt", "Ernst-Jung-Gasse", "Hauptbahnhof", "Töss", "Oberwinterthur", "Wülflingen", "Veltheim"],
     usps: [
       { icon: "CalendarDays", title: "Seit 2020", desc: "Vertraute Kosmetik in Winterthur" },
       { icon: "Sparkles", title: "100% Handarbeit", desc: "Sorgfalt in jedem Schritt" },
@@ -19,14 +19,14 @@ export const LANDING_PAGES = [
       { icon: "MapPin", title: "Zentrale Lage", desc: "Ernst-Jung-Gasse, Winterthur" },
     ],
     services: [
-      { title: "Gesichtsbehandlung", desc: "Individuell abgestimmte Gesichtspflege, die deine Haut revitalisiert und strahlen lässt. Jede Behandlung wird auf deinen Hauttyp zugeschnitten, für ein frisches, gesundes Aussehen." },
-      { title: "Körperbehandlung", desc: "Massgeschneiderte Körperbehandlungen, die deine Haut straffen und revitalisieren. Für ein gepflegtes Hautbild und ein rundum wohltuendes Körpergefühl in Winterthur." },
-      { title: "Persönliche Beratung", desc: "Gemeinsam finden wir die passende Behandlung für deine Hautbedürfnisse. Ehrlich, individuell und ohne Druck, direkt bei mir im Studio in Winterthur." },
+      { title: "Gesichtsbehandlung", desc: "Auf deinen Hauttyp abgestimmte Gesichtspflege, die die Haut revitalisiert und ihr natürliches Strahlen zurückgibt. Jeder Schritt wird auf deine Bedürfnisse zugeschnitten." },
+      { title: "Körperbehandlung", desc: "Massgeschneiderte Körperbehandlungen, die die Haut straffen und pflegen. Für ein gepflegtes Hautbild und ein rundum wohltuendes Körpergefühl." },
+      { title: "Persönliche Beratung", desc: "Gemeinsam finden wir die passende Behandlung für deine Haut. Ehrlich, individuell und ohne Druck, direkt bei mir im Studio." },
     ],
     whyUs: [
-      { headline: "Lokale Erfahrung", desc: "Seit 2020 verbinde ich Kundinnen in Winterthur mit professioneller Kosmetik und persönlicher Pflege auf hohem Niveau." },
+      { headline: "Lokale Verwurzelung", desc: "Seit 2020 verbinde ich Kundinnen in Winterthur mit professioneller Kosmetik und persönlicher Pflege auf hohem Niveau." },
       { headline: "Massgeschneiderte Behandlungen", desc: "Jede Behandlung wird individuell auf deinen Hauttyp und deine Wünsche abgestimmt, keine Standard-Programme." },
-      { headline: "Entspannte Atmosphäre", desc: "Mein Studio an der Ernst-Jung-Gasse bietet dir eine ruhige Auszeit vom Alltag in Winterthur." },
+      { headline: "Entspannte Atmosphäre", desc: "Mein Studio an der Ernst-Jung-Gasse bietet dir eine ruhige Auszeit vom Alltag." },
       { headline: "Direkte Beratung", desc: "Du sprichst immer direkt mit mir, von der ersten Anfrage bis zur Nachsorge nach der Behandlung." },
       { headline: "Zentral erreichbar", desc: "Kurze Wege in Winterthur, gute Anbindung an den öffentlichen Verkehr und Parkplätze in der Nähe." },
     ],
@@ -42,16 +42,16 @@ export const LANDING_PAGES = [
     cta: { title: "Bereit für strahlende Haut?", text: "Buche jetzt deinen Termin bei Charm Beauty in Winterthur und lass dich in meiner Oase der Schönheit verwöhnen." },
   },
 
-  // 2 ──────────────────────────────────────────────
+  // 2 — Gesichtsbehandlung Winterthur ─────────────────────────────────────
   {
     slug: "gesichtsbehandlung-winterthur",
     metaTitle: "Gesichtsbehandlung Winterthur | Charm Beauty Kosmetikstudio",
     metaDescription: "Professionelle Gesichtsbehandlung in Winterthur, individuell auf deinen Hauttyp abgestimmt. Sanfte Pflege für frische, strahlende Haut. Termin bei Charm Beauty buchen.",
     h1: "Gesichtsbehandlung in Winterthur für frische Haut",
     eyebrow: "Gesichtspflege Winterthur",
-    hero: "Deine Haut verdient Aufmerksamkeit. Bei Charm Beauty in Winterthur erhältst du eine Gesichtsbehandlung, die genau auf deinen Hauttyp abgestimmt ist. Ob Tiefenreinigung, Feuchtigkeit oder Anti-Aging, ich finde die richtige Pflege für ein frisches, gesundes Hautbild.",
+    hero: "Deine Haut verdient Aufmerksamkeit. Bei Charm Beauty erhältst du eine Gesichtsbehandlung, die genau auf deinen Hauttyp abgestimmt ist. Ob Tiefenreinigung, Feuchtigkeit oder Anti-Aging, ich finde die richtige Pflege für ein frisches, gesundes Hautbild. Vor jeder Behandlung steht eine gründliche Hautanalyse, damit die Produkte wirklich zu deiner Haut passen.",
     region: "Winterthur",
-    regionMentions: ["Winterthur", "Winterthur", "Winterthur", "Winterthur", "Winterthur", "Winterthur", "Winterthur", "Winterthur"],
+    regionMentions: ["Winterthur", "Altstadt", "Ernst-Jung-Gasse", "Hauptbahnhof", "Töss", "Oberwinterthur", "Wülflingen", "Veltheim"],
     usps: [
       { icon: "Eye", title: "Hautanalyse", desc: "Individuell vor jeder Behandlung" },
       { icon: "Droplet", title: "Massgeschneidert", desc: "Auf deinen Hauttyp zugeschnitten" },
@@ -65,7 +65,7 @@ export const LANDING_PAGES = [
     ],
     whyUs: [
       { headline: "Hautanalyse inklusive", desc: "Vor jeder Gesichtsbehandlung analysiere ich deine Haut gründlich und wähle die passenden Produkte aus." },
-      { headline: "Massgeschneiderte Pflege", desc: "Keine Standard-Programme, jede Behandlung in Winterthur wird individuell auf deinen Hauttyp und deine Bedürfnisse zugeschnitten." },
+      { headline: "Massgeschneiderte Pflege", desc: "Keine Standard-Programme, jede Behandlung wird individuell auf deinen Hauttyp und deine Bedürfnisse zugeschnitten." },
       { headline: "Hochwertige Produkte", desc: "Ich verwende nur sorgfältig ausgewählte Pflegeprodukte, die ich selbst vertraue und regelmässig in der Weiterbildung teste." },
       { headline: "Sanfte Technik", desc: "Meine Behandlungen sind schonend und entspannend, keine aggressiven Methoden, keine unnötige Belastung für deine Haut." },
       { headline: "Ehrliche Beratung", desc: "Ich empfehle nur, was deine Haut wirklich braucht. Kein Verkaufsdruck, keine überflüssigen Behandlungen." },
@@ -74,7 +74,7 @@ export const LANDING_PAGES = [
       { q: "Wie oft sollte ich eine Gesichtsbehandlung machen?", a: "Für optimale Ergebnisse empfehle ich eine Gesichtsbehandlung alle vier bis sechs Wochen. So bleibt deine Haut gepflegt und Unreinheiten haben keine Chance." },
       { q: "Welche Hauttypen behandelst du?", a: "Ich behandle alle Hauttypen, von trocken über empfindlich bis zu fettiger Haut. Vor der Behandlung analysiere ich deine Haut und passe die Produkte entsprechend an." },
       { q: "Gibt es nach der Behandlung Rötungen?", a: "Leichte Rötungen können kurzzeitig auftreten, verschwinden aber meist innerhalb weniger Stunden. Ich informiere dich vorab über mögliche Reaktionen." },
-      { q: "Kann ich direkt nach der Behandlung raus?", a: "Ja, du kannst direkt nach der Behandlung deinen Tag in Winterthur fortsetzen. Für wichtige Termine empfehle ich die Behandlung am Nachmittag oder Abend." },
+      { q: "Kann ich direkt nach der Behandlung raus?", a: "Ja, du kannst direkt nach der Behandlung deinen Tag fortsetzen. Für wichtige Termine empfehle ich die Behandlung am Nachmittag oder Abend." },
       { q: "Was kostet eine Gesichtsbehandlung in Winterthur?", a: "Der Preis hängt von der gewählten Behandlung und deinem Hautbedürfnis ab. Kontaktiere mich für eine individuelle Offerte, ich berate dich gerne." },
       { q: "Wie lange dauert eine Gesichtsbehandlung?", a: "Je nach Umfang dauert eine Gesichtsbehandlung zwischen 60 und 90 Minuten. In dieser Zeit kannst du komplett entspannen und die Pflege geniessen." },
     ],
@@ -82,16 +82,16 @@ export const LANDING_PAGES = [
     cta: { title: "Zeit für deine Haut", text: "Gönn dir eine professionelle Gesichtsbehandlung in Winterthur. Buche jetzt deinen Termin und spüre den Unterschied." },
   },
 
-  // 3 ──────────────────────────────────────────────
+  // 3 — Körperbehandlung Winterthur ──────────────────────────────────────
   {
     slug: "koerperbehandlung-winterthur",
     metaTitle: "Körperbehandlung Winterthur | Charm Beauty Kosmetikstudio",
     metaDescription: "Körperbehandlung in Winterthur für straffe Haut und tiefenentspanntes Wohlbefinden. Massgeschneiderte Pflege von Snezana. Jetzt Termin bei Charm Beauty buchen.",
     h1: "Körperbehandlung in Winterthur für Wohlbefinden",
     eyebrow: "Körperpflege Winterthur",
-    hero: "Dein Körper trägt dich durch den Alltag, jetzt ist Zeit, etwas zurückzugeben. Bei Charm Beauty in Winterthur biete ich Körperbehandlungen, die deine Haut straffen, pflegen und revitalisieren. Entspanne in meiner Oase und spüre die Wohltat professioneller Pflege.",
+    hero: "Dein Körper trägt dich durch den Alltag, jetzt ist Zeit, etwas zurückzugeben. Bei Charm Beauty biete ich Körperbehandlungen, die deine Haut straffen, pflegen und revitalisieren. Entspanne in meiner Oase an der Ernst-Jung-Gasse und spüre die Wohltat professioneller Pflege, fernab des Alltagstrubels.",
     region: "Winterthur",
-    regionMentions: ["Winterthur", "Winterthur", "Winterthur", "Winterthur", "Winterthur", "Winterthur", "Winterthur", "Winterthur"],
+    regionMentions: ["Winterthur", "Altstadt", "Ernst-Jung-Gasse", "Hauptbahnhof", "Töss", "Oberwinterthur", "Wülflingen", "Veltheim"],
     usps: [
       { icon: "HeartHandshake", title: "Ganzheitlich", desc: "Körper und Seele im Einklang" },
       { icon: "Sparkles", title: "Tiefenentspannung", desc: "Abschalten vom Alltag" },
@@ -100,12 +100,12 @@ export const LANDING_PAGES = [
     ],
     services: [
       { title: "Körperpeeling", desc: "Ein sanftes Peeling entfernt abgestorbene Hautschüppchen und fördert die Zellerneuerung. Deine Haut fühlt sich weich und geschmeidig an, wie neu geboren." },
-      { title: "Entspannungsmassage", desc: "Lass den Alltag hinter dir. Eine wohltuende Massage löst Verspannungen und schenkt dir tiefe Entspannung. Für Körper und Seele eine echte Auszeit in Winterthur." },
+      { title: "Entspannungsmassage", desc: "Lass den Alltag hinter dir. Eine wohltuende Massage löst Verspannungen und schenkt dir tiefe Entspannung. Für Körper und Seele eine echte Auszeit." },
       { title: "Hautstraffende Pflege", desc: "Gezielte Behandlungen für ein festeres Hautbild. Ich arbeite mit hochwertigen Produkten, die die Hautelastizität fördern und für ein glattes Körpergefühl sorgen." },
     ],
     whyUs: [
       { headline: "Ganzheitlicher Ansatz", desc: "Ich behandle nicht nur die Haut, sondern sorge für ein rundum gutes Körpergefühl, von der Pflege bis zur Entspannung." },
-      { headline: "Ruhe und Privatsphäre", desc: "Mein Studio in Winterthur bietet dir einen ruhigen Raum, in dem du ungestört entspannen kannst." },
+      { headline: "Ruhe und Privatsphäre", desc: "Mein Studio bietet dir einen ruhigen Raum, in dem du ungestört entspannen kannst." },
       { headline: "Hochwertige Produkte", desc: "Ich setze auf sorgfältig ausgewählte Pflegeprodukte, die deine Haut nähren und nachhaltig pflegen." },
       { headline: "Individuelle Abstimmung", desc: "Jede Körperbehandlung passe ich an deine Hautbeschaffenheit und deine Wünsche an, nichts von der Stange." },
       { headline: "Erfahrung seit 2020", desc: "Mit fundiertem Fachwissen und regelmässigen Weiterbildungen biete ich dir Körperbehandlungen auf professionellem Niveau." },
@@ -113,7 +113,7 @@ export const LANDING_PAGES = [
     faqs: [
       { q: "Was beinhaltet eine Körperbehandlung?", a: "Je nach Wahl umfasst die Behandlung Peeling, Massage und pflegende Anwendungen. In der Beratung besprechen wir, was für deine Hautbedürfnisse am besten passt." },
       { q: "Wie lange dauert eine Körperbehandlung?", a: "Die Dauer variiert je nach Umfang zwischen 45 und 120 Minuten. Eine ausführliche Beratung im Voraus hilft, die passende Behandlung für deine Zeit zu finden." },
-      { q: "Was sollte ich zur Behandlung mitbringen?", a: "Bequeme Kleidung reicht aus. Alles weitere, von Handtüchern bis zu Pflegeprodukten, stellt mein Studio in Winterthur für dich bereit." },
+      { q: "Was sollte ich zur Behandlung mitbringen?", a: "Bequeme Kleidung reicht aus. Alles weitere, von Handtüchern bis zu Pflegeprodukten, stellt mein Studio für dich bereit." },
       { q: "Gibt es nach der Behandlung etwas zu beachten?", a: "Nach einer Körperbehandlung solltest du ausreichend Wasser trinken und die Haut einige Stunden nicht stark belasten. Ich gebe dir gerne individuelle Empfehlungen mit." },
       { q: "Wie oft sollte ich eine Körperbehandlung machen?", a: "Für nachhaltige Ergebnisse empfehle ich alle drei bis vier Wochen einen Termin. So bleibt deine Haut gepflegt und das Wohlbefinden erhalten." },
       { q: "Wo befindet sich Charm Beauty in Winterthur?", a: "Das Studio liegt an der Ernst-Jung-Gasse 16a in 8400 Winterthur. Die zentrale Lage macht es einfach, einen Termin auf dem Weg zur Arbeit oder nach Feierabend einzuplanen." },
@@ -122,16 +122,16 @@ export const LANDING_PAGES = [
     cta: { title: "Gönn dir eine Auszeit", text: "Buche jetzt deine Körperbehandlung in Winterthur und spüre, wie gut Entspannung und Pflege sich anfühlen." },
   },
 
-  // 4 ──────────────────────────────────────────────
+  // 4 — Schönheitsbehandlung Winterthur ──────────────────────────────────
   {
     slug: "schoenheitsbehandlung-winterthur",
     metaTitle: "Schönheitsbehandlung Winterthur | Charm Beauty Kosmetik",
     metaDescription: "Schönheitsbehandlung vom Profi in Winterthur. Individuelle Pflege für Gesicht und Körper bei Charm Beauty. Persönliche Beratung und entspannte Atmosphäre. Termin buchen.",
     h1: "Schönheitsbehandlung in Winterthur vom Profi",
     eyebrow: "Beauty Winterthur",
-    hero: "Schönheit ist individuell. Bei Charm Beauty in Winterthur findest du Schönheitsbehandlungen, die deine natürliche Ausstrahlung unterstreichen. Ich, Snezana, biete dir professionelle Pflege mit Herz und Erfahrung, abgestimmt auf dich, in einer Atmosphäre zum Wohlfühlen.",
+    hero: "Schönheit ist individuell. Bei Charm Beauty findest du Schönheitsbehandlungen, die deine natürliche Ausstrahlung unterstreichen. Ich, Snezana, biete dir professionelle Pflege mit Herz und Erfahrung, abgestimmt auf dich, in einer Atmosphäre zum Wohlfühlen. Gesicht und Körper können einzeln oder kombiniert behandelt werden.",
     region: "Winterthur",
-    regionMentions: ["Winterthur", "Winterthur", "Winterthur", "Winterthur", "Winterthur", "Winterthur", "Winterthur", "Winterthur"],
+    regionMentions: ["Winterthur", "Altstadt", "Ernst-Jung-Gasse", "Hauptbahnhof", "Töss", "Oberwinterthur", "Wülflingen", "Veltheim"],
     usps: [
       { icon: "Award", title: "Erfahrung", desc: "Seit 2020 in Winterthur" },
       { icon: "Gem", title: "Qualität", desc: "Hochwertige Pflegeprodukte" },
@@ -140,11 +140,11 @@ export const LANDING_PAGES = [
     ],
     services: [
       { title: "Gesichtspflege", desc: "Eine Schönheitsbehandlung für das Gesicht, die deine Haut revitalisiert und dein natürliches Strahlen hervorhebt. Individuell abgestimmt auf deinen Hauttyp." },
-      { title: "Körperpflege", desc: "Wohltuende Behandlungen für den ganzen Körper, die deine Haut pflegen und dir ein tiefes Gefühl von Wohlbefinden schenken. Entspannung pur in Winterthur." },
+      { title: "Körperpflege", desc: "Wohltuende Behandlungen für den ganzen Körper, die deine Haut pflegen und dir ein tiefes Gefühl von Wohlbefinden schenken. Entspannung pur." },
       { title: "Wellness-Auszeit", desc: "Kombiniere Gesicht- und Körperbehandlung für eine vollständige Auszeit. Lass den Alltag los und geniesse ungeteilte Aufmerksamkeit und Pflege." },
     ],
     whyUs: [
-      { headline: "Leidenschaft seit 2020", desc: "Kosmetik ist mehr als ein Beruf für mich, es ist meine tägliche Leidenschaft, die ich mit meinen Kundinnen in Winterthur teile." },
+      { headline: "Leidenschaft seit 2020", desc: "Kosmetik ist mehr als ein Beruf für mich, es ist meine tägliche Leidenschaft, die ich mit meinen Kundinnen teile." },
       { headline: "Individueller Fokus", desc: "Jede Schönheitsbehandlung wird auf dich zugeschnitten. Ich höre zu und empfehle, was wirklich zu dir passt." },
       { headline: "Professionelle Produkte", desc: "Ich arbeite nur mit Pflegeprodukten, die ich selbst vertraue und deren Wirkung ich regelmässig in Weiterbildungen überprüfe." },
       { headline: "Ruhiges Studio", desc: "Meine Praxis an der Ernst-Jung-Gasse ist ein Rückzugsort, hier kannst du in Ruhe entspannen und die Behandlung geniessen." },
@@ -162,16 +162,16 @@ export const LANDING_PAGES = [
     cta: { title: "Deine natürliche Schönheit", text: "Entdecke, was eine professionelle Schönheitsbehandlung in Winterthur bewirken kann. Buche jetzt deinen Termin." },
   },
 
-  // 5 ──────────────────────────────────────────────
+  // 5 — Hautpflege Winterthur ─────────────────────────────────────────────
   {
     slug: "hautpflege-winterthur",
     metaTitle: "Hautpflege Winterthur | Charm Beauty Kosmetikstudio",
     metaDescription: "Professionelle Hautpflege in Winterthur, massgeschneidert auf deinen Hauttyp. Beratung, Behandlung und Nachsorge von Snezana. Jetzt Termin bei Charm Beauty buchen.",
     h1: "Professionelle Hautpflege in Winterthur",
     eyebrow: "Hautpflege Winterthur",
-    hero: "Gesunde Haut braucht mehr als Creme aus dem Drogerieregal. Bei Charm Beauty in Winterthur erhältst du professionelle Hautpflege, die auf deinen Hauttyp abgestimmt ist. Von der Analyse über die Behandlung bis zur Nachsorge, ich begleite dich auf dem Weg zu strahlender Haut.",
+    hero: "Gesunde Haut braucht mehr als Creme aus dem Drogerieregal. Bei Charm Beauty erhältst du professionelle Hautpflege, die auf deinen Hauttyp abgestimmt ist. Von der Analyse über die Behandlung bis zur Nachsorge begleite ich dich auf dem Weg zu strahlender Haut, mit konkreten Tipps für die Pflege zu Hause.",
     region: "Winterthur",
-    regionMentions: ["Winterthur", "Winterthur", "Winterthur", "Winterthur", "Winterthur", "Winterthur", "Winterthur", "Winterthur"],
+    regionMentions: ["Winterthur", "Altstadt", "Ernst-Jung-Gasse", "Hauptbahnhof", "Töss", "Oberwinterthur", "Wülflingen", "Veltheim"],
     usps: [
       { icon: "Eye", title: "Hautanalyse", desc: "Grundlage jeder Behandlung" },
       { icon: "Droplet", title: "Massgeschneidert", desc: "Auf deinen Hauttyp zugeschnitten" },
@@ -181,7 +181,7 @@ export const LANDING_PAGES = [
     services: [
       { title: "Tiefenreinigung", desc: "Eine professionelle Reinigung, die tiefer geht als die Pflege zu Hause. Verstopfte Poren werden geöffnet und Unreinheiten reduziert, für ein klares Hautbild." },
       { title: "Feuchtigkeitsaufbau", desc: "Trockene Haut braucht intensive Pflege. Ich stärke die Hautbarriere und sorge für nachhaltige Feuchtigkeit, die deine Haut geschmeidig und frisch macht." },
-      { title: "Hautberatung", desc: "Gemeinsam erarbeiten wir eine Pflegeroutine, die zu deiner Haut und deinem Alltag passt. Du erhältst konkrete Empfehlungen für die Pflege zu Hause in Winterthur." },
+      { title: "Hautberatung", desc: "Gemeinsam erarbeiten wir eine Pflegeroutine, die zu deiner Haut und deinem Alltag passt. Du erhältst konkrete Empfehlungen für die Pflege zu Hause." },
     ],
     whyUs: [
       { headline: "Gründliche Hautanalyse", desc: "Vor jeder Behandlung analysiere ich deine Haut sorgfältig. Nur so lässt sich die richtige Pflege für deinen Hauttyp finden." },
@@ -202,18 +202,18 @@ export const LANDING_PAGES = [
     cta: { title: "Gesunde Haut beginnt hier", text: "Buche jetzt deine professionelle Hautpflege in Winterthur und lege den Grundstein für ein strahlendes Hautbild." },
   },
 
-  // 6 ──────────────────────────────────────────────
+  // 6 — Kosmetik Zürich (Auswärtskundschaft) ─────────────────────────────
   {
     slug: "kosmetik-zuerich",
     metaTitle: "Kosmetik Zürich | Charm Beauty Kosmetikstudio",
     metaDescription: "Kosmetikstudio für Zürich-Kundinnen: Individuelle Schönheitsbehandlungen bei Charm Beauty in Winterthur. Nur 30 Min. von Zürich. Jetzt Termin buchen.",
     h1: "Kosmetik für Zürich bei Charm Beauty in Winterthur",
     eyebrow: "Kosmetikstudio für Zürich",
-    hero: "Du suchst ein Kosmetikstudio mit Persönlichkeit, erreichbar von Zürich? Charm Beauty in Winterthur ist nur 30 Minuten entfernt und bietet dir individuelle Schönheitsbehandlungen in entspannter Atmosphäre. Entfliehe dem Trubel der Stadt und geniesse ungeteilte Aufmerksamkeit.",
+    hero: "Du suchst ein Kosmetikstudio mit Persönlichkeit, erreichbar von Zürich? Charm Beauty in Winterthur ist von Zürich Hauptbahnhof aus mit der S-Bahn in rund 30 Minuten erreichbar. Entfliehe dem Trubel der Bahnhofstrasse und geniesse ungeteilte Aufmerksamkeit für deine Haut, fernab der Grossstadt-Hektik.",
     region: "Zürich",
-    regionMentions: ["Zürich", "Zürich", "Zürich", "Zürich", "Zürich", "Zürich", "Zürich", "Zürich"],
+    regionMentions: ["Zürich", "Bahnhofstrasse", "S-Bahn", "Hauptbahnhof", "Dietikon", "Uster", "Dübendorf", "Wallisellen"],
     usps: [
-      { icon: "Clock", title: "30 Min. von Zürich", desc: "Schnell und einfach erreichbar" },
+      { icon: "Clock", title: "30 Min. von Zürich", desc: "S-Bahn im Viertelstundentakt" },
       { icon: "UserCheck", title: "Persönlich", desc: "Direkt mit Snezana, nicht mit Wechsel" },
       { icon: "Sparkles", title: "Individuell", desc: "Auf dich abgestimmt, nicht von der Stange" },
       { icon: "HeartHandshake", title: "Entspannt", desc: "Ruhe statt Grossstadt-Trubel" },
@@ -224,16 +224,16 @@ export const LANDING_PAGES = [
       { title: "Persönliche Beratung", desc: "Wir nehmen uns Zeit für deine Anliegen. In der Beratung finden wir gemeinsam die Behandlung, die am besten zu dir und deiner Haut passt." },
     ],
     whyUs: [
-      { headline: "Kurze Anreise aus Zürich", desc: "Mit dem Zug oder Auto bist du in rund 30 Minuten von Zürich in meinem Studio in Winterthur, eine kurze Reise für viel Entspannung." },
-      { headline: "Ruhe statt Grossstadt-Trubel", desc: "Weg vom Lärm der Zürcher Bahnhofstrasse, bei mir findest du echte Ruhe und ungeteilte Aufmerksamkeit." },
+      { headline: "S-Bahn im Viertelstundentakt", desc: "Die S12 und S24 bringen dich von Zürich HB in rund 30 Minuten nach Winterthur. Mein Studio ist vom Bahnhof in wenigen Minuten zu Fuss erreichbar." },
+      { headline: "Ruhe statt Bahnhofstrasse", desc: "Weg vom Lärm der Zürcher Einkaufsstrassen, bei mir findest du echte Ruhe und ungeteilte Aufmerksamkeit." },
       { headline: "Persönliche Betreuung", desc: "Du wirst immer von mir persönlich betreut. Kein Wechsel von Behandlerinnen, keine anonymen Ketten, eine vertraute Ansprechpartnerin." },
       { headline: "Individuelle Behandlungen", desc: "Jede Behandlung wird auf dich zugeschnitten. Ich kenne meine Kundinnen aus Zürich und Umgebung und weiss, was ihre Haut braucht." },
       { headline: "Fair kalkuliert", desc: "Du profitierst von Winterthurer Preisen bei Zürcher Anspruch, hochwertige Pflege, die sich auch für regelmässige Termine lohnt." },
     ],
     faqs: [
-      { q: "Wie lange brauche ich von Zürich nach Winterthur?", a: "Mit dem Auto oder Zug bist du etwa 30 Minuten unterwegs. Die SBB-Verbindung von Zürich nach Winterthur fährt alle 15 Minuten, mein Studio ist vom Bahnhof schnell erreichbar." },
+      { q: "Wie komme ich von Zürich nach Winterthur?", a: "Die S12 und S24 fahren von Zürich Hauptbahnhof im Viertelstundentakt und brauchen rund 30 Minuten bis Winterthur. Vom Winterthurer Hauptbahnhof sind es wenige Minuten zu Fuss zu meinem Studio an der Ernst-Jung-Gasse." },
       { q: "Lohnt sich die Anreise aus Zürich?", a: "Viele Kundinnen aus Zürich sagen ja. Die persönliche Betreuung, die ruhige Atmosphäre und die individuellen Behandlungen machen den kurzen Weg mehr als wett." },
-      { q: "Kann ich den Termin mit einem Ausflug verbinden?", a: "Sehr gerne. Winterthur hat eine schöne Altstadt, Museen und Cafés. Viele Kundinnen aus Zürich verbinden ihren Termin mit einem kleinen Ausflug." },
+      { q: "Kann ich den Termin mit einem Ausflug verbinden?", a: "Sehr gerne. Die Winterthurer Altstadt mit ihren Cafés und Geschäften liegt nur wenige Minuten vom Studio entfernt, ideal für einen Ausflug aus Zürich." },
       { q: "Gibt es Parkplätze in der Nähe?", a: "Ja, in der Umgebung der Ernst-Jung-Gasse gibt es mehrere Parkmöglichkeiten. Bei der Terminbestätigung sende ich dir gerne die genaue Anfahrtsbeschreibung." },
       { q: "Was kostet eine Kosmetikbehandlung?", a: "Die Preise hängen von der gewählten Behandlung ab. Kontaktiere mich für eine individuelle Offerte, ich berate dich unverbindlich und finde die passende Lösung." },
       { q: "Kann ich auch am Wochenende kommen?", a: "Termine nach Vereinbarung sind von Montag bis Samstag möglich. Samstags Vormittag ist besonders beliebt bei Kundinnen aus Zürich, melde dich frühzeitig an." },
@@ -242,24 +242,24 @@ export const LANDING_PAGES = [
     cta: { title: "Kurze Reise, grosse Wirkung", text: "Komm aus Zürich zu Charm Beauty in Winterthur und entdecke, wie entspannt Kosmetik sein kann. Jetzt Termin buchen." },
   },
 
-  // 7 ──────────────────────────────────────────────
+  // 7 — Gesichtsbehandlung Zürich ────────────────────────────────────────
   {
     slug: "gesichtsbehandlung-zuerich",
     metaTitle: "Gesichtsbehandlung Zürich | Charm Beauty Kosmetikstudio",
     metaDescription: "Gesichtsbehandlung für Zürich-Kundinnen bei Charm Beauty in Winterthur. Individuelle Gesichtspflege, nur 30 Min. entfernt. Persönliche Beratung. Termin buchen.",
     h1: "Gesichtsbehandlung für Zürich bei Charm Beauty",
     eyebrow: "Gesichtspflege für Zürich",
-    hero: "Du wohnst in Zürich und suchst eine Gesichtsbehandlung, die wirklich auf dich eingeht? Bei Charm Beauty in Winterthur, nur 30 Minuten entfernt, erhältst du individuelle Gesichtspflege in ruhiger Atmosphäre. Kein Grossstadt-Stress, dafür ungeteilte Aufmerksamkeit für deine Haut.",
+    hero: "Du wohnst in Zürich und suchst eine Gesichtsbehandlung, die wirklich auf dich eingeht? Bei Charm Beauty in Winterthur, mit der S-Bahn rund 30 Minuten entfernt, erhältst du individuelle Gesichtspflege in ruhiger Atmosphäre. Kein Grossstadt-Stress, dafür ungeteilte Aufmerksamkeit für deine Haut.",
     region: "Zürich",
-    regionMentions: ["Zürich", "Zürich", "Zürich", "Zürich", "Zürich", "Zürich", "Zürich", "Zürich"],
+    regionMentions: ["Zürich", "Bahnhofstrasse", "S-Bahn", "Hauptbahnhof", "Dietikon", "Uster", "Dübendorf", "Wallisellen"],
     usps: [
       { icon: "Eye", title: "Hautanalyse", desc: "Vor jeder Gesichtsbehandlung" },
       { icon: "Droplet", title: "Auf dich abgestimmt", desc: "Kein Standard-Programm" },
-      { icon: "Clock", title: "30 Min. von Zürich", desc: "Schnell und unkompliziert" },
+      { icon: "Clock", title: "30 Min. von Zürich", desc: "S-Bahn im Viertelstundentakt" },
       { icon: "UserCheck", title: "Persönlich", desc: "Immer mit Snezana" },
     ],
     services: [
-      { title: "Tiefenreinigung", desc: "Eine gründliche Reinigung, die Poren öffnet und Unreinheiten reduziert. Ideal, um der Zürcher Stadthaut etwas Gutes zu tun und sie aufatmen zu lassen." },
+      { title: "Tiefenreinigung", desc: "Eine gründliche Reinigung, die Poren öffnet und Unreinheiten reduziert. Ideal, um der beanspruchten Stadthaut etwas Gutes zu tun und sie aufatmen zu lassen." },
       { title: "Feuchtigkeitspflege", desc: "Intensive Feuchtigkeit für trockene und beanspruchte Haut. Die Behandlung stärkt die Hautbarriere und sorgt für ein frisches, gesundes Hautbild." },
       { title: "Anti-Aging Behandlung", desc: "Gezielte Pflege für reife Haut, die feine Linien glättet und die Elastizität fördert. Für ein sichtbar jugendliches Aussehen, die Anreise aus Zürich lohnt sich." },
     ],
@@ -271,7 +271,7 @@ export const LANDING_PAGES = [
       { headline: "Fair kalkuliert", desc: "Winterthurer Preise bei Zürcher Qualitätsanspruch, eine Gesichtsbehandlung, die sich auch für regelmässige Termine aus Zürich lohnt." },
     ],
     faqs: [
-      { q: "Wie lange dauert die Anreise aus Zürich?", a: "Mit dem Zug oder Auto bist du etwa 30 Minuten von Zürich zu meinem Studio in Winterthur unterwegs. Die SBB fährt im Viertelstundentakt." },
+      { q: "Wie lange dauert die Anreise aus Zürich?", a: "Mit der S12 oder S24 bist du etwa 30 Minuten von Zürich Hauptbahnhof zu meinem Studio in Winterthur unterwegs. Die S-Bahn fährt im Viertelstundentakt." },
       { q: "Wie oft sollte ich aus Zürich kommen?", a: "Für optimale Ergebnisse empfehle ich eine Gesichtsbehandlung alle vier bis sechs Wochen. Viele Kundinnen aus Zürich verbinden den Termin mit einem Ausflug nach Winterthur." },
       { q: "Welche Hauttypen behandelst du?", a: "Ich behandle alle Hauttypen, von trocken über empfindlich bis zu fettiger Haut. Die Hautanalyse vor der Behandlung hilft, die richtige Pflege zu finden." },
       { q: "Gibt es Rötungen nach der Behandlung?", a: "Leichte Rötungen können kurzzeitig auftreten, klingen aber meist innerhalb weniger Stunden ab. Für wichtige Termine in Zürich empfehle ich die Behandlung am Abend." },
@@ -282,18 +282,18 @@ export const LANDING_PAGES = [
     cta: { title: "Deine Haut verdient eine Auszeit", text: "Komm aus Zürich zu Charm Beauty und geniesse eine Gesichtsbehandlung, die wirklich auf dich eingeht. Jetzt Termin vereinbaren." },
   },
 
-  // 8 ──────────────────────────────────────────────
+  // 8 — Kosmetik Frauenfeld ──────────────────────────────────────────────
   {
     slug: "kosmetik-frauenfeld",
     metaTitle: "Kosmetik Frauenfeld | Charm Beauty Kosmetikstudio",
     metaDescription: "Kosmetikstudio für Frauenfeld: Individuelle Schönheitsbehandlungen bei Charm Beauty in Winterthur. Nur 25 Min. entfernt. Persönliche Beratung. Jetzt Termin buchen.",
     h1: "Kosmetik für Frauenfeld bei Charm Beauty",
     eyebrow: "Kosmetikstudio für Frauenfeld",
-    hero: "Du wohnst in Frauenfeld und suchst ein Kosmetikstudio, das dich persönlich betreut? Charm Beauty in Winterthur ist nur 25 Minuten entfernt und bietet dir individuelle Schönheitsbehandlungen in ruhiger Atmosphäre. Lass den Alltag hinter dir und geniesse professionelle Pflege.",
+    hero: "Du wohnst in Frauenfeld und suchst ein Kosmetikstudio, das dich persönlich betreut? Charm Beauty in Winterthur ist über die A7 in rund 25 Minuten erreichbar, alternativ mit der Thurbo-Verbindung ab Frauenfeld. Lass den Alltag hinter dir und geniesse professionelle Pflege in ruhiger Atmosphäre.",
     region: "Frauenfeld",
-    regionMentions: ["Frauenfeld", "Frauenfeld", "Frauenfeld", "Frauenfeld", "Frauenfeld", "Frauenfeld", "Frauenfeld", "Frauenfeld"],
+    regionMentions: ["Frauenfeld", "A7", "Thurbo", "Weinfelden", "Kreuzlingen", "Märstetten", "Berg", "Wigoltingen"],
     usps: [
-      { icon: "Clock", title: "25 Min. von Frauenfeld", desc: "Schnell und einfach erreichbar" },
+      { icon: "Clock", title: "25 Min. von Frauenfeld", desc: "A7 oder Thurbo-Verbindung" },
       { icon: "UserCheck", title: "Persönlich", desc: "Immer mit Snezana" },
       { icon: "Sparkles", title: "Individuell", desc: "Auf dich abgestimmt" },
       { icon: "HeartHandshake", title: "Vertraut", desc: "Eine Ansprechpartnerin für alles" },
@@ -304,14 +304,14 @@ export const LANDING_PAGES = [
       { title: "Persönliche Beratung", desc: "Wir nehmen uns Zeit für deine Anliegen. Gemeinsam finden wir die Behandlung, die am besten zu dir und deiner Haut passt." },
     ],
     whyUs: [
-      { headline: "Kurze Anreise aus Frauenfeld", desc: "In rund 25 Minuten bist du von Frauenfeld in meinem Studio in Winterthur, eine kurze Reise für viel Entspannung und Pflege." },
+      { headline: "Schnell über die A7", desc: "In rund 25 Minuten bist du von Frauenfeld über die A7 in meinem Studio in Winterthur, eine kurze Reise für viel Entspannung und Pflege." },
       { headline: "Ruhe und Privatsphäre", desc: "Weg vom Alltag in Frauenfeld: Bei mir findest du einen ruhigen Raum, in dem du ungestört entspannen kannst." },
       { headline: "Persönliche Betreuung", desc: "Du wirst immer von mir persönlich betreut. Keine wechselnden Behandlerinnen, keine anonyme Kette, eine vertraute Ansprechpartnerin." },
       { headline: "Individuelle Behandlungen", desc: "Jede Behandlung wird auf dich zugeschnitten. Ich kenne meine Kundinnen aus Frauenfeld und Umgebung und weiss, was ihre Haut braucht." },
       { headline: "Erfahrung seit 2020", desc: "Mit fundiertem Fachwissen und regelmässigen Weiterbildungen biete ich dir Kosmetik auf professionellem Niveau, nah an Frauenfeld." },
     ],
     faqs: [
-      { q: "Wie lange brauche ich von Frauenfeld nach Winterthur?", a: "Mit dem Auto oder Zug bist du etwa 25 Minuten von Frauenfeld zu meinem Studio in Winterthur unterwegs. Die Verbindung ist regelmässig und zuverlässig." },
+      { q: "Wie komme ich von Frauenfeld nach Winterthur?", a: "Über die A7 bist du mit dem Auto in rund 25 Minuten in Winterthur. Alternativ fährt die Thurbo-Verbindung ab Frauenfeld regelmässig in Richtung Winterthur." },
       { q: "Lohnt sich die Anreise aus Frauenfeld?", a: "Viele Kundinnen aus Frauenfeld sagen ja. Die persönliche Betreuung und die ruhige Atmosphäre machen den kurzen Weg mehr als wett." },
       { q: "Kann ich den Termin mit einem Einkauf verbinden?", a: "Sehr gerne. Die Winterthurer Altstadt ist nur wenige Minuten vom Studio entfernt, ideal, um den Termin aus Frauenfeld mit einem Bummel zu verbinden." },
       { q: "Gibt es Parkplätze in der Nähe?", a: "Ja, in der Umgebung der Ernst-Jung-Gasse gibt es mehrere Parkmöglichkeiten. Bei der Terminbestätigung sende ich dir gerne die genaue Anfahrtsbeschreibung." },
@@ -322,18 +322,18 @@ export const LANDING_PAGES = [
     cta: { title: "Nah bei dir, gut für dich", text: "Komm aus Frauenfeld zu Charm Beauty und entdecke, wie persönlich Kosmetik sein kann. Jetzt Termin buchen." },
   },
 
-  // 9 ──────────────────────────────────────────────
+  // 9 — Kosmetik Schaffhausen ────────────────────────────────────────────
   {
     slug: "kosmetik-schaffhausen",
     metaTitle: "Kosmetik Schaffhausen | Charm Beauty Kosmetikstudio",
     metaDescription: "Kosmetikstudio für Schaffhausen: Individuelle Schönheitsbehandlungen bei Charm Beauty in Winterthur. Nur 35 Min. entfernt. Persönliche Beratung. Jetzt buchen.",
     h1: "Kosmetik für Schaffhausen bei Charm Beauty",
     eyebrow: "Kosmetikstudio für Schaffhausen",
-    hero: "Du kommst aus Schaffhausen und möchtest dich in Ruhe verwöhnen lassen? Charm Beauty in Winterthur ist etwa 35 Minuten entfernt und bietet dir individuelle Schönheitsbehandlungen fernab des Alltagsstresses. Geniesse professionelle Pflege in einer Atmosphäre, die zum Durchatmen einlädt.",
+    hero: "Du kommst aus Schaffhausen und möchtest dich in Ruhe verwöhnen lassen? Charm Beauty in Winterthur ist über die A4 oder mit der S33 in rund 35 Minuten erreichbar. Geniesse professionelle Pflege in einer Atmosphäre, die zum Durchatmen einlädt, fernab des Alltagsstresses.",
     region: "Schaffhausen",
-    regionMentions: ["Schaffhausen", "Schaffhausen", "Schaffhausen", "Schaffhausen", "Schaffhausen", "Schaffhausen", "Schaffhausen", "Schaffhausen"],
+    regionMentions: ["Schaffhausen", "A4", "S33", "Neuhausen", "Stein am Rhein", "Diessenhofen", "Beringen", "Thayngen"],
     usps: [
-      { icon: "Clock", title: "35 Min. von Schaffhausen", desc: "Erreichbar und entspannt" },
+      { icon: "Clock", title: "35 Min. von Schaffhausen", desc: "A4 oder S33-Bahnverbindung" },
       { icon: "UserCheck", title: "Persönlich", desc: "Eine vertraute Ansprechpartnerin" },
       { icon: "Sparkles", title: "Auf dich abgestimmt", desc: "Kein Standard-Programm" },
       { icon: "HeartHandshake", title: "Ruhe pur", desc: "Abschalten vom Alltag" },
@@ -344,14 +344,14 @@ export const LANDING_PAGES = [
       { title: "Persönliche Beratung", desc: "Wir nehmen uns Zeit. Gemeinsam finden wir die Behandlung, die zu dir und deiner Haut passt, ehrlich, individuell und ohne Druck." },
     ],
     whyUs: [
-      { headline: "Erreichbar aus Schaffhausen", desc: "In rund 35 Minuten bist du von Schaffhausen in meinem Winterthurer Studio, eine kurze Reise für viel Entspannung und Pflege." },
+      { headline: "A4 oder S33", desc: "In rund 35 Minuten bist du von Schaffhausen über die A4 oder mit der S33 in meinem Winterthurer Studio, eine kurze Reise für viel Entspannung." },
       { headline: "Ruhe statt Alltagstrubel", desc: "Weg vom Schaffhauser Alltag: Bei mir findest du einen ruhigen Rückzugsort, an dem du ungestört entspannen kannst." },
       { headline: "Persönliche Betreuung", desc: "Du wirst immer von mir persönlich betreut. Keine wechselnden Behandlerinnen, keine anonyme Kette, eine Ansprechpartnerin, die dich kennt." },
       { headline: "Massgeschneiderte Pflege", desc: "Jede Behandlung wird individuell auf dich zugeschnitten. Ich weiss, was die Haut meiner Kundinnen aus Schaffhausen braucht." },
       { headline: "Faire Preise", desc: "Hochwertige Kosmetik zu Winterthurer Konditionen, eine Behandlung, die sich auch für regelmässige Termine aus Schaffhausen lohnt." },
     ],
     faqs: [
-      { q: "Wie lange brauche ich von Schaffhausen nach Winterthur?", a: "Mit dem Auto oder Zug bist du etwa 35 Minuten von Schaffhausen zu meinem Studio in Winterthur unterwegs. Die Verbindung ist regelmässig und zuverlässig." },
+      { q: "Wie komme ich von Schaffhausen nach Winterthur?", a: "Über die A4 bist du mit dem Auto in rund 35 Minuten in Winterthur. Alternativ verbindet die S33 Schaffhausen mit Winterthur, die Fahrt dauert etwa 40 Minuten." },
       { q: "Lohnt sich die Anreise aus Schaffhausen?", a: "Viele Kundinnen aus Schaffhausen bejahen das. Die persönliche Betreuung und die ruhige Atmosphäre machen den Weg mehr als wett." },
       { q: "Kann ich den Termin mit einem Ausflug verbinden?", a: "Sehr gerne. Winterthur bietet Museen, Parks und eine schöne Altstadt, ideal, um den Termin aus Schaffhausen mit einem Ausflug zu verbinden." },
       { q: "Gibt es Parkplätze in der Nähe?", a: "Ja, rund um die Ernst-Jung-Gasse gibt es mehrere Parkmöglichkeiten. Bei der Terminbestätigung sende ich dir gerne eine genaue Anfahrtsbeschreibung." },
@@ -362,16 +362,16 @@ export const LANDING_PAGES = [
     cta: { title: "Eine kurze Reise für dich", text: "Komm aus Schaffhausen zu Charm Beauty und erlebe, wie gut Kosmetik tun kann. Jetzt deinen Termin sichern." },
   },
 
-  // 10 ─────────────────────────────────────────────
+  // 10 — Kosmetik St. Gallen ────────────────────────────────────────────
   {
     slug: "kosmetik-st-gallen",
     metaTitle: "Kosmetik St. Gallen | Charm Beauty Kosmetikstudio",
     metaDescription: "Kosmetikstudio für St. Gallen: Individuelle Schönheitsbehandlungen bei Charm Beauty in Winterthur. Persönliche Beratung in ruhiger Atmosphäre. Jetzt Termin buchen.",
     h1: "Kosmetik für St. Gallen bei Charm Beauty",
     eyebrow: "Kosmetikstudio für St. Gallen",
-    hero: "Du wohnst in St. Gallen und suchst ein Kosmetikstudio, das dich individuell betreut? Charm Beauty in Winterthur empfängt dich in ruhiger Atmosphäre mit persönlichen Schönheitsbehandlungen. Mach die Anreise zu deiner Auszeit und geniesse ungeteilte Aufmerksamkeit für dich und deine Haut.",
+    hero: "Du wohnst in St. Gallen und suchst ein Kosmetikstudio, das dich individuell betreut? Charm Beauty in Winterthur empfängt dich in ruhiger Atmosphäre mit persönlichen Schönheitsbehandlungen. Mit der S-Bahn oder dem InterRegio bist du in rund 50 Minuten da. Mach die Anreise zu deiner Auszeit und geniesse ungeteilte Aufmerksamkeit für dich und deine Haut.",
     region: "St. Gallen",
-    regionMentions: ["St. Gallen", "St. Gallen", "St. Gallen", "St. Gallen", "St. Gallen", "St. Gallen", "St. Gallen", "St. Gallen"],
+    regionMentions: ["St. Gallen", "InterRegio", "S-Bahn", "Gossau", "Wil", "Amriswil", "Weinfelden", "Rorschach"],
     usps: [
       { icon: "UserCheck", title: "Persönlich", desc: "Immer mit Snezana" },
       { icon: "Sparkles", title: "Individuell", desc: "Auf dich zugeschnitten" },
@@ -384,14 +384,14 @@ export const LANDING_PAGES = [
       { title: "Persönliche Beratung", desc: "Wir nehmen uns Zeit für deine Anliegen. Gemeinsam finden wir die Behandlung, die am besten zu dir und deiner Haut passt." },
     ],
     whyUs: [
-      { headline: "Persönliche Betreuung", desc: "Du wirst immer von mir persönlich betreut. Keine wechselnden Behandlerinnen, keine anonyme Kette, eine Ansprechpartnerin, die dich kennt." },
+      { headline: "InterRegio und S-Bahn", desc: "Mit dem InterRegio oder der S-Bahn bist du in rund 50 Minuten von St. Gallen in meinem Winterthurer Studio, eine entspannte Reise für viel Pflege." },
       { headline: "Ruhe und Entspannung", desc: "Weg vom Alltag in St. Gallen: In meinem Winterthurer Studio kannst du wirklich abschalten und die Behandlung in vollen Zügen geniessen." },
       { headline: "Individuelle Behandlungen", desc: "Jede Behandlung wird auf dich zugeschnitten. Ich kenne meine Kundinnen aus St. Gallen und Umgebung und weiss, was ihre Haut braucht." },
       { headline: "Hochwertige Produkte", desc: "Ich verwende nur sorgfältig ausgewählte Pflegeprodukte, deren Wirkung ich regelmässig in Weiterbildungen überprüfe." },
       { headline: "Erfahrung seit 2020", desc: "Mit fundiertem Fachwissen und regelmässigen Weiterbildungen biete ich dir Kosmetik auf professionellem Niveau." },
     ],
     faqs: [
-      { q: "Wie lange brauche ich von St. Gallen nach Winterthur?", a: "Mit dem Auto oder Zug bist du etwa 50 Minuten von St. Gallen zu meinem Studio in Winterthur unterwegs. Die Verbindung ist regelmässig und zuverlässig." },
+      { q: "Wie komme ich von St. Gallen nach Winterthur?", a: "Mit dem InterRegio oder der S-Bahn bist du etwa 50 Minuten von St. Gallen zu meinem Studio in Winterthur unterwegs. Die Verbindungen sind regelmässig und zuverlässig." },
       { q: "Lohnt sich die Anreise aus St. Gallen?", a: "Viele Kundinnen aus St. Gallen sagen ja. Die persönliche Betreuung und die ruhige Atmosphäre machen den Weg mehr als wett." },
       { q: "Kann ich den Termin mit einem Ausflug verbinden?", a: "Sehr gerne. Winterthur bietet Museen, Parks und eine schöne Altstadt, ideal, um den Termin aus St. Gallen mit einem Ausflug zu verbinden." },
       { q: "Gibt es Parkplätze in der Nähe?", a: "Ja, rund um die Ernst-Jung-Gasse gibt es mehrere Parkmöglichkeiten. Bei der Terminbestätigung sende ich dir gerne eine genaue Anfahrtsbeschreibung." },
