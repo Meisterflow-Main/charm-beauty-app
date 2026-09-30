@@ -4,7 +4,7 @@ import { MapPin, ArrowRight, Check } from "lucide-react";
 import useSeo, { breadcrumbSchema } from "@/hooks/useSeo";
 import { getService, SERVICES } from "@/lib/services";
 import { getLandingPage } from "@/lib/landingPages";
-import { CONTACT } from "@/lib/site";
+import { CONTACT, SITE_URL } from "@/lib/site";
 import PageHero from "@/components/site/PageHero";
 import Reveal from "@/components/site/Reveal";
 import BtnLink from "@/components/site/BtnLink";
@@ -28,6 +28,15 @@ export default function ServiceDetail() {
       ]),
       {
         "@context": "https://schema.org",
+        "@type": "Service",
+        name: service?.title,
+        serviceType: service?.title,
+        provider: { "@id": `${SITE_URL}/#business` },
+        areaServed: { "@type": "City", name: "Winterthur" },
+        url: `${SITE_URL}/behandlungen/${slug}`,
+      },
+      {
+        "@context": "https://schema.org",
         "@type": "FAQPage",
         mainEntity: (service?.faqs || []).map((f) => ({ "@type": "Question", name: f.q, acceptedAnswer: { "@type": "Answer", text: f.a } })),
       },
@@ -41,7 +50,7 @@ export default function ServiceDetail() {
   return (
     <>
       <PageHero
-        crumb="Behandlungen"
+        breadcrumbs={[{ name: "Home", to: "/" }, { name: "Behandlungen", to: "/behandlungen" }, { name: service.title }]}
         eyebrow={service.eyebrow}
         title={service.h1}
         intro={service.intro}
