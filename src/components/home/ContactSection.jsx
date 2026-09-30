@@ -18,7 +18,7 @@ export default function ContactSection() {
           </p>
           <div className="mt-10 flex flex-col gap-3 sm:flex-row">
             <BtnLink href={CONTACT.phoneHref} variant="light"><Phone className="h-4 w-4" /> Anrufen</BtnLink>
-            <BtnLink href={CONTACT.whatsapp}>WhatsApp</BtnLink>
+            <BtnLink href={CONTACT.whatsapp} title="Beim Klick auf WhatsApp werden Daten an Meta übermittelt.">WhatsApp</BtnLink>
           </div>
           <a href={CONTACT.maps} target="_blank" rel="noopener noreferrer" className="mt-12 flex items-start gap-3 border-t border-cream/10 pt-8 text-cream/75 hover:text-champagne">
             <MapPin className="mt-1 h-4 w-4 text-gold" /> {CONTACT.street}, {CONTACT.city} {CONTACT.zip}

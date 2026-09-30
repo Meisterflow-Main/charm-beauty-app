@@ -19,6 +19,7 @@ export default function Impressum() {
             <h2 className="text-xs uppercase tracking-[0.2em] text-gold">Inhaberin</h2>
             <p className="mt-4 text-lg leading-relaxed text-ink">Charm Beauty<br />Inh. {CONTACT.owner}<br />{CONTACT.street}<br />{CONTACT.zip} {CONTACT.city}</p>
             <p className="mt-4 text-sm text-ink/60">Einzelunternehmen · UID: CHE-182.339.391</p>
+            <p className="mt-2 text-sm text-ink/60">Verantwortlich für den Inhalt: Snezana Djuric</p>
           </div>
           <div className="rounded-[2rem] bg-white/70 p-8 sm:p-10">
             <h2 className="text-xs uppercase tracking-[0.2em] text-gold">Kontakt</h2>

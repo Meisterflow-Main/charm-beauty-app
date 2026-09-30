@@ -13,7 +13,7 @@ function WhatsAppIcon(props) {
 export default function FloatingActions() {
   return (
     <>
-      <a href={CONTACT.whatsapp} target="_blank" rel="noopener noreferrer" aria-label="WhatsApp Chat starten" className="fixed bottom-24 right-4 z-40 flex h-14 w-14 items-center justify-center rounded-full bg-[#25D366] text-white shadow-[0_12px_30px_-8px_rgba(37,211,102,0.7)] transition-transform duration-300 hover:scale-110 lg:bottom-8 lg:right-8">
+      <a href={CONTACT.whatsapp} target="_blank" rel="noopener noreferrer" aria-label="WhatsApp Chat starten" title="Beim Klick auf WhatsApp werden Daten an Meta übermittelt." className="fixed bottom-24 right-4 z-40 flex h-14 w-14 items-center justify-center rounded-full bg-[#25D366] text-white shadow-[0_12px_30px_-8px_rgba(37,211,102,0.7)] transition-transform duration-300 hover:scale-110 lg:bottom-8 lg:right-8">
         <span className="absolute inset-0 animate-ping rounded-full bg-[#25D366] opacity-20" />
         <WhatsAppIcon className="relative h-7 w-7" />
       </a>
@@ -22,7 +22,7 @@ export default function FloatingActions() {
           <a href={CONTACT.phoneHref} className="flex h-12 flex-1 items-center justify-center gap-2 rounded-full border border-ink/15 text-sm font-semibold text-ink">
             <Phone className="h-4 w-4" /> Anrufen
           </a>
-          <a href={CONTACT.whatsapp} target="_blank" rel="noopener noreferrer" className="flex h-12 flex-[1.4] items-center justify-center gap-2 rounded-full bg-gold text-sm font-semibold text-white">
+          <a href={CONTACT.whatsapp} target="_blank" rel="noopener noreferrer" title="Beim Klick auf WhatsApp werden Daten an Meta übermittelt." className="flex h-12 flex-[1.4] items-center justify-center gap-2 rounded-full bg-gold text-sm font-semibold text-white">
             <CalendarHeart className="h-4 w-4" /> Termin buchen
           </a>
         </div>

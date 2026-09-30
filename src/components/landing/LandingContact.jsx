@@ -43,7 +43,7 @@ export default function LandingContact() {
             <a href={CONTACT.maps} target="_blank" rel="noopener noreferrer" className="inline-flex h-12 items-center justify-center gap-2 rounded-full bg-gold px-6 text-sm font-semibold text-white transition hover:bg-gold-dark">
               <MapPin className="h-4 w-4" /> Google Maps öffnen <ExternalLink className="h-3.5 w-3.5" />
             </a>
-            <a href={CONTACT.whatsapp} target="_blank" rel="noopener noreferrer" className="inline-flex h-12 items-center justify-center gap-2 rounded-full border border-cream/30 px-6 text-sm font-semibold text-cream transition hover:bg-cream hover:text-ink">
+            <a href={CONTACT.whatsapp} target="_blank" rel="noopener noreferrer" title="Beim Klick auf WhatsApp werden Daten an Meta übermittelt." className="inline-flex h-12 items-center justify-center gap-2 rounded-full border border-cream/30 px-6 text-sm font-semibold text-cream transition hover:bg-cream hover:text-ink">
               WhatsApp schreiben
             </a>
           </div>

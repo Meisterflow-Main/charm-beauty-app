@@ -54,7 +54,7 @@ export default function BlogSidebar({ categories }) {
         <Sparkles className="h-6 w-6 text-champagne" />
         <h3 className="mt-3 font-heading text-lg font-semibold">Noch Fragen?</h3>
         <p className="mt-2 text-sm text-cream/70">
-          Vereinbare deinen Termin oder stell mir deine Fragen – persönlich, per Telefon oder WhatsApp.
+          Vereinbare deinen Termin oder stell mir deine Fragen, persönlich, per Telefon oder WhatsApp.
         </p>
         <div className="mt-5 space-y-2">
           <a href={CONTACT.whatsapp} target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 rounded-full bg-gold px-4 py-2.5 text-sm font-semibold text-white transition hover:bg-gold-dark">

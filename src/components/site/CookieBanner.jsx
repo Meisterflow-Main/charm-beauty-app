@@ -15,8 +15,8 @@ export default function CookieBanner() {
     return () => window.removeEventListener("open-cookie-settings", open);
   }, []);
 
-  const choose = (value) => {
-    localStorage.setItem(KEY, value);
+  const choose = () => {
+    localStorage.setItem(KEY, "necessary");
     setShow(false);
   };
 
@@ -29,13 +29,12 @@ export default function CookieBanner() {
             <div>
               <p className="font-heading text-base font-semibold text-ink">Deine Privatsphäre</p>
               <p className="mt-1 text-sm leading-relaxed text-ink/70">
-                Ich verwende nur technisch notwendige Cookies sowie, mit deiner Einwilligung, optionale Cookies zur Verbesserung der Website. Mehr in meiner <Link to="/datenschutz" className="text-gold underline underline-offset-2">Datenschutzerklärung</Link>.
+                Ich verwende ausschliesslich technisch notwendige Cookies, damit diese Website funktioniert. Es werden keine Analyse- oder Tracking-Cookies eingesetzt. Mehr in meiner <Link to="/datenschutz" className="text-gold underline underline-offset-2">Datenschutzerklärung</Link>.
               </p>
             </div>
           </div>
-          <div className="mt-5 flex gap-2">
-            <button onClick={() => choose("necessary")} className="h-11 flex-1 rounded-full border border-ink/15 text-sm font-medium text-ink hover:border-ink/40">Nur notwendige</button>
-            <button onClick={() => choose("all")} className="h-11 flex-1 rounded-full bg-ink text-sm font-medium text-cream hover:bg-ink/90">Alle akzeptieren</button>
+          <div className="mt-5">
+            <button onClick={choose} className="h-11 w-full rounded-full bg-ink text-sm font-medium text-cream hover:bg-ink/90">Verstanden</button>
           </div>
         </motion.div>
       )}

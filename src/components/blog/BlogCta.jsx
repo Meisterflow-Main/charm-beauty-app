@@ -14,7 +14,7 @@ export default function BlogCta() {
     <div className="rounded-3xl border border-ink/8 bg-cream p-8 text-center">
       <h2 className="font-heading text-2xl font-semibold text-ink">Bereit für deine Pflege?</h2>
       <p className="mx-auto mt-3 max-w-md text-sm text-ink/65">
-        Vereinbare deinen Termin oder lass dich persönlich beraten – ich freue mich auf dich.
+        Vereinbare deinen Termin oder lass dich persönlich beraten. Ich freue mich auf dich.
       </p>
       <div className="mt-6 flex flex-wrap justify-center gap-3">
         {items.map((it, i) => {

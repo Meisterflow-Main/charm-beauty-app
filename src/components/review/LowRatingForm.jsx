@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import { Loader2, AlertCircle } from "lucide-react";
 import Field from "@/components/site/Field";
@@ -7,6 +8,7 @@ import { sendEnquiry, isValidEmail } from "@/lib/webhook";
 
 export default function LowRatingForm({ rating, answers }) {
   const [f, setF] = useState({ name: "", email: "", phone: "", critique: "", website: "" });
+  const [consent, setConsent] = useState(false);
   const [errors, setErrors] = useState({});
   const [status, setStatus] = useState("idle");
   const set = (k) => (e) => setF({ ...f, [k]: e.target.value });
@@ -18,6 +20,7 @@ export default function LowRatingForm({ rating, answers }) {
     const errs = {};
     if (f.critique.trim().length < 5) errs.critique = "Bitte beschreibe kurz, was ich verbessern kann.";
     if (f.email && !isValidEmail(f.email)) errs.email = "Bitte prüfe die E-Mail-Adresse.";
+    if (!consent) errs.consent = "Bitte bestätige die Datenschutzerklärung.";
     setErrors(errs);
     if (Object.keys(errs).length) return;
     setStatus("loading");
@@ -46,6 +49,11 @@ export default function LowRatingForm({ rating, answers }) {
         <Field label="Name (optional)" value={f.name} onChange={set("name")} autoComplete="name" />
         <Field label="E-Mail (optional)" type="email" value={f.email} onChange={set("email")} error={errors.email} autoComplete="email" />
       </div>
+      <label className="flex cursor-pointer items-start gap-3 text-sm text-ink/70">
+        <input type="checkbox" checked={consent} onChange={(e) => setConsent(e.target.checked)} className="mt-0.5 h-5 w-5 shrink-0 accent-[#B8860B]" />
+        <span>Ich habe die <Link to="/datenschutz" className="text-gold underline underline-offset-2">Datenschutzerklärung</Link> gelesen und bin mit der Verarbeitung meiner Angaben einverstanden.</span>
+      </label>
+      {errors.consent && <p className="-mt-3 text-sm text-destructive">{errors.consent}</p>}
       {status === "error" && <p className="flex items-center gap-2 rounded-2xl bg-destructive/10 px-4 py-3 text-sm text-destructive" role="alert"><AlertCircle className="h-4 w-4" />Senden fehlgeschlagen. Bitte versuche es erneut.</p>}
       <button type="submit" disabled={status === "loading"} className="flex h-14 w-full items-center justify-center gap-2 rounded-full bg-ink font-semibold text-cream transition hover:bg-ink/90 disabled:opacity-70">
         {status === "loading" ? <><Loader2 className="h-5 w-5 animate-spin" /> Wird gesendet …</> : "Feedback senden"}

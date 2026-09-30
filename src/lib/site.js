@@ -96,7 +96,7 @@ export const FAQS = [
   },
   {
     q: "Welche Zahlungsmöglichkeiten gibt es?",
-    a: "Vor Ort können Sie bar oder mit Twint bezahlen.",
+    a: "Vor Ort kannst du bar oder mit Twint bezahlen.",
   },
   {
     q: "Welche Behandlungen bietet Charm Beauty an?",

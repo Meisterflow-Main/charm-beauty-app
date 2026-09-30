@@ -22,7 +22,7 @@ export default function BlogHero() {
             du Ratgeber zu Gesichts- und Körperpflege, praktische Tipps für den Alltag,
             Schritt-für-Schritt-Anleitungen für deine Pflegeroutine und Einblicke in meine Arbeit
             im Kosmetikstudio in Winterthur. Der Blog richtet sich an alle, die ihre Hautgesundheit
-            ernst nehmen – ob vor dem ersten Termin oder zwischen zwei Behandlungen. Regelmässiges
+            ernst nehmen, ob vor dem ersten Termin oder zwischen zwei Behandlungen. Regelmässiges
             Lesen lohnt sich, weil ich aktuelle Pflegetrends ehrlich bewerte, neue
             Behandlungsmethoden verständlich erkläre und dir helfe, die richtige Pflege für deine
             individuellen Bedürfnisse zu finden. Ausserdem erfährst du, wie Google-Bewertungen bei

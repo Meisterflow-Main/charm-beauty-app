@@ -33,7 +33,7 @@ export default function Kontakt() {
           <div className="space-y-4 lg:col-span-5">
             {CARDS.map((c, i) => (
               <Reveal key={c.label} delay={i * 0.08}>
-                <a href={c.href} target={c.href.startsWith("http") ? "_blank" : undefined} rel="noopener noreferrer" className="group flex items-center gap-5 rounded-[1.75rem] border border-ink/5 bg-white/70 p-6 transition-all duration-500 hover:-translate-y-0.5 hover:border-gold/40">
+                <a href={c.href} target={c.href.startsWith("http") ? "_blank" : undefined} rel="noopener noreferrer" title={c.label === "WhatsApp" ? "Beim Klick auf WhatsApp werden Daten an Meta übermittelt." : undefined} className="group flex items-center gap-5 rounded-[1.75rem] border border-ink/5 bg-white/70 p-6 transition-all duration-500 hover:-translate-y-0.5 hover:border-gold/40">
                   <span className="flex h-12 w-12 shrink-0 items-center justify-center rounded-full bg-champagne/30 text-gold transition group-hover:bg-gold group-hover:text-white"><c.icon className="h-5 w-5" /></span>
                   <span><span className="block text-xs uppercase tracking-[0.16em] text-ink/50">{c.label}</span><span className="text-ink">{c.value}</span></span>
                 </a>
