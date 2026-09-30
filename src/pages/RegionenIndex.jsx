@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import { MapPin } from "lucide-react";
 import useSeo, { breadcrumbSchema } from "@/hooks/useSeo";
 import { LANDING_PAGES } from "@/lib/landingPages";
+import { SITE_URL } from "@/lib/site";
 import PageHero from "@/components/site/PageHero";
 import Reveal from "@/components/site/Reveal";
 
@@ -11,7 +12,20 @@ export default function RegionenIndex() {
     title: "Regionen | Charm Beauty Kosmetikstudio Winterthur",
     description: "Charm Beauty ist für Kundinnen aus der ganzen Region erreichbar. Finde die passende Seite für deine Region – von Winterthur bis Zürich, Frauenfeld und mehr.",
     path: "/regionen",
-    schemas: [breadcrumbSchema([{ name: "Home", path: "/" }, { name: "Regionen", path: "/regionen" }])],
+    schemas: [
+      breadcrumbSchema([{ name: "Home", path: "/" }, { name: "Regionen", path: "/regionen" }]),
+      {
+        "@context": "https://schema.org",
+        "@type": "ItemList",
+        name: "Regionen – Charm Beauty Kosmetikstudio Winterthur",
+        itemListElement: LANDING_PAGES.map((p, i) => ({
+          "@type": "ListItem",
+          position: i + 1,
+          name: p.region,
+          url: `${SITE_URL}/regionen/${p.slug}`,
+        })),
+      },
+    ],
   });
   return (
     <>

@@ -1,7 +1,7 @@
 import React, { useMemo, useState } from "react";
 import { Search } from "lucide-react";
 import useSeo, { breadcrumbSchema } from "@/hooks/useSeo";
-import { IMAGES } from "@/lib/site";
+import { IMAGES, SITE_URL } from "@/lib/site";
 import { BLOG_POSTS, getUsedCategories } from "@/lib/blogPosts";
 import BlogHero from "@/components/blog/BlogHero";
 import BlogControls from "@/components/blog/BlogControls";
@@ -24,13 +24,14 @@ export default function Blog() {
         "@context": "https://schema.org",
         "@type": "Blog",
         name: "Charm Beauty Blog",
-        url: "https://charm-beauty.ch/blog",
+        url: `${SITE_URL}/blog`,
+        publisher: { "@id": `${SITE_URL}/#business` },
         blogPost: BLOG_POSTS.map((p) => ({
           "@type": "BlogPosting",
           headline: p.title,
-          url: `https://charm-beauty.ch/blog/${p.slug}`,
+          url: `${SITE_URL}/blog/${p.slug}`,
           datePublished: p.date,
-          author: { "@type": "Person", name: p.author },
+          author: { "@type": "Person", name: p.author, url: `${SITE_URL}/uber-uns` },
         })),
       },
     ],

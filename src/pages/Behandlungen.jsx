@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { ArrowRight } from "lucide-react";
 import useSeo, { breadcrumbSchema } from "@/hooks/useSeo";
-import { TREATMENTS, CONTACT } from "@/lib/site";
+import { TREATMENTS, CONTACT, SITE_URL } from "@/lib/site";
 import PageHero from "@/components/site/PageHero";
 import Reveal from "@/components/site/Reveal";
 import BtnLink from "@/components/site/BtnLink";
@@ -14,7 +14,20 @@ export default function Behandlungen() {
     title: "Behandlungen – Gesicht & Körper | Charm Beauty Winterthur",
     description: "Professionelle Gesichts- und Körperbehandlungen in Winterthur – individuell auf deine Hautbedürfnisse abgestimmt. Jetzt Termin bei Charm Beauty buchen.",
     path: "/behandlungen",
-    schemas: [breadcrumbSchema([{ name: "Home", path: "/" }, { name: "Behandlungen", path: "/behandlungen" }])],
+    schemas: [
+      breadcrumbSchema([{ name: "Home", path: "/" }, { name: "Behandlungen", path: "/behandlungen" }]),
+      {
+        "@context": "https://schema.org",
+        "@type": "ItemList",
+        name: "Behandlungen bei Charm Beauty Winterthur",
+        itemListElement: TREATMENTS.map((t, i) => ({
+          "@type": "ListItem",
+          position: i + 1,
+          name: t.title,
+          url: `${SITE_URL}/behandlungen/${t.key}`,
+        })),
+      },
+    ],
   });
   return (
     <>

@@ -8,7 +8,7 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion";
 import useSeo, { breadcrumbSchema } from "@/hooks/useSeo";
-import { IMAGES, CONTACT } from "@/lib/site";
+import { IMAGES, CONTACT, SITE_URL } from "@/lib/site";
 import {
   getPost,
   getRelatedPosts,
@@ -41,15 +41,11 @@ export default function BlogPost() {
         image: post.image,
         datePublished: post.date,
         dateModified: post.date,
-        author: { "@type": "Person", name: post.author },
-        publisher: {
-          "@type": "Organization",
-          name: "Charm Beauty",
-          logo: { "@type": "ImageObject", url: IMAGES.logo },
-        },
+        author: { "@type": "Person", name: post.author, url: `${SITE_URL}/uber-uns` },
+        publisher: { "@id": `${SITE_URL}/#business` },
         mainEntityOfPage: {
           "@type": "WebPage",
-          "@id": `https://charm-beauty.ch/blog/${post.slug}`,
+          "@id": `${SITE_URL}/blog/${post.slug}`,
         },
       },
       {

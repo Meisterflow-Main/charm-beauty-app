@@ -1,6 +1,7 @@
 import React from "react";
 import useSeo, { breadcrumbSchema } from "@/hooks/useSeo";
 import { IMAGES, CONTACT } from "@/lib/site";
+import { personSchema } from "@/lib/schema";
 import PageHero from "@/components/site/PageHero";
 import Reveal from "@/components/site/Reveal";
 import BtnLink from "@/components/site/BtnLink";
@@ -13,7 +14,10 @@ export default function UeberUns() {
     description: "Lerne Snezana kennen – leidenschaftliche Kosmetikerin und Inhaberin von Charm Beauty in Winterthur. Individuelle Behandlungen mit Herz und Fachwissen.",
     path: "/uber-uns",
     image: IMAGES.snezana,
-    schemas: [breadcrumbSchema([{ name: "Home", path: "/" }, { name: "Über uns", path: "/uber-uns" }])],
+    schemas: [
+      breadcrumbSchema([{ name: "Home", path: "/" }, { name: "Über uns", path: "/uber-uns" }]),
+      personSchema({ url: "/uber-uns" }),
+    ],
   });
   return (
     <>

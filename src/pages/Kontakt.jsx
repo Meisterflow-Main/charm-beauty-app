@@ -2,6 +2,7 @@ import React from "react";
 import { Phone, Mail, MapPin, MessageCircle } from "lucide-react";
 import useSeo, { breadcrumbSchema } from "@/hooks/useSeo";
 import { CONTACT } from "@/lib/site";
+import { contactBusinessSchema } from "@/lib/schema";
 import PageHero from "@/components/site/PageHero";
 import Reveal from "@/components/site/Reveal";
 import ContactForm from "@/components/site/ContactForm";
@@ -19,7 +20,10 @@ export default function Kontakt() {
     title: "Kontakt & Termin buchen | Charm Beauty Kosmetikstudio Winterthur",
     description: "Kontaktiere Charm Beauty an der Ernst-Jung-Gasse 16a in Winterthur. Termin per WhatsApp, Telefon +41 78 896 46 55 oder Anfrageformular buchen.",
     path: "/kontakt",
-    schemas: [breadcrumbSchema([{ name: "Home", path: "/" }, { name: "Kontakt", path: "/kontakt" }])],
+    schemas: [
+      breadcrumbSchema([{ name: "Home", path: "/" }, { name: "Kontakt", path: "/kontakt" }]),
+      contactBusinessSchema,
+    ],
   });
   return (
     <>

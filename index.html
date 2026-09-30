@@ -21,30 +21,102 @@
     <meta property="og:url" content="https://charm-beauty.ch/" />
     <meta property="og:image" content="https://onecdn.io/media/ddaa1407-a166-42ea-9290-6c9173f7c725/xlg2x" />
     <meta name="twitter:card" content="summary_large_image" />
+    <!-- Entity SEO: LocalBusiness / BeautySalon — enhanced with geo, contactPoint, hasOfferCatalog, areaServed -->
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
-      "@type": "BeautySalon",
+      "@type": ["BeautySalon", "HealthAndBeautyBusiness"],
       "@id": "https://charm-beauty.ch/#business",
       "name": "Charm Beauty Kosmetikstudio",
+      "alternateName": "Charm Beauty",
       "url": "https://charm-beauty.ch/",
-      "logo": "https://onecdn.io/media/50b25299-995e-429b-b25a-6b30f979aef6/md2x",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://onecdn.io/media/50b25299-995e-429b-b25a-6b30f979aef6/md2x",
+        "contentUrl": "https://onecdn.io/media/50b25299-995e-429b-b25a-6b30f979aef6/md2x"
+      },
       "image": "https://onecdn.io/media/ddaa1407-a166-42ea-9290-6c9173f7c725/xlg2x",
-      "description": "Kosmetikstudio in Winterthur für individuelle Schönheitsbehandlungen und erstklassige Hautpflege.",
+      "description": "Kosmetikstudio in Winterthur für individuelle Schönheitsbehandlungen und erstklassige Hautpflege. Inhaberin Snezana Djuric bietet Gesichts- und Körperbehandlungen in entspannter Atmosphäre.",
       "telephone": "+41788964655",
       "email": "info@charm-beauty.ch",
-      "founder": "Snezana Djuric",
+      "founder": {
+        "@type": "Person",
+        "name": "Snezana Djuric",
+        "jobTitle": "Kosmetikerin"
+      },
       "priceRange": "$$",
       "paymentAccepted": "Bar, Twint",
       "currenciesAccepted": "CHF",
-      "areaServed": { "@type": "City", "name": "Winterthur" },
-      "sameAs": ["https://www.google.com/search?q=Charm+Beauty+Kosmetikstudio+Ernst-Jung-Gasse+16a,+8400+Winterthur,+Switzerland"],
-      "address": { "@type": "PostalAddress", "streetAddress": "Ernst-Jung-Gasse 16a", "addressLocality": "Winterthur", "postalCode": "8400", "addressCountry": "CH" },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 47.4956700,
+        "longitude": 8.7146636
+      },
+      "hasMap": "https://www.google.com/maps/search/?api=1&query=Ernst-Jung-Gasse+16a+8400+Winterthur",
+      "areaServed": [
+        { "@type": "City", "name": "Winterthur" },
+        { "@type": "City", "name": "Zürich" },
+        { "@type": "City", "name": "Frauenfeld" },
+        { "@type": "City", "name": "Schaffhausen" },
+        { "@type": "City", "name": "St. Gallen" }
+      ],
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Ernst-Jung-Gasse 16a",
+        "addressLocality": "Winterthur",
+        "postalCode": "8400",
+        "addressCountry": "CH"
+      },
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "contactType": "reservations",
+        "telephone": "+41788964655",
+        "email": "info@charm-beauty.ch",
+        "areaServed": "CH",
+        "availableLanguage": ["German"]
+      },
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Schönheitsbehandlungen Charm Beauty Winterthur",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Gesichtsbehandlung",
+              "url": "https://charm-beauty.ch/behandlungen/gesicht",
+              "provider": { "@id": "https://charm-beauty.ch/#business" }
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Körperbehandlung",
+              "url": "https://charm-beauty.ch/behandlungen/koerper",
+              "provider": { "@id": "https://charm-beauty.ch/#business" }
+            }
+          }
+        ]
+      },
       "openingHoursSpecification": [
         { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Thursday","Friday"], "opens": "09:00", "closes": "12:00" },
         { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Thursday","Friday"], "opens": "14:00", "closes": "19:00" },
         { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Wednesday","Saturday"], "opens": "09:00", "closes": "12:00" }
       ]
+    }
+    </script>
+    <!-- Entity SEO: WebSite entity — links site to business publisher -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "@id": "https://charm-beauty.ch/#website",
+      "url": "https://charm-beauty.ch/",
+      "name": "Charm Beauty Kosmetikstudio",
+      "description": "Kosmetikstudio in Winterthur für individuelle Schönheitsbehandlungen und erstklassige Hautpflege.",
+      "inLanguage": "de-CH",
+      "publisher": { "@id": "https://charm-beauty.ch/#business" }
     }
     </script>
   </head>
