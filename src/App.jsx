@@ -20,6 +20,8 @@ import LandingPage from '@/pages/LandingPage';
 import ServiceDetail from '@/pages/ServiceDetail';
 import Faq from '@/pages/Faq';
 import SitemapPage from '@/pages/Sitemap';
+import Blog from '@/pages/Blog';
+import BlogPost from '@/pages/BlogPost';
 
 const AuthenticatedApp = () => {
   const { isLoadingAuth, isLoadingPublicSettings, authError, navigateToLogin } = useAuth();
@@ -49,6 +51,8 @@ const AuthenticatedApp = () => {
     <Routes>
       <Route element={<SiteLayout />}>
         <Route path="/" element={<Home />} />
+        <Route path="/blog" element={<Blog />} />
+        <Route path="/blog/:slug" element={<BlogPost />} />
         <Route path="/behandlungen" element={<Behandlungen />} />
         <Route path="/uber-uns" element={<UeberUns />} />
         <Route path="/kontakt" element={<Kontakt />} />

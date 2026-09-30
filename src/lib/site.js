@@ -61,6 +61,7 @@ export const GOOGLE_REVIEW_LINK =
 export const NAV = [
   { label: "Home", to: "/" },
   { label: "Behandlungen", to: "/behandlungen" },
+  { label: "Blog", to: "/blog" },
   { label: "Über uns", to: "/uber-uns" },
   { label: "Kontakt", to: "/kontakt" },
 ];
