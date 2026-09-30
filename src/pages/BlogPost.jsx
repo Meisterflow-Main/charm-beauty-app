@@ -1,6 +1,6 @@
 import React, { useMemo } from "react";
 import { useParams, Navigate, Link } from "react-router-dom";
-import { Calendar, Clock, User, ArrowRight } from "lucide-react";
+import { Calendar, Clock, User, ArrowRight, ArrowLeft } from "lucide-react";
 import {
   Accordion,
   AccordionContent,
@@ -208,7 +208,7 @@ export default function BlogPost() {
 
               <div className="mt-10">
                 <Link to="/blog" className="inline-flex items-center gap-2 text-sm font-semibold text-ink/70 transition hover:text-gold">
-                  ← Zurück zum Blog
+                  <ArrowLeft className="h-4 w-4" /> Zurück zum Blog
                 </Link>
               </div>
             </div>

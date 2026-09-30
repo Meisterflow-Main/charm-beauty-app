@@ -151,7 +151,7 @@ export default function ServiceDetail() {
         </div>
       </section>
 
-      {/* Verwandte Regionen (Service ↔ Region) */}
+      {/* Verwandte Regionen (Service und Region) */}
       {related.length > 0 && (
         <section className="bg-cream/60 px-6 py-20 sm:py-28">
           <div className="mx-auto max-w-7xl">

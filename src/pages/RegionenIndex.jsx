@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { MapPin } from "lucide-react";
+import { MapPin, ArrowRight } from "lucide-react";
 import useSeo, { breadcrumbSchema } from "@/hooks/useSeo";
 import { LANDING_PAGES } from "@/lib/landingPages";
 import { SITE_URL } from "@/lib/site";
@@ -38,7 +38,7 @@ export default function RegionenIndex() {
                 <span className="flex h-12 w-12 items-center justify-center rounded-full bg-champagne/30 text-gold"><MapPin className="h-5 w-5" /></span>
                 <h2 className="mt-5 text-2xl font-semibold text-ink">{p.region}</h2>
                 <p className="mt-3 flex-1 text-base leading-relaxed text-ink/70">{p.eyebrow}. Individuelle Schönheitsbehandlungen, persönlich betreut von Snezana.</p>
-                <span className="mt-6 inline-flex items-center gap-2 text-sm font-semibold text-gold transition group-hover:gap-3">Zur Regionseite →</span>
+                <span className="mt-6 inline-flex items-center gap-2 text-sm font-semibold text-gold transition group-hover:gap-3">Zur Regionseite <ArrowRight className="h-4 w-4" /></span>
               </Link>
             </Reveal>
           ))}
