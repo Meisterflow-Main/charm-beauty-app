@@ -35,10 +35,10 @@ export default function Home() {
       <Reels />
       <Welcome />
       <Gallery />
+      <AboutTeaser />
       <Treatments />
       <TreatmentMenu />
       <Stats />
-      <AboutTeaser />
       <GoogleReviewCta />
       <Faq />
       <ContactSection />
