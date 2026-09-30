@@ -18,6 +18,7 @@ import AuftragBewerten from '@/pages/AuftragBewerten';
 import RegionenIndex from '@/pages/RegionenIndex';
 import LandingPage from '@/pages/LandingPage';
 import ServiceDetail from '@/pages/ServiceDetail';
+import TreatmentDetail from '@/pages/TreatmentDetail';
 import Faq from '@/pages/Faq';
 import Bewertungen from '@/pages/Bewertungen';
 import SitemapPage from '@/pages/Sitemap';
@@ -62,6 +63,7 @@ const AuthenticatedApp = () => {
         <Route path="/auftrag-bewerten" element={<AuftragBewerten />} />
         <Route path="/auftrag-bewerten.html" element={<AuftragBewerten />} />
         <Route path="/behandlungen/:slug" element={<ServiceDetail />} />
+        <Route path="/behandlungen/angebot/:slug" element={<TreatmentDetail />} />
         <Route path="/regionen" element={<RegionenIndex />} />
         <Route path="/regionen/:slug" element={<LandingPage />} />
         <Route path="/faq" element={<Faq />} />
