@@ -63,7 +63,7 @@ export default function ContactForm({ defaultTopic = "Termin anfragen" }) {
       <Field label="E-Mail *" type="email" value={f.email} onChange={set("email")} error={errors.email} autoComplete="email" placeholder="name@beispiel.ch" />
       <Field label="Nachricht *" textarea value={f.message} onChange={set("message")} error={errors.message} placeholder="Wunschtermin, Fragen oder Hautbedürfnisse …" />
       <label className="flex cursor-pointer items-start gap-3 text-sm text-ink/70">
-        <input type="checkbox" checked={consent} onChange={(e) => setConsent(e.target.checked)} className="mt-1 h-4 w-4 accent-[#B8860B]" />
+        <input type="checkbox" checked={consent} onChange={(e) => setConsent(e.target.checked)} className="mt-0.5 h-5 w-5 shrink-0 accent-[#B8860B]" />
         <span>Ich habe die <Link to="/datenschutz" className="text-gold underline underline-offset-2">Datenschutzerklärung</Link> gelesen und bin mit der Verarbeitung meiner Angaben einverstanden.</span>
       </label>
       {errors.consent && <p className="-mt-3 text-sm text-destructive">{errors.consent}</p>}
