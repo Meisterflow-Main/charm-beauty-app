@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import { MapPin } from "lucide-react";
 import useSeo, { breadcrumbSchema } from "@/hooks/useSeo";
 import { NAV, CONTACT } from "@/lib/site";
+import { webPageSchema } from "@/lib/schema";
 import { SERVICES } from "@/lib/services";
 import { LANDING_PAGES } from "@/lib/landingPages";
 import PageHero from "@/components/site/PageHero";
@@ -13,7 +14,7 @@ export default function Sitemap() {
     title: "Sitemap | Charm Beauty Kosmetikstudio Winterthur",
     description: "Übersicht aller Seiten von Charm Beauty: Behandlungen, Regionen, FAQ, Kontakt und rechtliche Seiten.",
     path: "/sitemap",
-    schemas: [breadcrumbSchema([{ name: "Home", path: "/" }, { name: "Sitemap", path: "/sitemap" }])],
+    schemas: [breadcrumbSchema([{ name: "Home", path: "/" }, { name: "Sitemap", path: "/sitemap" }]), webPageSchema({ path: "/sitemap" })],
   });
 
   const groups = [

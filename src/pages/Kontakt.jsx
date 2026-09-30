@@ -2,7 +2,7 @@ import React from "react";
 import { Phone, Mail, MapPin, MessageCircle } from "lucide-react";
 import useSeo, { breadcrumbSchema } from "@/hooks/useSeo";
 import { CONTACT } from "@/lib/site";
-import { contactBusinessSchema } from "@/lib/schema";
+import { webPageSchema } from "@/lib/schema";
 import PageHero from "@/components/site/PageHero";
 import Reveal from "@/components/site/Reveal";
 import ContactForm from "@/components/site/ContactForm";
@@ -25,7 +25,7 @@ export default function Kontakt() {
     path: "/kontakt",
     schemas: [
       breadcrumbSchema([{ name: "Home", path: "/" }, { name: "Kontakt", path: "/kontakt" }]),
-      contactBusinessSchema,
+      webPageSchema({ path: "/kontakt", type: "ContactPage" }),
     ],
   });
   return (

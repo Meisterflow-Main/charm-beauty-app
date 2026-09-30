@@ -9,6 +9,7 @@ import {
 } from "@/components/ui/accordion";
 import useSeo, { breadcrumbSchema } from "@/hooks/useSeo";
 import { IMAGES, CONTACT, SITE_URL } from "@/lib/site";
+import { blogPostingSchemaBuilder } from "@/lib/schema";
 import {
   getPost,
   getRelatedPosts,
@@ -33,21 +34,7 @@ export default function BlogPost() {
         { name: "Blog", path: "/blog" },
         { name: post.title, path: `/blog/${post.slug}` },
       ]),
-      {
-        "@context": "https://schema.org",
-        "@type": "Article",
-        headline: post.title,
-        description: post.metaDescription,
-        image: post.image,
-        datePublished: post.date,
-        dateModified: post.date,
-        author: { "@type": "Person", name: post.author, url: `${SITE_URL}/uber-uns` },
-        publisher: { "@id": `${SITE_URL}/#business` },
-        mainEntityOfPage: {
-          "@type": "WebPage",
-          "@id": `${SITE_URL}/blog/${post.slug}`,
-        },
-      },
+      blogPostingSchemaBuilder(post),
       {
         "@context": "https://schema.org",
         "@type": "FAQPage",

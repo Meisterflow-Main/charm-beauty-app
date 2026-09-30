@@ -1,6 +1,7 @@
 import React from "react";
 import useSeo, { breadcrumbSchema } from "@/hooks/useSeo";
-import { FAQS } from "@/lib/site";
+import { FAQS, SITE_URL } from "@/lib/site";
+import { webPageSchema } from "@/lib/schema";
 import Hero from "@/components/home/Hero";
 import TrustBar from "@/components/site/TrustBar";
 import Reels from "@/components/home/Reels";
@@ -24,7 +25,7 @@ export default function Home() {
     title: "Charm Beauty Kosmetikstudio Winterthur | Gesichts- & Körperbehandlungen",
     description: "Dein Kosmetikstudio in Winterthur für individuelle Schönheitsbehandlungen und erstklassige Hautpflege. Entdecke Wohlbefinden und Entspannung in exklusiver Atmosphäre.",
     path: "/",
-    schemas: [faqSchema, breadcrumbSchema([{ name: "Home", path: "/" }])],
+    schemas: [faqSchema, breadcrumbSchema([{ name: "Home", path: "/" }]), webPageSchema({ path: "/", about: { "@id": `${SITE_URL}/#business` } })],
   });
   return (
     <>

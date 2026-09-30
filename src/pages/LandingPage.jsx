@@ -2,7 +2,7 @@ import React from "react";
 import { useParams, Navigate } from "react-router-dom";
 import useSeo, { breadcrumbSchema } from "@/hooks/useSeo";
 import { getLandingPage, LANDING_PAGES } from "@/lib/landingPages";
-import { IMAGES } from "@/lib/site";
+import { IMAGES, SITE_URL } from "@/lib/site";
 import LandingHero from "@/components/landing/LandingHero";
 import LandingContact from "@/components/landing/LandingContact";
 import LandingServices from "@/components/landing/LandingServices";
@@ -34,6 +34,16 @@ export default function LandingPage() {
         "@type": "FAQPage",
         mainEntity: (page?.faqs || []).map((f) => ({ "@type": "Question", name: f.q, acceptedAnswer: { "@type": "Answer", text: f.a } })),
       },
+      page ? {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        name: page.metaTitle || page.h1,
+        serviceType: page.region,
+        description: page.metaDescription,
+        provider: { "@id": `${SITE_URL}/#business` },
+        areaServed: { "@type": "City", name: page.region },
+        url: `${SITE_URL}/regionen/${slug}`,
+      } : null,
     ],
   });
 

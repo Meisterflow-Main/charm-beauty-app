@@ -2,6 +2,7 @@ import React, { useMemo, useState } from "react";
 import { Search } from "lucide-react";
 import useSeo, { breadcrumbSchema } from "@/hooks/useSeo";
 import { IMAGES, SITE_URL } from "@/lib/site";
+import { blogPostingObject, webPageSchema } from "@/lib/schema";
 import { BLOG_POSTS, getUsedCategories } from "@/lib/blogPosts";
 import BlogHero from "@/components/blog/BlogHero";
 import BlogControls from "@/components/blog/BlogControls";
@@ -25,15 +26,10 @@ export default function Blog() {
         "@type": "Blog",
         name: "Charm Beauty Blog",
         url: `${SITE_URL}/blog`,
-        publisher: { "@id": `${SITE_URL}/#business` },
-        blogPost: BLOG_POSTS.map((p) => ({
-          "@type": "BlogPosting",
-          headline: p.title,
-          url: `${SITE_URL}/blog/${p.slug}`,
-          datePublished: p.date,
-          author: { "@type": "Person", name: p.author, url: `${SITE_URL}/uber-uns` },
-        })),
+        publisher: { "@id": `${SITE_URL}/#organization` },
+        blogPost: BLOG_POSTS.map((p) => blogPostingObject(p)),
       },
+      webPageSchema({ path: "/blog" }),
     ],
   });
 

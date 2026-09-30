@@ -1,7 +1,7 @@
 import React from "react";
 import useSeo, { breadcrumbSchema } from "@/hooks/useSeo";
-import { IMAGES, CONTACT } from "@/lib/site";
-import { personSchema } from "@/lib/schema";
+import { IMAGES, CONTACT, SITE_URL } from "@/lib/site";
+import { personSchema, webPageSchema } from "@/lib/schema";
 import PageHero from "@/components/site/PageHero";
 import Reveal from "@/components/site/Reveal";
 import BtnLink from "@/components/site/BtnLink";
@@ -19,6 +19,7 @@ export default function UeberUns() {
     schemas: [
       breadcrumbSchema([{ name: "Home", path: "/" }, { name: "Über uns", path: "/uber-uns" }]),
       personSchema({ url: "/uber-uns" }),
+      webPageSchema({ path: "/uber-uns", type: "AboutPage", about: { "@id": `${SITE_URL}/#business` } }),
     ],
   });
   return (

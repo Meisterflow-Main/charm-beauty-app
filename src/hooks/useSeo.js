@@ -32,7 +32,9 @@ export default function useSeo({ title, description, path = "/", image = IMAGES.
     }
     canonical.href = url;
 
-    const scripts = schemas.map((s) => {
+    // Page-specific schemas (entity schemas are static in index.html)
+    const allSchemas = schemas.filter(Boolean);
+    const scripts = allSchemas.map((s) => {
       const el = document.createElement("script");
       el.type = "application/ld+json";
       el.dataset.page = "1";

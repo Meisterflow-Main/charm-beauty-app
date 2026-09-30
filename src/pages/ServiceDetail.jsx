@@ -5,6 +5,7 @@ import useSeo, { breadcrumbSchema } from "@/hooks/useSeo";
 import { getService, SERVICES } from "@/lib/services";
 import { getLandingPage } from "@/lib/landingPages";
 import { CONTACT, SITE_URL } from "@/lib/site";
+import { serviceSchemaBuilder } from "@/lib/schema";
 import PageHero from "@/components/site/PageHero";
 import Reveal from "@/components/site/Reveal";
 import BtnLink from "@/components/site/BtnLink";
@@ -26,15 +27,7 @@ export default function ServiceDetail() {
         { name: "Behandlungen", path: "/behandlungen" },
         { name: service?.title || "Behandlung", path: `/behandlungen/${slug}` },
       ]),
-      {
-        "@context": "https://schema.org",
-        "@type": "Service",
-        name: service?.title,
-        serviceType: service?.title,
-        provider: { "@id": `${SITE_URL}/#business` },
-        areaServed: { "@type": "City", name: "Winterthur" },
-        url: `${SITE_URL}/behandlungen/${slug}`,
-      },
+      serviceSchemaBuilder(service, slug),
       {
         "@context": "https://schema.org",
         "@type": "FAQPage",

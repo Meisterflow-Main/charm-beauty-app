@@ -2,6 +2,7 @@ import React from "react";
 import { Star, ExternalLink, MessageSquare, ShieldCheck, Heart } from "lucide-react";
 import useSeo, { breadcrumbSchema } from "@/hooks/useSeo";
 import { GOOGLE_BUSINESS_URL, CONTACT } from "@/lib/site";
+import { webPageSchema } from "@/lib/schema";
 import PageHero from "@/components/site/PageHero";
 import Reveal from "@/components/site/Reveal";
 import BtnLink from "@/components/site/BtnLink";
@@ -14,7 +15,7 @@ export default function Bewertungen() {
     title: "Bewertungen | Charm Beauty Kosmetikstudio Winterthur",
     description: "Echte Kundenbewertungen für Charm Beauty Kosmetikstudio in Winterthur. Lies Bewertungen auf Google und teile deine eigene Erfahrung.",
     path: "/bewertungen",
-    schemas: [breadcrumbSchema([{ name: "Home", path: "/" }, { name: "Bewertungen", path: "/bewertungen" }])],
+    schemas: [breadcrumbSchema([{ name: "Home", path: "/" }, { name: "Bewertungen", path: "/bewertungen" }]), webPageSchema({ path: "/bewertungen" })],
   });
 
   return (

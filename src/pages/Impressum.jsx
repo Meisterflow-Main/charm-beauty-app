@@ -3,6 +3,7 @@ import { Phone, Mail, Globe, MapPin, User, FileText, ShieldCheck, Copyright, Arr
 import { Link } from "react-router-dom";
 import useSeo, { breadcrumbSchema } from "@/hooks/useSeo";
 import { CONTACT, SITE_URL } from "@/lib/site";
+import { webPageSchema } from "@/lib/schema";
 import PageHero from "@/components/site/PageHero";
 import Reveal from "@/components/site/Reveal";
 import BtnLink from "@/components/site/BtnLink";
@@ -12,7 +13,7 @@ export default function Impressum() {
     title: "Impressum | Charm Beauty Kosmetikstudio Winterthur",
     description: "Impressum von Charm Beauty. Kontaktdaten, Unternehmensinformationen und rechtliche Angaben zur Inhaberin Snezana Djuric in Winterthur.",
     path: "/impressum",
-    schemas: [breadcrumbSchema([{ name: "Home", path: "/" }, { name: "Impressum", path: "/impressum" }])],
+    schemas: [breadcrumbSchema([{ name: "Home", path: "/" }, { name: "Impressum", path: "/impressum" }]), webPageSchema({ path: "/impressum" })],
   });
 
   return (

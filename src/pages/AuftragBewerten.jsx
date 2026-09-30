@@ -1,5 +1,6 @@
 import React from "react";
 import useSeo, { breadcrumbSchema } from "@/hooks/useSeo";
+import { webPageSchema } from "@/lib/schema";
 import PageHero from "@/components/site/PageHero";
 import ReviewFlow from "@/components/review/ReviewFlow";
 
@@ -8,7 +9,7 @@ export default function AuftragBewerten() {
     title: "Bewertung abgeben | Charm Beauty Kosmetikstudio Winterthur",
     description: "Wie war dein Besuch bei Charm Beauty? Beantworte drei kurze Fragen und bewerte deine Behandlung.",
     path: "/auftrag-bewerten",
-    schemas: [breadcrumbSchema([{ name: "Home", path: "/" }, { name: "Bewertung abgeben", path: "/auftrag-bewerten" }])],
+    schemas: [breadcrumbSchema([{ name: "Home", path: "/" }, { name: "Bewertung abgeben", path: "/auftrag-bewerten" }]), webPageSchema({ path: "/auftrag-bewerten" })],
   });
   return (
     <>

@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import { ArrowRight } from "lucide-react";
 import useSeo, { breadcrumbSchema } from "@/hooks/useSeo";
 import { TREATMENTS, CONTACT, SITE_URL } from "@/lib/site";
+import { webPageSchema } from "@/lib/schema";
 import PageHero from "@/components/site/PageHero";
 import Reveal from "@/components/site/Reveal";
 import BtnLink from "@/components/site/BtnLink";
@@ -27,6 +28,7 @@ export default function Behandlungen() {
           url: `${SITE_URL}/behandlungen/${t.key}`,
         })),
       },
+      webPageSchema({ path: "/behandlungen" }),
     ],
   });
   return (
