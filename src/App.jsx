@@ -19,6 +19,7 @@ import RegionenIndex from '@/pages/RegionenIndex';
 import LandingPage from '@/pages/LandingPage';
 import ServiceDetail from '@/pages/ServiceDetail';
 import Faq from '@/pages/Faq';
+import Bewertungen from '@/pages/Bewertungen';
 import SitemapPage from '@/pages/Sitemap';
 import Blog from '@/pages/Blog';
 import BlogPost from '@/pages/BlogPost';
@@ -64,6 +65,7 @@ const AuthenticatedApp = () => {
         <Route path="/regionen" element={<RegionenIndex />} />
         <Route path="/regionen/:slug" element={<LandingPage />} />
         <Route path="/faq" element={<Faq />} />
+        <Route path="/bewertungen" element={<Bewertungen />} />
         <Route path="/sitemap" element={<SitemapPage />} />
       </Route>
       <Route path="*" element={<PageNotFound />} />

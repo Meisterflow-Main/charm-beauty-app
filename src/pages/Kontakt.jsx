@@ -8,6 +8,8 @@ import Reveal from "@/components/site/Reveal";
 import ContactForm from "@/components/site/ContactForm";
 import OpeningHours from "@/components/site/OpeningHours";
 import BtnLink from "@/components/site/BtnLink";
+import MapEmbed from "@/components/site/MapEmbed";
+import GoogleReviewCta from "@/components/site/GoogleReviewCta";
 
 const CARDS = [
   { icon: Phone, label: "Telefon", value: CONTACT.phone, href: CONTACT.phoneHref },
@@ -50,7 +52,11 @@ export default function Kontakt() {
             <ContactForm />
           </Reveal>
         </div>
+        <div className="mt-6">
+          <MapEmbed />
+        </div>
       </section>
+      <GoogleReviewCta />
       <section className="px-3 pb-24 sm:px-6">
         <div className="mx-auto max-w-7xl rounded-[2rem] border border-ink/5 bg-white/70 p-8 text-center sm:p-10">
           <Reveal>

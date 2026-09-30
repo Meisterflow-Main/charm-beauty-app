@@ -27,6 +27,10 @@ export const offerCatalogSchema = {
   })),
 };
 
+// Google Business Profile URL — real sameAs reference for entity linking
+export const GOOGLE_BUSINESS_URL =
+  "https://www.google.com/maps/place/Charm+Beauty/@47.4908516,7.5376503,9.11z/data=!4m10!1m2!2m1!1scharm+beauty+switzerland!3m6!1s0x479a9956fd46e345:0xbe9e6186d6e5c640!8m2!3d47.4955438!4d8.7146245";
+
 // ContactPoint — real contact data
 export const contactPointSchema = {
   "@type": "ContactPoint",
@@ -72,4 +76,5 @@ export const contactBusinessSchema = {
   email: CONTACT.email,
   url: SITE_URL,
   contactPoint: contactPointSchema,
+  sameAs: [GOOGLE_BUSINESS_URL],
 };

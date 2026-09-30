@@ -29,6 +29,7 @@ export default function Footer() {
               {NAV.map((n) => <li key={n.to}><Link to={n.to} className="text-cream/80 transition hover:text-champagne">{n.label}</Link></li>)}
               <li><Link to="/auftrag-bewerten" className="inline-flex items-center gap-1.5 text-champagne hover:text-cream"><Star className="h-3.5 w-3.5" />Bewertung abgeben</Link></li>
               <li><Link to="/blog" className="text-cream/80 transition hover:text-champagne">Blog</Link></li>
+              <li><Link to="/bewertungen" className="text-cream/80 transition hover:text-champagne">Bewertungen</Link></li>
               <li><Link to="/faq" className="text-cream/80 transition hover:text-champagne">FAQ</Link></li>
               <li><Link to="/sitemap" className="text-cream/80 transition hover:text-champagne">Sitemap</Link></li>
             </ul>

@@ -54,9 +54,12 @@ export const HOURS = [
 export const WEBHOOK_URL =
   "https://app.meisterflow.ch/api/webhooks/enquiries/a902bb23d7e98901900e3750083b670344a14683633ae15f";
 
+// Reales Google Business Profil von Charm Beauty
+export const GOOGLE_BUSINESS_URL =
+  "https://www.google.com/maps/place/Charm+Beauty/@47.4908516,7.5376503,9.11z/data=!4m10!1m2!2m1!1scharm+beauty+switzerland!3m6!1s0x479a9956fd46e345:0xbe9e6186d6e5c640!8m2!3d47.4955438!4d8.7146245!15sChhjaGFybSBiZWF1dHkgc3dpdHplcmxhbmSSAQ9jb3NtZXRpY3Nfc3RvcmXgAQA!16s%2Fg%2F11v3vb2fp0";
+
 // Google-Suche nach dem Studio – Nutzer können dort direkt eine Bewertung hinterlassen
-export const GOOGLE_REVIEW_LINK =
-  "https://www.google.com/search?q=Charm+Beauty+Kosmetikstudio+Ernst-Jung-Gasse+16a,+8400+Winterthur,+Switzerland";
+export const GOOGLE_REVIEW_LINK = GOOGLE_BUSINESS_URL;
 
 export const NAV = [
   { label: "Home", to: "/" },

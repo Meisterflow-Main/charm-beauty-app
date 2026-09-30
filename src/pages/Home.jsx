@@ -2,13 +2,14 @@ import React from "react";
 import useSeo, { breadcrumbSchema } from "@/hooks/useSeo";
 import { FAQS } from "@/lib/site";
 import Hero from "@/components/home/Hero";
+import TrustBar from "@/components/site/TrustBar";
 import Reels from "@/components/home/Reels";
 import Welcome from "@/components/home/Welcome";
 import Gallery from "@/components/home/Gallery";
 import Treatments from "@/components/home/Treatments";
 import Stats from "@/components/home/Stats";
 import AboutTeaser from "@/components/home/AboutTeaser";
-import ReviewCta from "@/components/home/ReviewCta";
+import GoogleReviewCta from "@/components/site/GoogleReviewCta";
 import Faq from "@/components/home/Faq";
 import ContactSection from "@/components/home/ContactSection";
 
@@ -28,13 +29,14 @@ export default function Home() {
   return (
     <>
       <Hero />
+      <TrustBar />
       <Reels />
       <Welcome />
       <Gallery />
       <Treatments />
       <Stats />
       <AboutTeaser />
-      <ReviewCta />
+      <GoogleReviewCta />
       <Faq />
       <ContactSection />
     </>
