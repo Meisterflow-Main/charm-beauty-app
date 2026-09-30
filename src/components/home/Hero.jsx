@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { MapPin, ArrowDown } from "lucide-react";
-import { IMAGES, CONTACT } from "@/lib/site";
+import { IMAGES, VIDEOS, CONTACT } from "@/lib/site";
 import BtnLink from "@/components/site/BtnLink";
 import Eyebrow from "@/components/site/Eyebrow";
 
@@ -10,9 +10,18 @@ const ease = [0.22, 1, 0.36, 1];
 export default function Hero() {
   return (
     <section className="relative min-h-[92vh] overflow-hidden">
-      {/* Full-bleed background image */}
-      <motion.div initial={{ opacity: 0, scale: 1.06 }} animate={{ opacity: 1, scale: 1 }} transition={{ duration: 1.4, ease }} className="absolute inset-0">
-        <img src={IMAGES.hero} alt="Charm Beauty Kosmetikstudio Winterthur" className="h-full w-full object-cover" />
+      {/* Full-bleed background video */}
+      <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 1.4, ease }} className="absolute inset-0">
+        <video
+          src={VIDEOS.hero}
+          autoPlay
+          loop
+          muted
+          playsInline
+          poster={IMAGES.hero}
+          aria-label="Charm Beauty Kosmetikstudio Winterthur - Behandlung im Gange"
+          className="h-full w-full object-cover"
+        />
       </motion.div>
 
       {/* Overlays: header legibility (top) + content legibility (left) */}

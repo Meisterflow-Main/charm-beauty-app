@@ -33,7 +33,7 @@ export const CONTACT = {
 };
 
 export const VIDEOS = {
-  hero: "https://media.base44.com/videos/public/6ab62a2b7c4d0724c8fa8507/41e30fc67_Hero_Beauty_Studio.mp4",
+  hero: "https://media.base44.com/videos/public/6ab62a2b7c4d0724c8fa8507/8b68ab12d_Beauty_Hero_Video.mp4",
   reels: [
     "https://media.base44.com/videos/public/6ab62a2b7c4d0724c8fa8507/173f93f6e_Reel_Facial_Treatment.mp4",
     "https://media.base44.com/videos/public/6ab62a2b7c4d0724c8fa8507/219956df1_Reel_Body_Treatment.mp4",
