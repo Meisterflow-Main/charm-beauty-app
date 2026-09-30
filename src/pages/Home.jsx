@@ -8,6 +8,7 @@ import Reels from "@/components/home/Reels";
 import Welcome from "@/components/home/Welcome";
 import Gallery from "@/components/home/Gallery";
 import Treatments from "@/components/home/Treatments";
+import TreatmentMenu from "@/components/home/TreatmentMenu";
 import Stats from "@/components/home/Stats";
 import AboutTeaser from "@/components/home/AboutTeaser";
 import GoogleReviewCta from "@/components/site/GoogleReviewCta";
@@ -35,6 +36,7 @@ export default function Home() {
       <Welcome />
       <Gallery />
       <Treatments />
+      <TreatmentMenu />
       <Stats />
       <AboutTeaser />
       <GoogleReviewCta />
