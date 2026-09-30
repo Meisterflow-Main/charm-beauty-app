@@ -271,7 +271,7 @@ export default function Datenschutz() {
                     <div className="rounded-2xl border border-ink/5 bg-white/60 p-5">
                       <p className="font-semibold text-ink">WhatsApp</p>
                       <p className="mt-1 text-sm leading-relaxed text-ink/60">
-                        Die Website verlinkt auf WhatsApp (wa.me). Beim Klick auf den WhatsApp-Link werden deine Daten an Meta Platforms Ireland Ltd. übermittelt. Es gelten die Datenschutzbestimmungen von Meta.
+                        Die Website verlinkt auf WhatsApp (wa.me). Beim Klick auf den WhatsApp-Link werden deine Daten freiwillig an Meta Platforms Ireland Ltd. übermittelt. Es gelten die Datenschutzbestimmungen von Meta. Als Alternative zur Kontaktaufnahme stehen dir Telefon und E-Mail zur Verfügung.
                       </p>
                     </div>
                     <div className="rounded-2xl border border-ink/5 bg-white/60 p-5">

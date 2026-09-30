@@ -10,10 +10,20 @@ function WhatsAppIcon(props) {
   );
 }
 
+const WHATSAPP_MESSAGE = "Hallo Snezana, ich interessiere mich für eine Behandlung bei Charm Beauty und möchte gerne mehr Informationen erhalten.";
+const WHATSAPP_LINK = `https://wa.me/41788964655?text=${encodeURIComponent(WHATSAPP_MESSAGE)}`;
+
 export default function FloatingActions() {
   return (
     <>
-      <a href={CONTACT.whatsapp} target="_blank" rel="noopener noreferrer" aria-label="WhatsApp Chat starten" title="Beim Klick auf WhatsApp werden Daten an Meta übermittelt." className="fixed bottom-24 right-4 z-40 flex h-14 w-14 items-center justify-center rounded-full bg-[#25D366] text-white shadow-[0_12px_30px_-8px_rgba(37,211,102,0.7)] transition-transform duration-300 hover:scale-110 lg:bottom-8 lg:right-8">
+      {/* Desktop: Pill button with text */}
+      <a href={WHATSAPP_LINK} target="_blank" rel="noopener noreferrer" aria-label="WhatsApp Anfrage senden" title="Beim Klick auf WhatsApp werden Daten an Meta übermittelt." className="fixed bottom-8 right-8 z-40 hidden items-center gap-2.5 rounded-full bg-[#25D366] py-3.5 pl-4 pr-6 text-white shadow-[0_12px_30px_-8px_rgba(37,211,102,0.6)] transition-all duration-300 hover:scale-105 hover:bg-[#1da851] lg:flex">
+        <span className="absolute inset-0 animate-ping rounded-full bg-[#25D366] opacity-20" />
+        <WhatsAppIcon className="relative h-6 w-6" />
+        <span className="relative text-sm font-semibold">WhatsApp Anfrage</span>
+      </a>
+      {/* Mobile: Round icon button */}
+      <a href={WHATSAPP_LINK} target="_blank" rel="noopener noreferrer" aria-label="WhatsApp Anfrage senden" title="Beim Klick auf WhatsApp werden Daten an Meta übermittelt." className="fixed bottom-24 right-5 z-40 flex h-14 w-14 items-center justify-center rounded-full bg-[#25D366] text-white shadow-[0_12px_30px_-8px_rgba(37,211,102,0.7)] transition-transform duration-300 hover:scale-110 lg:hidden">
         <span className="absolute inset-0 animate-ping rounded-full bg-[#25D366] opacity-20" />
         <WhatsAppIcon className="relative h-7 w-7" />
       </a>
