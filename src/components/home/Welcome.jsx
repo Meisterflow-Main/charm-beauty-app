@@ -21,7 +21,7 @@ export default function Welcome() {
           <Reveal delay={0.2} className="mt-8 space-y-5 text-lg leading-relaxed text-ink/70">
             <p>Dein Kosmetikstudio in Winterthur für erstklassige Hautpflege und Schönheitsbehandlungen. Ich, Snezana, biete individuelle Treatments für Gesicht, Körper und Entspannung.</p>
             <p>Gönn dir eine Auszeit und erlebe professionelle Pflege, die deine natürliche Schönheit unterstreicht.</p>
-            <p>Ich kann es kaum erwarten, dich persönlich zu treffen und dich auf deinem Weg zu mehr Entspannung und gepflegtem Wohlbefinden zu unterstützen. Willkommen in meinem Studio.</p>
+            <p>Ich kann es kaum erwarten, dich persönlich zu treffen und dich auf deinem Weg zu mehr Entspannung und gepflegtem Wohlbefinden zu unterstützen. Willkommen in deiner persönlichen Oase der Schönheit!</p>
           </Reveal>
           <Reveal delay={0.3}><p className="mt-8 font-heading text-2xl italic text-gold sm:hidden">Deine Snezana</p></Reveal>
         </div>

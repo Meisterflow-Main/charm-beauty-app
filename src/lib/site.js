@@ -91,6 +91,86 @@ export const TREATMENTS = [
   },
 ];
 
+export const TREATMENT_MENU = [
+  {
+    category: "Gesicht",
+    items: [
+      {
+        name: "BIOPeeLX Premium Bio Algen",
+        price: "CHF 139.–",
+        badge: "NEU",
+        desc: "Sanfte Hauterneuerung mit Soforteffekt. Verbesserung des Hautbildes, Reduktion von Unreinheiten, Fältchen, Pigmentflecken und Förderung eines frischen, strahlenden Teints. Für alle Hauttypen geeignet, ganzjährig anwendbar.",
+      },
+      {
+        name: "Hygienische Gesichtsreinigung",
+        price: "CHF 105.–",
+        desc: "Diese Behandlung entfernt Unreinheiten und überschüssigen Talg, um die Haut zu klären und optimal für Pflegeprodukte vorzubereiten.",
+      },
+      {
+        name: "Anti Aging Gesichtsbehandlung",
+        price: "CHF 130.–",
+        desc: "Sanfte, nicht-invasive Methode für frische natürliche Haut. Collagen-Treads oder Botox-Pulver für natürliches Hautbild.",
+      },
+      {
+        name: "Kosmetisches Microneedling / Nanoneedling",
+        price: "CHF 130.–",
+        desc: "Feine Nadeln stimulieren die Haut und verbessern die Aufnahme von Wirkstoffen, was zu einem glatteren Hautbild und einem frischen Glow führt.",
+      },
+      {
+        name: "Hydra Beauty",
+        price: "CHF 150.–",
+        desc: "Eine feuchtigkeitsspendende Behandlung, die die Haut intensiv hydratisiert und gleichzeitig Unreinheiten entfernt, für ein strahlendes Aussehen.",
+      },
+    ],
+  },
+  {
+    category: "Körper",
+    items: [
+      {
+        name: "EMSCULPT NEO – Zwei Griffe (2 Zonen)",
+        price: "CHF 85.–",
+        desc: "Diese Behandlung strafft Muskeln in zwei Zonen und reduziert gleichzeitig Fett durch kombinierte elektromagnetische Energie und Wärme.",
+      },
+      {
+        name: "EMSCULPT NEO – Vier Griffe (4 Zonen)",
+        price: "CHF 95.–",
+        desc: "Mit dieser Behandlung werden vier Zonen gleichzeitig bearbeitet, um Muskeltraining und Fettabbau effizient zu kombinieren.",
+      },
+      {
+        name: "Liposana 3 – Einzelbehandlung",
+        price: "CHF 175.–",
+        badge: "NEU",
+        desc: "Aktivierung deines Lymphflusses in Verbindung mit neuromuskulärer Stimulation und entzündungshemmendem Ultraschall. Bei Lipödemen, Reiterhose, Lymphproblemen, Cellulite, Gelenkschmerzen, Sodbrennen, Migräne, Schwangerschaftsstreifen, Harninkontinenz, Bandscheibenvorfällen, Aktivierung des Stoffwechsels, Endometriose uvm.",
+      },
+      {
+        name: "Liposana 3 – Jahresabo (1x pro Monat)",
+        price: "CHF 1 500.–",
+        desc: "Regelmässige Anwendung für nachhaltige Ergebnisse – monatlich wiederholt.",
+      },
+      {
+        name: "Beckenboden Training-Stuhl",
+        price: "CHF 40.–",
+        desc: "Verhindert und reduziert Harninkontinenz, lindert untere Rückenschmerzen, stärkt die Beckenbodenmuskulatur, unterstützt die Schwangerschaftsrückbildung, strafft das Gewebe am Po, weniger nächtlicher Harndrang, stärkt die Haltefunktion der inneren Organe, steigert die Libido.",
+      },
+      {
+        name: "Beckenboden Training-Stuhl – Probetraining",
+        price: "CHF 30.–",
+        desc: "Kennenlernen der Methode in einer Probestunde.",
+      },
+      {
+        name: "Po-Lifting Vakuum",
+        price: "CHF 49.–",
+        desc: "Vakuum-Po-Lifting ist eine Methode, bei der mit Hilfe von Vakuum-Saugnäpfen ein Po-Lifting-Effekt erzielt wird. Die Saugnäpfe werden auf das Gesäss aufgesetzt und durch den Unterdruck wird das Gewebe angehoben.",
+      },
+      {
+        name: "Maderotherapie",
+        price: "CHF 100.–",
+        desc: "Eine spezielle Massagetechnik, bei der holzgefertigte Werkzeuge verwendet werden, um die Haut zu straffen und die Durchblutung zu fördern. Diese natürliche Behandlung hilft, das Erscheinungsbild von Cellulite zu reduzieren und die Hautstruktur zu verbessern.",
+      },
+    ],
+  },
+];
+
 export const FAQS = [
   {
     q: "Wie kann ich einen Termin bei Charm Beauty buchen?",

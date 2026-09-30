@@ -7,8 +7,8 @@ import BtnLink from "@/components/site/BtnLink";
 
 const POINTS = [
   "Massgeschneiderte Hautpflege und Behandlungen",
-  "Spezialisiert auf moderne Schönheitsbehandlungen",
-  "Entspannte Atmosphäre für dein Wohlbefinden",
+  "Spezialisiert auf moderne Beauty-Treatments",
+  "Entspannte Atmosphäre für maximales Wohlbefinden",
 ];
 
 const STUDIO_CAPTIONS = [

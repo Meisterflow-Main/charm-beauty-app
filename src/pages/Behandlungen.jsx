@@ -8,6 +8,7 @@ import PageHero from "@/components/site/PageHero";
 import Reveal from "@/components/site/Reveal";
 import BtnLink from "@/components/site/BtnLink";
 import Gallery from "@/components/home/Gallery";
+import TreatmentMenu from "@/components/home/TreatmentMenu";
 import ReviewCta from "@/components/home/ReviewCta";
 
 export default function Behandlungen() {
@@ -33,7 +34,7 @@ export default function Behandlungen() {
   });
   return (
     <>
-      <PageHero crumb="Behandlungen" eyebrow="Behandlungen" title="Schönheit & Entspannung" intro="Ob Gesicht oder Körper, jede Behandlung wird individuell auf deine Hautbedürfnisse abgestimmt. Ich arbeite daran, dein Wohlbefinden zu steigern und deine natürliche Ausstrahlung zu unterstreichen." />
+      <PageHero crumb="Behandlungen" eyebrow="Behandlungen" title="Schönheit & Entspannung" intro="In meinem Kosmetikstudio biete ich eine Auswahl an Gesichts- und Körperbehandlungen, die auf deine Bedürfnisse abgestimmt sind. Ich verwende hochwertige Produkte, um deine Haut zum Strahlen zu bringen und dein Wohlbefinden zu steigern." />
       <section className="space-y-24 px-6 py-16 sm:space-y-32">
         {TREATMENTS.map((t, i) => (
           <article key={t.key} id={t.key} className="mx-auto grid max-w-7xl scroll-mt-28 items-center gap-12 lg:grid-cols-12">
@@ -52,6 +53,7 @@ export default function Behandlungen() {
           </article>
         ))}
       </section>
+      <TreatmentMenu />
       <Gallery />
       <ReviewCta />
     </>
