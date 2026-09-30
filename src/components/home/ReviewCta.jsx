@@ -1,5 +1,4 @@
 import React from "react";
-import { Star } from "lucide-react";
 import { GOOGLE_REVIEW_LINK } from "@/lib/site";
 import Reveal from "@/components/site/Reveal";
 import Eyebrow from "@/components/site/Eyebrow";
@@ -12,10 +11,7 @@ export default function ReviewCta() {
         <div className="grid items-center gap-10 lg:grid-cols-12">
           <div className="lg:col-span-7">
             <Eyebrow>Kundenbewertungen</Eyebrow>
-            <div className="mt-6 flex gap-1" aria-hidden="true">
-              {[0, 1, 2, 3, 4].map((i) => <Star key={i} className="h-6 w-6 fill-gold text-gold" />)}
-            </div>
-            <h2 className="mt-5 text-4xl font-semibold text-ink sm:text-5xl">Deine Meinung zählt</h2>
+            <h2 className="mt-6 text-4xl font-semibold text-ink sm:text-5xl">Deine Meinung zählt</h2>
             <p className="mt-5 max-w-lg text-lg text-ink/70">Warst du bereits bei Charm Beauty? Teile deine Erfahrung und hilf anderen, mich zu finden.</p>
           </div>
           <div className="flex flex-col gap-3 lg:col-span-4 lg:col-start-9">

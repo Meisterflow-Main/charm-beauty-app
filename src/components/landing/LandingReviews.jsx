@@ -1,8 +1,9 @@
 import React from "react";
-import { Star, ExternalLink, PenLine } from "lucide-react";
+import { ExternalLink, PenLine } from "lucide-react";
 import { GOOGLE_REVIEW_LINK } from "@/lib/site";
 import Reveal from "@/components/site/Reveal";
 import Eyebrow from "@/components/site/Eyebrow";
+import GoogleG from "@/components/site/GoogleG";
 
 export default function LandingReviews() {
   return (
@@ -10,15 +11,14 @@ export default function LandingReviews() {
       <div className="mx-auto max-w-5xl">
         <Reveal className="mb-10 text-center">
           <Eyebrow>Kundenbewertungen</Eyebrow>
-          <h2 className="mt-5 text-4xl font-semibold text-ink sm:text-5xl">Das sagen meine Kundinnen</h2>
-          <p className="mx-auto mt-5 max-w-xl text-lg text-ink/70">Deine Meinung ist mir wichtig. Warst du bereits bei Charm Beauty? Teile deine Erfahrung und hilf anderen, mich zu finden.</p>
+          <h2 className="mt-5 text-4xl font-semibold text-ink sm:text-5xl">Bewertungen auf Google</h2>
+          <p className="mx-auto mt-5 max-w-xl text-lg text-ink/70">Echte, unabhängige Bewertungen meiner Kundinnen findest du direkt auf Google. Ich verlinke absichtlich auf Google für volle Transparenz.</p>
         </Reveal>
         <Reveal delay={0.1} className="mx-auto max-w-md rounded-[2rem] border border-ink/5 bg-white/70 p-8 text-center backdrop-blur">
-          <div className="flex justify-center gap-1" aria-label="5 von 5 Sternen">
-            {[0, 1, 2, 3, 4].map((i) => <Star key={i} className="h-7 w-7 fill-gold text-gold" />)}
+          <div className="mx-auto mb-4 flex h-14 w-14 items-center justify-center rounded-full bg-white/80 shadow-sm">
+            <GoogleG className="h-8 w-8" />
           </div>
-          <p className="mt-4 text-2xl font-semibold text-ink">5.0</p>
-          <p className="text-sm text-ink/60">Auf Basis von Google-Bewertungen</p>
+          <p className="text-sm font-medium text-ink/60">Bewertungen von Google</p>
           <div className="mt-6 flex flex-col gap-3 sm:flex-row sm:justify-center">
             <a href={GOOGLE_REVIEW_LINK} target="_blank" rel="noopener noreferrer" className="inline-flex h-12 items-center justify-center gap-2 rounded-full bg-gold px-6 text-sm font-semibold text-white transition hover:bg-gold-dark">
               Alle Bewertungen ansehen <ExternalLink className="h-3.5 w-3.5" />
