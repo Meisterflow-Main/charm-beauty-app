@@ -43,12 +43,12 @@ export const VIDEOS = {
 };
 
 export const HOURS = [
-  { day: "Montag", time: "9–12 Uhr & 14–19 Uhr" },
-  { day: "Dienstag", time: "9–12 Uhr & 14–19 Uhr" },
-  { day: "Mittwoch", time: "9–12 Uhr" },
-  { day: "Donnerstag", time: "9–12 Uhr & 14–19 Uhr" },
-  { day: "Freitag", time: "9–12 Uhr & 14–19 Uhr" },
-  { day: "Samstag", time: "9–12 Uhr" },
+  { day: "Montag", time: "9 bis 12 Uhr & 14 bis 19 Uhr" },
+  { day: "Dienstag", time: "9 bis 12 Uhr & 14 bis 19 Uhr" },
+  { day: "Mittwoch", time: "9 bis 12 Uhr" },
+  { day: "Donnerstag", time: "9 bis 12 Uhr & 14 bis 19 Uhr" },
+  { day: "Freitag", time: "9 bis 12 Uhr & 14 bis 19 Uhr" },
+  { day: "Samstag", time: "9 bis 12 Uhr" },
 ];
 
 export const WEBHOOK_URL =
@@ -71,24 +71,24 @@ export const TREATMENTS = [
     key: "gesicht",
     title: "Gesicht",
     image: IMAGES.face,
-    text: "Individuell abgestimmte Gesichtspflege, die Ihre Haut revitalisiert und strahlen lässt – für ein frisches, gesundes Aussehen.",
+    text: "Individuell abgestimmte Gesichtspflege, die deine Haut revitalisiert und strahlen lässt, für ein frisches, gesundes Aussehen.",
   },
   {
     key: "koerper",
     title: "Körper",
     image: IMAGES.body,
-    text: "Massgeschneiderte Körperbehandlungen, die Ihre Haut straffen und revitalisieren – für ein gepflegtes, glattes Hautbild und ein rundum wohltuendes Körpergefühl.",
+    text: "Massgeschneiderte Körperbehandlungen, die deine Haut straffen und revitalisieren, für ein gepflegtes, glattes Hautbild und ein rundum wohltuendes Körpergefühl.",
   },
 ];
 
 export const FAQS = [
   {
     q: "Wie kann ich einen Termin bei Charm Beauty buchen?",
-    a: "Am einfachsten per WhatsApp oder telefonisch unter +41 78 896 46 55. Alternativ senden Sie uns eine Anfrage über das Kontaktformular – wir melden uns zeitnah bei Ihnen.",
+    a: "Am einfachsten per WhatsApp oder telefonisch unter +41 78 896 46 55. Alternativ schreib mir eine Anfrage über das Kontaktformular, ich melde mich zeitnah bei dir.",
   },
   {
     q: "Wann hat das Kosmetikstudio geöffnet?",
-    a: "Termine nach Vereinbarung: Montag, Dienstag, Donnerstag und Freitag 9–12 Uhr & 14–19 Uhr, Mittwoch und Samstag 9–12 Uhr.",
+    a: "Termine nach Vereinbarung: Montag, Dienstag, Donnerstag und Freitag 9 bis 12 Uhr & 14 bis 19 Uhr, Mittwoch und Samstag 9 bis 12 Uhr.",
   },
   {
     q: "Wo befindet sich Charm Beauty?",
@@ -100,6 +100,6 @@ export const FAQS = [
   },
   {
     q: "Welche Behandlungen bietet Charm Beauty an?",
-    a: "Professionelle Behandlungen für Gesicht, Körper und Entspannung – jede Behandlung wird individuell auf Ihre Hautbedürfnisse abgestimmt.",
+    a: "Professionelle Behandlungen für Gesicht, Körper und Entspannung, jede Behandlung wird individuell auf deine Hautbedürfnisse abgestimmt.",
   },
 ];

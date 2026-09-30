@@ -24,7 +24,7 @@ export const PRIVACY = [
     h: "4. Kontakt- und Bewertungsformulare",
     p: [
       "Angaben aus unseren Formularen (Name, E-Mail, Telefon, Nachricht) werden verschlüsselt an unser Anfrage-Management-System MeisterFlow (meisterflow.ch) übermittelt und dort ausschliesslich zur Bearbeitung Ihres Anliegens verwendet.",
-      "Beim Bewertungsformular werden Bewertungen mit 1–3 Sternen samt Ihrem freiwilligen Feedback ausschliesslich intern an uns übermittelt. Bewertungen mit 4–5 Sternen werden nicht gespeichert; Sie erhalten lediglich einen Link zu Google, wo die Datenschutzbestimmungen von Google gelten.",
+      "Beim Bewertungsformular werden Bewertungen mit 1 bis 3 Sternen samt Ihrem freiwilligen Feedback ausschliesslich intern an uns übermittelt. Bewertungen mit 4 bis 5 Sternen werden nicht gespeichert; Sie erhalten lediglich einen Link zu Google, wo die Datenschutzbestimmungen von Google gelten.",
     ],
   },
   {

@@ -10,7 +10,7 @@ import Reveal from "@/components/site/Reveal";
 export default function RegionenIndex() {
   useSeo({
     title: "Regionen | Charm Beauty Kosmetikstudio Winterthur",
-    description: "Charm Beauty ist für Kundinnen aus der ganzen Region erreichbar. Finde die passende Seite für deine Region – von Winterthur bis Zürich, Frauenfeld und mehr.",
+    description: "Charm Beauty ist für Kundinnen aus der ganzen Region erreichbar. Finde die passende Seite für deine Region, von Winterthur bis Zürich, Frauenfeld und mehr.",
     path: "/regionen",
     schemas: [
       breadcrumbSchema([{ name: "Home", path: "/" }, { name: "Regionen", path: "/regionen" }]),

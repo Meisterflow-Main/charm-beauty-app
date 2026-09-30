@@ -231,7 +231,7 @@ export const LANDING_PAGES = [
       { headline: "Fair kalkuliert", desc: "Du profitierst von Winterthurer Preisen bei Zürcher Anspruch, hochwertige Pflege, die sich auch für regelmässige Termine lohnt." },
     ],
     faqs: [
-      { q: "Wie lange brauche ich von Zürich nach Winterthur?", a: "Mit dem Auto oder Zug bist du etwa 30 Minuten unterwegs. Die SBB-Verbindung Zürich–Winterthur fährt alle 15 Minuten, mein Studio ist vom Bahnhof schnell erreichbar." },
+      { q: "Wie lange brauche ich von Zürich nach Winterthur?", a: "Mit dem Auto oder Zug bist du etwa 30 Minuten unterwegs. Die SBB-Verbindung von Zürich nach Winterthur fährt alle 15 Minuten, mein Studio ist vom Bahnhof schnell erreichbar." },
       { q: "Lohnt sich die Anreise aus Zürich?", a: "Viele Kundinnen aus Zürich sagen ja. Die persönliche Betreuung, die ruhige Atmosphäre und die individuellen Behandlungen machen den kurzen Weg mehr als wett." },
       { q: "Kann ich den Termin mit einem Ausflug verbinden?", a: "Sehr gerne. Winterthur hat eine schöne Altstadt, Museen und Cafés. Viele Kundinnen aus Zürich verbinden ihren Termin mit einem kleinen Ausflug." },
       { q: "Gibt es Parkplätze in der Nähe?", a: "Ja, in der Umgebung der Ernst-Jung-Gasse gibt es mehrere Parkmöglichkeiten. Bei der Terminbestätigung sende ich dir gerne die genaue Anfahrtsbeschreibung." },

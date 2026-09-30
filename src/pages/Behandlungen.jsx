@@ -11,8 +11,8 @@ import ReviewCta from "@/components/home/ReviewCta";
 
 export default function Behandlungen() {
   useSeo({
-    title: "Behandlungen – Gesicht & Körper | Charm Beauty Winterthur",
-    description: "Professionelle Gesichts- und Körperbehandlungen in Winterthur – individuell auf deine Hautbedürfnisse abgestimmt. Jetzt Termin bei Charm Beauty buchen.",
+    title: "Behandlungen: Gesicht & Körper | Charm Beauty Winterthur",
+    description: "Professionelle Gesichts- und Körperbehandlungen in Winterthur, individuell auf deine Hautbedürfnisse abgestimmt. Jetzt Termin bei Charm Beauty buchen.",
     path: "/behandlungen",
     schemas: [
       breadcrumbSchema([{ name: "Home", path: "/" }, { name: "Behandlungen", path: "/behandlungen" }]),

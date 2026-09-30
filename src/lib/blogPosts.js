@@ -77,12 +77,12 @@ export const BLOG_POSTS = [
         table: {
           headers: ["Behandlung", "Dauer", "Richtpreis"],
           rows: [
-            ["Gesichtsbehandlung (klassisch)", "60–75 Min.", "90–150 CHF"],
-            ["Erweiterte Gesichtsbehandlung", "75–90 Min.", "130–200 CHF"],
-            ["Anti-Aging-Behandlung", "75–90 Min.", "140–220 CHF"],
-            ["Peeling (Gesicht)", "30–45 Min.", "70–120 CHF"],
-            ["Körperbehandlung (Teilbereich)", "45–60 Min.", "80–150 CHF"],
-            ["Körperbehandlung (gross)", "90–120 Min.", "150–280 CHF"],
+            ["Gesichtsbehandlung (klassisch)", "60 bis 75 Min.", "90 bis 150 CHF"],
+            ["Erweiterte Gesichtsbehandlung", "75 bis 90 Min.", "130 bis 200 CHF"],
+            ["Anti-Aging-Behandlung", "75 bis 90 Min.", "140 bis 220 CHF"],
+            ["Peeling (Gesicht)", "30 bis 45 Min.", "70 bis 120 CHF"],
+            ["Körperbehandlung (Teilbereich)", "45 bis 60 Min.", "80 bis 150 CHF"],
+            ["Körperbehandlung (gross)", "90 bis 120 Min.", "150 bis 280 CHF"],
           ],
         },
         paragraphs: [
@@ -633,7 +633,7 @@ export const BLOG_POSTS = [
       {
         heading: "Termin und Öffnungszeiten",
         paragraphs: [
-          "Termine vereinbarst du am einfachsten per WhatsApp oder telefonisch unter +41 78 896 46 55. Alternativ sendest du eine Anfrage über das Kontaktformular. Geöffnet ist nach Vereinbarung: Montag, Dienstag, Donnerstag und Freitag 9–12 Uhr & 14–19 Uhr, Mittwoch und Samstag 9–12 Uhr.",
+          "Termine vereinbarst du am einfachsten per WhatsApp oder telefonisch unter +41 78 896 46 55. Alternativ sendest du eine Anfrage über das Kontaktformular. Geöffnet ist nach Vereinbarung: Montag, Dienstag, Donnerstag und Freitag 9 bis 12 Uhr & 14 bis 19 Uhr, Mittwoch und Samstag 9 bis 12 Uhr.",
         ],
       },
       {
