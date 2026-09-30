@@ -193,7 +193,7 @@ export const LANDING_PAGES = [
     faqs: [
       { q: "Brauche ich eine professionelle Hautpflege?", a: "Wenn du deine Haut langfristig gesund erhalten möchtest, ist eine professionelle Pflege wertvoll. Sie geht tiefer als die Pflege zu Hause und ergänzt deine Routine optimal." },
       { q: "Wie oft sollte ich zur Hautpflege?", a: "Für die meisten Hauttypen empfehle ich einen Termin alle vier bis sechs Wochen. In der Beratung passen wir den Rhythmus an deine individuellen Bedürfnisse an." },
-      { q: "Welche Produkte verwenden Sie?", a: "Ich arbeite mit sorgfältig ausgewählten, hochwertigen Pflegeprodukten. Welche für deine Haut am besten geeignet sind, besprechen wir im persönlichen Gespräch." },
+      { q: "Welche Produkte verwendest du?", a: "Ich arbeite mit sorgfältig ausgewählten, hochwertigen Pflegeprodukten. Welche für deine Haut am besten geeignet sind, besprechen wir im persönlichen Gespräch." },
       { q: "Kann ich die Pflege zu Hause fortsetzen?", a: "Ja, und das empfehle ich auch. Du erhältst von mir konkrete Tipps für die tägliche Pflege zu Hause, die die Wirkung der professionellen Behandlung unterstützt." },
       { q: "Was kostet eine professionelle Hautpflege in Winterthur?", a: "Die Preise richten sich nach der gewählten Behandlung und deinem Hautbedürfnis. Kontaktiere mich für eine individuelle Offerte, ich berate dich gerne." },
       { q: "Wo liegt das Studio in Winterthur?", a: "Charm Beauty befindet sich an der Ernst-Jung-Gasse 16a in 8400 Winterthur. Die zentrale Lage sorgt für kurze Anreisewege und gute Erreichbarkeit." },

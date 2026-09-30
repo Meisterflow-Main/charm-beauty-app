@@ -78,12 +78,12 @@ const BASE_POSTS = [
         table: {
           headers: ["Behandlung", "Dauer", "Richtpreis"],
           rows: [
-            ["Gesichtsbehandlung (klassisch)", "60 bis 75 Min.", "90 bis 150 CHF"],
-            ["Erweiterte Gesichtsbehandlung", "75 bis 90 Min.", "130 bis 200 CHF"],
-            ["Anti-Aging-Behandlung", "75 bis 90 Min.", "140 bis 220 CHF"],
-            ["Peeling (Gesicht)", "30 bis 45 Min.", "70 bis 120 CHF"],
-            ["Körperbehandlung (Teilbereich)", "45 bis 60 Min.", "80 bis 150 CHF"],
-            ["Körperbehandlung (gross)", "90 bis 120 Min.", "150 bis 280 CHF"],
+            ["Gesichtsbehandlung (klassisch)", "60 bis 75 Min.", "CHF 90.– bis 150.–"],
+            ["Erweiterte Gesichtsbehandlung", "75 bis 90 Min.", "CHF 130.– bis 200.–"],
+            ["Anti-Aging-Behandlung", "75 bis 90 Min.", "CHF 140.– bis 220.–"],
+            ["Peeling (Gesicht)", "30 bis 45 Min.", "CHF 70.– bis 120.–"],
+            ["Körperbehandlung (Teilbereich)", "45 bis 60 Min.", "CHF 80.– bis 150.–"],
+            ["Körperbehandlung (gross)", "90 bis 120 Min.", "CHF 150.– bis 280.–"],
           ],
         },
         paragraphs: [
