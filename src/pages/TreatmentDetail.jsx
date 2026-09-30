@@ -9,6 +9,7 @@ import PageHero from "@/components/site/PageHero";
 import Reveal from "@/components/site/Reveal";
 import Eyebrow from "@/components/site/Eyebrow";
 import BtnLink from "@/components/site/BtnLink";
+import { Image } from "@/components/ui/image";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 
 const BENEFITS = [
@@ -77,6 +78,17 @@ export default function TreatmentDetail() {
         intro={treatment.desc}
       />
 
+      {/* Hero Bild */}
+      {treatment.image && (
+        <section className="px-6 pb-4">
+          <Reveal className="mx-auto max-w-7xl">
+            <div className="relative h-64 overflow-hidden rounded-[2rem] sm:h-80 lg:h-96">
+              <Image src={treatment.image} alt={treatment.name} fittingType="fill" className="h-full w-full" />
+            </div>
+          </Reveal>
+        </section>
+      )}
+
       {/* Preis & CTA */}
       <section className="px-6 pb-8">
         <div className="mx-auto max-w-7xl">
@@ -111,6 +123,11 @@ export default function TreatmentDetail() {
               <Reveal delay={0.2} className="mt-8"><BtnLink href={CONTACT.whatsapp}>Termin vereinbaren</BtnLink></Reveal>
             </Reveal>
             <Reveal delay={0.1} className="lg:col-span-4 lg:col-start-9">
+              {treatment.image && (
+                <div className="mb-6 overflow-hidden rounded-[2rem]">
+                  <Image src={treatment.image} alt={treatment.name} fittingType="fill" className="h-56 w-full" />
+                </div>
+              )}
               <div className="rounded-[2rem] border border-ink/5 bg-white/70 p-8">
                 <h3 className="text-lg font-semibold text-ink">Auf einen Blick</h3>
                 <ul className="mt-5 space-y-4 text-sm text-ink/70">
@@ -191,11 +208,18 @@ export default function TreatmentDetail() {
             <div className="mt-14 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
               {related.map((r, i) => (
                 <Reveal key={r.slug} delay={i * 0.08}>
-                  <Link to={`/behandlungen/angebot/${r.slug}`} className="group flex h-full flex-col rounded-[2rem] border border-ink/5 bg-white/70 p-8 transition-all duration-500 hover:-translate-y-1 hover:border-gold/40 hover:shadow-[0_24px_60px_-30px_rgba(4,21,31,0.35)]">
+                  <Link to={`/behandlungen/angebot/${r.slug}`} className="group flex h-full flex-col overflow-hidden rounded-[2rem] border border-ink/5 bg-white/70 transition-all duration-500 hover:-translate-y-1 hover:border-gold/40 hover:shadow-[0_24px_60px_-30px_rgba(4,21,31,0.35)]">
+                    {r.image && (
+                      <div className="relative h-40 overflow-hidden">
+                        <Image src={r.image} alt={r.name} fittingType="fill" className="h-full w-full transition-transform duration-700 group-hover:scale-105" />
+                      </div>
+                    )}
+                    <div className="flex flex-1 flex-col p-8">
                     <h3 className="text-xl font-semibold text-ink">{r.name}</h3>
                     <p className="mt-3 flex-1 text-sm leading-relaxed text-ink/70">{r.desc}</p>
                     <p className="mt-5 text-lg font-semibold text-gold">{r.price}</p>
                     <span className="mt-4 inline-flex items-center gap-2 text-sm font-semibold text-ink transition group-hover:gap-3 group-hover:text-gold">Mehr erfahren <ArrowRight className="h-4 w-4" /></span>
+                    </div>
                   </Link>
                 </Reveal>
               ))}

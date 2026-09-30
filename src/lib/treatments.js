@@ -14,6 +14,7 @@ export const ALL_TREATMENTS = TREATMENT_MENU.flatMap((cat) =>
     price: item.price,
     desc: item.desc,
     badge: item.badge,
+    image: item.image,
     category: cat.category,
   }))
 );

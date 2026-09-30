@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import { Clock, ArrowRight } from "lucide-react";
 import { TREATMENT_MENU, CONTACT } from "@/lib/site";
 import { slugify } from "@/lib/treatments";
+import { Image } from "@/components/ui/image";
 import Reveal from "@/components/site/Reveal";
 import Eyebrow from "@/components/site/Eyebrow";
 import BtnLink from "@/components/site/BtnLink";
@@ -44,15 +45,22 @@ export default function FeaturedPricing() {
                       }`}
                     >
                       {item.badge && !popular && (
-                        <span className="absolute right-5 top-5 rounded-full bg-gold/15 px-3 py-1 text-[10px] font-bold uppercase tracking-[0.16em] text-gold">
+                        <span className="absolute right-5 top-5 z-10 rounded-full bg-gold/15 px-3 py-1 text-[10px] font-bold uppercase tracking-[0.16em] text-gold">
                           {item.badge}
                         </span>
                       )}
                       {popular && (
-                        <span className="absolute right-5 top-5 rounded-full bg-ink px-3 py-1 text-[10px] font-bold uppercase tracking-[0.18em] text-champagne">
+                        <span className="absolute right-5 top-5 z-10 rounded-full bg-ink px-3 py-1 text-[10px] font-bold uppercase tracking-[0.18em] text-champagne">
                           Beliebt
                         </span>
                       )}
+                      <div className="relative -mx-7 -mt-7 mb-6 h-44 overflow-hidden rounded-t-2xl">
+                        {item.image ? (
+                          <Image src={item.image} alt={item.name} fittingType="fill" className="h-full w-full transition-transform duration-700 group-hover:scale-105" />
+                        ) : (
+                          <div className="h-full w-full bg-champagne/20" />
+                        )}
+                      </div>
                       <h4 className="pr-20 text-lg font-semibold leading-snug text-ink">{item.name}</h4>
                       {item.desc && <p className="mt-3 text-sm leading-relaxed text-ink/55">{item.desc}</p>}
                       <p className="mt-6 text-2xl font-semibold text-gold">{item.price}</p>
