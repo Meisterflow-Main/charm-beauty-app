@@ -1,4 +1,6 @@
 import React from "react";
+import { Link } from "react-router-dom";
+import { ArrowRight } from "lucide-react";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 import Reveal from "@/components/site/Reveal";
 import Eyebrow from "@/components/site/Eyebrow";
@@ -21,6 +23,11 @@ export default function LandingFaq({ faqs }) {
               </AccordionItem>
             ))}
           </Accordion>
+          <div className="mt-8 flex flex-wrap gap-x-6 gap-y-2 text-sm">
+            <Link to="/faq" className="inline-flex items-center gap-1.5 font-semibold text-gold transition hover:gap-2.5">Alle FAQ ansehen <ArrowRight className="h-3.5 w-3.5" /></Link>
+            <Link to="/kontakt" className="inline-flex items-center gap-1.5 font-medium text-ink/70 transition hover:text-gold">Kontakt aufnehmen <ArrowRight className="h-3.5 w-3.5" /></Link>
+            <Link to="/bewertungen" className="inline-flex items-center gap-1.5 font-medium text-ink/70 transition hover:text-gold">Kundenbewertungen <ArrowRight className="h-3.5 w-3.5" /></Link>
+          </div>
         </Reveal>
       </div>
     </section>

@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import useSeo, { breadcrumbSchema } from "@/hooks/useSeo";
 import { FAQS, CONTACT } from "@/lib/site";
 import { SERVICES } from "@/lib/services";
@@ -69,6 +70,12 @@ export default function Faq() {
           <Reveal delay={0.2} className="flex flex-wrap justify-center gap-4">
             <BtnLink href={CONTACT.whatsapp}>WhatsApp schreiben</BtnLink>
             <BtnLink href={CONTACT.phoneHref} variant="outline">Anrufen</BtnLink>
+          </Reveal>
+          <Reveal delay={0.3} className="mt-10 flex flex-wrap justify-center gap-x-6 gap-y-2 text-sm">
+            <Link to="/behandlungen/gesicht" className="font-medium text-ink/70 transition hover:text-gold">Gesichtsbehandlung</Link>
+            <Link to="/behandlungen/koerper" className="font-medium text-ink/70 transition hover:text-gold">Körperbehandlung</Link>
+            <Link to="/regionen" className="font-medium text-ink/70 transition hover:text-gold">Regionen</Link>
+            <Link to="/bewertungen" className="font-medium text-ink/70 transition hover:text-gold">Kundenbewertungen</Link>
           </Reveal>
         </div>
       </section>

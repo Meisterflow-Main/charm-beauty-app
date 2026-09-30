@@ -1,5 +1,6 @@
 import React from "react";
-import { ExternalLink, PenLine } from "lucide-react";
+import { Link } from "react-router-dom";
+import { ExternalLink, PenLine, ArrowRight } from "lucide-react";
 import { GOOGLE_REVIEW_LINK } from "@/lib/site";
 import Reveal from "@/components/site/Reveal";
 import Eyebrow from "@/components/site/Eyebrow";
@@ -26,6 +27,9 @@ export default function LandingReviews() {
             <a href={GOOGLE_REVIEW_LINK} target="_blank" rel="noopener noreferrer" className="inline-flex h-12 items-center justify-center gap-2 rounded-full border border-ink/15 px-6 text-sm font-semibold text-ink transition hover:border-gold hover:text-gold">
               Bewertung schreiben <PenLine className="h-3.5 w-3.5" />
             </a>
+          </div>
+          <div className="mt-6 text-center">
+            <Link to="/bewertungen" className="inline-flex items-center gap-1.5 text-sm font-semibold text-gold transition hover:gap-2.5">Mehr zu Bewertungen und Transparenz <ArrowRight className="h-3.5 w-3.5" /></Link>
           </div>
         </Reveal>
       </div>

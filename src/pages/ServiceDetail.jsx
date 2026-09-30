@@ -178,6 +178,11 @@ export default function ServiceDetail() {
               {SERVICES.find((s) => s.slug === service.relatedService)?.title} entdecken <ArrowRight className="h-6 w-6 transition group-hover:translate-x-1" />
             </Link>
           </Reveal>
+          <Reveal delay={0.15} className="mt-8 flex flex-wrap gap-x-6 gap-y-2 text-sm">
+            <Link to="/bewertungen" className="inline-flex items-center gap-1.5 font-medium text-ink/70 transition hover:text-gold">Kundenbewertungen <ArrowRight className="h-3.5 w-3.5" /></Link>
+            <Link to="/kontakt" className="inline-flex items-center gap-1.5 font-medium text-ink/70 transition hover:text-gold">Termin vereinbaren <ArrowRight className="h-3.5 w-3.5" /></Link>
+            <Link to="/faq" className="inline-flex items-center gap-1.5 font-medium text-ink/70 transition hover:text-gold">Häufige Fragen <ArrowRight className="h-3.5 w-3.5" /></Link>
+          </Reveal>
         </div>
       </section>
     </>

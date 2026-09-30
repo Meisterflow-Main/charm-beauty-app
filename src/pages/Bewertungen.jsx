@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import { Star, ExternalLink, MessageSquare, ShieldCheck, Heart } from "lucide-react";
 import useSeo, { breadcrumbSchema } from "@/hooks/useSeo";
 import { GOOGLE_BUSINESS_URL, CONTACT } from "@/lib/site";
@@ -128,6 +129,21 @@ export default function Bewertungen() {
 
       <GoogleReviewCta />
       <TransparencySection />
+
+      <section className="px-6 pb-24">
+        <div className="mx-auto max-w-7xl">
+          <Reveal className="text-center">
+            <h2 className="text-3xl font-semibold text-ink sm:text-4xl">Weiter entdecken</h2>
+            <p className="mx-auto mt-4 max-w-xl text-base text-ink/60">Erfahre mehr über meine Behandlungen, finde deine Region oder vereinbare direkt einen Termin.</p>
+          </Reveal>
+          <Reveal delay={0.1} className="mt-10 flex flex-wrap justify-center gap-3">
+            <Link to="/behandlungen/gesicht" className="inline-flex items-center rounded-full border border-ink/10 bg-white/60 px-5 py-3 text-sm font-medium text-ink transition hover:border-gold hover:text-gold">Gesichtsbehandlung</Link>
+            <Link to="/behandlungen/koerper" className="inline-flex items-center rounded-full border border-ink/10 bg-white/60 px-5 py-3 text-sm font-medium text-ink transition hover:border-gold hover:text-gold">Körperbehandlung</Link>
+            <Link to="/regionen" className="inline-flex items-center rounded-full border border-ink/10 bg-white/60 px-5 py-3 text-sm font-medium text-ink transition hover:border-gold hover:text-gold">Regionen</Link>
+            <Link to="/kontakt" className="inline-flex items-center rounded-full border border-ink/10 bg-white/60 px-5 py-3 text-sm font-medium text-ink transition hover:border-gold hover:text-gold">Kontakt und Terminbuchung</Link>
+          </Reveal>
+        </div>
+      </section>
     </>
   );
 }
