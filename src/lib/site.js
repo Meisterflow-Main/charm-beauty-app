@@ -3,7 +3,7 @@ const cdn = (id, size = "xlg2x") => `https://onecdn.io/media/${id}/${size}`;
 export const SITE_URL = "https://charm-beauty.ch";
 
 export const IMAGES = {
-  logo: cdn("50b25299-995e-429b-b25a-6b30f979aef6", "md2x"),
+  logo: "https://media.base44.com/images/public/6ab62a2b7c4d0724c8fa8507/b3f5422df_ChatGPTImageOct1202602_38_15AM.png",
   favicon: "https://onecdn.io/cdn-cgi/image/width=144,height=144,fit=contain/media/22bf12d5-f04e-4b70-a257-242f5b484e12/sm",
   hero: cdn("ddaa1407-a166-42ea-9290-6c9173f7c725"),
   welcome: cdn("ac576eaf-6e91-4316-a5b1-2867f1c25c1a"),
