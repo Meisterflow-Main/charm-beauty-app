@@ -1,6 +1,6 @@
 import { TREATMENT_MENU } from "@/lib/site";
 
-const slugify = (name) =>
+export const slugify = (name) =>
   name
     .toLowerCase()
     .replace(/ä/g, "ae").replace(/ö/g, "oe").replace(/ü/g, "ue").replace(/ß/g, "ss")

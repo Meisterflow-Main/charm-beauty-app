@@ -1,6 +1,8 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import { Clock, ArrowRight } from "lucide-react";
 import { TREATMENT_MENU, CONTACT } from "@/lib/site";
+import { slugify } from "@/lib/treatments";
 import Reveal from "@/components/site/Reveal";
 import Eyebrow from "@/components/site/Eyebrow";
 import BtnLink from "@/components/site/BtnLink";
@@ -33,7 +35,8 @@ export default function FeaturedPricing() {
                 const popular = POPULAR_INDEX[`${ci}-${i}`];
                 return (
                   <Reveal key={i} delay={(i % 3) * 0.08}>
-                    <div
+                    <Link
+                      to={`/behandlungen/angebot/${slugify(item.name)}`}
                       className={`group relative flex h-full flex-col rounded-2xl border p-7 transition-all duration-500 hover:-translate-y-1 ${
                         popular
                           ? "border-gold/40 bg-cream shadow-[0_24px_60px_-24px_rgba(184,134,11,0.45)] lg:-translate-y-3 lg:scale-[1.03]"
@@ -54,17 +57,12 @@ export default function FeaturedPricing() {
                       {item.desc && <p className="mt-3 text-sm leading-relaxed text-ink/55">{item.desc}</p>}
                       <p className="mt-6 text-2xl font-semibold text-gold">{item.price}</p>
                       <div className="mt-auto pt-6">
-                        <a
-                          href={CONTACT.whatsapp}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="inline-flex items-center gap-2 text-sm font-semibold text-ink transition group-hover:gap-3 group-hover:text-gold"
-                        >
-                          Termin buchen
+                        <span className="inline-flex items-center gap-2 text-sm font-semibold text-ink transition group-hover:gap-3 group-hover:text-gold">
+                          Details ansehen
                           <ArrowRight className="h-4 w-4" />
-                        </a>
+                        </span>
                       </div>
-                    </div>
+                    </Link>
                   </Reveal>
                 );
               })}
