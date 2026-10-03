@@ -3,7 +3,7 @@ import { useParams, Navigate, Link } from "react-router-dom";
 import { ArrowRight, Check, Clock, Sparkles, Heart, ShieldCheck } from "lucide-react";
 import useSeo, { breadcrumbSchema } from "@/hooks/useSeo";
 import { getTreatment, getRelatedTreatments, ALL_TREATMENTS } from "@/lib/treatments";
-import { CONTACT, SITE_URL } from "@/lib/site";
+import { CONTACT, SITE_URL, IMAGES } from "@/lib/site";
 import { webPageSchema } from "@/lib/schema";
 import PageHero from "@/components/site/PageHero";
 import Reveal from "@/components/site/Reveal";
@@ -140,6 +140,17 @@ export default function TreatmentDetail() {
           </div>
         </div>
       </section>
+
+      {/* Liposana 3 Promotional Banner */}
+      {slug.includes("liposana-3") && (
+        <section className="px-6 py-16 sm:py-24">
+          <Reveal className="mx-auto max-w-2xl">
+            <div className="overflow-hidden rounded-[2rem] border border-gold/20 shadow-[0_24px_60px_-30px_rgba(4,21,31,0.3)]">
+              <Image src={IMAGES.liposanaPromo} alt="Liposana 3 – Tag des positiven Denkens" fittingType="fit" originWidth={1080} originHeight={1350} className="w-full" />
+            </div>
+          </Reveal>
+        </section>
+      )}
 
       {/* Vorteile */}
       <section className="bg-cream/60 px-6 py-20 sm:py-28">

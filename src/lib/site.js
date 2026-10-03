@@ -11,6 +11,7 @@ export const IMAGES = {
   face: cdn("45b74b0f-f64b-4532-8a2e-8a62bf335adf"),
   body: cdn("06dda1fc-56b3-42a6-8287-3b3fad74f29c"),
   snezana: cdn("20f43885-fccb-4f3e-b661-2c9b34451a56"),
+  liposanaPromo: "https://media.base44.com/images/public/6ab62a2b7c4d0724c8fa8507/acc67f92d_WhatsAppImage2026-10-02at2037001.jpeg",
   gallery: [
     cdn("5f02470a-334c-4d50-977e-2ca07acd1e3b"),
     cdn("5cf74f9b-f876-435c-82df-8456c5179262"),
