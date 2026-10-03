@@ -16,7 +16,7 @@ export const IMAGES = {
     cdn("5cf74f9b-f876-435c-82df-8456c5179262"),
     cdn("73802c21-89bd-4c60-bec0-b496f5dbc0aa"),
     cdn("6f4a31d5-431a-4b0d-8d6d-78470f4aee30"),
-    cdn("90c4471e-3a6e-4134-b7eb-6267102d6d74"),
+    "https://media.base44.com/images/public/6ab62a2b7c4d0724c8fa8507/972bd9592_WhatsAppImage2026-10-02at203608.jpeg",
     cdn("7d3a413e-4c24-4eac-9cdd-fdd56b55d33b"),
   ],
   studio: [
