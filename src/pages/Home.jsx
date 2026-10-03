@@ -12,6 +12,7 @@ import TreatmentMenu from "@/components/home/TreatmentMenu";
 import FeaturedPricing from "@/components/home/FeaturedPricing";
 import Stats from "@/components/home/Stats";
 import AboutTeaser from "@/components/home/AboutTeaser";
+import Certificate from "@/components/home/Certificate";
 import GoogleReviewCta from "@/components/site/GoogleReviewCta";
 import Faq from "@/components/home/Faq";
 import ContactSection from "@/components/home/ContactSection";
@@ -37,6 +38,7 @@ export default function Home() {
       <Welcome />
       <Gallery />
       <AboutTeaser />
+      <Certificate />
       <FeaturedPricing />
       <Treatments />
       <Stats />
