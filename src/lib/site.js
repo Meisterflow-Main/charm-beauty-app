@@ -135,13 +135,11 @@ export const TREATMENT_MENU = [
       {
         name: "EMSCULPT NEO – Zwei Griffe (2 Zonen)",
         price: "CHF 85.–",
-        image: "https://media.base44.com/images/public/6ab62a2b7c4d0724c8fa8507/cc84f9955_generated_image.png",
         desc: "Diese Behandlung strafft Muskeln in zwei Zonen und reduziert gleichzeitig Fett durch kombinierte elektromagnetische Energie und Wärme.",
       },
       {
         name: "EMSCULPT NEO – Vier Griffe (4 Zonen)",
         price: "CHF 95.–",
-        image: "https://media.base44.com/images/public/6ab62a2b7c4d0724c8fa8507/cc84f9955_generated_image.png",
         desc: "Mit dieser Behandlung werden vier Zonen gleichzeitig bearbeitet, um Muskeltraining und Fettabbau effizient zu kombinieren.",
       },
       {
