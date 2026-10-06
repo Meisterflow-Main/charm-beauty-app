@@ -6,7 +6,7 @@ import Hero from "@/components/home/Hero";
 import TrustBar from "@/components/site/TrustBar";
 import Reels from "@/components/home/Reels";
 import Welcome from "@/components/home/Welcome";
-import Gallery from "@/components/home/Gallery";
+
 import Treatments from "@/components/home/Treatments";
 import TreatmentMenu from "@/components/home/TreatmentMenu";
 import FeaturedPricing from "@/components/home/FeaturedPricing";
@@ -36,7 +36,6 @@ export default function Home() {
       <TrustBar />
       <Reels />
       <Welcome />
-      <Gallery />
       <AboutTeaser />
       <Certificate />
       <FeaturedPricing />
