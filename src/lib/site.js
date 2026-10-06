@@ -148,7 +148,7 @@ export const TREATMENT_MENU = [
       {
         name: "Liposana 3 – Einzelbehandlung",
         price: "CHF 175.–",
-        image: "https://media.base44.com/images/public/6ab62a2b7c4d0724c8fa8507/3172983f2_Liposana3MonthlyWellnessTreatment.png",
+        image: "https://media.base44.com/images/public/6ab62a2b7c4d0724c8fa8507/51c81ffc5_Liposana3SpaTreatmentSetup2.png",
         badge: "NEU",
         desc: "Aktivierung deines Lymphflusses in Verbindung mit neuromuskulärer Stimulation und entzündungshemmendem Ultraschall. Bei Lipödemen, Reiterhose, Lymphproblemen, Cellulite, Gelenkschmerzen, Sodbrennen, Migräne, Schwangerschaftsstreifen, Harninkontinenz, Bandscheibenvorfällen, Aktivierung des Stoffwechsels, Endometriose uvm.",
       },
