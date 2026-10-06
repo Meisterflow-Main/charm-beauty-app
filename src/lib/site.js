@@ -179,7 +179,7 @@ export const TREATMENT_MENU = [
       {
         name: "Maderotherapie",
         price: "CHF 100.–",
-        image: "https://media.base44.com/images/public/6ab62a2b7c4d0724c8fa8507/a40a27f95_generated_image.png",
+        image: "https://media.base44.com/images/public/6ab62a2b7c4d0724c8fa8507/d50daa9d2_MaderotherapySpaRollerTreatment.png",
         desc: "Eine spezielle Massagetechnik, bei der holzgefertigte Werkzeuge verwendet werden, um die Haut zu straffen und die Durchblutung zu fördern. Diese natürliche Behandlung hilft, das Erscheinungsbild von Cellulite zu reduzieren und die Hautstruktur zu verbessern.",
       },
     ],
