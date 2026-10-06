@@ -54,7 +54,7 @@ export default function FeaturedPricing() {
                           Beliebt
                         </span>
                       )}
-                      <div className="relative -mx-7 -mt-7 mb-6 h-44 overflow-hidden rounded-t-2xl">
+                      <div className="relative -mx-7 -mt-7 mb-6 aspect-[3/2] overflow-hidden rounded-t-2xl">
                         {item.image ? (
                           <Image src={item.image} alt={item.name} fittingType="fill" className="h-full w-full transition-transform duration-700 group-hover:scale-105" />
                         ) : (
