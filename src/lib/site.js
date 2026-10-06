@@ -65,7 +65,7 @@ export const WEBHOOK_URL =
 
 // Reales Google Business Profil von Charm Beauty
 export const GOOGLE_BUSINESS_URL =
-  "https://www.google.com/maps/place/Charm+Beauty/@47.4908516,7.5376503,9.11z/data=!4m10!1m2!2m1!1scharm+beauty+switzerland!3m6!1s0x479a9956fd46e345:0xbe9e6186d6e5c640!8m2!3d47.4955438!4d8.7146245!15sChhjaGFybSBiZWF1dHkgc3dpdHplcmxhbmSSAQ9jb3NtZXRpY3Nfc3RvcmXgAQA!16s%2Fg%2F11v3vb2fp0";
+  "https://www.google.com/maps/place/Charm+Beauty/@47.4956399,8.7121241,17z/data=!4m15!1m8!3m7!1s0x479a9972129408db:0x5abdf36f6b6d95fe!2sErnst-Jung-Gasse+16a,+8400+Winterthur,+Switzerland!3b1!8m2!3d47.4956399!4d8.714699!16s%2Fg%2F11svpcj6wk!3m5!1s0x479a9956fd46e345:0xbe9e6186d6e5c640!8m2!3d47.4955438!4d8.7146245!16s%2Fg%2F11v3vb2fp0?entry=ttu&g_ep=EgoyMDI2MDkzMC4wIKXMDSoASAFQAw%3D%3D";
 
 // Google-Suche nach dem Studio – Nutzer können dort direkt eine Bewertung hinterlassen
 export const GOOGLE_REVIEW_LINK = GOOGLE_BUSINESS_URL;
