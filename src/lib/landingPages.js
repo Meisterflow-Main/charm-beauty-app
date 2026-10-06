@@ -11,7 +11,7 @@ export const LANDING_PAGES = [
     eyebrow: "Kosmetikstudio Winterthur",
     hero: "Willkommen bei Charm Beauty, deinem Kosmetikstudio an der Ernst-Jung-Gasse. Ich, Snezana, begleite Kundinnen aus Winterthur und Umgebung seit 2020 mit Gesichtspflege und Körperbehandlungen, die auf die jeweilige Haut abgestimmt sind. Mein Studio liegt zentral zwischen Altstadt und Hauptbahnhof, ruhig gelegen und doch in wenigen Minuten zu Fuss erreichbar.",
     region: "Winterthur",
-    regionMentions: ["Winterthur", "Altstadt", "Ernst-Jung-Gasse", "Hauptbahnhof", "Töss", "Oberwinterthur", "Wülflingen", "Veltheim"],
+    regionMentions: ["Winterthur", "Altstadt", "Ernst-Jung-Gasse", "Hauptbahnhof", "Töss", "Oberwinterthur", "Wülflingen", "Veltheim", "Mattenbach"],
     usps: [
       { icon: "CalendarDays", title: "Seit 2020", desc: "Vertraute Kosmetik in Winterthur" },
       { icon: "Sparkles", title: "100% Handarbeit", desc: "Sorgfalt in jedem Schritt" },
@@ -38,7 +38,7 @@ export const LANDING_PAGES = [
       { q: "Gibt es Nebenwirkungen?", a: "Bei korrekter Anwendung sind Nebenwirkungen selten. In der Beratung besprechen wir mögliche Reaktionen und ich wähle Produkte, die zu deiner Haut passen." },
       { q: "Wo befindet sich das Studio in Winterthur?", a: "Charm Beauty liegt an der Ernst-Jung-Gasse 16a in 8400 Winterthur. Parkplätze sind in der Nähe verfügbar, die Anbindung an den öffentlichen Verkehr ist sehr gut." },
     ],
-    serviceArea: ["Winterthur", "Töss", "Oberwinterthur", "Wülflingen", "Veltheim", "Seen", "Hegi", "Rosenberg"],
+    serviceArea: ["Winterthur", "Töss", "Oberwinterthur", "Wülflingen", "Veltheim", "Seen", "Mattenbach", "Hegi", "Rosenberg"],
     cta: { title: "Bereit für strahlende Haut?", text: "Buche jetzt deinen Termin bei Charm Beauty in Winterthur und lass dich in meiner Oase der Schönheit verwöhnen." },
   },
 
@@ -51,7 +51,7 @@ export const LANDING_PAGES = [
     eyebrow: "Gesichtspflege Winterthur",
     hero: "Deine Haut verdient Aufmerksamkeit. Bei Charm Beauty erhältst du eine Gesichtsbehandlung, die genau auf deinen Hauttyp abgestimmt ist. Ob Tiefenreinigung, Feuchtigkeit oder Anti-Aging, ich finde die richtige Pflege für ein frisches, gesundes Hautbild. Vor jeder Behandlung steht eine gründliche Hautanalyse, damit die Produkte wirklich zu deiner Haut passen.",
     region: "Winterthur",
-    regionMentions: ["Winterthur", "Altstadt", "Ernst-Jung-Gasse", "Hauptbahnhof", "Töss", "Oberwinterthur", "Wülflingen", "Veltheim"],
+    regionMentions: ["Winterthur", "Altstadt", "Ernst-Jung-Gasse", "Hauptbahnhof", "Töss", "Oberwinterthur", "Wülflingen", "Veltheim", "Mattenbach"],
     usps: [
       { icon: "Eye", title: "Hautanalyse", desc: "Individuell vor jeder Behandlung" },
       { icon: "Droplet", title: "Massgeschneidert", desc: "Auf deinen Hauttyp zugeschnitten" },
@@ -78,7 +78,7 @@ export const LANDING_PAGES = [
       { q: "Was kostet eine Gesichtsbehandlung in Winterthur?", a: "Der Preis hängt von der gewählten Behandlung und deinem Hautbedürfnis ab. Kontaktiere mich für eine individuelle Offerte, ich berate dich gerne." },
       { q: "Wie lange dauert eine Gesichtsbehandlung?", a: "Je nach Umfang dauert eine Gesichtsbehandlung zwischen 60 und 90 Minuten. In dieser Zeit kannst du komplett entspannen und die Pflege geniessen." },
     ],
-    serviceArea: ["Winterthur", "Töss", "Oberwinterthur", "Wülflingen", "Veltheim", "Seen", "Hegi", "Rosenberg"],
+    serviceArea: ["Winterthur", "Töss", "Oberwinterthur", "Wülflingen", "Veltheim", "Seen", "Mattenbach", "Hegi", "Rosenberg"],
     cta: { title: "Zeit für deine Haut", text: "Gönn dir eine professionelle Gesichtsbehandlung in Winterthur. Buche jetzt deinen Termin und spüre den Unterschied." },
   },
 
@@ -91,7 +91,7 @@ export const LANDING_PAGES = [
     eyebrow: "Körperpflege Winterthur",
     hero: "Dein Körper trägt dich durch den Alltag, jetzt ist Zeit, etwas zurückzugeben. Bei Charm Beauty biete ich Körperbehandlungen, die deine Haut straffen, pflegen und revitalisieren. Entspanne in meiner Oase an der Ernst-Jung-Gasse und spüre die Wohltat professioneller Pflege, fernab des Alltagstrubels.",
     region: "Winterthur",
-    regionMentions: ["Winterthur", "Altstadt", "Ernst-Jung-Gasse", "Hauptbahnhof", "Töss", "Oberwinterthur", "Wülflingen", "Veltheim"],
+    regionMentions: ["Winterthur", "Altstadt", "Ernst-Jung-Gasse", "Hauptbahnhof", "Töss", "Oberwinterthur", "Wülflingen", "Veltheim", "Mattenbach"],
     usps: [
       { icon: "HeartHandshake", title: "Ganzheitlich", desc: "Körper und Seele im Einklang" },
       { icon: "Sparkles", title: "Tiefenentspannung", desc: "Abschalten vom Alltag" },
@@ -118,7 +118,7 @@ export const LANDING_PAGES = [
       { q: "Wie oft sollte ich eine Körperbehandlung machen?", a: "Für nachhaltige Ergebnisse empfehle ich alle drei bis vier Wochen einen Termin. So bleibt deine Haut gepflegt und das Wohlbefinden erhalten." },
       { q: "Wo befindet sich Charm Beauty in Winterthur?", a: "Das Studio liegt an der Ernst-Jung-Gasse 16a in 8400 Winterthur. Die zentrale Lage macht es einfach, einen Termin auf dem Weg zur Arbeit oder nach Feierabend einzuplanen." },
     ],
-    serviceArea: ["Winterthur", "Töss", "Oberwinterthur", "Wülflingen", "Veltheim", "Seen", "Hegi", "Rosenberg"],
+    serviceArea: ["Winterthur", "Töss", "Oberwinterthur", "Wülflingen", "Veltheim", "Seen", "Mattenbach", "Hegi", "Rosenberg"],
     cta: { title: "Gönn dir eine Auszeit", text: "Buche jetzt deine Körperbehandlung in Winterthur und spüre, wie gut Entspannung und Pflege sich anfühlen." },
   },
 
@@ -131,7 +131,7 @@ export const LANDING_PAGES = [
     eyebrow: "Beauty Winterthur",
     hero: "Schönheit ist individuell. Bei Charm Beauty findest du Schönheitsbehandlungen, die deine natürliche Ausstrahlung unterstreichen. Ich, Snezana, biete dir professionelle Pflege mit Herz und Erfahrung, abgestimmt auf dich, in einer Atmosphäre zum Wohlfühlen. Gesicht und Körper können einzeln oder kombiniert behandelt werden.",
     region: "Winterthur",
-    regionMentions: ["Winterthur", "Altstadt", "Ernst-Jung-Gasse", "Hauptbahnhof", "Töss", "Oberwinterthur", "Wülflingen", "Veltheim"],
+    regionMentions: ["Winterthur", "Altstadt", "Ernst-Jung-Gasse", "Hauptbahnhof", "Töss", "Oberwinterthur", "Wülflingen", "Veltheim", "Mattenbach"],
     usps: [
       { icon: "Award", title: "Erfahrung", desc: "Seit 2020 in Winterthur" },
       { icon: "Gem", title: "Qualität", desc: "Hochwertige Pflegeprodukte" },
@@ -158,7 +158,7 @@ export const LANDING_PAGES = [
       { q: "Was kostet eine Schönheitsbehandlung in Winterthur?", a: "Die Preise hängen von der gewählten Behandlung ab. Kontaktiere mich für ein unverbindliches Gespräch, ich erstelle dir gerne eine individuelle Offerte." },
       { q: "Kann ich auch kombinieren?", a: "Ja, viele Kundinnen kombinieren Gesichts- und Körperbehandlungen. So nutzt du die Zeit optimal und geniesst eine umfassende Auszeit in meinem Studio." },
     ],
-    serviceArea: ["Winterthur", "Töss", "Oberwinterthur", "Wülflingen", "Veltheim", "Seen", "Hegi", "Rosenberg"],
+    serviceArea: ["Winterthur", "Töss", "Oberwinterthur", "Wülflingen", "Veltheim", "Seen", "Mattenbach", "Hegi", "Rosenberg"],
     cta: { title: "Deine natürliche Schönheit", text: "Entdecke, was eine professionelle Schönheitsbehandlung in Winterthur bewirken kann. Buche jetzt deinen Termin." },
   },
 
@@ -171,7 +171,7 @@ export const LANDING_PAGES = [
     eyebrow: "Hautpflege Winterthur",
     hero: "Gesunde Haut braucht mehr als Creme aus dem Drogerieregal. Bei Charm Beauty erhältst du professionelle Hautpflege, die auf deinen Hauttyp abgestimmt ist. Von der Analyse über die Behandlung bis zur Nachsorge begleite ich dich auf dem Weg zu strahlender Haut, mit konkreten Tipps für die Pflege zu Hause.",
     region: "Winterthur",
-    regionMentions: ["Winterthur", "Altstadt", "Ernst-Jung-Gasse", "Hauptbahnhof", "Töss", "Oberwinterthur", "Wülflingen", "Veltheim"],
+    regionMentions: ["Winterthur", "Altstadt", "Ernst-Jung-Gasse", "Hauptbahnhof", "Töss", "Oberwinterthur", "Wülflingen", "Veltheim", "Mattenbach"],
     usps: [
       { icon: "Eye", title: "Hautanalyse", desc: "Grundlage jeder Behandlung" },
       { icon: "Droplet", title: "Massgeschneidert", desc: "Auf deinen Hauttyp zugeschnitten" },
@@ -198,7 +198,7 @@ export const LANDING_PAGES = [
       { q: "Was kostet eine professionelle Hautpflege in Winterthur?", a: "Die Preise richten sich nach der gewählten Behandlung und deinem Hautbedürfnis. Kontaktiere mich für eine individuelle Offerte, ich berate dich gerne." },
       { q: "Wo liegt das Studio in Winterthur?", a: "Charm Beauty befindet sich an der Ernst-Jung-Gasse 16a in 8400 Winterthur. Die zentrale Lage sorgt für kurze Anreisewege und gute Erreichbarkeit." },
     ],
-    serviceArea: ["Winterthur", "Töss", "Oberwinterthur", "Wülflingen", "Veltheim", "Seen", "Hegi", "Rosenberg"],
+    serviceArea: ["Winterthur", "Töss", "Oberwinterthur", "Wülflingen", "Veltheim", "Seen", "Mattenbach", "Hegi", "Rosenberg"],
     cta: { title: "Gesunde Haut beginnt hier", text: "Buche jetzt deine professionelle Hautpflege in Winterthur und lege den Grundstein für ein strahlendes Hautbild." },
   },
 
