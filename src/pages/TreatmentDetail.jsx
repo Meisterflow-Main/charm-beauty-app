@@ -81,9 +81,9 @@ export default function TreatmentDetail() {
       {/* Hero Bild */}
       {treatment.image && (
         <section className="px-6 pb-4">
-          <Reveal className="mx-auto max-w-7xl">
-            <div className="relative h-64 overflow-hidden rounded-[2rem] sm:h-80 lg:h-96">
-              <Image src={treatment.image} alt={treatment.name} fittingType="fill" className="h-full w-full" />
+          <Reveal className="mx-auto max-w-5xl">
+            <div className="relative aspect-[3/2] overflow-hidden rounded-[2rem] bg-cream">
+              <Image src={treatment.image} alt={treatment.name} fittingType="fit" className="h-full w-full" />
             </div>
           </Reveal>
         </section>
@@ -124,8 +124,8 @@ export default function TreatmentDetail() {
             </Reveal>
             <Reveal delay={0.1} className="lg:col-span-4 lg:col-start-9">
               {treatment.image && (
-                <div className="mb-6 overflow-hidden rounded-[2rem]">
-                  <Image src={treatment.image} alt={treatment.name} fittingType="fill" className="h-56 w-full" />
+                <div className="mb-6 overflow-hidden rounded-[2rem] bg-cream">
+                  <Image src={treatment.image} alt={treatment.name} fittingType="fit" className="h-56 w-full" />
                 </div>
               )}
               <div className="rounded-[2rem] border border-ink/5 bg-white/70 p-8">
