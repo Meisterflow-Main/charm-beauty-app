@@ -125,7 +125,7 @@ export default function TreatmentDetail() {
             <Reveal delay={0.1} className="lg:col-span-4 lg:col-start-9">
               {treatment.image && (
                 <div className="mb-6 overflow-hidden rounded-[2rem] bg-cream">
-                  <Image src={treatment.image} alt={treatment.name} fittingType="fill" className="aspect-[3/2] w-full" />
+                  <Image src={treatment.image} alt={treatment.name} fittingType="fit" className="aspect-[3/2] w-full object-contain" />
                 </div>
               )}
               <div className="rounded-[2rem] border border-ink/5 bg-white/70 p-8">
@@ -221,8 +221,8 @@ export default function TreatmentDetail() {
                 <Reveal key={r.slug} delay={i * 0.08}>
                   <Link to={`/behandlungen/angebot/${r.slug}`} className="group flex h-full flex-col overflow-hidden rounded-[2rem] border border-ink/5 bg-white/70 transition-all duration-500 hover:-translate-y-1 hover:border-gold/40 hover:shadow-[0_24px_60px_-30px_rgba(4,21,31,0.35)]">
                     {r.image && (
-                      <div className="relative aspect-[3/2] overflow-hidden">
-                        <Image src={r.image} alt={r.name} fittingType="fill" className="h-full w-full transition-transform duration-700 group-hover:scale-105" />
+                      <div className="relative aspect-[3/2] overflow-hidden bg-cream">
+                        <Image src={r.image} alt={r.name} fittingType="fit" className="h-full w-full object-contain transition-transform duration-700 group-hover:scale-105" />
                       </div>
                     )}
                     <div className="flex flex-1 flex-col p-8">
