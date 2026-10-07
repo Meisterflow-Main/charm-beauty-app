@@ -12,7 +12,7 @@ export default function BlogCard({ post }) {
           src={post.image}
           alt={post.title}
           fittingType="fill"
-          className="h-full w-full transition-transform duration-700 group-hover:scale-105"
+          className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-105"
         />
         <span className="absolute left-4 top-4 rounded-full bg-cream/90 px-3 py-1 text-[11px] font-semibold uppercase tracking-[0.14em] text-gold backdrop-blur">
           {post.category}

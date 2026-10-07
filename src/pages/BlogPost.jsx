@@ -83,7 +83,7 @@ export default function BlogPost() {
 
               <div className="mt-6 overflow-hidden rounded-3xl">
                 <div className="aspect-[16/9]">
-                  <Image src={post.image} alt={post.title} fittingType="fill" className="h-full w-full" />
+                  <Image src={post.image} alt={post.title} fittingType="fill" className="h-full w-full object-cover" />
                 </div>
               </div>
 

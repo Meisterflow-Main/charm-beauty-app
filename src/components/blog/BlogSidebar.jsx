@@ -14,7 +14,7 @@ function SidebarList({ title, posts }) {
           <li key={p.slug}>
             <Link to={`/blog/${p.slug}`} className="group flex gap-3">
               <div className="h-16 w-16 flex-shrink-0 overflow-hidden rounded-xl">
-                <Image src={p.image} alt={p.title} fittingType="fill" className="h-full w-full transition-transform duration-500 group-hover:scale-105" />
+                <Image src={p.image} alt={p.title} fittingType="fill" className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105" />
               </div>
               <div className="min-w-0">
                 <p className="line-clamp-2 text-sm font-semibold leading-snug text-ink transition-colors group-hover:text-gold">
