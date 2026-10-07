@@ -3,7 +3,7 @@ import { Link, NavLink, useLocation } from "react-router-dom";
 import { Menu, X, Phone, ChevronDown, MapPin, Sparkles } from "lucide-react";
 import { AnimatePresence, motion } from "framer-motion";
 import { IMAGES, NAV, CONTACT } from "@/lib/site";
-import { LANDING_PAGES } from "@/lib/landingPages";
+import { UNIQUE_REGIONS } from "@/lib/landingPages";
 import { ALL_TREATMENTS } from "@/lib/treatments";
 import BtnLink from "@/components/site/BtnLink";
 
@@ -78,7 +78,7 @@ export default function Header() {
                     </Link>
                     <div className="my-1 h-px bg-ink/5" />
                     <div className="max-h-80 overflow-y-auto">
-                      {LANDING_PAGES.map((p) => (
+                      {UNIQUE_REGIONS.map((p) => (
                         <Link key={p.slug} to={`/regionen/${p.slug}`} className="block rounded-xl px-4 py-2.5 text-sm text-ink/75 transition hover:bg-champagne/20 hover:text-gold">
                           {p.region}
                         </Link>
@@ -127,7 +127,7 @@ export default function Header() {
             {regionsOpen && (
               <div className="space-y-1 pl-4">
                 <Link to="/regionen" className="block rounded-xl px-4 py-3 text-base font-medium text-gold">Alle Regionen</Link>
-                {LANDING_PAGES.map((p) => (
+                {UNIQUE_REGIONS.map((p) => (
                   <Link key={p.slug} to={`/regionen/${p.slug}`} className="block rounded-xl px-4 py-3 text-base text-ink/75">
                     {p.region}
                   </Link>

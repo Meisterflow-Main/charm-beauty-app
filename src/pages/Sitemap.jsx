@@ -5,7 +5,7 @@ import useSeo, { breadcrumbSchema } from "@/hooks/useSeo";
 import { NAV, CONTACT } from "@/lib/site";
 import { webPageSchema } from "@/lib/schema";
 import { SERVICES } from "@/lib/services";
-import { LANDING_PAGES } from "@/lib/landingPages";
+import { UNIQUE_REGIONS } from "@/lib/landingPages";
 import PageHero from "@/components/site/PageHero";
 import Reveal from "@/components/site/Reveal";
 
@@ -37,7 +37,7 @@ export default function Sitemap() {
       title: "Regionen",
       links: [
         { label: "Alle Regionen", to: "/regionen" },
-        ...LANDING_PAGES.map((p) => ({ label: p.region, to: `/regionen/${p.slug}` })),
+        ...UNIQUE_REGIONS.map((p) => ({ label: p.region, to: `/regionen/${p.slug}` })),
       ],
     },
     {

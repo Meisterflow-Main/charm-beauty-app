@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { Phone, MapPin, Mail, Star, Instagram } from "lucide-react";
 import { IMAGES, CONTACT, NAV } from "@/lib/site";
-import { LANDING_PAGES } from "@/lib/landingPages";
+import { UNIQUE_REGIONS } from "@/lib/landingPages";
 import { SERVICES } from "@/lib/services";
 import OpeningHours from "@/components/site/OpeningHours";
 
@@ -49,7 +49,7 @@ export default function Footer() {
             <h3 className="mb-5 text-xs uppercase tracking-[0.2em] text-champagne">Regionen</h3>
             <ul className="space-y-2.5 text-sm">
               <li><Link to="/regionen" className="font-medium text-cream/90 transition hover:text-champagne">Alle Regionen</Link></li>
-              {LANDING_PAGES.map((p) => (
+              {UNIQUE_REGIONS.map((p) => (
                 <li key={p.slug}><Link to={`/regionen/${p.slug}`} className="text-cream/70 transition hover:text-champagne">{p.region}</Link></li>
               ))}
             </ul>

@@ -445,4 +445,9 @@ export const LANDING_PAGES = [
 
 export const LANDING_PAGE_TITLES = LANDING_PAGES.map((p) => ({ slug: p.slug, h1: p.h1, region: p.region }));
 
+// Nur eine Seite pro Region (erster Treffer gewinnt) – für Dropdowns, Footer und Index
+export const UNIQUE_REGIONS = LANDING_PAGES.filter(
+  (p, i, arr) => arr.findIndex((q) => q.region === p.region) === i
+);
+
 export const getLandingPage = (slug) => LANDING_PAGES.find((p) => p.slug === slug);
