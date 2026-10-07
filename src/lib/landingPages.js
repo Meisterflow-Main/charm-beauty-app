@@ -401,6 +401,46 @@ export const LANDING_PAGES = [
     serviceArea: ["St. Gallen", "Winterthur", "Gossau", "Wil", "Amriswil", "Frauenfeld", "Weinfelden", "Rorschach"],
     cta: { title: "Mach die Reise zu deiner Auszeit", text: "Komm aus St. Gallen zu Charm Beauty und entdecke, wie persönlich Kosmetik sein kann. Jetzt Termin vereinbaren." },
   },
+
+  // 11 — Kosmetik Weinfelden ──────────────────────────────────────────────
+  {
+    slug: "kosmetik-weinfelden",
+    metaTitle: "Kosmetik Weinfelden | Charm Beauty Kosmetikstudio",
+    metaDescription: "Kosmetikstudio für Weinfelden: Individuelle Schönheitsbehandlungen bei Charm Beauty in Winterthur. Nur 20 Min. entfernt. Persönliche Beratung. Jetzt Termin buchen.",
+    h1: "Kosmetik für Weinfelden bei Charm Beauty",
+    eyebrow: "Kosmetikstudio für Weinfelden",
+    hero: "Du wohnst in Weinfelden und suchst ein Kosmetikstudio, das dich persönlich betreut? Charm Beauty in Winterthur ist über die A7 in rund 20 Minuten erreichbar, alternativ mit dem InterRegio ab Weinfelden. Lass den Alltag hinter dir und geniesse professionelle Pflege in ruhiger Atmosphäre, fernab des Trubels.",
+    region: "Weinfelden",
+    regionMentions: ["Weinfelden", "A7", "InterRegio", "Thurgau", "Frauenfeld", "Kreuzlingen", "Bischofszell", "Amriswil"],
+    usps: [
+      { icon: "Clock", title: "20 Min. von Weinfelden", desc: "A7 oder InterRegio" },
+      { icon: "UserCheck", title: "Persönlich", desc: "Immer mit Snezana" },
+      { icon: "Sparkles", title: "Individuell", desc: "Auf dich abgestimmt" },
+      { icon: "HeartHandshake", title: "Vertraut", desc: "Eine Ansprechpartnerin für alles" },
+    ],
+    services: [
+      { title: "Gesichtsbehandlung", desc: "Eine Gesichtsbehandlung, die auf deinen Hauttyp abgestimmt ist. Frische Haut und tiefe Entspannung, die kurze Anreise aus Weinfelden lohnt sich." },
+      { title: "Körperbehandlung", desc: "Entspanne bei einer Körperbehandlung, die deine Haut pflegt und dir ein rundum gutes Gefühl schenkt. Eine echte Auszeit vom Alltag in Weinfelden." },
+      { title: "Persönliche Beratung", desc: "Wir nehmen uns Zeit für deine Anliegen. Gemeinsam finden wir die Behandlung, die am besten zu dir und deiner Haut passt." },
+    ],
+    whyUs: [
+      { headline: "Schnell über die A7", desc: "In rund 20 Minuten bist du von Weinfelden über die A7 in meinem Studio in Winterthur, eine kurze Reise für viel Entspannung und Pflege." },
+      { headline: "InterRegio als Alternative", desc: "Der InterRegio verbindet Weinfelden regelmässig mit Winterthur. Vom Bahnhof sind es wenige Minuten zu Fuss zu meinem Studio an der Ernst-Jung-Gasse." },
+      { headline: "Ruhe und Privatsphäre", desc: "Weg vom Alltag in Weinfelden: Bei mir findest du einen ruhigen Raum, in dem du ungestört entspannen kannst." },
+      { headline: "Persönliche Betreuung", desc: "Du wirst immer von mir persönlich betreut. Keine wechselnden Behandlerinnen, keine anonyme Kette, eine vertraute Ansprechpartnerin." },
+      { headline: "Individuelle Behandlungen", desc: "Jede Behandlung wird auf dich zugeschnitten. Ich kenne meine Kundinnen aus Weinfelden und Umgebung und weiss, was ihre Haut braucht." },
+    ],
+    faqs: [
+      { q: "Wie komme ich von Weinfelden nach Winterthur?", a: "Über die A7 bist du mit dem Auto in rund 20 Minuten in Winterthur. Alternativ fährt der InterRegio ab Weinfelden regelmässig in Richtung Winterthur, die Fahrt dauert etwa 25 Minuten." },
+      { q: "Lohnt sich die Anreise aus Weinfelden?", a: "Viele Kundinnen aus Weinfelden sagen ja. Die persönliche Betreuung und die ruhige Atmosphäre machen den kurzen Weg mehr als wett." },
+      { q: "Kann ich den Termin mit einem Einkauf verbinden?", a: "Sehr gerne. Die Winterthurer Altstadt ist nur wenige Minuten vom Studio entfernt, ideal, um den Termin aus Weinfelden mit einem Bummel zu verbinden." },
+      { q: "Gibt es Parkplätze in der Nähe?", a: "Ja, in der Umgebung der Ernst-Jung-Gasse gibt es mehrere Parkmöglichkeiten. Bei der Terminbestätigung sende ich dir gerne die genaue Anfahrtsbeschreibung." },
+      { q: "Was kostet eine Kosmetikbehandlung?", a: "Die Preise hängen von der gewählten Behandlung ab. Kontaktiere mich für eine individuelle Offerte, ich berate dich unverbindlich und persönlich." },
+      { q: "Kann ich auch am Wochenende kommen?", a: "Termine nach Vereinbarung sind von Montag bis Samstag möglich. Samstags Vormittag ist besonders beliebt bei Kundinnen aus Weinfelden, melde dich frühzeitig an." },
+    ],
+    serviceArea: ["Weinfelden", "Winterthur", "Frauenfeld", "Kreuzlingen", "Bischofszell", "Amriswil", "Märstetten", "Sulgen"],
+    cta: { title: "Nah bei dir, gut für dich", text: "Komm aus Weinfelden zu Charm Beauty und entdecke, wie persönlich Kosmetik sein kann. Jetzt Termin buchen." },
+  },
 ];
 
 export const LANDING_PAGE_TITLES = LANDING_PAGES.map((p) => ({ slug: p.slug, h1: p.h1, region: p.region }));
