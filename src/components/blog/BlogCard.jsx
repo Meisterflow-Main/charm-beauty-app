@@ -7,12 +7,12 @@ import { formatDate } from "@/lib/blogPosts";
 export default function BlogCard({ post }) {
   return (
     <article className="group flex flex-col overflow-hidden rounded-3xl border border-ink/8 bg-card shadow-[0_8px_40px_-24px_rgba(4,21,31,0.25)] transition-all duration-500 hover:-translate-y-1 hover:shadow-[0_18px_50px_-24px_rgba(4,21,31,0.35)]">
-      <Link to={`/blog/${post.slug}`} className="relative block aspect-[16/10] overflow-hidden">
+      <Link to={`/blog/${post.slug}`} className="relative block aspect-[16/10] overflow-hidden bg-cream">
         <Image
           src={post.image}
           alt={post.title}
-          fittingType="fill"
-          className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-105"
+          fittingType="fit"
+          className="h-full w-full object-contain transition-transform duration-700 group-hover:scale-105"
         />
         <span className="absolute left-4 top-4 rounded-full bg-cream/90 px-3 py-1 text-[11px] font-semibold uppercase tracking-[0.14em] text-gold backdrop-blur">
           {post.category}
