@@ -5,6 +5,8 @@ import { AnimatePresence, motion } from "framer-motion";
 import { IMAGES, NAV, CONTACT } from "@/lib/site";
 import { UNIQUE_REGIONS } from "@/lib/landingPages";
 import { ALL_TREATMENTS } from "@/lib/treatments";
+
+const NAV_TREATMENTS = ALL_TREATMENTS.filter((t) => t.slug !== "liposana-3-jahresabo-1x-pro-monat");
 import BtnLink from "@/components/site/BtnLink";
 
 export default function Header() {
@@ -48,7 +50,7 @@ export default function Header() {
                         </Link>
                         <div className="my-1 h-px bg-ink/5" />
                         <div className="max-h-80 overflow-y-auto">
-                          {ALL_TREATMENTS.map((t) => (
+                          {NAV_TREATMENTS.map((t) => (
                             <Link key={t.slug} to={`/behandlungen/angebot/${t.slug}`} className="block rounded-xl px-4 py-2.5 text-sm text-ink/75 transition hover:bg-champagne/20 hover:text-gold">
                               {t.name}
                             </Link>
@@ -114,7 +116,7 @@ export default function Header() {
             {treatmentsOpen && (
               <div className="max-h-72 space-y-1 overflow-y-auto pl-4">
                 <Link to="/behandlungen" className="block rounded-xl px-4 py-3 text-base font-medium text-gold">Alle Behandlungen</Link>
-                {ALL_TREATMENTS.map((t) => (
+                {NAV_TREATMENTS.map((t) => (
                   <Link key={t.slug} to={`/behandlungen/angebot/${t.slug}`} className="block rounded-xl px-4 py-3 text-base text-ink/75">
                     {t.name}
                   </Link>
