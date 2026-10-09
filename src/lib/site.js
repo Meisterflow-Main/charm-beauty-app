@@ -167,7 +167,7 @@ export const TREATMENT_MENU = [
       {
         name: "Beckenboden Training-Stuhl – Probetraining",
         price: "CHF 30.–",
-        image: "https://media.base44.com/images/public/6ab62a2b7c4d0724c8fa8507/0ca762532_RelaxedPelvicFloorWellnessTraining.png",
+        image: "https://media.base44.com/images/public/6ab62a2b7c4d0724c8fa8507/af622df1f_FuturisticPelvicFloorTrainingVisualization.png",
         desc: "Kennenlernen der Methode in einer Probestunde.",
       },
       {
