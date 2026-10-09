@@ -161,7 +161,7 @@ export const TREATMENT_MENU = [
       {
         name: "Beckenboden Training-Stuhl",
         price: "CHF 40.–",
-        image: "https://media.base44.com/images/public/6ab62a2b7c4d0724c8fa8507/ae77e37e5_ModernPelvicWellnessChairSession.png",
+        image: "https://media.base44.com/images/public/6ab62a2b7c4d0724c8fa8507/ad17f70de_PelvicFloorTherapyVisualization.png",
         desc: "Verhindert und reduziert Harninkontinenz, lindert untere Rückenschmerzen, stärkt die Beckenbodenmuskulatur, unterstützt die Schwangerschaftsrückbildung, strafft das Gewebe am Po, weniger nächtlicher Harndrang, stärkt die Haltefunktion der inneren Organe, steigert die Libido.",
       },
       {
