@@ -6,7 +6,9 @@ import { IMAGES, NAV, CONTACT } from "@/lib/site";
 import { UNIQUE_REGIONS } from "@/lib/landingPages";
 import { ALL_TREATMENTS } from "@/lib/treatments";
 
-const NAV_TREATMENTS = ALL_TREATMENTS.filter((t) => t.slug !== "liposana-3-jahresabo-1x-pro-monat");
+const NAV_TREATMENTS = ALL_TREATMENTS.filter(
+  (t) => t.slug !== "liposana-3-jahresabo-1x-pro-monat" && t.slug !== "beckenboden-training-stuhl-probetraining"
+);
 import BtnLink from "@/components/site/BtnLink";
 
 export default function Header() {
