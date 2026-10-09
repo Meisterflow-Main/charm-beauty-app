@@ -48,7 +48,6 @@ export default function Kontakt() {
             </Reveal>
           </div>
           <Reveal delay={0.15} className="rounded-[2.5rem] border border-ink/5 bg-white/70 p-8 sm:p-12 lg:col-span-7">
-            <h2 className="mb-8 text-3xl font-semibold text-ink">Anfrage & Offerte</h2>
             <ContactForm />
           </Reveal>
         </div>
