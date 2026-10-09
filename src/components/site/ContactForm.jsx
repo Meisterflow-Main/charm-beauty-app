@@ -7,13 +7,11 @@ import FormStatus from "@/components/site/FormStatus";
 import { sendEnquiry, isValidEmail, isValidPhone } from "@/lib/webhook";
 
 const TOPICS = ["Termin anfragen", "Offerte anfragen", "Allgemeine Frage"];
-const AREAS = ["Gesicht", "Körper", "Beratung"];
 const EMPTY = { name: "", email: "", phone: "", message: "", website: "" };
 
 export default function ContactForm({ defaultTopic = "Termin anfragen" }) {
   const [f, setF] = useState(EMPTY);
   const [topic, setTopic] = useState(defaultTopic);
-  const [area, setArea] = useState("Gesicht");
   const [consent, setConsent] = useState(false);
   const [errors, setErrors] = useState({});
   const [status, setStatus] = useState("idle");
@@ -39,7 +37,7 @@ export default function ContactForm({ defaultTopic = "Termin anfragen" }) {
     if (!validate()) return;
     setStatus("loading");
     try {
-      await sendEnquiry({ name: f.name, email: f.email, phone: f.phone, description: `[${topic} – ${area}] ${f.message}` });
+      await sendEnquiry({ name: f.name, email: f.email, phone: f.phone, description: `[${topic}] ${f.message}` });
       setStatus("success");
     } catch (err) {
       setErrMsg(err.message === "duplicate" ? "Diese Nachricht wurde bereits gesendet." : "Senden fehlgeschlagen. Bitte versuche es erneut oder schreib mir per WhatsApp.");
@@ -55,7 +53,6 @@ export default function ContactForm({ defaultTopic = "Termin anfragen" }) {
     <form onSubmit={submit} noValidate className="space-y-6">
       <input type="text" name="website" value={f.website} onChange={set("website")} tabIndex={-1} autoComplete="off" className="hidden" aria-hidden="true" />
       <ChipGroup label="Dein Anliegen" options={TOPICS} value={topic} onChange={setTopic} />
-      <ChipGroup label="Bereich" options={AREAS} value={area} onChange={setArea} />
       <div className="grid gap-5 sm:grid-cols-2">
         <Field label="Name *" value={f.name} onChange={set("name")} error={errors.name} autoComplete="name" placeholder="Vor- und Nachname" />
         <Field label="Telefon" type="tel" value={f.phone} onChange={set("phone")} error={errors.phone} autoComplete="tel" placeholder="+41 …" />
