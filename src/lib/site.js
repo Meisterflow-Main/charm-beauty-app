@@ -155,7 +155,7 @@ export const TREATMENT_MENU = [
       {
         name: "Liposana 3 – Jahresabo (1x pro Monat)",
         price: "CHF 1 500.–",
-        image: "https://media.base44.com/images/public/6ab62a2b7c4d0724c8fa8507/ffa32fc59_Liposana3MonthlyWellnessTreatment.png",
+        image: "https://media.base44.com/images/public/6ab62a2b7c4d0724c8fa8507/eb6fae018_LuxurySpawithLiposana3Treatment.png",
         desc: "Regelmässige Anwendung für nachhaltige Ergebnisse – monatlich wiederholt.",
       },
       {
