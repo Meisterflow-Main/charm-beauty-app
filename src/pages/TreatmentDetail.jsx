@@ -11,6 +11,9 @@ import Eyebrow from "@/components/site/Eyebrow";
 import BtnLink from "@/components/site/BtnLink";
 import { Image } from "@/components/ui/image";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
+import LiposanaLanding from "@/components/treatments/LiposanaLanding";
+
+const LIPOSANA_SLUGS = ["liposana-3-einzelbehandlung", "liposana-3-jahresabo-1x-pro-monat"];
 
 const BENEFITS = [
   { icon: Sparkles, title: "Individuell abgestimmt", desc: "Jede Behandlung passe ich an deinen Hauttyp und deine Wünsche an." },
@@ -65,6 +68,8 @@ export default function TreatmentDetail() {
   });
 
   if (!treatment) return <Navigate to="/behandlungen" replace />;
+
+  if (LIPOSANA_SLUGS.includes(slug)) return <LiposanaLanding />;
 
   const related = getRelatedTreatments(slug, treatment.category);
   const faqs = buildFaqs(treatment);

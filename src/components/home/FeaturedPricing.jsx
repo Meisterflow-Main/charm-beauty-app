@@ -37,7 +37,7 @@ export default function FeaturedPricing() {
                 return (
                   <Reveal key={i} delay={(i % 3) * 0.08}>
                     <Link
-                      to={`/behandlungen/angebot/${slugify(item.name)}`}
+                      to={`/behandlungen/angebot/${slugify(item.name).includes("liposana-3") ? "liposana-3-einzelbehandlung" : slugify(item.name)}`}
                       className={`group relative flex h-full flex-col rounded-2xl border p-7 transition-all duration-500 hover:-translate-y-1 ${
                         popular
                           ? "border-gold/40 bg-cream shadow-[0_24px_60px_-24px_rgba(184,134,11,0.45)] lg:-translate-y-3 lg:scale-[1.03]"
