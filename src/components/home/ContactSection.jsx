@@ -25,7 +25,6 @@ export default function ContactSection() {
           </a>
         </Reveal>
         <Reveal delay={0.15} className="rounded-[2.5rem] border border-ink/5 bg-white/70 p-8 backdrop-blur sm:p-12 lg:col-span-7">
-          <h3 className="mb-8 text-2xl font-semibold text-ink">Anfrage senden</h3>
           <ContactForm />
         </Reveal>
       </div>
