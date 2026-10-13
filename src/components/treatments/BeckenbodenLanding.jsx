@@ -142,6 +142,34 @@ export default function BeckenbodenLanding() {
         </div>
       </section>
 
+      {/* Was dich erwartet */}
+      <section className="px-6 py-16 sm:py-24">
+        <div className="mx-auto max-w-7xl">
+          <div className="grid gap-12 lg:grid-cols-12">
+            <Reveal className="lg:col-span-7">
+              <Eyebrow>Über die Behandlung</Eyebrow>
+              <h2 className="mt-5 text-4xl font-semibold text-ink sm:text-5xl">Was dich erwartet</h2>
+              <p className="mt-6 text-lg leading-relaxed text-ink/70">{hauptbehandlung?.desc}</p>
+              <p className="mt-4 text-lg leading-relaxed text-ink/70">
+                Bei Charm Beauty in Winterthur führe ich das Beckenboden Training mit dem Stuhl mit fundiertem Fachwissen und professioneller Sorgfalt durch. Deine Bedürfnisse stehen im Mittelpunkt – ich berate dich ehrlich und individuell.
+              </p>
+              <Reveal delay={0.2} className="mt-8"><BtnLink href={CONTACT.whatsapp}>Termin vereinbaren</BtnLink></Reveal>
+            </Reveal>
+            <Reveal delay={0.1} className="lg:col-span-4 lg:col-start-9">
+              <div className="rounded-[2rem] border border-ink/5 bg-white/70 p-8">
+                <h3 className="text-lg font-semibold text-ink">Auf einen Blick</h3>
+                <ul className="mt-5 space-y-4 text-sm text-ink/70">
+                  <li className="flex items-center gap-3"><Clock className="h-4 w-4 text-gold" /> Individuelle Dauer</li>
+                  <li className="flex items-center gap-3"><Check className="h-4 w-4 text-gold" /> Probetraining CHF 30.–</li>
+                  <li className="flex items-center gap-3"><Heart className="h-4 w-4 text-gold" /> Sitzung CHF 40.–</li>
+                  <li className="flex items-center gap-3"><Sparkles className="h-4 w-4 text-gold" /> Körper</li>
+                </ul>
+              </div>
+            </Reveal>
+          </div>
+        </div>
+      </section>
+
       {/* Vorteile */}
       <section className="bg-cream/60 px-6 py-20 sm:py-28">
         <div className="mx-auto max-w-7xl">
