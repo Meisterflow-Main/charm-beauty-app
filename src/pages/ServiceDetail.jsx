@@ -54,7 +54,7 @@ export default function ServiceDetail() {
       <section className="px-6 py-20 sm:py-28">
         <div className="mx-auto grid max-w-7xl gap-12 lg:grid-cols-12">
           <Reveal className="overflow-hidden rounded-[2.5rem] lg:col-span-6">
-            <img src={service.image} alt={`${service.title} im Kosmetikstudio Charm Beauty Winterthur`} className="aspect-[4/3] w-full object-cover" loading="lazy" />
+            <img src={service.image} alt={`${service.title} im Kosmetikstudio Charm Beauty Winterthur`} className="aspect-[4/3] w-full object-cover" loading="eager" decoding="async" />
           </Reveal>
           <Reveal delay={0.1} className="lg:col-span-5 lg:col-start-8">
             <Eyebrow>{service.eyebrow}</Eyebrow>

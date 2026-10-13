@@ -9,7 +9,7 @@ export default function Welcome() {
       <div className="mx-auto grid max-w-7xl items-center gap-16 lg:grid-cols-12">
         <div className="relative lg:col-span-5 lg:col-start-1">
           <Reveal className="relative aspect-[4/5] overflow-hidden rounded-[2rem]">
-            <img src="https://media.base44.com/images/public/6ab62a2b7c4d0724c8fa8507/bbfc9bfa9_ChatGPTImageOct1202602_37_36AM.png" alt="Empfangsbereich im Charm Beauty Kosmetikstudio Winterthur" className="h-full w-full object-cover transition-transform duration-[1.5s] hover:scale-105" loading="lazy" />
+            <img src="https://media.base44.com/images/public/6ab62a2b7c4d0724c8fa8507/bbfc9bfa9_ChatGPTImageOct1202602_37_36AM.png" alt="Empfangsbereich im Charm Beauty Kosmetikstudio Winterthur" className="h-full w-full object-cover transition-transform duration-[1.5s] hover:scale-105" loading="eager" decoding="async" />
           </Reveal>
           <div className="absolute -bottom-6 -right-4 hidden rounded-3xl bg-ink px-7 py-6 text-cream shadow-2xl sm:block lg:-right-10">
             <p className="font-heading text-3xl italic text-champagne">Deine Snezana</p>

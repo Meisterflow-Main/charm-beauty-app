@@ -43,7 +43,7 @@ export default function AboutTeaser() {
         <Reveal className="order-1 lg:order-2 lg:col-span-5 lg:col-start-8">
           <div className="relative">
             <div className="absolute -inset-4 rounded-[3rem] border border-champagne/30" />
-            <img src={IMAGES.snezana} alt="Snezana Djuric – Inhaberin von Charm Beauty Winterthur" className="relative aspect-[4/5] w-full rounded-[2.5rem] object-cover" loading="lazy" />
+            <img src={IMAGES.snezana} alt="Snezana Djuric – Inhaberin von Charm Beauty Winterthur" className="relative aspect-[4/5] w-full rounded-[2.5rem] object-cover" loading="eager" decoding="async" />
           </div>
         </Reveal>
       </div>

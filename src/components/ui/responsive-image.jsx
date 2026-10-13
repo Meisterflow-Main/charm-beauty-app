@@ -48,7 +48,8 @@ export const ResponsiveImage = React.forwardRef(
               ref={imgRef}
               src={buildTransformUrl(parsed, options)}
               srcSet={buildSrcSet(parsed, options)}
-              loading="lazy"
+              loading="eager"
+              decoding="async"
               className={cn(
                 "w-full h-full inset-0 absolute",
                 fittingType === "fit" ? "object-contain" : "object-cover"

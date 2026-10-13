@@ -13,7 +13,7 @@ export default function Footer() {
         <div className="grid gap-14 md:grid-cols-2 lg:grid-cols-12">
           <div className="lg:col-span-3">
             <Link to="/" className="inline-block">
-              <img src={IMAGES.logoDark} alt="Charm Beauty Logo" className="h-20 w-auto rounded-xl" loading="lazy" />
+              <img src={IMAGES.logoDark} alt="Charm Beauty Logo" className="h-20 w-auto rounded-xl" loading="eager" decoding="async" />
             </Link>
             <p className="mt-6 max-w-xs text-sm leading-relaxed text-cream/65">
               Dein Kosmetikstudio in Winterthur für individuelle Schönheitsbehandlungen und erstklassige Hautpflege.

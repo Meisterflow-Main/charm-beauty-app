@@ -28,7 +28,7 @@ export default function UeberUns() {
       <section className="px-6 pb-24">
         <div className="mx-auto grid max-w-7xl gap-12 lg:grid-cols-12">
           <Reveal className="lg:col-span-5">
-            <img src={IMAGES.welcome} alt="Kosmetikstudio Charm Beauty in Winterthur" className="aspect-[4/5] w-full rounded-[2.5rem] object-cover" loading="lazy" />
+            <img src={IMAGES.welcome} alt="Kosmetikstudio Charm Beauty in Winterthur" className="aspect-[4/5] w-full rounded-[2.5rem] object-cover" loading="eager" decoding="async" />
           </Reveal>
           <div className="space-y-6 text-lg leading-relaxed text-ink/75 lg:col-span-6 lg:col-start-7 lg:pt-8">
             <Reveal><p className="font-heading text-2xl leading-snug text-ink">Hallo, ich bin Snezana, eine leidenschaftliche Kosmetikerin. Für mich ist mein Beruf weit mehr als nur eine Tätigkeit. Er ist meine tägliche Leidenschaft.</p></Reveal>

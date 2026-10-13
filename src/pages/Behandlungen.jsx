@@ -39,7 +39,7 @@ export default function Behandlungen() {
         {TREATMENTS.map((t, i) => (
           <article key={t.key} id={t.key} className="mx-auto grid max-w-7xl scroll-mt-28 items-center gap-12 lg:grid-cols-12">
             <Reveal className={`overflow-hidden rounded-[2.5rem] lg:col-span-7 ${i % 2 ? "lg:order-2 lg:col-start-6" : ""}`}>
-              <img src={t.image} alt={`${t.title}behandlung im Kosmetikstudio Charm Beauty Winterthur`} className="aspect-[4/3] w-full object-cover transition-transform duration-[1.5s] hover:scale-105" loading="lazy" />
+              <img src={t.image} alt={`${t.title}behandlung im Kosmetikstudio Charm Beauty Winterthur`} className="aspect-[4/3] w-full object-cover transition-transform duration-[1.5s] hover:scale-105" loading="eager" decoding="async" />
             </Reveal>
             <div className={`lg:col-span-4 ${i % 2 ? "lg:order-1 lg:col-start-1" : "lg:col-start-9"}`}>
               <Reveal><span className="font-heading text-7xl font-semibold text-champagne/60">0{i + 1}</span></Reveal>
