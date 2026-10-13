@@ -134,16 +134,16 @@ export const TREATMENT_MENU = [
     category: "Körper",
     items: [
       {
-        name: "EMSCULPT NEO – Zwei Griffe (2 Zonen)",
+        name: "EMS Sculpt – Muskelstraffung",
         price: "CHF 85.–",
         image: "https://media.base44.com/images/public/6ab62a2b7c4d0724c8fa8507/564c38769_Dual-thighlasertreatmentsetup.png",
-        desc: "Diese Behandlung strafft Muskeln in zwei Zonen und reduziert gleichzeitig Fett durch kombinierte elektromagnetische Energie und Wärme.",
+        desc: "Gezielte Muskelstimulation durch elektrische oder elektromagnetische Impulse. Unterstützt die Kräftigung der Muskulatur, verbessert die Muskeldefinition und trägt zu einer strafferen Körperkontur bei.",
       },
       {
-        name: "EMSCULPT NEO – Vier Griffe (4 Zonen)",
+        name: "EMS Sculpt – Muskelstraffung",
         price: "CHF 95.–",
         image: "https://media.base44.com/images/public/6ab62a2b7c4d0724c8fa8507/b7da1cc2d_CharmLaserFour-ApplicatorTreatment.png",
-        desc: "Mit dieser Behandlung werden vier Zonen gleichzeitig bearbeitet, um Muskeltraining und Fettabbau effizient zu kombinieren.",
+        desc: "Gezielte Muskelstimulation durch elektrische oder elektromagnetische Impulse. Unterstützt die Kräftigung der Muskulatur, verbessert die Muskeldefinition und trägt zu einer strafferen Körperkontur bei.",
       },
       {
         name: "Liposana 3 – Einzelbehandlung",
