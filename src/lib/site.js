@@ -142,7 +142,7 @@ export const TREATMENT_MENU = [
       {
         name: "EMSCULPT NEO – Vier Griffe (4 Zonen)",
         price: "CHF 95.–",
-        image: "https://media.base44.com/images/public/6ab62a2b7c4d0724c8fa8507/a4b9d0568_CHARMBeautyVierGriffeBehandlung1.png",
+        image: "https://media.base44.com/images/public/6ab62a2b7c4d0724c8fa8507/b7da1cc2d_CharmLaserFour-ApplicatorTreatment.png",
         desc: "Mit dieser Behandlung werden vier Zonen gleichzeitig bearbeitet, um Muskeltraining und Fettabbau effizient zu kombinieren.",
       },
       {
