@@ -126,7 +126,7 @@ export default function TreatmentDetail() {
               <h2 className="mt-5 text-4xl font-semibold text-ink sm:text-5xl">Was dich erwartet</h2>
               <p className="mt-6 text-lg leading-relaxed text-ink/70">{treatment.desc}</p>
               <p className="mt-4 text-lg leading-relaxed text-ink/70">
-                Bei Charm Beauty in Winterthur führe ich die {treatment.name} mit fundiertem Fachwissen und hochwertigen Produkten durch. Deine Bedürfnisse stehen im Mittelpunkt – ich berate dich ehrlich und individuell.
+                Bei Charm Beauty in Winterthur führe ich die {treatment.name} mit fundiertem Fachwissen und professioneller Sorgfalt durch. Deine Bedürfnisse stehen im Mittelpunkt – ich berate dich ehrlich und individuell.
               </p>
               <Reveal delay={0.2} className="mt-8"><BtnLink href={CONTACT.whatsapp}>Termin vereinbaren</BtnLink></Reveal>
             </Reveal>
