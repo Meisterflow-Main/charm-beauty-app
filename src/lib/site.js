@@ -150,7 +150,7 @@ export const TREATMENT_MENU = [
         price: "CHF 175.–",
         image: "https://media.base44.com/images/public/6ab62a2b7c4d0724c8fa8507/b53a9b0de_LuxurySpawithLiposana3Treatment.png",
         badge: "NEU",
-        desc: "Unterstützt die Körperkonturierung, regt die lokale Durchblutung an und kann dazu beitragen, das Erscheinungsbild von Cellulite und das Hautbild zu verbessern.",
+        desc: "Unterstützung der Körperformung, Verbesserung des Hautbildes und Reduzierung sichtbarer Cellulite.",
       },
       {
         name: "Liposana 3 – Jahresabo (1x pro Monat)",
