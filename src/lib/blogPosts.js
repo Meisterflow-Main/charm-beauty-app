@@ -106,8 +106,8 @@ const BASE_POSTS = [
       {
         heading: "Körperbehandlung: Preis und enthaltene Leistung",
         paragraphs: [
-          "Eine Körperbehandlung umfasst Peeling, pflegende Anwendungen und oft eine Massage. Der Preis hängt stark vom behandelten Bereich und der Dauer ab. Eine Teilbehandlung, etwa Rücken oder Beine, beginnt bei rund 80 Franken, eine grossflächige Behandlung des ganzen Körpers kann bis 280 Franken kosten.",
-          "Der Unterschied erklärt sich aus dem Aufwand: Mehr Fläche bedeutet mehr Produkt, mehr Zeit und mehr Handarbeit. Wer regelmässig zur Körperbehandlung geht, profitiert oft von einem etwas günstigeren Folgetermin, weil die Haut bereits gepflegt ist.",
+          "Eine Körperbehandlung bei Charm Beauty ist gerätebasiert und umfasst Verfahren wie Muskelstimulation, Lymphdrainage und Silhouettenarbeit. Der Preis hängt vom behandelten Bereich und der Dauer ab. Eine Teilbehandlung beginnt bei rund 30 Franken, umfassende Behandlungen und Jahresmodelle können bis zu 1500 Franken kosten.",
+          "Der Unterschied erklärt sich aus dem Aufwand: Mehr Bereiche und längere Anwendungen bedeuten mehr Zeit und mehr Gerätenutzung. Wer regelmässig kommt, profitiert oft von einem Jahresmodell oder günstigeren Folgeterminen.",
           "Eine Körperbehandlung lässt sich sinnvoll mit einer Gesichtsbehandlung kombinieren. Viele Studios, so auch Charm Beauty, bieten kombinierte Termine an, die pro Minute günstiger sind als zwei separate Besuche. Wer beide Bereiche pflegen möchte, fragt am besten nach einem Kombi-Angebot, das spart Zeit und oft auch Geld.",
         ],
         callout: {
@@ -577,10 +577,10 @@ const BASE_POSTS = [
     title: "Körperbehandlung in Winterthur: Entspannung und Pflege",
     metaTitle: "Körperbehandlung Winterthur für Entspannung | Charm Beauty Blog",
     metaDescription:
-      "Was eine professionelle Körperbehandlung in Winterthur bringt: Peeling, Massage und hautstraffende Pflege. Erfahre, wann sie sich lohnt und was du erwarten kannst.",
+      "Was eine professionelle Körperbehandlung in Winterthur bringt: gerätebasierte Anwendungen für Körperformung, Lymphdrainage und Silhouetten. Erfahre, wann sie sich lohnt und was du erwarten kannst.",
     category: "Dienstleistungen",
     excerpt:
-      "Der Körper trägt dich durch den Alltag, jetzt darfst du etwas zurückgeben. Dieser Beitrag stellt die Körperbehandlung bei Charm Beauty vor und erklärt, welche Pflege deine Haut strafft und wie du tiefe Entspannung erlebst.",
+      "Der Körper trägt dich durch den Alltag, jetzt darfst du etwas zurückgeben. Dieser Beitrag stellt die Körperbehandlung bei Charm Beauty vor und erklärt, welche gerätebasierten Anwendungen Körperformung, Lymphdrainage und Silhouetten unterstützen.",
     image: IMAGES.body,
     date: "2026-07-05",
     author: "Snezana Djuric",
@@ -591,7 +591,7 @@ const BASE_POSTS = [
       {
         heading: "Mehr als nur Pflege",
         paragraphs: [
-          "Eine Körperbehandlung ist Pflege und Entspannung zugleich. Sanftes Peeling entfernt abgestorbene Hautschüppchen, pflegende Anwendungen nähren die Haut und eine wohltuende Massage löst Verspannungen. Das Ergebnis: ein gepflegtes Hautbild und ein rundum gutes Körpergefühl.",
+          "Eine Körperbehandlung bei Charm Beauty ist gerätebasiert und arbeitet gezielt an Konturen, Bindegewebe und Muskulatur. Verfahren wie Muskelstimulation, Lymphdrainage und Silhouettenarbeit unterstützen die Körperformung und ein strafferes Hautbild. Das Ergebnis: eine spürbar angeregte Haut und ein rundum gutes Körpergefühl.",
         ],
       },
       {
@@ -603,7 +603,7 @@ const BASE_POSTS = [
       {
         heading: "Individuell abgestimmt",
         paragraphs: [
-          "Jede Körperbehandlung passe ich an deine Hautbeschaffenheit an. In der Beratung besprechen wir, welche Bereiche im Fokus stehen und welche Produkte deine Haut braucht. So entsteht keine Behandlung von der Stange, sondern Pflege, die wirklich zu dir passt.",
+          "Jede Körperbehandlung passe ich an deine Bedürfnisse an. In der Beratung besprechen wir, welche Bereiche im Fokus stehen und welches Verfahren zu deinem Ziel passt. So entsteht keine Behandlung von der Stange, sondern eine Anwendung, die wirklich zu dir passt.",
         ],
       },
     ],

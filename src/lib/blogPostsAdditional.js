@@ -569,7 +569,7 @@ export const ADDITIONAL_POSTS = [
       {
         heading: "Nach einer Körperbehandlung",
         paragraphs: [
-          "Nach Peeling und Massage ist die Haut weich und gut durchblutet. Trinke ausreichend Wasser, verwende eine pflegende Bodylotion und vermeide am selben Tag sehr heisse Bäder. Bei Sport gilt: lieber sanft, damit die Haut nicht zusätzlich gereizt wird.",
+          "Nach einer gerätebasierten Körperbehandlung ist das Gewebe gut durchblutet und angeregt. Trinke ausreichend Wasser, um die Ausleitung zu unterstützen, und gönne dem behandelten Bereich etwas Ruhe. Bei Sport gilt: am selben Tag lieber sanft, damit die Behandlung ungestört wirken kann.",
         ],
       },
       {
