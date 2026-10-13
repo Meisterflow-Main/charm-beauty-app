@@ -136,7 +136,7 @@ export const TREATMENT_MENU = [
       {
         name: "EMSCULPT NEO – Zwei Griffe (2 Zonen)",
         price: "CHF 85.–",
-        image: "https://media.base44.com/images/public/6ab62a2b7c4d0724c8fa8507/e361c7ba4_CharmBeautySpaTreatment.png",
+        image: "https://media.base44.com/images/public/6ab62a2b7c4d0724c8fa8507/37d117ab4_LuxuryEMSCULPTNEOSpaTreatment.png",
         desc: "Diese Behandlung strafft Muskeln in zwei Zonen und reduziert gleichzeitig Fett durch kombinierte elektromagnetische Energie und Wärme.",
       },
       {
