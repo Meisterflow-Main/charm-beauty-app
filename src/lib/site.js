@@ -137,13 +137,13 @@ export const TREATMENT_MENU = [
         name: "EMS Sculpt – Muskelstraffung",
         price: "CHF 85.–",
         image: "https://media.base44.com/images/public/6ab62a2b7c4d0724c8fa8507/564c38769_Dual-thighlasertreatmentsetup.png",
-        desc: "Gezielte Muskelstimulation durch elektrische oder elektromagnetische Impulse. Unterstützt die Kräftigung der Muskulatur, verbessert die Muskeldefinition und trägt zu einer strafferen Körperkontur bei.",
+        desc: "Muskelstimulation, Muskelstraffung und Verbesserung der Muskeldefinition.",
       },
       {
         name: "EMS Sculpt – Muskelstraffung",
         price: "CHF 95.–",
         image: "https://media.base44.com/images/public/6ab62a2b7c4d0724c8fa8507/b7da1cc2d_CharmLaserFour-ApplicatorTreatment.png",
-        desc: "Gezielte Muskelstimulation durch elektrische oder elektromagnetische Impulse. Unterstützt die Kräftigung der Muskulatur, verbessert die Muskeldefinition und trägt zu einer strafferen Körperkontur bei.",
+        desc: "Muskelstimulation, Muskelstraffung und Verbesserung der Muskeldefinition.",
       },
       {
         name: "Liposana 3 – Einzelbehandlung",
