@@ -189,7 +189,7 @@ export const TREATMENT_MENU = [
 export const FAQS = [
   {
     q: "Wie kann ich einen Termin bei Charm Beauty buchen?",
-    a: "Am einfachsten per WhatsApp oder telefonisch unter +41 78 896 46 55. Alternativ schreib mir eine Anfrage über das Kontaktformular, ich melde mich zeitnah bei dir.",
+    a: "Buche deinen Termin ganz unkompliziert per WhatsApp oder ruf mich direkt an unter +41 78 896 46 55. Ich bestätige deinen Wunschtermin schnellstmöglich und persönlich.",
   },
   {
     q: "Wann hat das Kosmetikstudio geöffnet?",
