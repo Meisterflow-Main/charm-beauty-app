@@ -625,7 +625,7 @@ export const ADDITIONAL_POSTS = [
       {
         heading: "Warum die Körperhaut Aufmerksamkeit verdient",
         paragraphs: [
-          "Die Haut am Körper hat weniger Talgdrüsen als die Gesichtshaut und trocknet deshalb schneller aus, besonders an Schienbeinen, Armen und Ellbogen. Heisse Duschen, Heizungsluft und Kälte verstärken das. Eine einfache, regelmässige Pflege macht hier viel aus.",
+          "Die Haut am Körper hat weniger Talgdrüsen als die Gesichtshaut und trocknet deshalb schneller aus, besonders an Schienbeinen, Armen und Ellbogen. Heisse Duschen, Heizungsluft und Kälte verstärken das. Eine einfache, regelmässige Pflege mit Eincremen und Peeling macht hier viel aus. Hinweis: Die Körperbehandlung bei Charm Beauty ist keine klassische Pflege oder Peeling, sondern eine gerätebasierte Behandlung für Lymphdrainage, Entgiftung und Silhouetten.",
         ],
       },
       {
@@ -647,11 +647,11 @@ export const ADDITIONAL_POSTS = [
       {
         heading: "Wann sich eine Körperbehandlung im Studio lohnt",
         paragraphs: [
-          "Eine professionelle Körperbehandlung verbindet Peeling, Pflege und oft Massage. Sie eignet sich, wenn du deine Haut intensiver pflegen, dich entspannen oder nach einer stressigen Phase etwas für dich tun möchtest. Die Behandlung ersetzt die tägliche Pflege nicht, ergänzt sie aber wirkungsvoll, in der Regel alle drei bis vier Wochen.",
+          "Die Körperbehandlung bei Charm Beauty ist eine gerätebasierte Behandlung und umfasst keine klassische Pflege oder Peeling. Sie fokussiert sich auf Lymphdrainage, Entgiftung und die Arbeit an den Silhouetten. Sie eignet sich, wenn du gezielt an Konturen, Bindegewebe und Entschlackung arbeiten möchtest. Die Behandlung ergänzt die tägliche Pflege zu Hause, ersetzt sie aber nicht.",
         ],
         callout: {
           title: "Körperbehandlung bei Charm Beauty",
-          text: "Ablauf, Dauer und Möglichkeiten der Körperbehandlung findest du auf der Behandlungsseite.",
+          text: "Gerätebasierte Behandlung für Lymphdrainage, Entgiftung und Silhouetten. Ablauf und Möglichkeiten findest du auf der Behandlungsseite.",
           link: { label: "Zur Körperbehandlung", to: "/behandlungen/koerper" },
         },
       },
