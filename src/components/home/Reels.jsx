@@ -7,7 +7,7 @@ import Eyebrow from "@/components/site/Eyebrow";
 const CAPTIONS = [
   { title: "Gesichtspflege", sub: "Individuelle Treatments" },
   { title: "Körperbehandlung", sub: "Entspannung & Pflege" },
-  { title: "Premium Produkte", sub: "Hochwertige Hautpflege" },
+  { title: "Apparative Behandlung", sub: "Gerätebasierte Körperformung" },
   { title: "Studio-Atmosphäre", sub: "Deine Oase in Winterthur" },
 ];
 
