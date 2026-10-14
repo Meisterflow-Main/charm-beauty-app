@@ -173,7 +173,7 @@ export const TREATMENT_MENU = [
       {
         name: "Po-Lifting Vakuum",
         price: "CHF 49.–",
-        image: "https://media.base44.com/images/public/6ab62a2b7c4d0724c8fa8507/43972cab5_ModernSpaGluteLiftTreatment.png",
+        image: "https://media.base44.com/images/public/6ab62a2b7c4d0724c8fa8507/b562d8e39_SalonVacuumCupPreparation.png",
         desc: "Vakuum-Po-Lifting ist eine Methode, bei der mit Hilfe von Vakuum-Saugnäpfen ein Po-Lifting-Effekt erzielt wird. Die Saugnäpfe werden auf das Gesäss aufgesetzt und durch den Unterdruck wird das Gewebe angehoben.",
       },
       {
