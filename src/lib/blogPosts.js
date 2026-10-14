@@ -476,7 +476,7 @@ const BASE_POSTS = [
     category: "Ratgeber",
     excerpt:
       "Viele unterschätzen, wie sehr Kontinuität das Ergebnis bestimmt. Dieser Ratgeber erklärt, warum einmalige Pflege kaum wirkt, wie sich die Haut über Monate verändert und welche Rolle professionelle Begleitung dabei spielt.",
-    image: IMAGES.gallery[1],
+    image: IMAGES.face,
     date: "2026-08-02",
     author: "Snezana Djuric",
     readTime: 5,
