@@ -134,13 +134,13 @@ export const TREATMENT_MENU = [
     category: "Körper",
     items: [
       {
-        name: "EMS Sculpt – Muskelstraffung",
+        name: "EMS Sculpt – Muskelstraffung 2 Zonen",
         price: "CHF 85.–",
         image: "https://media.base44.com/images/public/6ab62a2b7c4d0724c8fa8507/564c38769_Dual-thighlasertreatmentsetup.png",
         desc: "Muskelstimulation, Muskelstraffung und Verbesserung der Muskeldefinition.",
       },
       {
-        name: "EMS Sculpt – Muskelstraffung",
+        name: "EMS Sculpt – Muskelstraffung 4 Zonen",
         price: "CHF 95.–",
         image: "https://media.base44.com/images/public/6ab62a2b7c4d0724c8fa8507/b7da1cc2d_CharmLaserFour-ApplicatorTreatment.png",
         desc: "Muskelstimulation, Muskelstraffung und Verbesserung der Muskeldefinition.",
