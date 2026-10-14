@@ -32,9 +32,7 @@ export default function FeaturedPricing() {
               <h3 className="mb-8 text-2xl font-semibold text-ink">{cat.category}</h3>
             </Reveal>
             <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-              {cat.items
-                .filter((item) => item.name !== "Liposana 3 – Jahresabo (1x pro Monat)")
-                .map((item, i) => {
+              {cat.items.map((item, i) => {
                 const popular = POPULAR_INDEX[`${ci}-${i}`];
                 return (
                   <Reveal key={i} delay={(i % 3) * 0.08}>
