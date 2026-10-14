@@ -112,10 +112,10 @@ export default function LiposanaLanding() {
       {/* Preis-Optionen */}
       <section className="px-6 py-12 sm:py-16">
         <div className="mx-auto max-w-7xl">
-          <Reveal className="mb-12 text-center">
+          <Reveal className="mb-12 max-w-2xl text-left">
             <Eyebrow>Preisoptionen</Eyebrow>
             <h2 className="mt-5 text-4xl font-semibold text-ink sm:text-5xl">Wähle dein Modell</h2>
-            <p className="mx-auto mt-6 max-w-2xl text-lg leading-relaxed text-ink/70">
+            <p className="mt-6 text-lg leading-relaxed text-ink/70">
               Ob als einzelne Behandlung oder als Jahresabo für nachhaltige Ergebnisse – du entscheidest, was zu dir passt.
             </p>
           </Reveal>
