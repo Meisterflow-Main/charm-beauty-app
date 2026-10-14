@@ -6,8 +6,8 @@ import Eyebrow from "@/components/site/Eyebrow";
 
 const CAPTIONS = [
   { title: "Gesichtspflege", sub: "Individuelle Pflege für deine Haut" },
+  { title: "Kosmetisches Microneedling & Nanoneedling", sub: "Für glatte Haut und einen frischen Glow" },
   { title: "Apparative Körperbehandlungen", sub: "Moderne Technologien für gezielte Anwendungen" },
-  { title: "Unsere Geräte", sub: "Technologie für effektive Behandlungen" },
   { title: "Behandlung in Aktion", sub: "Einblick in unsere apparativen Körperanwendungen" },
 ];
 
