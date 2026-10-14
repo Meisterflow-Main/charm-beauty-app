@@ -34,21 +34,21 @@ const FAQS = [
 ];
 
 export default function LiposanaLanding() {
-  const einzelbehandlung = ALL_TREATMENTS.find((t) => t.slug === "liposana-3-einzelbehandlung");
+  const einzelbehandlung = ALL_TREATMENTS.find((t) => t.slug === "liposana-3");
   const jahresabo = ALL_TREATMENTS.find((t) => t.slug === "liposana-3-jahresabo-1x-pro-monat");
-  const related = getRelatedTreatments("liposana-3-einzelbehandlung", "Körper").filter((t) => !t.slug.includes("liposana-3"));
+  const related = getRelatedTreatments("liposana-3", "Körper").filter((t) => !t.slug.includes("liposana-3"));
 
   useSeo({
     title: "Liposana 3 Winterthur | Charm Beauty",
     description: einzelbehandlung?.desc || "",
-    path: "/behandlungen/angebot/liposana-3-einzelbehandlung",
+    path: "/behandlungen/angebot/liposana-3",
     schemas: [
       breadcrumbSchema([
         { name: "Home", path: "/" },
         { name: "Behandlungen", path: "/behandlungen" },
-        { name: "Liposana 3", path: "/behandlungen/angebot/liposana-3-einzelbehandlung" },
+        { name: "Liposana 3", path: "/behandlungen/angebot/liposana-3" },
       ]),
-      webPageSchema({ path: "/behandlungen/angebot/liposana-3-einzelbehandlung" }),
+      webPageSchema({ path: "/behandlungen/angebot/liposana-3" }),
       {
         "@context": "https://schema.org",
         "@type": "Service",

@@ -146,7 +146,7 @@ export const TREATMENT_MENU = [
         desc: "Muskelstimulation, Muskelstraffung und Verbesserung der Muskeldefinition.",
       },
       {
-        name: "Liposana 3 – Einzelbehandlung",
+        name: "Liposana 3",
         price: "CHF 175.–",
         image: "https://media.base44.com/images/public/6ab62a2b7c4d0724c8fa8507/b53a9b0de_LuxurySpawithLiposana3Treatment.png",
         badge: "NEU",

@@ -14,7 +14,7 @@ import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/
 import LiposanaLanding from "@/components/treatments/LiposanaLanding";
 import BeckenbodenLanding from "@/components/treatments/BeckenbodenLanding";
 
-const LIPOSANA_SLUGS = ["liposana-3-einzelbehandlung", "liposana-3-jahresabo-1x-pro-monat"];
+const LIPOSANA_SLUGS = ["liposana-3", "liposana-3-jahresabo-1x-pro-monat"];
 const BECKENBODEN_SLUGS = ["beckenboden-training-stuhl", "beckenboden-training-stuhl-probetraining"];
 
 const BENEFITS = [
