@@ -95,8 +95,8 @@ export default function LiposanaLanding() {
 
       {/* Was dich erwartet */}
       <section className="px-6 py-12 sm:py-16">
-        <div className="mx-auto max-w-3xl text-center">
-          <Reveal>
+        <div className="mx-auto max-w-7xl">
+          <Reveal className="max-w-3xl text-left">
             <Eyebrow>Über die Behandlung</Eyebrow>
             <h2 className="mt-5 text-3xl font-semibold text-ink sm:text-4xl">Was dich erwartet</h2>
             <p className="mt-6 text-lg leading-relaxed text-ink/70">
