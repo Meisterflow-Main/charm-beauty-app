@@ -621,7 +621,6 @@ const BASE_POSTS = [
       { label: "Körperbehandlung buchen", to: "/behandlungen/koerper" },
       { label: "Gesichtsbehandlung ansehen", to: "/behandlungen/gesicht" },
       { label: "Termin vereinbaren", to: "/kontakt" },
-      { label: "Körperpflege im Alltag", to: "/blog/koerperpflege-tipps-alltag" },
       { label: "Vorbereitung und Nachsorge", to: "/blog/vorbereitung-nachsorge-kosmetikbehandlung" },
     ],
   },
@@ -732,7 +731,6 @@ const BASE_POSTS = [
       { label: "Gesichtsbehandlung", to: "/behandlungen/gesicht" },
       { label: "Kontakt", to: "/kontakt" },
       { label: "Empfindliche Haut pflegen", to: "/blog/empfindliche-haut-pflegen-roetungen" },
-      { label: "Körperpflege im Alltag", to: "/blog/koerperpflege-tipps-alltag" },
     ],
   },
 ];

@@ -100,7 +100,6 @@ export const SERVICES = [
       { q: "Was sollte ich nach der Körperbehandlung beachten?", a: "Trinke ausreichend Wasser, verwende eine pflegende Bodylotion und vermeide am selben Tag sehr heisse Bäder. Weitere Tipps findest du im Ratgeber zur Nachsorge." },
     ],
     guides: [
-      "koerperpflege-tipps-alltag",
       "koerperbehandlung-winterthur-entspannung",
       "vorbereitung-nachsorge-kosmetikbehandlung",
     ],
