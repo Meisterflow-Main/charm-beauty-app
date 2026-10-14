@@ -96,7 +96,7 @@ export default function BeckenbodenLanding() {
 
       {/* Was dich erwartet */}
       <section className="px-6 py-12 sm:py-16">
-        <div className="mx-auto max-w-3xl text-center">
+        <div className="mx-auto max-w-3xl text-left">
           <Reveal>
             <Eyebrow>Über die Behandlung</Eyebrow>
             <h2 className="mt-5 text-3xl font-semibold text-ink sm:text-4xl">Was dich erwartet</h2>
