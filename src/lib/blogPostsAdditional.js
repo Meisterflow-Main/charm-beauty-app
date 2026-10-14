@@ -467,17 +467,17 @@ export const ADDITIONAL_POSTS = [
       {
         heading: "Zwei Berufe, zwei Aufgaben",
         paragraphs: [
-          "Ein Kosmetikstudio pflegt und unterstützt gesunde Haut. Dazu gehören Reinigung, Peeling, Massage, Masken und Pflege sowie die Beratung zur Hautpflege zu Hause. Dermatologinnen und Dermatologen sind Fachärzte, die Hauterkrankungen diagnostizieren und behandeln.",
+          "Ein Kosmetikstudio pflegt und unterstützt gesunde Haut. Im Gesicht gehören dazu Reinigung, Peeling, Masken und Pflege sowie die Beratung zur Hautpflege zu Hause. Die Körperbehandlungen bei Charm Beauty sind gerätebasiert, wie Liposana 3, EMS Sculpt oder Maderotherapie, keine klassischen Peelings oder Massagen. Dermatologinnen und Dermatologen sind Fachärzte, die Hauterkrankungen diagnostizieren und behandeln.",
           "Der wichtigste Unterschied: Kosmetik stellt keine Diagnosen und behandelt keine Krankheiten. Wer eine Hauterkrankung vermutet, gehört in ärztliche Hände.",
         ],
       },
       {
         heading: "Was ins Kosmetikstudio gehört",
         list: [
-          "Regelmässige Gesichts- und Körperpflege",
+          "Regelmässige Gesichtspflege und Tiefenreinigung",
           "Tiefenreinigung bei Mitessern und verstopften Poren",
-          "Feuchtigkeitspflege bei trockener oder fahler Haut",
-          "Entspannung durch Massage und Pflegeanwendungen",
+          "Feuchtigkeitspflege bei trockener oder fahler Gesichtshaut",
+          "Gerätebasierte Körperbehandlungen wie Liposana 3, EMS Sculpt und Maderotherapie",
           "Beratung zu Hauttyp, Pflegeprodukten und Routine",
         ],
       },
@@ -608,8 +608,8 @@ export const ADDITIONAL_POSTS = [
   },
   {
     slug: "koerperpflege-tipps-alltag",
-    title: "Körperpflege im Alltag: Trockene Haut, Peeling und Massage",
-    metaTitle: "Körperpflege Tipps: Trockene Haut, Peeling, Massage | Charm Beauty Winterthur",
+    title: "Körperpflege im Alltag: Trockene Haut und Gerätebasierte Behandlungen",
+    metaTitle: "Körperpflege Tipps: Trockene Haut und Gerätebasierte Behandlungen | Charm Beauty Winterthur",
     metaDescription:
       "Wie du deine Körperhaut zu Hause pflegst: Duschgewohnheiten, Peeling, Bodylotion und wann sich eine professionelle Körperbehandlung in Winterthur lohnt.",
     category: "Tipps",
@@ -619,13 +619,13 @@ export const ADDITIONAL_POSTS = [
     date: "2026-09-04",
     author: AUTHOR,
     readTime: 6,
-    tags: ["Körperpflege", "Trockene Haut", "Körperpeeling", "Massage"],
+    tags: ["Körperpflege", "Trockene Haut", "Gerätebasierte Behandlung", "Körperformung"],
     popular: false,
     sections: [
       {
         heading: "Warum die Körperhaut Aufmerksamkeit verdient",
         paragraphs: [
-          "Die Haut am Körper hat weniger Talgdrüsen als die Gesichtshaut und trocknet deshalb schneller aus, besonders an Schienbeinen, Armen und Ellbogen. Heisse Duschen, Heizungsluft und Kälte verstärken das. Eine einfache, regelmässige Pflege mit Eincremen und Peeling macht hier viel aus. Hinweis: Die Körperbehandlung bei Charm Beauty ist keine klassische Pflege oder Peeling, sondern eine gerätebasierte Behandlung für Lymphdrainage, Entgiftung und Silhouetten.",
+          "Die Haut am Körper hat weniger Talgdrüsen als die Gesichtshaut und trocknet deshalb schneller aus, besonders an Schienbeinen, Armen und Ellbogen. Heisse Duschen, Heizungsluft und Kälte verstärken das. Eine einfache, regelmässige Pflege mit Eincremen zu Hause macht hier viel aus. Hinweis: Die Körperbehandlung bei Charm Beauty ist keine klassische Pflege, kein Peeling und keine Massage, sondern eine gerätebasierte Behandlung wie Liposana 3, EMS Sculpt oder Maderotherapie für Körperformung, Lymphdrainage und Silhouetten.",
         ],
       },
       {
@@ -647,7 +647,7 @@ export const ADDITIONAL_POSTS = [
       {
         heading: "Wann sich eine Körperbehandlung im Studio lohnt",
         paragraphs: [
-          "Die Körperbehandlung bei Charm Beauty ist eine gerätebasierte Behandlung und umfasst keine klassische Pflege oder Peeling. Sie fokussiert sich auf Lymphdrainage, Entgiftung und die Arbeit an den Silhouetten. Sie eignet sich, wenn du gezielt an Konturen, Bindegewebe und Entschlackung arbeiten möchtest. Die Behandlung ergänzt die tägliche Pflege zu Hause, ersetzt sie aber nicht.",
+          "Die Körperbehandlung bei Charm Beauty ist gerätebasiert und umfasst keine klassische Pflege, kein Peeling und keine Massage. Zu den Anwendungen gehören Liposana 3 für Körperformung und Cellulitereduktion, EMS Sculpt für Muskelstimulation, der Beckenboden Training-Stuhl, Po-Lifting Vakuum und die Maderotherapie. Sie eignen sich, wenn du gezielt an Konturen, Bindegewebe, Muskelstraffung und Silhouetten arbeiten möchtest. Die Behandlung ergänzt die tägliche Pflege zu Hause, ersetzt sie aber nicht.",
         ],
         callout: {
           title: "Körperbehandlung bei Charm Beauty",

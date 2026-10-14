@@ -106,7 +106,7 @@ const BASE_POSTS = [
       {
         heading: "Körperbehandlung: Preis und enthaltene Leistung",
         paragraphs: [
-          "Eine Körperbehandlung bei Charm Beauty ist gerätebasiert und umfasst Verfahren wie Muskelstimulation, Lymphdrainage und Silhouettenarbeit. Der Preis hängt vom behandelten Bereich und der Dauer ab. Eine Teilbehandlung beginnt bei rund 30 Franken, umfassende Behandlungen und Jahresmodelle können bis zu 1500 Franken kosten.",
+          "Eine Körperbehandlung bei Charm Beauty ist gerätebasiert und umfasst keine Peelings oder Massagen, sondern apparative Anwendungen wie Liposana 3, EMS Sculpt, den Beckenboden Training-Stuhl, Po-Lifting Vakuum und die Maderotherapie. Der Preis hängt vom behandelten Bereich und der Dauer ab. Eine Teilbehandlung beginnt bei rund 30 Franken, umfassende Behandlungen und Jahresmodelle können bis zu 1500 Franken kosten.",
           "Der Unterschied erklärt sich aus dem Aufwand: Mehr Bereiche und längere Anwendungen bedeuten mehr Zeit und mehr Gerätenutzung. Wer regelmässig kommt, profitiert oft von einem Jahresmodell oder günstigeren Folgeterminen.",
           "Eine Körperbehandlung lässt sich sinnvoll mit einer Gesichtsbehandlung kombinieren. Viele Studios, so auch Charm Beauty, bieten kombinierte Termine an, die pro Minute günstiger sind als zwei separate Besuche. Wer beide Bereiche pflegen möchte, fragt am besten nach einem Kombi-Angebot, das spart Zeit und oft auch Geld.",
         ],
@@ -574,8 +574,8 @@ const BASE_POSTS = [
   },
   {
     slug: "koerperbehandlung-winterthur-entspannung",
-    title: "Körperbehandlung in Winterthur: Entspannung und Pflege",
-    metaTitle: "Körperbehandlung Winterthur für Entspannung | Charm Beauty Blog",
+    title: "Körperbehandlung in Winterthur: Apparative Anwendungen für Konturen und Silhouette",
+    metaTitle: "Körperbehandlung Winterthur: Apparative Anwendungen | Charm Beauty Blog",
     metaDescription:
       "Was eine professionelle Körperbehandlung in Winterthur bringt: gerätebasierte Anwendungen für Körperformung, Lymphdrainage und Silhouetten. Erfahre, wann sie sich lohnt und was du erwarten kannst.",
     category: "Dienstleistungen",
@@ -589,21 +589,21 @@ const BASE_POSTS = [
     popular: false,
     sections: [
       {
-        heading: "Mehr als nur Pflege",
+        heading: "Gerätebasierte Körperbehandlungen, keine Peelings oder Massagen",
         paragraphs: [
-          "Eine Körperbehandlung bei Charm Beauty ist gerätebasiert und arbeitet gezielt an Konturen, Bindegewebe und Muskulatur. Verfahren wie Muskelstimulation, Lymphdrainage und Silhouettenarbeit unterstützen die Körperformung und ein strafferes Hautbild. Das Ergebnis: eine spürbar angeregte Haut und ein rundum gutes Körpergefühl.",
+          "Eine Körperbehandlung bei Charm Beauty ist gerätebasiert und arbeitet gezielt an Konturen, Bindegewebe und Muskulatur. Es gibt keine klassischen Körper-Peelings oder Massagen, sondern apparative Anwendungen mit modernen Geräten. Dazu gehören Liposana 3 für die Körperformung und Cellulitereduktion, EMS Sculpt für die Muskelstimulation und -straffung, der Beckenboden Training-Stuhl zur Stärkung der Beckenbodenmuskulatur, Po-Lifting Vakuum für die Straffung am Gesäss und die Maderotherapie mit speziellen Holzwerkzeugen. Jede dieser Anwendungen verfolgt ein konkretes Ziel, von der Silhouettenarbeit über die Lymphdrainage bis zur Muskeldefinition.",
         ],
       },
       {
         heading: "Wann sich eine Körperbehandlung lohnt",
         paragraphs: [
-          "Besonders vor Jahreszeitenwechsel, nach stressigen Phasen oder wenn die Haut spannt und trocken wirkt, tut eine Körperbehandlung besonders gut. Auch als regelmässiges Ritual, etwa alle drei bis vier Wochen, hält sie die Haut nachhaltig geschmeidig.",
+          "Eine gerätebasierte Körperbehandlung lohnt sich, wenn du gezielt an Konturen, Muskelstraffung oder Cellulitereduktion arbeiten möchtest. Ob nach einer Ernährungsumstellung, vor der Sommerzeit oder als regelmässiges Ritual zur Silhouettenarbeit, etwa alle drei bis vier Wochen, die Anwendungen unterstützen deine Körperformung nachhaltig.",
         ],
       },
       {
         heading: "Individuell abgestimmt",
         paragraphs: [
-          "Jede Körperbehandlung passe ich an deine Bedürfnisse an. In der Beratung besprechen wir, welche Bereiche im Fokus stehen und welches Verfahren zu deinem Ziel passt. So entsteht keine Behandlung von der Stange, sondern eine Anwendung, die wirklich zu dir passt.",
+          "Jede Körperbehandlung passe ich an deine Bedürfnisse an. In der Beratung besprechen wir, ob Liposana 3, EMS Sculpt, der Beckenboden Training-Stuhl, Po-Lifting Vakuum oder die Maderotherapie zu deinem Ziel passt. So entsteht keine Behandlung von der Stange, sondern eine gezielte, gerätebasierte Anwendung, die wirklich zu dir passt.",
         ],
       },
     ],
