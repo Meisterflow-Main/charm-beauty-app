@@ -5,10 +5,10 @@ import Reveal from "@/components/site/Reveal";
 import Eyebrow from "@/components/site/Eyebrow";
 
 const CAPTIONS = [
-  { title: "Gesichtspflege", sub: "Individuelle Treatments" },
-  { title: "Körperbehandlung", sub: "Entspannung & Pflege" },
-  { title: "Apparative Behandlung", sub: "Hochwertige Geräte für die Behandlung deines Körpers" },
-  { title: "Studio-Atmosphäre", sub: "Deine Oase in Winterthur" },
+  { title: "Gesichtspflege", sub: "Individuelle Pflege für deine Haut" },
+  { title: "Apparative Körperbehandlungen", sub: "Moderne Technologien für gezielte Anwendungen" },
+  { title: "Unsere Geräte", sub: "Technologie für effektive Behandlungen" },
+  { title: "Behandlung in Aktion", sub: "Einblick in unsere apparativen Körperanwendungen" },
 ];
 
 function Reel({ src, caption, index }) {
