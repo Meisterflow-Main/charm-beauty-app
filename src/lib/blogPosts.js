@@ -529,7 +529,7 @@ const BASE_POSTS = [
     category: "Google Bewertungen",
     excerpt:
       "Bewertungen entscheiden heute über die Wahl eines Studios. Dieser Beitrag erklärt, warum echte Google-Bewertungen für lokale Unternehmen zählen, wie sie Vertrauen schaffen und was eine seriöse Bewertung von einer gekauften unterscheidet.",
-    image: IMAGES.gallery[2],
+    image: IMAGES.welcome,
     date: "2026-07-21",
     author: "Snezana Djuric",
     readTime: 4,
