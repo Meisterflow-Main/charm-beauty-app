@@ -96,7 +96,7 @@ export const SERVICES = [
       { q: "Wie oft sollte ich eine Körperbehandlung machen?", a: "Für nachhaltige Ergebnisse empfehle ich alle drei bis vier Wochen einen Termin. So bleibt deine Haut gepflegt und das Wohlbefinden erhalten." },
       { q: "Wo befindet sich Charm Beauty in Winterthur?", a: "Das Studio liegt an der Ernst-Jung-Gasse 16a in 8400 Winterthur. Die zentrale Lage macht es einfach, einen Termin einzuplanen." },
       { q: "Wie kann ich trockene Körperhaut zwischen den Terminen pflegen?", a: "Dusche lauwarm, creme dich direkt nach dem Duschen ein und peele ein- bis zweimal pro Woche sanft. Im Winter lohnen sich reichhaltigere Lotionen als im Sommer." },
-      { q: "Für wen ist eine Körperbehandlung geeignet?", a: "Für alle, die ihre Haut intensiver pflegen oder sich Zeit zur Entspannung nehmen möchten. Bei Hauterkrankungen, offenen Stellen oder gesundheitlichen Einschränkungen sprichst du bitte vorab mit mir und gegebenenfalls mit deiner Ärztin oder deinem Arzt." },
+      { q: "Für wen ist eine Körperbehandlung geeignet?", a: "Für alle, die ihre Körperformung und Muskelstärkung gezielt unterstützen möchten. Die apparativen Behandlungen wie EMSCULPT NEO, Liposana 3 und das Beckenbodentraining eignen sich für Frauen und Männer mit unterschiedlichen Figur- und Fitnesszielen. Bei akuten Hauterkrankungen, offenen Stellen, Schwangerschaft oder gesundheitlichen Einschränkungen sprichst du bitte vorab mit mir und gegebenenfalls mit deiner Ärztin oder deinem Arzt." },
       { q: "Was sollte ich nach der Körperbehandlung beachten?", a: "Trinke ausreichend Wasser, verwende eine pflegende Bodylotion und vermeide am selben Tag sehr heisse Bäder. Weitere Tipps findest du im Ratgeber zur Nachsorge." },
     ],
     guides: [
