@@ -7,7 +7,7 @@ import BtnLink from "@/components/site/BtnLink";
 
 const AREAS = [
   { key: "gesicht", label: "Gesicht", treatments: ["Tiefenreinigung", "Feuchtigkeitspflege", "Anti-Aging"] },
-  { key: "koerper", label: "Körper", treatments: ["Körperpeeling", "Entspannungsmassage", "Hautstraffung"] },
+  { key: "koerper", label: "Körper", treatments: ["Körperformung", "Muskelstimulation", "Hautstraffung"] },
   { key: "beratung", label: "Beratung", treatments: ["Hautanalyse", "Pflegeberatung"] },
 ];
 
