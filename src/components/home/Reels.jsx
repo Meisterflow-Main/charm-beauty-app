@@ -56,7 +56,7 @@ export default function Reels() {
         <div className="mb-12 text-center">
           <Reveal><Eyebrow>Eindrücke</Eyebrow></Reveal>
           <Reveal delay={0.1}><h2 className="mt-5 text-5xl font-semibold text-ink sm:text-6xl">Charm Beauty in Bewegung</h2></Reveal>
-          <Reveal delay={0.2}><p className="mx-auto mt-6 max-w-xl text-lg leading-relaxed text-ink/70">Erlebe die Atmosphäre meines Studios mit einem Einblick in meine Behandlungen, vom Gesichtstreatment bis zur Entspannung für den ganzen Körper.</p></Reveal>
+          <Reveal delay={0.2}><p className="mx-auto mt-6 max-w-xl text-lg leading-relaxed text-ink/70">Erlebe die Atmosphäre meines Studios mit einem Einblick in meine Behandlungen, vom Gesichtstreatment bis zur Körperstraffung mit moderner Technologie.</p></Reveal>
         </div>
         <div className="grid grid-cols-2 gap-4 sm:gap-6 lg:grid-cols-4">
           {VIDEOS.reels.map((src, i) => (
