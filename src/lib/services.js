@@ -85,7 +85,7 @@ export const SERVICES = [
       { step: "Nachsorge", desc: "Empfehlungen für die Pflege zu Hause und den nächsten Termin." },
     ],
     preisfaktoren: [
-      "Art der Körperbehandlung (Peeling, Massage, hautstraffende Pflege)",
+      "Art der Körperbehandlung (EMSCULPT NEO, Liposana 3, Beckenbodentraining)",
       "Dauer und Umfang der Behandlung",
       "Behandelte Körperbereiche",
     ],
