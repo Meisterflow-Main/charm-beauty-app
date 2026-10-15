@@ -90,7 +90,7 @@ export const SERVICES = [
       "Behandelte Körperbereiche",
     ],
     faqs: [
-      { q: "Was beinhaltet eine Körperbehandlung?", a: "Je nach Wahl umfasst die Behandlung Peeling, Massage und pflegende Anwendungen. In der Beratung besprechen wir, was für deine Hautbedürfnisse am besten passt." },
+      { q: "Was beinhaltet eine Körperbehandlung?", a: "Je nach Wahl umfasst die Behandlung apparative Anwendungen wie EMSCULPT NEO für Muskelaufbau und Fettreduktion, Liposana 3 zur Körperformung oder das Beckenbodentraining. In der Beratung besprechen wir, welche Behandlung für deine Ziele am besten passt." },
       { q: "Wie lange dauert eine Körperbehandlung?", a: "Die Dauer variiert je nach Umfang zwischen 45 und 120 Minuten. Eine ausführliche Beratung im Voraus hilft, die passende Behandlung für deine Zeit zu finden." },
       { q: "Was sollte ich zur Behandlung mitbringen?", a: "Bequeme Kleidung reicht aus. Alles weitere, von Handtüchern bis zu Pflegeprodukten, stellt mein Studio für dich bereit." },
       { q: "Wie oft sollte ich eine Körperbehandlung machen?", a: "Für nachhaltige Ergebnisse empfehle ich alle drei bis vier Wochen einen Termin. So bleibt deine Haut gepflegt und das Wohlbefinden erhalten." },
