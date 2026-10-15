@@ -73,10 +73,10 @@ export const SERVICES = [
     description:
       "Jede Körperbehandlung wird individuell auf deine Hautbeschaffenheit und deine Wünsche abgestimmt. Ich arbeite mit hochwertigen Produkten und sorgfältiger Handarbeit, für ein gepflegtes Hautbild und ein rundum wohltuendes Körpergefühl.",
     advantages: [
-      { title: "Ganzheitlicher Ansatz", desc: "Ich behandle nicht nur die Haut, sondern sorge für ein rundum gutes Körpergefühl." },
+      { title: "Apparative Technologie", desc: "Modernste Geräte wie EMSCULPT NEO, Liposana 3 und das Beckenbodentraining für messbare Ergebnisse." },
       { title: "Ruhe und Privatsphäre", desc: "Mein Studio bietet dir einen ruhigen Raum, in dem du ungestört entspannen kannst." },
-      { title: "Hochwertige Produkte", desc: "Sorgfältig ausgewählte Pflegeprodukte, die deine Haut nähren und nachhaltig pflegen." },
-      { title: "Individuelle Abstimmung", desc: "Jede Körperbehandlung passe ich an deine Hautbeschaffenheit und deine Wünsche an." },
+      { title: "Individuelle Beratung", desc: "Gemeinsam finden wir die passende Behandlung für deine Figur- und Fitnessziele." },
+      { title: "Gezielte Ergebnisse", desc: "Muskelaufbau, Fettreduktion, Körperformung und Beckenbodenstärkung nach wissenschaftlichen Standards." },
     ],
     ablauf: [
       { step: "Beratung", desc: "Wir besprechen deine Wünsche und deine Hautbeschaffenheit." },
