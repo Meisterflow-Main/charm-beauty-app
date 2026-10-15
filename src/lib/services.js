@@ -79,10 +79,10 @@ export const SERVICES = [
       { title: "Gezielte Ergebnisse", desc: "Muskelaufbau, Fettreduktion, Körperformung und Beckenbodenstärkung nach wissenschaftlichen Standards." },
     ],
     ablauf: [
-      { step: "Beratung", desc: "Wir besprechen deine Wünsche und deine Hautbeschaffenheit." },
-      { step: "Vorbereitung", desc: "Sanftes Peeling entfernt abgestorbene Hautschüppchen und fördert die Zellerneuerung." },
-      { step: "Behandlung", desc: "Pflegende Anwendungen und wohltuende Massage für Haut und Körper." },
-      { step: "Nachsorge", desc: "Empfehlungen für die Pflege zu Hause und den nächsten Termin." },
+      { step: "Beratung", desc: "Wir besprechen deine Ziele und finden die passende apparative Behandlung für dich." },
+      { step: "Vorbereitung", desc: "Ich erkläre die Technologie, markiere die Behandlungszonen und positioniere die Geräte." },
+      { step: "Behandlung", desc: "EMSCULPT NEO, Liposana 3 oder Beckenbodentraining arbeiten gezielt an Muskeln, Fett und Konturen." },
+      { step: "Nachsorge", desc: "Empfehlungen für optimale Ergebnisse und die Planung deiner nächsten Sitzung." },
     ],
     preisfaktoren: [
       "Art der Körperbehandlung (EMSCULPT NEO, Liposana 3, Beckenbodentraining)",
