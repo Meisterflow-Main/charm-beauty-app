@@ -19,10 +19,10 @@ export const SERVICES = [
     description:
       "Jede Gesichtsbehandlung beginnt mit einer gründlichen Hautanalyse. Danach wähle ich hochwertige Produkte und sanfte Techniken, die zu deiner Haut passen. Kein Standard-Programm, kein Verkaufsdruck, nur ehrliche, individuelle Pflege in entspannter Atmosphäre.",
     advantages: [
-      { title: "Individuelle Hautanalyse", desc: "Vor jeder Behandlung analysiere ich deine Haut und wähle die passenden Produkte." },
-      { title: "Massgeschneiderte Pflege", desc: "Kein Standard-Programm, jede Behandlung wird auf deinen Hauttyp zugeschnitten." },
-      { title: "Hochwertige Produkte", desc: "Sorgfältig ausgewählte Pflegeprodukte, deren Wirkung ich regelmässig überprüfe." },
-      { title: "Sanfte Technik", desc: "Schonend und entspannend, keine aggressiven Methoden, keine unnötige Belastung." },
+      { title: "Individuelle Hautanalyse", desc: "Vor jeder Behandlung analysiere ich deine Haut gründlich und leite die passende Pflegeroutine ab." },
+      { title: "Massgeschneiderte Pflege", desc: "Jede Behandlung ziele ich auf deinen Hauttyp und dein aktuelles Hautbedürfnis ab." },
+      { title: "Hochwertige Produkte", desc: "Sorgfältig ausgewählte Wirkstoffe, deren Ergebnisse ich regelmässig mit dir überprüfe." },
+      { title: "Sanfte Technik", desc: "Schonende, entspannende Anwendungen ohne aggressive Methoden oder unnötige Belastung." },
     ],
     ablauf: [
       { step: "Hautanalyse", desc: "Gemeinsam besprechen wir deine Wünsche und analysieren deinen Hauttyp." },
