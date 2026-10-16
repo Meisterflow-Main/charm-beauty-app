@@ -148,7 +148,12 @@ export const TREATMENT_MENU = [
         name: "EMS Sculpt – Muskelstraffung 4 Zonen",
         price: "CHF 95.–",
         image: "https://media.base44.com/images/public/6ab62a2b7c4d0724c8fa8507/b7da1cc2d_CharmLaserFour-ApplicatorTreatment.png",
-        desc: "Muskelstimulation, Muskelstraffung und Verbesserung der Muskeldefinition.",
+        desc: "Intensive Muskelstimulation zur Unterstützung des Muskelaufbaus, der Muskelstraffung und einer definierten Körpersilhouette.",
+        longDesc: [
+          "Intensive Muskelstimulation zur Unterstützung des Muskelaufbaus, der Muskelstraffung und einer definierten Körpersilhouette.",
+          "Bei der EMS Sculpt Behandlung mit vier Applikatoren können mehrere Muskelbereiche gleichzeitig stimuliert werden. Die Anwendung ermöglicht eine umfassendere Behandlung und wird individuell auf deine gewünschten Körperzonen abgestimmt.",
+          "Bei Charm Beauty in Winterthur führe ich die Behandlung mit fundiertem Fachwissen und professioneller Sorgfalt durch. Deine Bedürfnisse stehen im Mittelpunkt – ich berate dich ehrlich und individuell.",
+        ],
       },
       {
         name: "Liposana 3",
