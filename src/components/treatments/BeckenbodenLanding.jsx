@@ -101,10 +101,16 @@ export default function BeckenbodenLanding() {
             <Eyebrow>Über die Behandlung</Eyebrow>
             <h2 className="mt-5 text-3xl font-semibold text-ink sm:text-4xl">Was dich erwartet</h2>
             <p className="mt-6 text-lg leading-relaxed text-ink/70">
-              Verhindert und reduziert Harninkontinenz, lindert untere Rückenschmerzen, stärkt die Beckenbodenmuskulatur, unterstützt die Schwangerschaftsrückbildung, strafft das Gewebe am Po, weniger nächtlicher Harndrang, stärkt die Haltefunktion der inneren Organe, steigert die Libido.
+              Gezielte Stärkung deiner Beckenbodenmuskulatur – bequem, nicht-invasiv und ohne körperliche Anstrengung.
             </p>
             <p className="mt-4 text-lg leading-relaxed text-ink/70">
-              Bei Charm Beauty in Winterthur führe ich das Beckenboden Training mit dem Stuhl mit fundiertem Fachwissen und professioneller Sorgfalt durch. Deine Bedürfnisse stehen im Mittelpunkt – ich berate dich ehrlich und individuell.
+              Das Beckenbodentraining mit dem speziellen Beckenbodenstuhl ermöglicht eine gezielte Aktivierung und Stärkung der Beckenbodenmuskulatur durch elektromagnetische Impulse.
+            </p>
+            <p className="mt-4 text-lg leading-relaxed text-ink/70">
+              Die Behandlung kann helfen, Blasenschwäche und ungewollten Urinverlust zu reduzieren, die Beckenbodenmuskulatur zu kräftigen und die natürliche Haltefunktion der inneren Organe zu unterstützen. Auch das sexuelle Wohlbefinden kann durch einen gestärkten Beckenboden positiv beeinflusst werden.
+            </p>
+            <p className="mt-4 text-lg leading-relaxed text-ink/70">
+              Bei Charm Beauty in Winterthur wird die Behandlung individuell auf deine Bedürfnisse abgestimmt. Eine persönliche Beratung, fundiertes Fachwissen und professionelle Sorgfalt stehen dabei im Mittelpunkt.
             </p>
           </Reveal>
         </div>
