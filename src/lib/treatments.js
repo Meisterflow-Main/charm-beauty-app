@@ -13,6 +13,7 @@ export const ALL_TREATMENTS = TREATMENT_MENU.flatMap((cat) =>
     name: item.name,
     price: item.price,
     desc: item.desc,
+    longDesc: item.longDesc,
     badge: item.badge,
     image: item.image,
     category: cat.category,

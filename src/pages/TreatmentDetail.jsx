@@ -124,10 +124,18 @@ export default function TreatmentDetail() {
             <Reveal className="lg:col-span-7">
               <Eyebrow>Über die Behandlung</Eyebrow>
               <h2 className="mt-5 text-4xl font-semibold text-ink sm:text-5xl">Was dich erwartet</h2>
-              <p className="mt-6 text-lg leading-relaxed text-ink/70">{treatment.desc}</p>
-              <p className="mt-4 text-lg leading-relaxed text-ink/70">
-                Bei Charm Beauty in Winterthur führe ich die {treatment.name} mit fundiertem Fachwissen und professioneller Sorgfalt durch. Deine Bedürfnisse stehen im Mittelpunkt – ich berate dich ehrlich und individuell.
-              </p>
+              {treatment.longDesc ? (
+                treatment.longDesc.map((p, i) => (
+                  <p key={i} className={i === 0 ? "mt-6 text-lg leading-relaxed text-ink/70" : "mt-4 text-lg leading-relaxed text-ink/70"}>{p}</p>
+                ))
+              ) : (
+                <>
+                  <p className="mt-6 text-lg leading-relaxed text-ink/70">{treatment.desc}</p>
+                  <p className="mt-4 text-lg leading-relaxed text-ink/70">
+                    Bei Charm Beauty in Winterthur führe ich die {treatment.name} mit fundiertem Fachwissen und professioneller Sorgfalt durch. Deine Bedürfnisse stehen im Mittelpunkt – ich berate dich ehrlich und individuell.
+                  </p>
+                </>
+              )}
               <Reveal delay={0.2} className="mt-8"><BtnLink href={CONTACT.whatsapp}>Termin vereinbaren</BtnLink></Reveal>
             </Reveal>
             <Reveal delay={0.1} className="lg:col-span-4 lg:col-start-9">

@@ -137,7 +137,12 @@ export const TREATMENT_MENU = [
         name: "EMS Sculpt – Muskelstraffung 2 Zonen",
         price: "CHF 85.–",
         image: "https://media.base44.com/images/public/6ab62a2b7c4d0724c8fa8507/564c38769_Dual-thighlasertreatmentsetup.png",
-        desc: "Muskelstimulation, Muskelstraffung und Verbesserung der Muskeldefinition.",
+        desc: "Gezielte Muskelstimulation zur Unterstützung des Muskelaufbaus, der Muskelstraffung und einer definierten Körpersilhouette.",
+        longDesc: [
+          "Gezielte Muskelstimulation zur Unterstützung des Muskelaufbaus, der Muskelstraffung und einer definierten Körpersilhouette.",
+          "Bei der EMS Sculpt Behandlung mit zwei Applikatoren werden ausgewählte Muskelbereiche durch elektromagnetische Impulse intensiv stimuliert – ganz ohne körperliche Anstrengung.",
+          "Bei Charm Beauty in Winterthur führe ich die Behandlung mit fundiertem Fachwissen und professioneller Sorgfalt durch. Deine Bedürfnisse stehen im Mittelpunkt – ich berate dich ehrlich und individuell.",
+        ],
       },
       {
         name: "EMS Sculpt – Muskelstraffung 4 Zonen",
