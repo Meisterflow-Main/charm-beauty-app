@@ -92,7 +92,7 @@ export const SERVICES = [
     faqs: [
       { q: "Was beinhaltet eine Körperbehandlung?", a: "Je nach Wahl umfasst die Behandlung apparative Anwendungen wie EMSCULPT NEO für Muskelaufbau und Fettreduktion, Liposana 3 zur Körperformung oder das Beckenbodentraining. In der Beratung besprechen wir, welche Behandlung für deine Ziele am besten passt." },
       { q: "Wie lange dauert eine Körperbehandlung?", a: "Die Dauer variiert je nach Umfang zwischen 45 und 120 Minuten. Eine ausführliche Beratung im Voraus hilft, die passende Behandlung für deine Zeit zu finden." },
-      { q: "Was sollte ich zur Behandlung mitbringen?", a: "Bequeme Kleidung reicht aus. Alles weitere, von Handtüchern bis zu Pflegeprodukten, stellt mein Studio für dich bereit." },
+      { q: "Was sollte ich zur Behandlung mitbringen?", a: "Bequeme Kleidung reicht aus. Handtücher und alles Weitere für deine Behandlung stellt mein Studio für dich bereit." },
       { q: "Wie oft sollte ich eine Körperbehandlung machen?", a: "Für nachhaltige Ergebnisse empfehle ich alle drei bis vier Wochen einen Termin. So bleibt deine Haut gepflegt und das Wohlbefinden erhalten." },
       { q: "Wo befindet sich Charm Beauty in Winterthur?", a: "Das Studio liegt an der Ernst-Jung-Gasse 16a in 8400 Winterthur. Die zentrale Lage macht es einfach, einen Termin einzuplanen." },
       { q: "Wie kann ich trockene Körperhaut zwischen den Terminen pflegen?", a: "Dusche lauwarm, creme dich direkt nach dem Duschen ein und peele ein- bis zweimal pro Woche sanft. Im Winter lohnen sich reichhaltigere Lotionen als im Sommer." },
