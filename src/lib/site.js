@@ -199,7 +199,6 @@ export const TREATMENT_MENU = [
         image: "https://media.base44.com/images/public/6ab62a2b7c4d0724c8fa8507/7d6be5d16_WoodenMassageRollerPreparationinaWarmSalon.png",
         desc: "Gezielte Gewebestimulation für ein glatteres Hautbild und ein angenehmes Körpergefühl.",
         longDesc: [
-          "Gezielte Gewebestimulation für ein glatteres Hautbild und ein angenehmes Körpergefühl.",
           "Bei der Maderotherapie werden speziell geformte Holzinstrumente mit rhythmischen Massagebewegungen über die Haut geführt. Dadurch wird die lokale Durchblutung angeregt und das Gewebe intensiv stimuliert.",
           "Die Behandlung eignet sich besonders für Körperbereiche wie Bauch, Beine und Po. Sie kann dazu beitragen, das Erscheinungsbild von Cellulite vorübergehend zu mildern und die Hautstruktur optisch zu verbessern.",
           "Bei Charm Beauty in Winterthur wird die Maderotherapie individuell auf deine Bedürfnisse und gewünschten Körperbereiche abgestimmt. Eine persönliche Beratung und professionelle Sorgfalt stehen dabei im Mittelpunkt.",
