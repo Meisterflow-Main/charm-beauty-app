@@ -150,9 +150,10 @@ export const TREATMENT_MENU = [
         image: "https://media.base44.com/images/public/6ab62a2b7c4d0724c8fa8507/d030a5cb8_charm_beauty_4_zonen.png",
         desc: "Intensive Muskelstimulation zur Unterstützung des Muskelaufbaus, der Muskelstraffung und einer definierten Körpersilhouette.",
         longDesc: [
-          "Intensive Muskelstimulation zur Unterstützung des Muskelaufbaus, der Muskelstraffung und einer definierten Körpersilhouette.",
-          "Bei der EMS Sculpt Behandlung mit vier Applikatoren können mehrere Muskelbereiche gleichzeitig stimuliert werden. Die Anwendung ermöglicht eine umfassendere Behandlung und wird individuell auf deine gewünschten Körperzonen abgestimmt.",
-          "Bei Charm Beauty in Winterthur führe ich die Behandlung mit fundiertem Fachwissen und professioneller Sorgfalt durch. Deine Bedürfnisse stehen im Mittelpunkt – ich berate dich ehrlich und individuell.",
+          "Intensive Muskelstimulation für mehrere Körperbereiche.",
+          "EMS Sculpt nutzt elektromagnetische Impulse, um die Muskulatur gezielt zu stimulieren und den Muskelaufbau sowie eine definiertere Körpersilhouette zu unterstützen.",
+          "Mit vier Applikatoren lassen sich mehrere Muskelbereiche gleichzeitig behandeln. Dadurch eignet sich diese Variante besonders für eine umfassendere Muskelstimulation.",
+          "Bei Charm Beauty in Winterthur wird die Behandlung individuell auf deine Bedürfnisse abgestimmt und mit professioneller Sorgfalt durchgeführt.",
         ],
       },
       {
