@@ -136,7 +136,7 @@ export const TREATMENT_MENU = [
       {
         name: "EMS Sculpt – Muskelstraffung 2 Zonen",
         price: "CHF 85.–",
-        image: "https://media.base44.com/images/public/6ab62a2b7c4d0724c8fa8507/564c38769_Dual-thighlasertreatmentsetup.png",
+        image: "https://media.base44.com/images/public/6ab62a2b7c4d0724c8fa8507/f7a197019_charm_beauty_2_zonen.png",
         desc: "Gezielte Muskelstimulation zur Unterstützung des Muskelaufbaus, der Muskelstraffung und einer definierten Körpersilhouette.",
         longDesc: [
           "Gezielte Muskelstimulation zur Unterstützung des Muskelaufbaus, der Muskelstraffung und einer definierten Körpersilhouette.",
