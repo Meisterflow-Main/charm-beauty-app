@@ -7,8 +7,8 @@ import BtnLink from "@/components/site/BtnLink";
 
 const POINTS = [
   "Massgeschneiderte Hautpflege und Behandlungen",
-  "Spezialisiert auf moderne Beauty-Treatments",
-  "Entspannte Atmosphäre für maximales Wohlbefinden",
+  "Spezialisiert auf moderne Beauty-Technologie",
+  "Apparative Behandlungen für sichtbare Ergebnisse",
 ];
 
 const STUDIO_CAPTIONS = [
@@ -28,7 +28,7 @@ export default function AboutTeaser() {
           <Reveal delay={0.1}><h2 className="mt-5 text-5xl font-semibold sm:text-6xl">Mein Name ist <span className="italic font-normal text-champagne">Snezana</span></h2></Reveal>
           <Reveal delay={0.2} className="mt-8 space-y-5 text-lg leading-relaxed text-cream/70">
             <p>und ich bin die Inhaberin von Charm Beauty in Winterthur. Meine Leidenschaft für Hautpflege und Schönheit begleitet mich seit vielen Jahren. Mit fundiertem Fachwissen und regelmässigen Weiterbildungen biete ich dir hochwertige, individuell angepasste Behandlungen an, die deine natürliche Schönheit unterstreichen.</p>
-            <p>Bei Charm Beauty steht dein Wohlbefinden im Mittelpunkt – ich freue mich, dich persönlich kennenzulernen und dich auf deinem Weg zu strahlender Haut und Entspannung zu begleiten.</p>
+            <p>Bei Charm Beauty stehen deine individuellen Ziele im Mittelpunkt – ich freue mich, dich persönlich kennenzulernen und dich auf deinem Weg zu strafferer Haut und einer definierten Silhouette zu begleiten.</p>
           </Reveal>
           <ul className="mt-10 space-y-4">
             {POINTS.map((p, i) => (

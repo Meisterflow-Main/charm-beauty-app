@@ -34,7 +34,7 @@ export default function Behandlungen() {
   });
   return (
     <>
-      <PageHero crumb="Behandlungen" eyebrow="Behandlungen" title="Schönheit & Entspannung" intro="In meinem Kosmetikstudio biete ich eine Auswahl an Gesichts- und Körperbehandlungen, die auf deine Bedürfnisse abgestimmt sind. Ich verwende hochwertige Produkte, um deine Haut zum Strahlen zu bringen und dein Wohlbefinden zu steigern." />
+      <PageHero crumb="Behandlungen" eyebrow="Behandlungen" title="Gesicht & Körper" intro="Individuell abgestimmte Gesichts- und Körperbehandlungen mit moderner Gerätetechnologie – für Hautpflege, Straffung und Körperformung. Entdecke apparative Behandlungsmethoden, die auf deine Ziele zugeschnitten sind." />
       <section className="space-y-24 px-6 py-16 sm:space-y-32">
         {TREATMENTS.map((t, i) => (
           <article key={t.key} id={t.key} className="mx-auto grid max-w-7xl scroll-mt-28 items-center gap-12 lg:grid-cols-12">
