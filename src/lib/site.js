@@ -205,6 +205,6 @@ export const FAQS = [
   },
   {
     q: "Welche Behandlungen bietet Charm Beauty an?",
-    a: "Professionelle Behandlungen für Gesicht, Körper und Entspannung, jede Behandlung wird individuell auf deine Hautbedürfnisse abgestimmt.",
+    a: "Individuell abgestimmte Gesichts- und Körperbehandlungen mit moderner Gerätetechnologie – für Hautpflege, Straffung und Körperformung.",
   },
 ];
