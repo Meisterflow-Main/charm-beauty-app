@@ -100,10 +100,13 @@ export default function LiposanaLanding() {
             <Eyebrow>Über die Behandlung</Eyebrow>
             <h2 className="mt-5 text-3xl font-semibold text-ink sm:text-4xl">Was dich erwartet</h2>
             <p className="mt-6 text-lg leading-relaxed text-ink/70">
-              Unterstützung der Körperformung, Verbesserung des Hautbildes und Reduzierung sichtbarer Cellulite.
+              Gezielte Körperformung für ein glatteres und strafferes Hautbild.
             </p>
             <p className="mt-4 text-lg leading-relaxed text-ink/70">
-              Bei Charm Beauty in Winterthur führe ich die Liposana 3 Behandlung mit fundiertem Fachwissen und professioneller Sorgfalt durch. Deine Bedürfnisse stehen im Mittelpunkt – ich berate dich ehrlich und individuell.
+              Liposana 3 ist eine nicht-invasive Körperbehandlung, die darauf ausgerichtet ist, die Körperkonturen zu verbessern und das Erscheinungsbild von Cellulite zu reduzieren. Die Behandlung kombiniert verschiedene Technologien zur Stimulation des Gewebes und kann zu einem ebenmässigeren und festeren Hautbild beitragen.
+            </p>
+            <p className="mt-4 text-lg leading-relaxed text-ink/70">
+              Bei Charm Beauty in Winterthur stimme ich die Liposana 3 Behandlung individuell auf deine Wünsche und Körperbereiche ab. Mit fundiertem Fachwissen und professioneller Sorgfalt begleite ich dich auf dem Weg zu deinem persönlichen Behandlungsziel.
             </p>
           </Reveal>
         </div>
