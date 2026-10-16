@@ -147,7 +147,7 @@ export const TREATMENT_MENU = [
       {
         name: "EMS Sculpt – Muskelstraffung 4 Zonen",
         price: "CHF 95.–",
-        image: "https://media.base44.com/images/public/6ab62a2b7c4d0724c8fa8507/d030a5cb8_charm_beauty_4_zonen.png",
+        image: "https://media.base44.com/images/public/6ab62a2b7c4d0724c8fa8507/3d61942a4_CharmLaserFour-ApplicatorTreatment.png",
         desc: "Intensive Muskelstimulation zur Unterstützung des Muskelaufbaus, der Muskelstraffung und einer definierten Körpersilhouette.",
         longDesc: [
           "Intensive Muskelstimulation für mehrere Körperbereiche.",
