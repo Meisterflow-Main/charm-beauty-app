@@ -104,9 +104,9 @@ export const TREATMENT_MENU = [
         badge: "NEU",
         desc: "BIOPeelX Premium Bio Algen ist eine innovative Hautbehandlung mit natürlichen Mikronadeln aus Meeresschwämmen. Diese stimulieren die Haut und regen ihre natürlichen Erneuerungsprozesse an.",
         longDesc: [
-          "BIOPeelX Premium Bio Algen ist eine innovative Hautbehandlung mit natürlichen Mikronadeln aus Meeresschwämmen. Diese stimulieren die Haut und regen ihre natürlichen Erneuerungsprozesse an.",
-          "Die natürlichen Mikronadeln dringen sanft in die oberste Hautschicht ein und unterstützen dort die Regeneration. Dadurch kann die Hautstruktur verfeinert und das Erscheinungsbild von Unreinheiten, feinen Linien und Pigmentflecken gemildert werden. Gleichzeitig wird die Hauterneuerung angeregt, was für ein frischeres und ebenmässigeres Hautbild sorgen kann.",
-          "Bei Charm Beauty in Winterthur wird die Behandlung individuell auf deinen Hautzustand und deine Bedürfnisse abgestimmt. Eine persönliche Beratung und professionelle Sorgfalt stehen dabei im Mittelpunkt.",
+          "Gezielte Hauterneuerung für ein verfeinertes, ebenmässiges und strahlendes Hautbild.",
+          "BIOPeelX Premium unterstützt die natürlichen Regenerationsprozesse der Haut und kann dazu beitragen, Unreinheiten, Pigmentflecken und feine Linien sichtbar zu mildern. Gleichzeitig kann die Hautstruktur verbessert und das Erscheinungsbild vergrösserter Poren verfeinert werden.",
+          "Bei Charm Beauty in Winterthur wird die Behandlung individuell auf deinen Hautzustand und deine Bedürfnisse abgestimmt. Eine persönliche Beratung und sorgfältige Durchführung stehen dabei im Mittelpunkt.",
         ],
       },
       {
