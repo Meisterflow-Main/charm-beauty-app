@@ -102,7 +102,7 @@ export const TREATMENT_MENU = [
         price: "CHF 139.–",
         image: "https://media.base44.com/images/public/6ab62a2b7c4d0724c8fa8507/8a1ccdd58_generated_image.png",
         badge: "NEU",
-        desc: "Sanfte Hauterneuerung mit Soforteffekt. Verbesserung des Hautbildes, Reduktion von Unreinheiten, Fältchen, Pigmentflecken und Förderung eines frischen, strahlenden Teints. Für alle Hauttypen geeignet, ganzjährig anwendbar.",
+        desc: "Im Mittelpunkt steht die gezielte Verbesserung des Hautbildes. Die Behandlung unterstützt die natürliche Hauterneuerung und kann dazu beitragen, Unreinheiten, feine Linien und Pigmentflecken zu mildern sowie die Hautstruktur zu verfeinern. Bei Charm Beauty in Winterthur wird die Behandlung individuell auf deinen Hautzustand und deine Bedürfnisse abgestimmt. Eine persönliche Beratung und professionelle Sorgfalt stehen dabei im Mittelpunkt.",
       },
       {
         name: "Hygienische Gesichtsreinigung",
