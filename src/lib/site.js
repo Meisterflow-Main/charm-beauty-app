@@ -108,7 +108,7 @@ export const TREATMENT_MENU = [
         name: "Hygienische Gesichtsreinigung",
         price: "CHF 105.–",
         image: "https://media.base44.com/images/public/6ab62a2b7c4d0724c8fa8507/65faa77c0_generated_image.png",
-        desc: "Diese Behandlung entfernt Unreinheiten und überschüssigen Talg, um die Haut zu klären und optimal für Pflegeprodukte vorzubereiten.",
+        desc: "Tiefenreinigung für ein klares und frisches Hautgefühl. Sanfte Entfernung von Mitessern und überschüssigem Talg für eine verfeinerte Porenstruktur und einen ebenmässigen Teint.",
       },
       {
         name: "Anti Aging Gesichtsbehandlung",
