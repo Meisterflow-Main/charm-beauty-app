@@ -63,7 +63,7 @@ export const SERVICES = [
     title: "Körperbehandlung",
     short: "Körper",
     image: IMAGES.body,
-    eyebrow: "Körperpflege",
+    eyebrow: "Körperbehandlung",
     metaTitle: "Körperbehandlung Winterthur | Charm Beauty Kosmetikstudio",
     metaDescription:
       "Körperbehandlung in Winterthur für straffe Haut und tiefenentspanntes Wohlbefinden. Massgeschneiderte Pflege von Snezana. Jetzt Termin bei Charm Beauty buchen.",
