@@ -17,10 +17,16 @@ import BeckenbodenLanding from "@/components/treatments/BeckenbodenLanding";
 const LIPOSANA_SLUGS = ["liposana-3", "liposana-3-jahresabo-1x-pro-monat"];
 const BECKENBODEN_SLUGS = ["beckenboden-training-stuhl", "beckenboden-training-stuhl-probetraining"];
 
-const BENEFITS = [
+const BENEFITS_FACE = [
   { icon: Sparkles, title: "Individuell abgestimmt", desc: "Jede Behandlung passe ich an deinen Hauttyp und deine Wünsche an." },
   { icon: Heart, title: "Entspannte Atmosphäre", desc: "Geniesse deine Behandlung in einer ruhigen, privaten Umgebung." },
   { icon: ShieldCheck, title: "Hochwertige Produkte", desc: "Sorgfältig ausgewählte Pflegeprodukte für sichtbare Ergebnisse." },
+];
+
+const BENEFITS_BODY = [
+  { icon: Sparkles, title: "Individuell abgestimmt", desc: "Jede Behandlung passe ich an deine Körperbereiche und deine Ziele an." },
+  { icon: Heart, title: "Entspannte Atmosphäre", desc: "Geniesse deine Behandlung in einer ruhigen, privaten Umgebung." },
+  { icon: ShieldCheck, title: "Moderne Gerätetechnologie", desc: "Professionelle Technologie für gezielte und effektive Anwendungen." },
 ];
 
 const STEPS = [
@@ -76,6 +82,7 @@ export default function TreatmentDetail() {
 
   const related = getRelatedTreatments(slug, treatment.category);
   const faqs = buildFaqs(treatment);
+  const benefits = treatment.category === "Körper" ? BENEFITS_BODY : BENEFITS_FACE;
 
   return (
     <>
@@ -174,7 +181,7 @@ export default function TreatmentDetail() {
           <Reveal><Eyebrow>Vorteile</Eyebrow></Reveal>
           <Reveal delay={0.1}><h2 className="mt-5 max-w-2xl text-4xl font-semibold text-ink sm:text-5xl">Warum {treatment.name} bei Charm Beauty?</h2></Reveal>
           <div className="mt-14 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-            {BENEFITS.map((b, i) => (
+            {benefits.map((b, i) => (
               <Reveal key={b.title} delay={i * 0.08}>
                 <div className="h-full rounded-[2rem] border border-ink/5 bg-white/70 p-8 backdrop-blur">
                   <span className="flex h-11 w-11 items-center justify-center rounded-full bg-champagne/30 text-gold"><b.icon className="h-5 w-5" /></span>
