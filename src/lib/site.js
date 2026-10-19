@@ -131,7 +131,12 @@ export const TREATMENT_MENU = [
         name: "Kosmetisches Microneedling / Nanoneedling",
         price: "CHF 130.–",
         image: "https://media.base44.com/images/public/6ab62a2b7c4d0724c8fa8507/e82a007c4_generated_image.png",
-        desc: "Feine Nadeln stimulieren die Haut und verbessern die Aufnahme von Wirkstoffen, was zu einem glatteren Hautbild und einem frischen Glow führt.",
+        desc: "Gezielte Hautstimulation und intensive Wirkstoffpflege für ein sichtbar verfeinertes Hautbild.",
+        longDesc: [
+          "Beim kosmetischen Microneedling wird die Haut mit feinen Nadeln kontrolliert stimuliert. Dadurch werden natürliche Regenerationsprozesse und die Kollagenbildung angeregt. Die Behandlung kann dazu beitragen, feine Linien, vergrösserte Poren, leichte Narben und eine unregelmässige Hautstruktur optisch zu verbessern.",
+          "Nanoneedling arbeitet besonders oberflächlich und unterstützt die Aufnahme ausgewählter Pflegewirkstoffe. Im Vordergrund stehen die Versorgung der Haut mit Feuchtigkeit, die Verbesserung der Hautoberfläche und ein frischer, strahlender Teint.",
+          "Bei Charm Beauty in Winterthur wird die passende Behandlung individuell auf deinen Hautzustand und deine Bedürfnisse abgestimmt. Eine persönliche Beratung und professionelle Sorgfalt stehen dabei im Mittelpunkt.",
+        ],
       },
       {
         name: "Hydra Beauty",
