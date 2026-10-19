@@ -39,7 +39,9 @@ const STEPS = [
 const buildFaqs = (t) => [
   { q: `Was kostet ${t.name} bei Charm Beauty?`, a: `Die ${t.name} kostet ${t.price}. Der genaue Preis richtet sich nach deinem individuellen Bedarf und dem Umfang der Behandlung. In einem persönlichen Gespräch erstelle ich dir gerne eine unverbindliche Offerte.` },
   { q: `Wie lange dauert ${t.name}?`, a: `Die Dauer hängt vom Umfang der Behandlung und deinen Hautbedürfnissen ab. In der Beratung besprechen wir gemeinsam, welcher Umfang für dich passend ist.` },
-  { q: `Ist ${t.name} für meine Haut geeignet?`, a: `Vor jeder Behandlung analysiere ich deine Haut und passe die Produkte entsprechend an. So stelle ich sicher, dass die Behandlung zu deinem Hauttyp passt.` },
+  { q: `Ist ${t.name} für meine Haut geeignet?`, a: t.category === "Körper"
+    ? `Vor jeder Behandlung analysiere ich deine Haut und deine Bedürfnisse und passe die Anwendung entsprechend an. So stelle ich sicher, dass die Behandlung zu deinem Hauttyp und deinen Zielen passt.`
+    : `Vor jeder Behandlung analysiere ich deine Haut und passe die Produkte entsprechend an. So stelle ich sicher, dass die Behandlung zu deinem Hauttyp passt.` },
   { q: `Wie oft sollte ich ${t.name} wiederholen?`, a: `Für nachhaltige Ergebnisse empfehle ich, die Behandlung regelmässig zu wiederholen. Das genaue Intervall besprechen wir gemeinsam nach deiner ersten Behandlung.` },
   { q: `Wie buche ich einen Termin für ${t.name}?`, a: `Du kannst mich jederzeit per WhatsApp oder Telefon erreichen, um einen Termin zu vereinbaren. Ich freue mich auf dich.` },
 ];
