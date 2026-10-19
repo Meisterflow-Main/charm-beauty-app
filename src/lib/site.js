@@ -120,7 +120,12 @@ export const TREATMENT_MENU = [
         name: "Anti Aging Gesichtsbehandlung",
         price: "CHF 130.–",
         image: "https://media.base44.com/images/public/6ab62a2b7c4d0724c8fa8507/a1535ae66_generated_image.png",
-        desc: "Sanfte, nicht-invasive Methode für frische natürliche Haut. Collagen-Treads oder Botox-Pulver für natürliches Hautbild.",
+        desc: "Gezielte Anti-Aging-Pflege zur Verbesserung der Hautstruktur und für ein glatteres, frischeres und jugendlich wirkendes Hautbild.",
+        longDesc: [
+          "Bei dieser Behandlung kommen je nach Hautbedürfnis Collagen-Threads oder Botox-Pulver zum Einsatz. Die kosmetischen Wirkstoffe sollen die Haut intensiv pflegen, mit Feuchtigkeit versorgen und das Erscheinungsbild feiner Linien und Fältchen mildern.",
+          "Collagen-Threads werden eingesetzt, um die Haut geschmeidiger und optisch glatter erscheinen zu lassen. Botox-Pulver dient als kosmetische Alternative zur Pflege reifer Haut und kann einen vorübergehend glättenden Effekt unterstützen – ganz ohne Injektionen.",
+          "Bei Charm Beauty in Winterthur wird die Behandlung individuell auf deinen Hautzustand und deine Wünsche abgestimmt. Eine persönliche Beratung und professionelle Sorgfalt stehen dabei im Mittelpunkt.",
+        ],
       },
       {
         name: "Kosmetisches Microneedling / Nanoneedling",
