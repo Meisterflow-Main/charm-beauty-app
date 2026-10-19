@@ -71,7 +71,7 @@ export const SERVICES = [
     intro:
       "Dein Körper trägt dich durch den Alltag, jetzt ist Zeit, etwas zurückzugeben. Bei Charm Beauty in Winterthur biete ich Körperbehandlungen, die deine Haut straffen, pflegen und revitalisieren. Mit moderner Gerätetechnologie arbeite ich gezielt an Muskelaufbau, Körperformung und Hautstruktur – immer abgestimmt auf deine individuellen Ziele. Entspanne in meiner Oase und spüre die Wohltat professioneller Pflege, während die Technologie ihre Wirkung entfaltet.",
     description:
-      "Jede Körperbehandlung wird individuell auf deine Hautbeschaffenheit und deine Wünsche abgestimmt. Ich arbeite mit moderner Gerätetechnologie und professioneller Sorgfalt, für gezielte Ergebnisse und ein rundum wohltuendes Körpergefühl.",
+      "Jede Körperbehandlung wird individuell auf deine Hautbeschaffenheit und deine Wünsche abgestimmt. Ich arbeite mit moderner Gerätetechnologie und professioneller Sorgfalt, für gezielte Ergebnisse und ein rundum wohltuendes Körpergefühl. Ob Muskelaufbau mit EMS Sculpt, Körperformung mit Liposana 3 oder gezieltes Beckenbodentraining – jede Anwendung basiert auf apparativer Technologie, die nach wissenschaftlichen Standards arbeitet. So lässt sich die Behandlung präzise auf deine Figur- und Fitnessziele zuschneiden und sorgt für sichtbare, spürbare Ergebnisse.",
     advantages: [
       { title: "Apparative Technologie", desc: "Modernste Geräte wie EMSCULPT NEO, Liposana 3 und das Beckenbodentraining für messbare Ergebnisse." },
       { title: "Ruhe und Privatsphäre", desc: "Mein Studio bietet dir einen ruhigen Raum, in dem du ungestört entspannen kannst." },
