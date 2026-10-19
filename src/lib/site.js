@@ -142,7 +142,12 @@ export const TREATMENT_MENU = [
         name: "Hydra Beauty",
         price: "CHF 150.–",
         image: "https://media.base44.com/images/public/6ab62a2b7c4d0724c8fa8507/142e736b2_generated_image.png",
-        desc: "Eine feuchtigkeitsspendende Behandlung, die die Haut intensiv hydratisiert und gleichzeitig Unreinheiten entfernt, für ein strahlendes Aussehen.",
+        desc: "Intensive Feuchtigkeitspflege und gründliche Hautreinigung für ein frisches, geschmeidiges und strahlendes Hautbild.",
+        longDesc: [
+          "Hydra Beauty kombiniert eine tiefenwirksame Reinigung mit gezielter Feuchtigkeitsversorgung. Dabei werden abgestorbene Hautzellen, überschüssiger Talg und oberflächliche Unreinheiten schonend entfernt, während die Haut mit ausgewählten pflegenden Wirkstoffen versorgt wird.",
+          "Die Behandlung kann dazu beitragen, das Erscheinungsbild der Poren zu verfeinern, Trockenheitsfältchen optisch zu mildern und die Hautstruktur ebenmässiger erscheinen zu lassen. Gleichzeitig wird die Haut intensiv mit Feuchtigkeit versorgt, wodurch sie praller, glatter und erfrischt wirken kann.",
+          "Bei Charm Beauty in Winterthur wird die Behandlung individuell auf deinen Hautzustand und deine Bedürfnisse abgestimmt. Eine persönliche Beratung und professionelle Sorgfalt stehen dabei im Mittelpunkt.",
+        ],
       },
     ],
   },
