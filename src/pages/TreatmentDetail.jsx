@@ -23,6 +23,8 @@ const BENEFITS_FACE = [
   { icon: ShieldCheck, title: "Hochwertige Produkte", desc: "Sorgfältig ausgewählte Pflegeprodukte für sichtbare Ergebnisse." },
 ];
 
+const TECH_FACE_SLUGS = ["kosmetisches-microneedling-nanoneedling"];
+
 const BENEFITS_BODY = [
   { icon: Sparkles, title: "Individuell abgestimmt", desc: "Jede Behandlung passe ich an deine Körperbereiche und deine Ziele an." },
   { icon: Heart, title: "Entspannte Atmosphäre", desc: "Geniesse deine Behandlung in einer ruhigen, privaten Umgebung." },
@@ -84,7 +86,13 @@ export default function TreatmentDetail() {
 
   const related = getRelatedTreatments(slug, treatment.category);
   const faqs = buildFaqs(treatment);
-  const benefits = treatment.category === "Körper" ? BENEFITS_BODY : BENEFITS_FACE;
+  const benefits = treatment.category === "Körper"
+    ? BENEFITS_BODY
+    : TECH_FACE_SLUGS.includes(slug)
+      ? BENEFITS_FACE.map((b) => b.title === "Hochwertige Produkte"
+        ? { ...b, title: "Moderne Gerätetechnologie", desc: "Professionelle Technologie für gezielte und effektive Anwendungen." }
+        : b)
+      : BENEFITS_FACE;
 
   return (
     <>
