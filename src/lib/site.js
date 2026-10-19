@@ -108,7 +108,13 @@ export const TREATMENT_MENU = [
         name: "Hygienische Gesichtsreinigung",
         price: "CHF 105.–",
         image: "https://media.base44.com/images/public/6ab62a2b7c4d0724c8fa8507/65faa77c0_generated_image.png",
-        desc: "Tiefenreinigung für ein klares und frisches Hautgefühl. Sanfte Entfernung von Mitessern und überschüssigem Talg für eine verfeinerte Porenstruktur und einen ebenmässigen Teint.",
+        desc: "Gründliche Tiefenreinigung für ein klares, gepflegtes und ebenmässiges Hautbild.",
+        longDesc: [
+          "Die hygienische Gesichtsreinigung konzentriert sich auf die intensive Reinigung der Haut und die gezielte Entfernung von Unreinheiten, Mitessern und überschüssigem Talg.",
+          "Nach der Beurteilung des Hautzustands wird die Haut gründlich gereinigt und auf die Ausreinigung vorbereitet. Verstopfte Poren werden fachgerecht und besonders schonend von Talgablagerungen und Mitessern befreit. Dadurch kann das Hautbild sichtbar geklärt und das Erscheinungsbild der Poren verfeinert werden.",
+          "Eine auf den Hauttyp abgestimmte Abschlusspflege unterstützt die Beruhigung der Haut und versorgt sie mit Feuchtigkeit. Ziel ist ein frisches, reines und ausgeglichenes Hautgefühl, ohne die natürliche Hautschutzbarriere unnötig zu belasten.",
+          "Bei Charm Beauty in Winterthur wird die Behandlung individuell auf deinen Hautzustand und deine Bedürfnisse abgestimmt. Eine sorgfältige Durchführung und persönliche Beratung stehen dabei im Mittelpunkt.",
+        ],
       },
       {
         name: "Anti Aging Gesichtsbehandlung",
