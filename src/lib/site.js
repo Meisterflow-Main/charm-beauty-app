@@ -115,10 +115,10 @@ export const TREATMENT_MENU = [
         image: "https://media.base44.com/images/public/6ab62a2b7c4d0724c8fa8507/65faa77c0_generated_image.png",
         desc: "Gründliche Tiefenreinigung für ein klares, gepflegtes und ebenmässiges Hautbild.",
         longDesc: [
-          "Die hygienische Gesichtsreinigung konzentriert sich auf die intensive Reinigung der Haut und die gezielte Entfernung von Unreinheiten, Mitessern und überschüssigem Talg.",
-          "Nach der Beurteilung des Hautzustands wird die Haut gründlich gereinigt und auf die Ausreinigung vorbereitet. Verstopfte Poren werden fachgerecht und besonders schonend von Talgablagerungen und Mitessern befreit. Dadurch kann das Hautbild sichtbar geklärt und das Erscheinungsbild der Poren verfeinert werden.",
-          "Eine auf den Hauttyp abgestimmte Abschlusspflege unterstützt die Beruhigung der Haut und versorgt sie mit Feuchtigkeit. Ziel ist ein frisches, reines und ausgeglichenes Hautgefühl, ohne die natürliche Hautschutzbarriere unnötig zu belasten.",
-          "Bei Charm Beauty in Winterthur wird die Behandlung individuell auf deinen Hautzustand und deine Bedürfnisse abgestimmt. Eine sorgfältige Durchführung und persönliche Beratung stehen dabei im Mittelpunkt.",
+          "Die hygienische Gesichtsreinigung konzentriert sich auf die gründliche Reinigung der Haut und die gezielte Entfernung von Unreinheiten, Mitessern und überschüssigem Talg.",
+          "Im Mittelpunkt steht die Klärung des Hautbildes. Durch die professionelle Reinigung können Ablagerungen und Verunreinigungen reduziert und verstopfte Poren von überschüssigem Talg befreit werden. Die Behandlung kann dazu beitragen, das Erscheinungsbild der Poren zu verfeinern und die Haut frischer, reiner und ebenmässiger wirken zu lassen.",
+          "Ziel ist es, die Haut gründlich zu reinigen, ohne sie unnötig zu belasten, und eine gute Grundlage für die anschliessende Hautpflege zu schaffen.",
+          "Bei Charm Beauty in Winterthur wird die Behandlung individuell auf deinen Hautzustand und deine Bedürfnisse abgestimmt. Eine persönliche Beratung und professionelle Sorgfalt stehen dabei im Mittelpunkt.",
         ],
       },
       {
