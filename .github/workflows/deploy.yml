@@ -43,3 +43,5 @@ jobs:
           source: "dist/*"
           target: "/mnt/data/landing-pages/charm-beauty/"
           strip_components: 1
+
+         #fix the lint components issue
