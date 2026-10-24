@@ -1,5 +1,4 @@
 import React from "react";
-import { IMAGES } from "@/lib/site";
 import Reveal from "@/components/site/Reveal";
 import Eyebrow from "@/components/site/Eyebrow";
 

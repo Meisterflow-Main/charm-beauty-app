@@ -2,7 +2,7 @@ import React from "react";
 import { useParams, Navigate, Link } from "react-router-dom";
 import { ArrowRight, Check, Clock, Sparkles, Heart, ShieldCheck } from "lucide-react";
 import useSeo, { breadcrumbSchema } from "@/hooks/useSeo";
-import { getTreatment, getRelatedTreatments, ALL_TREATMENTS } from "@/lib/treatments";
+import { getTreatment, getRelatedTreatments } from "@/lib/treatments";
 import { CONTACT, SITE_URL, IMAGES } from "@/lib/site";
 import { webPageSchema } from "@/lib/schema";
 import PageHero from "@/components/site/PageHero";

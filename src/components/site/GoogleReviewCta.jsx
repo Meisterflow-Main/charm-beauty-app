@@ -1,5 +1,5 @@
 import React from "react";
-import { Star, ExternalLink, MessageSquare } from "lucide-react";
+import { Star, ExternalLink } from "lucide-react";
 import { GOOGLE_BUSINESS_URL } from "@/lib/site";
 import Reveal from "@/components/site/Reveal";
 import Eyebrow from "@/components/site/Eyebrow";

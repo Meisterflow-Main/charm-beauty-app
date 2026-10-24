@@ -1,6 +1,5 @@
 import React from "react";
 import { motion } from "framer-motion";
-import Reveal from "@/components/site/Reveal";
 import BtnLink from "@/components/site/BtnLink";
 
 export default function FinalCta({ cta }) {

@@ -1,7 +1,7 @@
 import React from "react";
 import { useParams, Navigate } from "react-router-dom";
 import useSeo, { breadcrumbSchema } from "@/hooks/useSeo";
-import { getLandingPage, LANDING_PAGES } from "@/lib/landingPages";
+import { getLandingPage } from "@/lib/landingPages";
 import { IMAGES, SITE_URL } from "@/lib/site";
 import LandingHero from "@/components/landing/LandingHero";
 import LandingContact from "@/components/landing/LandingContact";

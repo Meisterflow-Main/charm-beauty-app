@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { MapPin } from "lucide-react";
 import useSeo, { breadcrumbSchema } from "@/hooks/useSeo";
-import { NAV, CONTACT } from "@/lib/site";
+import { CONTACT } from "@/lib/site";
 import { webPageSchema } from "@/lib/schema";
 import { SERVICES } from "@/lib/services";
 import { UNIQUE_REGIONS } from "@/lib/landingPages";

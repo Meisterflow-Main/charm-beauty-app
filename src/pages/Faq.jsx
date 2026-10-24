@@ -3,7 +3,6 @@ import { Link } from "react-router-dom";
 import useSeo, { breadcrumbSchema } from "@/hooks/useSeo";
 import { FAQS, CONTACT } from "@/lib/site";
 import { SERVICES } from "@/lib/services";
-import { LANDING_PAGES } from "@/lib/landingPages";
 import PageHero from "@/components/site/PageHero";
 import Reveal from "@/components/site/Reveal";
 import BtnLink from "@/components/site/BtnLink";

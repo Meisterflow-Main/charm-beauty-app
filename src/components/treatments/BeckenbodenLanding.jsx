@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { ArrowRight, Check, Clock, Sparkles, Heart, ShieldCheck, Activity, Baby, TrendingUp } from "lucide-react";
+import { ArrowRight, Sparkles, Heart, ShieldCheck, Activity, Baby, TrendingUp } from "lucide-react";
 import useSeo, { breadcrumbSchema } from "@/hooks/useSeo";
 import { ALL_TREATMENTS, getRelatedTreatments } from "@/lib/treatments";
 import { CONTACT, SITE_URL } from "@/lib/site";

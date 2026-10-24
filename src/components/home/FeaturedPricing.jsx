@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { Clock, ArrowRight } from "lucide-react";
+import { ArrowRight } from "lucide-react";
 import { TREATMENT_MENU, CONTACT } from "@/lib/site";
 import { slugify } from "@/lib/treatments";
 import { Image } from "@/components/ui/image";

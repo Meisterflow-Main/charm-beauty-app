@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { Star, ExternalLink, MessageSquare, ShieldCheck, Heart } from "lucide-react";
 import useSeo, { breadcrumbSchema } from "@/hooks/useSeo";
-import { GOOGLE_BUSINESS_URL, CONTACT } from "@/lib/site";
+import { GOOGLE_BUSINESS_URL } from "@/lib/site";
 import { webPageSchema } from "@/lib/schema";
 import PageHero from "@/components/site/PageHero";
 import Reveal from "@/components/site/Reveal";

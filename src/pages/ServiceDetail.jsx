@@ -4,7 +4,7 @@ import { MapPin, ArrowRight, Check } from "lucide-react";
 import useSeo, { breadcrumbSchema } from "@/hooks/useSeo";
 import { getService, SERVICES } from "@/lib/services";
 import { getLandingPage } from "@/lib/landingPages";
-import { CONTACT, SITE_URL } from "@/lib/site";
+import { CONTACT } from "@/lib/site";
 import { serviceSchemaBuilder } from "@/lib/schema";
 import PageHero from "@/components/site/PageHero";
 import Reveal from "@/components/site/Reveal";

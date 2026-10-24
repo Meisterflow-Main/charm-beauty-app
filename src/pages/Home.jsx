@@ -8,7 +8,6 @@ import Reels from "@/components/home/Reels";
 import Welcome from "@/components/home/Welcome";
 
 import Treatments from "@/components/home/Treatments";
-import TreatmentMenu from "@/components/home/TreatmentMenu";
 import FeaturedPricing from "@/components/home/FeaturedPricing";
 import Stats from "@/components/home/Stats";
 import AboutTeaser from "@/components/home/AboutTeaser";

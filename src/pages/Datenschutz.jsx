@@ -1,6 +1,5 @@
 import React from "react";
-import { Phone, Mail, Globe, MapPin, ShieldCheck, Lock, FileText, User, Cookie, ExternalLink, ArrowRight, Database, Clock, Edit, Eye, Trash2, FileCheck } from "lucide-react";
-import { Link } from "react-router-dom";
+import { Phone, Mail, MapPin, ShieldCheck, Lock, FileText, User, Cookie, ExternalLink, ArrowRight, Database, Clock, Edit, Eye, Trash2, FileCheck } from "lucide-react";
 import useSeo, { breadcrumbSchema } from "@/hooks/useSeo";
 import { CONTACT, SITE_URL } from "@/lib/site";
 import { webPageSchema } from "@/lib/schema";

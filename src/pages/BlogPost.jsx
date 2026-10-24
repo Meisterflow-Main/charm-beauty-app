@@ -8,7 +8,7 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion";
 import useSeo, { breadcrumbSchema } from "@/hooks/useSeo";
-import { IMAGES, CONTACT, SITE_URL } from "@/lib/site";
+import { IMAGES } from "@/lib/site";
 import { blogPostingSchemaBuilder } from "@/lib/schema";
 import {
   getPost,
