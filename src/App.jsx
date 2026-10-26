@@ -24,6 +24,7 @@ import Bewertungen from '@/pages/Bewertungen';
 import SitemapPage from '@/pages/Sitemap';
 import Blog from '@/pages/Blog';
 import BlogPost from '@/pages/BlogPost';
+import TerminBuchen from '@/pages/TerminBuchen';
 
 const AuthenticatedApp = () => {
   const { isLoadingAuth, isLoadingPublicSettings, authError, navigateToLogin } = useAuth();
@@ -68,6 +69,7 @@ const AuthenticatedApp = () => {
         <Route path="/regionen/:slug" element={<LandingPage />} />
         <Route path="/faq" element={<Faq />} />
         <Route path="/bewertungen" element={<Bewertungen />} />
+        <Route path="/termin-buchen" element={<TerminBuchen />} />
         <Route path="/sitemap" element={<SitemapPage />} />
       </Route>
       <Route path="*" element={<PageNotFound />} />

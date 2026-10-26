@@ -25,6 +25,7 @@ export default function Sitemap() {
         { label: "Behandlungen", to: "/behandlungen" },
         { label: "Über uns", to: "/uber-uns" },
         { label: "Kontakt", to: "/kontakt" },
+        { label: "Termin buchen", to: "/termin-buchen" },
         { label: "FAQ", to: "/faq" },
         { label: "Bewertung abgeben", to: "/auftrag-bewerten" },
       ],
