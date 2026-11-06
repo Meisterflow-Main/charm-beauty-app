@@ -27,6 +27,7 @@ import BlogPost from '@/pages/BlogPost';
 import TerminBuchen from '@/pages/TerminBuchen';
 import RatgeberKoerperstraffung from '@/pages/RatgeberKoerperstraffung';
 import About from '@/pages/About';
+import Contact from '@/pages/Contact';
 import ErsterTermin from '@/pages/ErsterTermin';
 
 const AuthenticatedApp = () => {
@@ -75,6 +76,7 @@ const AuthenticatedApp = () => {
         <Route path="/termin-buchen" element={<TerminBuchen />} />
         <Route path="/ratgeber/koerperstraffung-winterthur" element={<RatgeberKoerperstraffung />} />
         <Route path="/about" element={<About />} />
+        <Route path="/contact" element={<Contact />} />
         <Route path="/wissen/erster-termin" element={<ErsterTermin />} />
         <Route path="/sitemap" element={<SitemapPage />} />
       </Route>
