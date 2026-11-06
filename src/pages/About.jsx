@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { Check } from "lucide-react";
 import useSeo, { breadcrumbSchema } from "@/hooks/useSeo";
-import { CONTACT } from "@/lib/site";
+import { CONTACT, SITE_URL } from "@/lib/site";
 import { UID_NUMBER, webPageSchema } from "@/lib/schema";
 import PageHero from "@/components/site/PageHero";
 import Reveal from "@/components/site/Reveal";
@@ -42,7 +42,7 @@ export default function About() {
     path: PATH,
     schemas: [
       breadcrumbSchema([{ name: "Home", path: "/" }, { name: "Über diese Website", path: PATH }]),
-      webPageSchema({ path: PATH, name: "Über diese Website", description: DESC }),
+      webPageSchema({ path: PATH, name: "Über Charm Beauty und Snezana Djuric", description: DESC, type: "AboutPage", about: { "@id": `${SITE_URL}/#business` } }),
     ],
   });
 
@@ -52,7 +52,7 @@ export default function About() {
         crumb="Über diese Website"
         eyebrow="Über diese Website"
         title="Über diese Website"
-        intro="Charm Beauty ist das Kosmetikstudio von Snezana Djuric an der Ernst-Jung-Gasse 16a in Winterthur. Diese Website zeigt das Angebot, die Preise und den Ablauf und macht Terminanfragen einfach."
+        intro="Charm Beauty ist das Kosmetikstudio von Snezana Djuric, Kosmetikerin an der Ernst-Jung-Gasse 16a in Winterthur. Diese Website zeigt das Angebot, die Preise und den Ablauf und macht Terminanfragen einfach."
       />
       <article className="px-6 pb-24">
         <div className="mx-auto max-w-3xl space-y-14">
