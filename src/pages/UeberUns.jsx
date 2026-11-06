@@ -6,6 +6,7 @@ import PageHero from "@/components/site/PageHero";
 import Reveal from "@/components/site/Reveal";
 import BtnLink from "@/components/site/BtnLink";
 import AboutTeaser from "@/components/home/AboutTeaser";
+import AboutPlatform from "@/components/site/AboutPlatform";
 import Stats from "@/components/home/Stats";
 import HowIWork from "@/components/site/HowIWork";
 import TransparencySection from "@/components/site/TransparencySection";
@@ -43,6 +44,7 @@ export default function UeberUns() {
           </div>
         </div>
       </section>
+      <AboutPlatform />
       <AboutTeaser />
       <HowIWork />
       <TransparencySection />
