@@ -24,8 +24,8 @@ const faqSchema = {
 
 export default function Home() {
   useSeo({
-    title: "Charm Beauty Kosmetikstudio Winterthur | Gesichts- & Körperbehandlungen",
-    description: "Moderne Körperstraffung, Body Contouring und apparative Schönheitsbehandlungen in Winterthur. Entdecke technologiebasierte Behandlungen für Körperformung, Muskelstimulation und individuelle Hautpflege bei Charm Beauty.",
+    title: "Kosmetikstudio Winterthur: Gesicht & Körper | Charm Beauty",
+    description: "Kosmetikstudio Charm Beauty in Winterthur: Gesichtsbehandlungen, Körperstraffung und apparative Körperformung mit moderner Gerätetechnologie. Jetzt Termin anfragen.",
     path: "/",
     schemas: [faqSchema, breadcrumbSchema([{ name: "Home", path: "/" }]), webPageSchema({ path: "/", about: { "@id": `${SITE_URL}/#business` } })],
   });

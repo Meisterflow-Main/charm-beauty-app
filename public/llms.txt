@@ -1,0 +1,60 @@
+# Charm Beauty Kosmetikstudio Winterthur
+
+> Charm Beauty ist ein Kosmetikstudio an der Ernst-Jung-Gasse 16a in 8400 Winterthur (Schweiz). Inhaberin Snezana Djuric bietet Gesichtsbehandlungen, apparative Körperbehandlungen und technologiebasierte Körperstraffung ohne Operation an. Die Website zeigt das vollständige Behandlungsangebot mit Preisen, erklärt Abläufe und ermöglicht Terminanfragen per WhatsApp, Telefon oder Formular.
+
+Wichtige Angaben: Behandlungssprache Deutsch, Zahlung vor Ort in bar oder mit Twint, Termine nach Vereinbarung. Einzelbehandlungen von CHF 85 bis CHF 175, Liposana 3 Jahresabo CHF 1 500.
+
+## Behandlungen
+
+- [Alle Behandlungen](https://charm-beauty.ch/behandlungen): Übersicht über das gesamte Angebot für Gesicht und Körper mit Preisen.
+- [Gesichtsbehandlungen](https://charm-beauty.ch/behandlungen/gesicht): Kategorie Gesicht mit Reinigung, Anti-Aging, Microneedling und Hydra Beauty.
+- [Körperbehandlungen](https://charm-beauty.ch/behandlungen/koerper): Kategorie Körper mit apparativer Muskelstimulation, Körperformung und Beckenbodentraining.
+
+### Gesicht
+
+- [BIOPeeLX Premium Bio Algen](https://charm-beauty.ch/behandlungen/angebot/biopeelx-premium-bio-algen): Behandlung mit natürlichen Mikronadeln aus Meeresschwämmen, CHF 139.
+- [Hygienische Gesichtsreinigung](https://charm-beauty.ch/behandlungen/angebot/hygienische-gesichtsreinigung): Gründliche Tiefenreinigung für ein klares Hautbild, CHF 105.
+- [Anti Aging Gesichtsbehandlung](https://charm-beauty.ch/behandlungen/angebot/anti-aging-gesichtsbehandlung): Pflege zur Verbesserung der Hautstruktur, CHF 130.
+- [Kosmetisches Microneedling / Nanoneedling](https://charm-beauty.ch/behandlungen/angebot/kosmetisches-microneedling-nanoneedling): Hautstimulation und Wirkstoffpflege, CHF 130.
+- [Hydra Beauty](https://charm-beauty.ch/behandlungen/angebot/hydra-beauty): Intensive Feuchtigkeitspflege mit Hautreinigung, CHF 150.
+
+### Körper
+
+- [EMS Sculpt – Muskelstraffung 2 Zonen](https://charm-beauty.ch/behandlungen/angebot/ems-sculpt-muskelstraffung-2-zonen): Elektromagnetische Muskelstimulation für zwei Zonen, CHF 85.
+- [EMS Sculpt – Muskelstraffung 4 Zonen](https://charm-beauty.ch/behandlungen/angebot/ems-sculpt-muskelstraffung-4-zonen): Muskelstimulation für vier Zonen, CHF 95.
+- [Liposana 3](https://charm-beauty.ch/behandlungen/angebot/liposana-3): Unterstützung der Körperformung und Reduzierung sichtbarer Cellulite, CHF 175.
+- [Liposana 3 – Jahresabo](https://charm-beauty.ch/behandlungen/angebot/liposana-3-jahresabo-1x-pro-monat): Eine Anwendung pro Monat für nachhaltige Ergebnisse, CHF 1 500.
+- [Beckenboden Training-Stuhl](https://charm-beauty.ch/behandlungen/angebot/beckenboden-training-stuhl): Stärkung der Beckenbodenmuskulatur, Unterstützung der Schwangerschaftsrückbildung.
+- [Beckenboden Training-Stuhl – Probetraining](https://charm-beauty.ch/behandlungen/angebot/beckenboden-training-stuhl-probetraining): Kennenlern-Anwendung des Beckenbodentrainings.
+- [Po-Lifting Vakuum](https://charm-beauty.ch/behandlungen/angebot/po-lifting-vakuum): Vakuumstimulation für ein strafferes Gesäss.
+- [Maderotherapie](https://charm-beauty.ch/behandlungen/angebot/maderotherapie): Behandlung mit Holzinstrumenten zur Anregung der Durchblutung.
+
+## Studio und Kontakt
+
+- [Termin buchen](https://charm-beauty.ch/termin-buchen): Kontaktwege, Anfahrt, Öffnungszeiten und Anfrageformular.
+- [Kontakt](https://charm-beauty.ch/kontakt): Telefon, WhatsApp, E-Mail, Adresse und Karte.
+- [Über uns](https://charm-beauty.ch/uber-uns): Wer das Studio führt, für wen das Angebot gedacht ist und wie gearbeitet wird.
+- [Bewertungen](https://charm-beauty.ch/bewertungen): Hinweise zu Google-Bewertungen und Rückmeldungen von Kundinnen und Kunden.
+- [FAQ](https://charm-beauty.ch/faq): Antworten zu Terminen, Behandlungen, Öffnungszeiten, Anreise und Zahlung.
+
+## Wissen und Regionen
+
+- [Ratgeber Körperstraffung Winterthur](https://charm-beauty.ch/ratgeber/koerperstraffung-winterthur): Überblick über die technologiebasierten Körperbehandlungen und den Ablauf eines Termins.
+- [Blog](https://charm-beauty.ch/blog): Ratgeber zu Hautpflege, Hauttypen, Wirkstoffen und Behandlungsabläufen.
+- [Regionen](https://charm-beauty.ch/regionen): Seiten für Winterthur Stadt, Oberwinterthur, Seen, Töss, Veltheim, Wülflingen, Mattenbach, Hegi und Sennhof.
+
+## Rechtliches
+
+- [Impressum](https://charm-beauty.ch/impressum): Inhaberin, Adresse, UID CHE-182.339.391 und Kontaktdaten.
+- [Datenschutzerklärung](https://charm-beauty.ch/datenschutz): Informationen zur Verarbeitung personenbezogener Daten.
+
+## Unternehmensdaten
+
+- Name: Charm Beauty Kosmetikstudio
+- Inhaberin: Snezana Djuric, Kosmetikerin
+- Adresse: Ernst-Jung-Gasse 16a, 8400 Winterthur, Schweiz
+- Telefon: +41 78 896 46 55
+- E-Mail: info@charm-beauty.ch
+- UID: CHE-182.339.391
+- Öffnungszeiten: Montag, Dienstag, Donnerstag, Freitag 9 bis 12 Uhr und 14 bis 19 Uhr; Mittwoch und Samstag 9 bis 12 Uhr
+- Zahlung: Bar oder Twint
