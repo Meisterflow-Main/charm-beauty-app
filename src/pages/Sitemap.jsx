@@ -27,6 +27,8 @@ export default function Sitemap() {
         { label: "Kontakt", to: "/kontakt" },
         { label: "Termin buchen", to: "/termin-buchen" },
         { label: "Ratgeber Körperstraffung", to: "/ratgeber/koerperstraffung-winterthur" },
+        { label: "Dein erster Termin", to: "/wissen/erster-termin" },
+        { label: "Über diese Website", to: "/about" },
         { label: "FAQ", to: "/faq" },
         { label: "Bewertung abgeben", to: "/auftrag-bewerten" },
       ],

@@ -31,6 +31,8 @@ export default function Footer() {
               <li><Link to="/ratgeber/koerperstraffung-winterthur" className="text-cream/80 transition hover:text-champagne">Ratgeber Körperstraffung</Link></li>
               <li><Link to="/bewertungen" className="text-cream/80 transition hover:text-champagne">Bewertungen</Link></li>
               <li><Link to="/faq" className="text-cream/80 transition hover:text-champagne">FAQ</Link></li>
+              <li><Link to="/wissen/erster-termin" className="text-cream/80 transition hover:text-champagne">Dein erster Termin</Link></li>
+              <li><Link to="/about" className="text-cream/80 transition hover:text-champagne">Über diese Website</Link></li>
               <li><Link to="/sitemap" className="text-cream/80 transition hover:text-champagne">Sitemap</Link></li>
             </ul>
             <h3 className="mb-5 mt-8 text-xs uppercase tracking-[0.2em] text-champagne">Behandlungen</h3>

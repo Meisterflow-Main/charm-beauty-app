@@ -26,6 +26,8 @@ import Blog from '@/pages/Blog';
 import BlogPost from '@/pages/BlogPost';
 import TerminBuchen from '@/pages/TerminBuchen';
 import RatgeberKoerperstraffung from '@/pages/RatgeberKoerperstraffung';
+import About from '@/pages/About';
+import ErsterTermin from '@/pages/ErsterTermin';
 
 const AuthenticatedApp = () => {
   const { isLoadingAuth, isLoadingPublicSettings, authError, navigateToLogin } = useAuth();
@@ -72,6 +74,8 @@ const AuthenticatedApp = () => {
         <Route path="/bewertungen" element={<Bewertungen />} />
         <Route path="/termin-buchen" element={<TerminBuchen />} />
         <Route path="/ratgeber/koerperstraffung-winterthur" element={<RatgeberKoerperstraffung />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/wissen/erster-termin" element={<ErsterTermin />} />
         <Route path="/sitemap" element={<SitemapPage />} />
       </Route>
       <Route path="*" element={<PageNotFound />} />

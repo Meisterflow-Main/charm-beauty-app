@@ -34,11 +34,13 @@ Wichtige Angaben: Behandlungssprache Deutsch, Zahlung vor Ort in bar oder mit Tw
 - [Termin buchen](https://charm-beauty.ch/termin-buchen): Kontaktwege, Anfahrt, Öffnungszeiten und Anfrageformular.
 - [Kontakt](https://charm-beauty.ch/kontakt): Telefon, WhatsApp, E-Mail, Adresse und Karte.
 - [Über uns](https://charm-beauty.ch/uber-uns): Wer das Studio führt, für wen das Angebot gedacht ist und wie gearbeitet wird.
+- [Über diese Website](https://charm-beauty.ch/about): Was die Website leistet, für wen sie gedacht ist und wer für die Inhalte verantwortlich ist.
 - [Bewertungen](https://charm-beauty.ch/bewertungen): Hinweise zu Google-Bewertungen und Rückmeldungen von Kundinnen und Kunden.
 - [FAQ](https://charm-beauty.ch/faq): Antworten zu Terminen, Behandlungen, Öffnungszeiten, Anreise und Zahlung.
 
 ## Wissen und Regionen
 
+- [Dein erster Termin](https://charm-beauty.ch/wissen/erster-termin): Ablauf, Vorbereitung, Kosten und häufige Fragen zum ersten Besuch im Kosmetikstudio.
 - [Ratgeber Körperstraffung Winterthur](https://charm-beauty.ch/ratgeber/koerperstraffung-winterthur): Überblick über die technologiebasierten Körperbehandlungen und den Ablauf eines Termins.
 - [Blog](https://charm-beauty.ch/blog): Ratgeber zu Hautpflege, Hauttypen, Wirkstoffen und Behandlungsabläufen.
 - [Regionen](https://charm-beauty.ch/regionen): Seiten für Winterthur Stadt, Oberwinterthur, Seen, Töss, Veltheim, Wülflingen, Mattenbach, Hegi und Sennhof.
