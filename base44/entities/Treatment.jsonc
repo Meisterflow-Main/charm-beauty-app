@@ -1,0 +1,43 @@
+{
+  "name": "Treatment",
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string",
+      "description": "Name der Behandlung"
+    },
+    "description": {
+      "type": "string",
+      "description": "Beschreibung der Behandlung"
+    },
+    "category": {
+      "type": "string",
+      "enum": [
+        "Gesicht",
+        "K\u00f6rper"
+      ],
+      "enumColors": [
+        "pink",
+        "blue"
+      ],
+      "description": "Behandlungskategorie"
+    },
+    "price": {
+      "type": "string",
+      "description": "Preis, z. B. CHF 95.\u2013"
+    },
+    "image": {
+      "type": "string",
+      "description": "Bild-URL"
+    },
+    "is_new": {
+      "type": "boolean",
+      "default": false,
+      "description": "Als NEU markiert"
+    }
+  },
+  "required": [
+    "name",
+    "category"
+  ]
+}
