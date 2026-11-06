@@ -13,8 +13,8 @@ import TransparencySection from "@/components/site/TransparencySection";
 
 export default function UeberUns() {
   useSeo({
-    title: "Über uns: Snezana Djuric | Charm Beauty Winterthur",
-    description: "Lerne Snezana kennen, leidenschaftliche Kosmetikerin und Inhaberin von Charm Beauty in Winterthur. Individuelle Behandlungen mit Herz und Fachwissen.",
+    title: "Über Snezana Djuric | Charm Beauty Winterthur",
+    description: "Lerne Snezana Djuric kennen, die Inhaberin von Charm Beauty in Winterthur. Entdecke ihre Leidenschaft für Kosmetik, Hautpflege und moderne Beauty-Treatments.",
     path: "/uber-uns",
     image: IMAGES.snezana,
     schemas: [

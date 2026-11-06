@@ -8,6 +8,14 @@ import Reveal from "@/components/site/Reveal";
 import BtnLink from "@/components/site/BtnLink";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 
+const treatmentFaqs = [
+  { q: "Welche Körperbehandlungen bietet Charm Beauty an?", a: "Im Körperbereich arbeite ich mit apparativer Technologie: EMS Sculpt (EMSCULPT NEO) für die Muskelstraffung von zwei oder vier Zonen, Liposana 3 zur Unterstützung der Körperformung, Po-Lifting Vakuum, Maderotherapie und Beckenboden-Training auf dem Behandlungsstuhl. Alle Behandlungen mit Preisen findest du auf der Seite Behandlungen." },
+  { q: "Was ist EMSCULPT NEO?", a: "EMSCULPT NEO ist eine apparative Muskelstraffung: Elektromagnetische Impulse lösen Kontraktionen in der Muskulatur aus, die du nicht bewusst steuern kannst. Bei Charm Beauty wird die Behandlung als EMS Sculpt für zwei Zonen (CHF 85) oder vier Zonen (CHF 95) angeboten." },
+  { q: "Was ist Liposana 3?", a: "Liposana 3 ist eine apparative Körperbehandlung, die die Körperformung unterstützt und sichtbarer Cellulite entgegenwirkt. Eine Einzelbehandlung kostet CHF 175, das Jahresabo mit einer Anwendung pro Monat CHF 1 500." },
+  { q: "Kann ich einen Termin über WhatsApp vereinbaren?", a: "Ja. Schreib mir direkt über WhatsApp an +41 78 896 46 55. Du kannst auch anrufen oder das Anfrageformular auf der Seite Termin buchen nutzen." },
+  { q: "Werden die Behandlungen individuell angepasst?", a: "Ja. Vor jeder Behandlung schaue ich dein Hautbild oder deine Körperregion an und passe Intensität und Ablauf an dein Ziel an. Wenn eine Behandlung nicht zu dir passt, sage ich das offen." },
+];
+
 const regionFaqs = [
   { q: "Bietet Charm Beauty Behandlungen für meine Region an?", a: "Mein Studio befindet sich in Winterthur und ist für Kundinnen aus der ganzen Region gut erreichbar. Auf der Übersichtsseite Regionen findest du Informationen und Anreisewege für dein Gebiet." },
   { q: "Hat Charm Beauty eine Filiale in meiner Stadt?", a: "Nein. Charm Beauty hat einen Standort an der Ernst-Jung-Gasse 16a in Winterthur. Die Regionsseiten beschreiben Servicegebiete – sie stellen keine Filialen dar. Ich betreue Kundinnen aus der gesamten Region gerne in meinem Winterthurer Studio." },
@@ -17,6 +25,7 @@ const regionFaqs = [
 export default function Faq() {
   const allFaqs = [
     { group: "Allgemein", items: FAQS },
+    { group: "Behandlungen & Termine", items: treatmentFaqs },
     ...SERVICES.map((s) => ({ group: s.title, items: s.faqs })),
     { group: "Regionen", items: regionFaqs },
   ];

@@ -24,8 +24,8 @@ const faqSchema = {
 
 export default function Home() {
   useSeo({
-    title: "Kosmetikstudio Winterthur: Gesicht & Körper | Charm Beauty",
-    description: "Kosmetikstudio Charm Beauty in Winterthur: Gesichtsbehandlungen, Körperstraffung und apparative Körperformung mit moderner Gerätetechnologie. Jetzt Termin anfragen.",
+    title: "Charm Beauty Winterthur | Kosmetik & Körperbehandlungen",
+    description: "Charm Beauty in Winterthur: moderne Beauty- und Körperbehandlungen mit EMSCULPT NEO, Liposana 3 und Gesichtsbehandlungen bei Snezana Djuric.",
     path: "/",
     schemas: [faqSchema, breadcrumbSchema([{ name: "Home", path: "/" }]), webPageSchema({ path: "/", about: { "@id": `${SITE_URL}/#business` } })],
   });

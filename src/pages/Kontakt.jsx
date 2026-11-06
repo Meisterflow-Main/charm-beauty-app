@@ -19,8 +19,8 @@ const CARDS = [
 
 export default function Kontakt() {
   useSeo({
-    title: "Kontakt & Termin buchen | Charm Beauty Kosmetikstudio Winterthur",
-    description: "Kontaktiere Charm Beauty an der Ernst-Jung-Gasse 16a in Winterthur. Termin per WhatsApp, Telefon +41 78 896 46 55 oder E-Mail buchen.",
+    title: "Kontakt & Termin buchen | Charm Beauty Winterthur",
+    description: "Kontaktiere Charm Beauty in Winterthur und vereinbare deinen persönlichen Termin. Snezana Djuric freut sich auf deine Anfrage per Telefon oder WhatsApp.",
     path: "/kontakt",
     schemas: [
       breadcrumbSchema([{ name: "Home", path: "/" }, { name: "Kontakt", path: "/kontakt" }]),

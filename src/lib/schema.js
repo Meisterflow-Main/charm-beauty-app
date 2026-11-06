@@ -16,6 +16,9 @@ export const SERVICE_AREAS = ["Winterthur", "Zürich", "Frauenfeld", "Schaffhaus
 // Real UID from Impressum
 export const UID_NUMBER = "CHE-182.339.391";
 
+// Real Instagram profile (linked in the site footer)
+export const INSTAGRAM_URL = "https://www.instagram.com/charmbeauty.ch/";
+
 // Re-export for backward compatibility (site.js is the canonical source)
 export { GOOGLE_BUSINESS_URL };
 
@@ -144,7 +147,7 @@ export const organizationSchema = {
     name: CONTACT.owner,
     jobTitle: "Kosmetikerin",
   },
-  sameAs: [GOOGLE_BUSINESS_URL],
+  sameAs: [GOOGLE_BUSINESS_URL, INSTAGRAM_URL],
   taxID: UID_NUMBER,
 };
 
@@ -154,6 +157,10 @@ export const localBusinessSchema = {
   "@type": "BeautySalon",
   "@id": `${SITE_URL}/#business`,
   name: "Charm Beauty Kosmetikstudio",
+  alternateName: "Charm Beauty",
+  priceRange: "$$",
+  paymentAccepted: "Bar, Twint",
+  currenciesAccepted: "CHF",
   description:
     "Dein Kosmetikstudio in Winterthur für individuelle Schönheitsbehandlungen und erstklassige Hautpflege. Entdecke Wohlbefinden und Entspannung in exklusiver Atmosphäre.",
   url: SITE_URL,
@@ -165,7 +172,7 @@ export const localBusinessSchema = {
   geo: { "@type": "GeoCoordinates", latitude: GEO.latitude, longitude: GEO.longitude },
   openingHoursSpecification,
   contactPoint: contactPointSchema,
-  sameAs: [GOOGLE_BUSINESS_URL],
+  sameAs: [GOOGLE_BUSINESS_URL, INSTAGRAM_URL],
   areaServed: SERVICE_AREAS.map((city) => ({ "@type": "City", name: city })),
   hasMap: CONTACT.maps,
   hasOfferCatalog: offerCatalogSchema,
